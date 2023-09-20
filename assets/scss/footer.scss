@@ -1,0 +1,37 @@
+.footer-menu{
+    color:#FFFFFF;
+    font-size: 22px;
+    font-family: "Poppins-semibold"; 
+}
+.footer-submenu{
+    color:#FFFFFF;
+    font-size: 12px;
+    font-family: "Poppins-regular";
+}
+
+footer{
+
+    ul{
+        padding-left: 0;
+        list-style: none;
+        margin-bottom: 0;
+        li{
+        padding:10px 0;
+        display: block;
+        font-family: "Poppins-medium";
+        color:#FFFFFF;
+        a{
+            text-decoration: none;
+            font-family: "Poppins-medium";
+            color:#FFFFFF!important;
+        }
+        }
+    }
+    .email-text{
+        a{
+        color:#FFFFFF;
+        font-size:14px;
+        font-family: "Poppins-regular";
+    }}
+   
+}

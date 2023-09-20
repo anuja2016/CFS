@@ -1,0 +1,92 @@
+// Header
+
+.btn-outline-black {
+    color: #000;
+    border-color: 000;
+    border-radius: 0;
+    background: #FFFFFF;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins-regular";
+    padding: 8px 15px;
+    outline: none;
+    cursor: pointer;
+    // width: fit-content;
+    display: inline-block;
+    gap: 5px;
+    align-items: center;
+}
+.btn-outline-red {
+    color: #FFF;  
+    border-radius: 0;
+    background: #C22032;  
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins-regular";
+    padding: 8px 15px;
+    outline: none;
+    cursor: pointer;
+    // width: fit-content;
+    display: inline-block;
+    gap: 5px;
+    border:1px solid #C22032; 
+    align-items: center;
+}
+.header-top{
+    text-align: right;
+    padding-top:10px;
+    background-color: #fff;
+    ul{
+        list-style: none;
+        margin-bottom: 0;
+        li{
+        display: inline-block;
+        font-family: "Poppins-medium";
+        color:#000;
+        }
+        a{
+            text-decoration: none;
+            font-family: "Poppins-medium";
+            color:#000!important;
+        }
+    }
+    
+   
+}
+.signin-size{
+    height:15px;
+    width:15px;
+}
+
+
+
+// Navbar
+.main-header-navbar{
+    .navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.navbar {
+    padding-top: 0;
+}
+.nav-link{
+    padding: 0.1rem 1rem;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000!important;
+    border-bottom: 2px solid #C22032;
+    width:fit-content;
+}
+
+}
+
+.navbar-text{
+    padding-left: 5rem!important;
+}
+
+.navbar-menu-title{
+    font-size: 16px;
+    font-family: "Poppins-regular"!important;
+    color: #000 !important;;
+}

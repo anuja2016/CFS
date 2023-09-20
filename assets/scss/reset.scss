@@ -1,0 +1,27 @@
+*{
+    font-family: "Poppins-regular";
+}
+
+html, body, p, span, ul, li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    p{
+        margin: 0;
+    }
+}
+
+ul{
+    margin: 0 !important;
+    li{
+        list-style: none;
+    }
+}
+svg{
+    color: #333333;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
