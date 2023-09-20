@@ -3,7 +3,54 @@
 }
 
 .main-carousel {
-  margin-top: 150px;
+  padding-top: 130px;
+}
+
+.title-red {
+  color: #C22032;
+  font-family: "Montserrat-Medium";
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.title {
+  color: #000000;
+  font-family: "Montserrat-Bold";
+  font-size: 30px;
+  letter-spacing: normal;
+}
+
+.title-sm {
+  color: #000000;
+  font-family: "Montserrat-SemiBold";
+  font-size: 14px;
+  letter-spacing: normal;
+}
+
+.title-sm-para {
+  color: #000000;
+  font-family: "Montserrat-regular";
+  font-size: 10px;
+  letter-spacing: normal;
+}
+
+.block-light {
+  background-color: #F9F9F9;
+  padding: 35px;
+  margin: 20px;
+}
+
+.title-lg-para {
+  color: #000000;
+  font-family: "Montserrat-regular";
+  font-size: 14px;
+  line-height: 180%;
+}
+
+.title-md {
+  color: #000000;
+  font-family: "Montserrat-regular";
+  font-size: 14px;
 }
 
 @font-face {
@@ -52,13 +99,11 @@
   border-radius: 0;
   background: #FFFFFF;
   border: 1px solid #000;
-  border-radius: 4px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Poppins-regular";
   padding: 8px 15px;
   outline: none;
-  cursor: pointer;
   display: inline-block;
   gap: 5px;
   align-items: center;
@@ -69,11 +114,10 @@
   border-radius: 0;
   background: #C22032;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Poppins-regular";
   padding: 8px 15px;
   outline: none;
-  cursor: pointer;
   display: inline-block;
   gap: 5px;
   border: 1px solid #C22032;
@@ -110,6 +154,7 @@
 }
 .main-header-navbar .navbar {
   padding-top: 0;
+  box-shadow: 0 1px 1px #C7C7C7;
 }
 .main-header-navbar .nav-link {
   padding: 0.1rem 1rem;

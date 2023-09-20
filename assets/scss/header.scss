@@ -6,13 +6,12 @@
     border-radius: 0;
     background: #FFFFFF;
     border: 1px solid #000;
-    border-radius: 4px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Poppins-regular";
     padding: 8px 15px;
     outline: none;
-    cursor: pointer;
+    // cursor: pointer;
     // width: fit-content;
     display: inline-block;
     gap: 5px;
@@ -23,11 +22,11 @@
     border-radius: 0;
     background: #C22032;  
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Poppins-regular";
     padding: 8px 15px;
     outline: none;
-    cursor: pointer;
+    // cursor: pointer;
     // width: fit-content;
     display: inline-block;
     gap: 5px;
@@ -38,6 +37,8 @@
     text-align: right;
     padding-top:10px;
     background-color: #fff;
+    
+   
     ul{
         list-style: none;
         margin-bottom: 0;
@@ -69,6 +70,7 @@
 }
 .navbar {
     padding-top: 0;
+    box-shadow: 0 1px 1px #C7C7C7;
 }
 .nav-link{
     padding: 0.1rem 1rem;
