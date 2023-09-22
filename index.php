@@ -6,7 +6,7 @@ include_once 'header.php';
 <div class="carousel slide carousel-fade main-carousel" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/images/slider1.svg" class="img-fluid" alt="..." />
+      <img src="assets/images/slider1.svg" class="img-fluid" alt="slider1" />
       <div class="carousel-caption d-md-block">
         <h1>One <span>Platform</span> For All Field Service</h1>
         <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
@@ -26,7 +26,7 @@ include_once 'header.php';
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/slider2.svg" class="img-fluid" alt="...">
+      <img src="assets/images/slider2.svg" class="img-fluid" alt="slider2">
       <div class="carousel-caption d-md-block">
         <h1>One <span>Platform</span> For All Field Service</h1>
         <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
@@ -46,7 +46,7 @@ include_once 'header.php';
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/slider3.svg" class="img-fluid" alt="...">
+      <img src="assets/images/slider3.svg" class="img-fluid" alt="slider3">
       <div class="carousel-caption d-md-block">
         <h1>One <span>Platform</span> For All Field Service</h1>
         <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
