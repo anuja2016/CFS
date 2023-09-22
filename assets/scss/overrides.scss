@@ -1,0 +1,32 @@
+
+.industry-slider{
+.carousel-indicators {    
+bottom:-50px;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #C22032;
+    border-radius: 30px;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #C22032;
+    border-radius: 30px;
+}
+.carousel-indicators .active {
+    opacity: 2;
+}
+.carousel-indicators [data-bs-target] {
+    
+    width: 10px;
+    height: 10px;
+    border-top: 0;
+    border-bottom: 0; 
+    transition: opacity .6s ease;
+}
+
+}
+.getdemo-modal{
+.modal-header {
+    border-bottom: 0;
+}
+}

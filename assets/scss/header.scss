@@ -38,7 +38,6 @@
     text-align: right;
     padding-top: 10px;
     background-color: #fff;
-
     ul {
         list-style: none;
         margin-bottom: 0;
@@ -52,7 +51,7 @@
         a {
             text-decoration: none;
             font-family: "Poppins-medium";
-            color: #000 !important;
+            color:#000;
         }
     }
 
@@ -102,7 +101,6 @@
         gap:20px;
         grid-gap:20px;
     }
-
 }
 
 .navbar-buttons {
