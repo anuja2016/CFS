@@ -1,0 +1,15 @@
+.main-carousel{
+    .carousel-caption {
+        position: absolute;
+        left: 5%;
+        bottom: 1.25rem;
+        right: auto;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: left;
+        top: 50%;
+        transform: translate(0, -50%);
+        max-width: 50%;
+    }
+}
