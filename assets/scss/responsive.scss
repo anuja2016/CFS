@@ -6,3 +6,14 @@
 }
 }
 }
+
+@media only screen and (max-width: 768px) {
+    .block-lightorange{
+        height:800px;
+    }
+    .block-lg-lightorange{
+        height:550px;
+        width:100%;
+        margin:20px;
+    }
+  }
