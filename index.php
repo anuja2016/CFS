@@ -252,7 +252,6 @@ include_once 'header.php';
   </div>
 </section>
 
-
 <section>
   <div class="container-fluid">
     <div class="text-center mt-5 mb-3">
@@ -542,17 +541,14 @@ include_once 'header.php';
   </div>
   <div class="btn-center-flex mb-5">
     <button type="button" class="btn-red mt-5">
-      <p>BOOK A SLOT
-      </p>
+      <p>BOOK A SLOT</p>
     </button>
   </div>
 </section>
 <section>
   <div class="text-center mt-5 mb-3">
-    <p class="title">Over 200000+ Field Service Businesses in 50+
-    <p>
+    <p class="title">Over 200000+ Field Service Businesses in 50+<p>
     <p class="title">industries trust FieldWeb</p>
-    </p>
   </div>
 
   <div class="industry-slider">
@@ -793,66 +789,47 @@ include_once 'header.php';
       <p class="card-name pt-2">"Experience the future of field service management. </p>
       <p class="card-name">Book your tailored FieldWeb FSM demo now. Elevate your business today!"</p>
 
-      <div class="d-flex align-items-center justify-content-center gap-4 mt-3">
-        <div class="flex-1 rating">
-          <span class="fa fa-star checkedstar"></span>
-          <span class="fa fa-star checkedstar"></span>
-          <span class="fa fa-star checkedstar"></span>
-          <span class="fa fa-star checkedstar"></span>
-          <span class="fa fa-star uncheckedstar"></span>
-        </div>
-        <div class="flex-1">
-          <p class="card-smalltxt">500+ Reviews</p>
+            <div class="d-flex align-items-center justify-content-center gap-4 mt-3">
+                <div class="flex-1 rating">
+                    <span class="fa fa-star checkedstar"></span>
+                    <span class="fa fa-star checkedstar"></span>
+                    <span class="fa fa-star checkedstar"></span>
+                    <span class="fa fa-star checkedstar"></span>
+                    <span class="fa fa-star uncheckedstar"></span>
+                </div>
+                <div class="flex-1">
+                    <p class="card-smalltxt">500+ Reviews</p>
+                </div>
+
+            </div>
+            <div class="d-flex align-items-center justify-content-center gap-3 mt-2">
+                <p class="card-smalltitle">Google</p>
+                <p class="card-name">Playstore</p>
+                <p class="card-smalltxt">Capterra</p>
+                <p class="card-smallpara">Software Advise</p>
+
+            </div>
+            <div class="d-flex align-items-center justify-content-center gap-3 mt-3 pb-3">
+                <div class="d-flex align-items-center justify-content-center gap-2 mt-3">
+                    <img src="assets/images/blackcheck.svg" />
+                    <p class="card-smalltxt">Access to all features</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-2 mt-3">
+                    <img src="assets/images/blackcheck.svg" />
+                    <p class="card-smalltxt">Unlimited 1-on-1 support</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-2 mt-3">
+                    <img src="assets/images/blackcheck.svg" />
+                    <p class="card-smalltxt">No credit card required</p>
+                </div>
+
+
+            </div>
         </div>
 
-      </div>
-      <div class="d-flex align-items-center justify-content-center gap-3 mt-2">
-        <p class="card-smalltitle">Google</p>
-        <p class="card-name">Playstore</p>
-        <p class="card-smalltxt">Capterra</p>
-        <p class="card-smallpara">Software Advise</p>
 
-      </div>
-      <div class="d-flex align-items-center justify-content-center gap-3 mt-3">
-        <div class="d-flex align-items-center justify-content-center gap-2 mt-3">
-          <img src="assets/images/blackcheck.svg" />
-          <p class="card-smalltxt">Access to all features</p>
-        </div>
-        <div class="d-flex align-items-center justify-content-center gap-2 mt-3">
-          <img src="assets/images/blackcheck.svg" />
-          <p class="card-smalltxt">Unlimited 1-on-1 support</p>
-        </div>
-        <div class="d-flex align-items-center justify-content-center gap-2 mt-3">
-          <img src="assets/images/blackcheck.svg" />
-          <p class="card-smalltxt">No credit card required</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal popup for Get Demo -->
 
-<!-- Modal -->
-<div class="getdemo-modal">
-  <div class="modal fade" id="getdemoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <div class="d-flex gap-5 align-items-center">
-            <img src="assets/images/redfieldweblogo.svg">
-            <p class="title-poppins-bold">Request a personalized demo</p>
-          </div>
-          <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close" />
-        </div>
-        <div class="modal-body">
-        </div>
-        <div class="text-center mb-3">
-          <button type="button" class="btn-red">SUBMIT</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 <?php
 include_once 'footer.php';
 ?>

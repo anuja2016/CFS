@@ -1,0 +1,65 @@
+.white-square-image{
+    height:350px;
+    width:350px;
+}
+.white-block{
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.leader-desk-header{
+    .card{
+        border-radius: 10px;
+    }
+    img{
+        width:80px;
+        height:80px;
+    }
+    .leader-name{
+        color:#000000;
+        font-family: "Montserrat-SemiBold";
+        font-size: 12px;
+        letter-spacing: normal;  
+    }
+    .leader-info{
+        width:250px;
+        color:#000000;
+        font-family: "Montserrat-regular";
+        font-size: 8px;
+        letter-spacing: normal;  
+        text-align: left;
+    }
+    .flex-start{
+        align-items: flex-start;
+    }
+    .icon-img{
+        width:20px;
+        height:20px;
+    }
+}
+.heading{
+    img{
+        height:200px;
+    }
+    .info-circle-img{
+        height:15px;
+        width:15px;
+    }
+    .tooltip-inner {
+       
+        background-color: grey!important;
+      
+    }
+    .tooltip .tooltip-arrow {
+        
+        display: none;
+       
+    }
+    
+}
+
+
+label {
+  display: inline-block;
+  width: 5em;
+}

@@ -30,7 +30,6 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
     <title>FieldWeb</title>
 </head>
-
 <body>
     <div class="site-header fixed-top ">
         <div class="header-top container-fluid">
@@ -69,12 +68,78 @@
                     </ul>
                     <div class="navbar-buttons">
                         <button type="button" class="btn-outline-black">Explore Pricing</button>
-                        <button type="button" class="btn-red">Get Demo</button>
+                        <button type="button" class="btn-red" data-bs-toggle="modal"
+                            data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>
             </div>
         </nav>
     </div>
+
+    <!-- Modal popup for Get Demo -->
+    <!-- Modal -->
+    <div class="getdemo-modal">
+        <div class="modal fade" id="getdemoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="d-flex gap-5 align-items-center">
+                            <img src="assets/images/redfieldweblogo.svg">
+                            <p class="title-poppins-bold">Request a personalized demo</p>
+                        </div>
+                        <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close"
+                            class="pointer-cursor" />
+                    </div>
+                    <div class="modal-body">
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" placeholder="Company Name*">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="number" class="form-control mt-2" placeholder="Mobile Number*">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="email" class="form-control mt-2" placeholder="Email Id">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control mt-2" placeholder="Preferred Date">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control mt-2" placeholder="Preferred Time">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control mt-2" placeholder="Name*">
+                            </div>
+                            <div class="col-md-12 mt-2">
+                                <div class="grey-ouline-block">
+                                    <div class="d-flex-common">
+                                        <p class="black-sm-title">Select Industry</p>
+                                        <img src="assets/images/rightarrow.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mt-2">
+                                <div class="grey-ouline-block">
+                                    <div class="d-flex-common">
+                                        <p class="black-sm-title">Select Number of Techs</p>
+                                        <img src="assets/images/rightarrow.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mb-3">
+                        <button type="button" class="btn-red">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--scripts--->
     <script type="text/javascript" src="assets/js/jquery-3.7.1.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
@@ -96,7 +161,5 @@
             aos_init();
         });
     </script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 </body>
-
 </html>
