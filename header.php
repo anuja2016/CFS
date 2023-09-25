@@ -142,12 +142,56 @@
 
                     </div>
                     <div class="text-center mb-3">
-                        <button type="button" class="btn-outline-red">SUBMIT</button>
+                        <button type="button" class="btn-red">SUBMIT</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <!--scripts--->
+
+    <script type="text/javascript" src="assets/js/jquery-3.7.1.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+
+    <script>
+
+        /**
+
+         * Animation on scroll function and init
+
+         */
+
+        function aos_init() {
+
+            AOS.init({
+
+                duration: 1000,
+
+                easing: 'ease-in-out',
+
+                once: true,
+
+                mirror: false
+
+            });
+
+        }
+
+        window.addEventListener('load', () => {
+
+            aos_init();
+
+        });
+
+    </script>
+
 
 </body>
 

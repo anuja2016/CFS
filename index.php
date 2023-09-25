@@ -118,7 +118,7 @@ include_once 'header.php';
                     in one convenient location, accessible wherever you are.
                 </p>
 
-                <button type="button" class="btn-outline-red d-flex mt-5">
+                <button type="button" class="btn-red d-flex mt-5">
                     <p>Learn More
                         <span class="ms-2"><img src="assets/images/whitearrow.svg" class="signin-size" /></span>
                     </p>
@@ -358,7 +358,7 @@ include_once 'header.php';
     </div>
 </div>
 <div class="btn-center-flex mb-5">
-    <button type="button" class="btn-outline-red d-flex mt-5">
+    <button type="button" class="btn-red d-flex mt-5">
         <p>see All Industries
             <span class="ms-2"><img src="assets/images/whitearrow.svg" class="signin-size" /></span>
         </p>
@@ -578,7 +578,7 @@ include_once 'header.php';
     </div>
 </div>
 <div class="btn-center-flex mb-5">
-    <button type="button" class="btn-outline-red mt-5">
+    <button type="button" class="btn-red mt-5">
         <p>BOOK A SLOT
         </p>
     </button>
