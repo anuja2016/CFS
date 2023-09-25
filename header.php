@@ -42,7 +42,7 @@
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"> <img src="assets/images/logo.svg" /></a>
+                <a href="index.php" class="navbar-brand" href="#"> <img src="assets/images/logo.svg" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -76,8 +76,10 @@
         </nav>
     </div>
     <!--scripts--->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/aos.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <script>
         /**
          * Animation on scroll function and init

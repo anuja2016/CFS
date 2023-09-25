@@ -20,29 +20,21 @@
     font-size: 30px;
     letter-spacing: normal;  
 }
-.title-sm{
+.title-lg-mont{
     color:#000000;
     font-family: "Montserrat-SemiBold";
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: normal;  
 }
 
-.title-sm-para{
-    color:#000000;
+.title-sm-mont{
     font-family: "Montserrat-regular";
-    font-size: 10px;
-    letter-spacing: normal;  
+    font-size: 14px;
 }
 .block-light{
     background-color: #F9F9F9;
     padding:35px;
     margin:20px;
-}
-.title-lg-para{
-    color:#000000;
-    font-family: "Montserrat-regular";
-    font-size: 14px;
-    line-height: 180%;
 }
 .title-md{
     color:#000000;
@@ -52,7 +44,7 @@
 .title-semibold{
     color:#000000;
     font-family: "Montserrat-SemiBold";
-    font-size: 28px;
+    // font-size: 28px;
     letter-spacing: normal;  
 }
 .title-medium{
@@ -247,4 +239,20 @@
             }
         }
     }
+}
+.feature-section{
+    img{
+        width: 90px;
+        height: 90px;
+    }
+}
+.drawn-underline{
+    display: inline;
+    padding-bottom: 1.25rem;
+    background-image: url('../images/drawn-underline.svg');
+    background-repeat: no-repeat;
+    background-position: center 38px;
+    background-size: 100% 18%;
+    font-style: normal;
+    font-family: "Montserrat-Bold";
 }
