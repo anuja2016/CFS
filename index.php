@@ -586,30 +586,34 @@ include_once 'header.php';
                                 </div>
                             </div>
                             <div class="col-md-4 mt-2">
-                                <div class="card">
+                                <div class="background-card">
+                                    <div class="card">
 
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/image2.svg" />
-                                        <p class="card-name pt-2"> Prasad Raju Kalindi</p>
-                                        <p class="card-smalltxt"> ImageIndia</p>
-                                        <p class="card-smallpara m-2">FieldWeb is such a great app for track
-                                            the technicians and their work.
-                                            Wonderful Support from Team.
-                                            Thanks</p>
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/image2.svg" />
+                                            <p class="card-name pt-2"> Prasad Raju Kalindi</p>
+                                            <p class="card-smalltxt"> ImageIndia</p>
+                                            <p class="card-smallpara m-2">FieldWeb is such a great app for track
+                                                the technicians and their work.
+                                                Wonderful Support from Team.
+                                                Thanks</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 mt-2">
-                                <div class="card">
+                                <div class="background-card">
+                                    <div class="card">
 
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/image3.svg" />
-                                        <p class="card-name pt-2">Mohit Sapra</p>
-                                        <p class="card-smalltxt">Splash RO systems</p>
-                                        <p class="card-smallpara m-2">FieldWeb is such a great app for track
-                                            the technicians and their work.
-                                            Wonderful Support from Team.
-                                            Thanks</p>
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/image3.svg" />
+                                            <p class="card-name pt-2">Mohit Sapra</p>
+                                            <p class="card-smalltxt">Splash RO systems</p>
+                                            <p class="card-smallpara m-2">FieldWeb is such a great app for track
+                                                the technicians and their work.
+                                                Wonderful Support from Team.
+                                                Thanks</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -639,30 +643,34 @@ include_once 'header.php';
                                 </div>
                             </div>
                             <div class="col-md-4 mt-2">
-                                <div class="card">
+                                <div class="background-card">
+                                    <div class="card">
 
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/image2.svg" />
-                                        <p class="card-name pt-2"> Prasad Raju Kalindi</p>
-                                        <p class="card-smalltxt"> ImageIndia</p>
-                                        <p class="card-smallpara m-2">FieldWeb is such a great app for track
-                                            the technicians and their work.
-                                            Wonderful Support from Team.
-                                            Thanks</p>
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/image2.svg" />
+                                            <p class="card-name pt-2"> Prasad Raju Kalindi</p>
+                                            <p class="card-smalltxt"> ImageIndia</p>
+                                            <p class="card-smallpara m-2">FieldWeb is such a great app for track
+                                                the technicians and their work.
+                                                Wonderful Support from Team.
+                                                Thanks</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 mt-2">
-                                <div class="card">
+                                <div class="background-card">
+                                    <div class="card">
 
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/image3.svg" />
-                                        <p class="card-name pt-2">Mohit Sapra</p>
-                                        <p class="card-smalltxt">Splash RO systems</p>
-                                        <p class="card-smallpara m-2">FieldWeb is such a great app for track
-                                            the technicians and their work.
-                                            Wonderful Support from Team.
-                                            Thanks</p>
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/image3.svg" />
+                                            <p class="card-name pt-2">Mohit Sapra</p>
+                                            <p class="card-smalltxt">Splash RO systems</p>
+                                            <p class="card-smallpara m-2">FieldWeb is such a great app for track
+                                                the technicians and their work.
+                                                Wonderful Support from Team.
+                                                Thanks</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -692,30 +700,34 @@ include_once 'header.php';
                                 </div>
                             </div>
                             <div class="col-md-4 mt-2">
-                                <div class="card">
+                                <div class="background-card">
+                                    <div class="card">
 
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/image2.svg" />
-                                        <p class="card-name pt-2"> Prasad Raju Kalindi</p>
-                                        <p class="card-smalltxt"> ImageIndia</p>
-                                        <p class="card-smallpara m-2">FieldWeb is such a great app for track
-                                            the technicians and their work.
-                                            Wonderful Support from Team.
-                                            Thanks</p>
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/image2.svg" />
+                                            <p class="card-name pt-2"> Prasad Raju Kalindi</p>
+                                            <p class="card-smalltxt"> ImageIndia</p>
+                                            <p class="card-smallpara m-2">FieldWeb is such a great app for track
+                                                the technicians and their work.
+                                                Wonderful Support from Team.
+                                                Thanks</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 mt-2">
-                                <div class="card">
+                                <div class="background-card">
+                                    <div class="card">
 
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/image3.svg" />
-                                        <p class="card-name pt-2">Mohit Sapra</p>
-                                        <p class="card-smalltxt">Splash RO systems</p>
-                                        <p class="card-smallpara m-2">FieldWeb is such a great app for track
-                                            the technicians and their work.
-                                            Wonderful Support from Team.
-                                            Thanks</p>
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/image3.svg" />
+                                            <p class="card-name pt-2">Mohit Sapra</p>
+                                            <p class="card-smalltxt">Splash RO systems</p>
+                                            <p class="card-smallpara m-2">FieldWeb is such a great app for track
+                                                the technicians and their work.
+                                                Wonderful Support from Team.
+                                                Thanks</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -745,30 +757,34 @@ include_once 'header.php';
                                 </div>
                             </div>
                             <div class="col-md-4 mt-2">
-                                <div class="card">
+                                <div class="background-card">
+                                    <div class="card">
 
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/image2.svg" />
-                                        <p class="card-name pt-2"> Prasad Raju Kalindi</p>
-                                        <p class="card-smalltxt"> ImageIndia</p>
-                                        <p class="card-smallpara m-2">FieldWeb is such a great app for track
-                                            the technicians and their work.
-                                            Wonderful Support from Team.
-                                            Thanks</p>
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/image2.svg" />
+                                            <p class="card-name pt-2"> Prasad Raju Kalindi</p>
+                                            <p class="card-smalltxt"> ImageIndia</p>
+                                            <p class="card-smallpara m-2">FieldWeb is such a great app for track
+                                                the technicians and their work.
+                                                Wonderful Support from Team.
+                                                Thanks</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 mt-2">
-                                <div class="card">
+                                <div class="background-card">
+                                    <div class="card">
 
-                                    <div class="card-body text-center">
-                                        <img src="assets/images/image3.svg" />
-                                        <p class="card-name pt-2">Mohit Sapra</p>
-                                        <p class="card-smalltxt">Splash RO systems</p>
-                                        <p class="card-smallpara m-2">FieldWeb is such a great app for track
-                                            the technicians and their work.
-                                            Wonderful Support from Team.
-                                            Thanks</p>
+                                        <div class="card-body text-center">
+                                            <img src="assets/images/image3.svg" />
+                                            <p class="card-name pt-2">Mohit Sapra</p>
+                                            <p class="card-smalltxt">Splash RO systems</p>
+                                            <p class="card-smallpara m-2">FieldWeb is such a great app for track
+                                                the technicians and their work.
+                                                Wonderful Support from Team.
+                                                Thanks</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -806,7 +822,7 @@ include_once 'header.php';
                 <img src="assets/images/trustlogo.svg" />
             </div>
 
-            
+
         </div>
     </div>
 
@@ -838,7 +854,7 @@ include_once 'header.php';
                 <p class="card-smallpara">Software Advise</p>
 
             </div>
-            <div class="d-flex align-items-center justify-content-center gap-3 mt-3">
+            <div class="d-flex align-items-center justify-content-center gap-3 mt-3 pb-3">
                 <div class="d-flex align-items-center justify-content-center gap-2 mt-3">
                     <img src="assets/images/blackcheck.svg" />
                     <p class="card-smalltxt">Access to all features</p>
@@ -860,31 +876,7 @@ include_once 'header.php';
 
 
 
-<!-- Modal popup for Get Demo -->
 
-<!-- Modal -->
-<div class="getdemo-modal">
-<div class="modal fade" id="getdemoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div class="d-flex gap-5 align-items-center">
-        <img src="assets/images/redfieldweblogo.svg">
-        <p class="title-poppins-bold">Request a personalized demo</p>
-</div>
-        <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close"/>
-       
-      </div>
-      <div class="modal-body">
-       
-      </div>
-      <div class="text-center mb-3">
-      <button type="button" class="btn-outline-red">SUBMIT</button>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
 <?php
 include_once 'footer.php';
 ?>
@@ -897,4 +889,7 @@ include_once 'footer.php';
         centerPadding: '60px',
         slidesToShow: 4
     });
+
+
+
 </script>

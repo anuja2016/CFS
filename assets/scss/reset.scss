@@ -25,3 +25,12 @@ a:hover{
     cursor: pointer;
     text-decoration: none;
 }
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #000000!important;
+    font-size:14px;
+}
+.card {
+   
+    border: 0!important; 
+    
+}

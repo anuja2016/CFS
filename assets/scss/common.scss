@@ -25,6 +25,12 @@
     font-size: 30px;
     letter-spacing: normal;  
 }
+.title-xls{
+    color:#000000;
+    font-family: "Montserrat-Bold";
+    font-size: 20px;
+    letter-spacing: normal;  
+}
 .title-sm{
     color:#000000;
     font-family: "Montserrat-SemiBold";
@@ -42,6 +48,10 @@
     background-color: #F9F9F9;
     padding:35px;
     margin:20px;
+}
+.darkgrey-block{
+    background-color: #D9D9D9;
+    height:300px;
 }
 .title-lg-para{
     color:#000000;
@@ -67,6 +77,7 @@
     font-size: 12px;
     letter-spacing: normal;  
 }
+
 .btn-center-flex{
     display: flex;
     align-content: center;
@@ -92,20 +103,25 @@
     height:300px;
 }
 .block-lg-lightorange{
-    background-color: #FFF2F4;
-    border-radius: 10px;
-    height:450px;
-    
-    
-    
-   
+    background-color: #FFF2F4;  
+}
+.red-title-bold{
+    color:#C22032;
+    font-family: "Montserrat-Bold";
+    font-size: 35px;
+    letter-spacing: normal;  
+}
+
+.block-lg-lightorange-noborder{
+    background-color: #FFF2F4; 
+    margin:60px;
 }
 .background-card{
   background-image: url('../images/fieldservicebackground.svg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
- 
+  
 }
 
 .background-dots{
@@ -117,26 +133,31 @@
   }
 .card-name{
     font-family: "Poppins-medium";
-    color:#000;
+    color:#000000;
     font-size:12px;
     line-height:150%;
 }
 
 .card-smalltxt{
     font-family: "Poppins-regular";
-    color:#000;
+    color:#000000;
     font-size:10px;
 }
 
 .card-smallpara{
     font-family: "Poppins-regular";
-    color:#000;
+    color:#000000;
     font-size:8px;
 }
 .card-smalltitle{
     font-family: "Poppins-regular";
-    color:#000;
+    color:#000000;
     font-size:16px;
+}
+.black-sm-title{
+    color:#000000;
+    font-family: "Poppins-regular";
+    font-size:14px;
 }
 .checkedstar {
     color: #C22032;
@@ -154,3 +175,23 @@
     color:#000;
     font-size:14px;
   }
+  .pointer-cursor{
+    cursor: pointer;
+  }
+
+ .grey-ouline-block{
+    border:1px solid #CDCDCD;
+    padding:8px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .d-flex-common{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .d-flex-column{
+     display:flex;
+     flex-direction:column;
+    
+ }
