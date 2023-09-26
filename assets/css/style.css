@@ -110,6 +110,7 @@
 
 .block-lg-lightorange {
   background-color: #FFF2F4;
+  border-radius: 10px;
 }
 
 .red-title-bold {
@@ -166,6 +167,12 @@
   color: #000000;
   font-family: "Poppins-regular";
   font-size: 14px;
+}
+
+.black-xl-title {
+  color: #000000;
+  font-family: "Poppins-Bold";
+  font-size: 25px;
 }
 
 .checkedstar {
@@ -721,6 +728,33 @@ footer .footlogo {
   top: 50%;
   transform: translate(0, -50%);
   max-width: 50%;
+}
+
+.built-trade .card-body {
+  box-shadow: 0 0 10px 5px rgba(206, 207, 254, 0.25);
+}
+.built-trade .trade-img {
+  width: 100px;
+  height: 100px;
+}
+.built-trade a {
+  text-decoration: none;
+  font-family: "Montserrat-Medium";
+  font-size: 10px;
+  color: #C22032;
+}
+.built-trade .arrow-img {
+  width: 20px;
+  height: 20px;
+}
+.built-trade .d-flex-trade {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.book-demo .card {
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
