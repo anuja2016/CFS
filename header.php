@@ -58,7 +58,7 @@
                             <a class="nav-link" href="industries.php">Industries</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="features.php">Features</a>
                         </li>
                         <li>
                             <a class="nav-link" href="#">Blog</a>
