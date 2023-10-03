@@ -909,16 +909,10 @@ include_once 'header.php';
                     <img src="assets/images/blackcheck.svg" />
                     <p class="card-smalltxt">No credit card required</p>
                 </div>
-
-
             </div>
         </div>
     </div>
 </div>
-
-
-
-
 <?php
 include_once 'footer.php';
 ?>
@@ -931,7 +925,4 @@ include_once 'footer.php';
         centerPadding: '60px',
         slidesToShow: 4
     });
-
-
-
 </script>

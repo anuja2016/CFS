@@ -864,5 +864,8 @@ footer .footlogo {
   width: 20px;
   height: 20px;
 }
+.sub-content .tab-anchor a {
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */

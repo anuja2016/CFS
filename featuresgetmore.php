@@ -2,20 +2,34 @@
 include_once 'header.php';
 ?>
 
-<section>
-    <div class="bannerfeature-block mt-116">
-        <div class="block-img"><img src="assets/images/feature-background.svg"></div>
-        <div class="content">
-            <h1>Tools to help your service business run smoothly</h1>
-            <p>Streamline your workflow, improve customer satisfaction, and track how your business is doing using
-                Jobber—it’s built for home service businesses.</p>
-            <div class="d-flex-feature gap-2 pt-4">
-                <input type="email" class="form-control w-50 email-textbox" placeholder="Email" aria-label="email">
-                <button type="submit" class="btn-getstarted">Get Started</button>
-            </div>
-            <div class="overlay"></div>
+<div class="carousel slide carousel-fade main-carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/images/blackbackground.svg" class="img-fluid" alt="..." />
+      <div class="carousel-caption d-md-block">
+        <h1>The Better Way To Run Your
+Commercial Contracting 
+Business</h1>
+        <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
+        <div class="sect-getservice">
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">
+              <select class="form-control">
+                <option>India</option>
+                <option>Albania</option>
+                <option>Algeria</option>
+              </select>
+            </span>
+            <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+          </div>
+          <button type="submit" class="btn-getstarted">Get Started</button>
         </div>
-</section>
+      </div>
+    </div>
+   
+  </div>
+
+</div>
 <div class="mt-5 mb-3">
     <div class="container-fluid">
         <div class="row">
@@ -145,7 +159,7 @@ include_once 'header.php';
 
                         <div class="tab-pane fade show active " id="pills-quatation" role="tabpanel"
                             aria-labelledby="pills-quatation-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">QUOTATION</p>
@@ -211,7 +225,7 @@ include_once 'header.php';
                         </div>
                         <div class="tab-pane fade" id="pills-scheduling" role="tabpanel"
                             aria-labelledby="pills-scheduling-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">SCHEDULING</p>
@@ -277,7 +291,7 @@ include_once 'header.php';
                         </div>
                         <div class="tab-pane fade" id="pills-completejob" role="tabpanel"
                             aria-labelledby="pills-completejob-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">COMPLETE JOB</p>
@@ -343,7 +357,7 @@ include_once 'header.php';
                         </div>
                         <div class="tab-pane fade" id="pills-invoice" role="tabpanel"
                             aria-labelledby="pills-invoice-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">INVOICE</p>
@@ -409,7 +423,7 @@ include_once 'header.php';
                         </div>
                         <div class="tab-pane fade" id="pills-membership" role="tabpanel"
                             aria-labelledby="pills-membership-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">MEMBERSHIPS</p>
@@ -475,7 +489,7 @@ include_once 'header.php';
                         </div>
                         <div class="tab-pane fade" id="pills-management" role="tabpanel"
                             aria-labelledby="pills-management-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">LEAD MANAGEMENT</p>
@@ -590,7 +604,7 @@ include_once 'header.php';
 
                         <div class="tab-pane fade show active " id="pills-mobileapp" role="tabpanel"
                             aria-labelledby="pills-mobileapp-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">MOBILE APP</p>
@@ -657,7 +671,7 @@ include_once 'header.php';
                         </div>
                         <div class="tab-pane fade" id="pills-estimates" role="tabpanel"
                             aria-labelledby="pills-estimates-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">ESTIMATES</p>
@@ -724,7 +738,7 @@ include_once 'header.php';
                         </div>
                         <div class="tab-pane fade" id="pills-pricebook" role="tabpanel"
                             aria-labelledby="ppills-pricebook-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">PRICEBOOK</p>
@@ -788,7 +802,7 @@ include_once 'header.php';
                         </div>
                         <div class="tab-pane fade" id="pills-equipment" role="tabpanel"
                             aria-labelledby="pills-equipment-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">EQUIPMENT</p>
@@ -852,7 +866,7 @@ include_once 'header.php';
                         </div>
                         <div class="tab-pane fade" id="pills-forms" role="tabpanel"
                             aria-labelledby="pills-forms-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">FORMS</p>
@@ -918,7 +932,7 @@ include_once 'header.php';
                         </div>
                         <div class="tab-pane fade" id="pills-timesheets" role="tabpanel"
                             aria-labelledby="pills-timesheets-tab">
-                            <div class="container pt-3 tab-anchor">
+                            <div class="container pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-xls text-left">TIMESHEETS</p>
@@ -1212,7 +1226,7 @@ include_once 'header.php';
                                                 <p class="title-sm">Create Jobs</p>
                                             </div>
                                             <div class="mt-3 text-left">
-                                                <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
+                                            <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
                                                 <button type="button" class="btn-grey" data-bs-toggle="modal"
                                                     data-bs-target="#getdemoModal">Get Demo</button>
                                             </div>
@@ -1276,7 +1290,7 @@ include_once 'header.php';
                                                 <p class="title-sm">Create Jobs</p>
                                             </div>
                                             <div class="mt-3 text-left">
-                                            <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
+                                                <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
                                                 <button type="button" class="btn-grey" data-bs-toggle="modal"
                                                     data-bs-target="#getdemoModal">Get Demo</button>
                                             </div>
