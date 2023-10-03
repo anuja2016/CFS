@@ -207,6 +207,7 @@
 .white-sm-title {
   color: #FFFFFF;
   font-family: "Poppins-Regular";
+  font-weight: 400;
   font-size: 14px;
 }
 
@@ -286,12 +287,6 @@
 }
 .main-carousel .carousel-caption-feature {
   top: 30% !important;
-}
-.main-carousel .carousel-caption-feature h1 {
-  font-family: "Montserrat-Bold";
-}
-.main-carousel .carousel-caption-feature p {
-  font-size: 20px;
 }
 .main-carousel .carousel-caption-feature .input-group .form-control {
   border-radius: 0;

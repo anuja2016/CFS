@@ -1,236 +1,236 @@
-
-.color-white{
-    color:#FFFFFF;
+.color-white {
+    color: #FFFFFF;
 }
-.title-red{
-    color:#C22032;
+.title-red {
+    color: #C22032;
     font-family: "Montserrat-Medium";
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 2px;
-    
+
 }
-.title-sm-red{
-    color:#C22032;
+.title-sm-red {
+    color: #C22032;
     font-family: "Montserrat-Medium";
     font-weight: 500;
     font-size: 12px;
 }
-.title{
-    color:#000000;
+.title {
+    color: #000000;
     font-family: "Montserrat-Bold";
     font-weight: 700;
     font-size: 30px;
-    letter-spacing: normal;  
+    letter-spacing: normal;
 }
-.title-xls{
-    color:#000000;
+.title-xls {
+    color: #000000;
     font-family: "Montserrat-Bold";
     font-weight: 700;
     font-size: 20px;
-    letter-spacing: normal;  
+    letter-spacing: normal;
 }
-.title-black-small{
-    color:#000000;
+.title-black-small {
+    color: #000000;
     font-family: "Montserrat-Bold";
     font-weight: 700;
     font-size: 12px;
-    letter-spacing: normal;  
+    letter-spacing: normal;
 }
-.title-sm{
-    color:#000000;
+.title-sm {
+    color: #000000;
     font-family: "Montserrat-SemiBold";
     font-weight: 600;
     font-size: 14px;
-    letter-spacing: normal;  
+    letter-spacing: normal;
 }
-.title-subtitle-sm{
-    color:#000000;
+.title-subtitle-sm {
+    color: #000000;
     font-family: "Montserrat-SemiBold";
     font-weight: 600;
     font-size: 16px;
-    letter-spacing: normal;  
+    letter-spacing: normal;
 }
 
-.title-sm-para{
-    color:#000000;
+.title-sm-para {
+    color: #000000;
     font-family: "Montserrat-regular";
     font-weight: 400;
     font-size: 10px;
-    letter-spacing: normal;  
+    letter-spacing: normal;
 }
-.block-light{
+.block-light {
     background-color: #F9F9F9;
-    padding:35px;
-    margin:20px;
+    padding: 35px;
+    margin: 20px;
 }
-.darkgrey-block{
+.darkgrey-block {
     background-color: #D9D9D9;
-    height:300px;
+    height: 300px;
 }
-.title-lg-para{
-    color:#000000;
+.title-lg-para {
+    color: #000000;
     font-family: "Montserrat-regular";
     font-size: 14px;
     line-height: 180%;
 }
-.title-md{
-    color:#000000;
+.title-md {
+    color: #000000;
     font-family: "Montserrat-regular";
     font-size: 14px;
 }
-.title-semibold{
-    color:#000000;
+.title-semibold {
+    color: #000000;
     font-family: "Montserrat-SemiBold";
     font-size: 28px;
-    letter-spacing: normal;  
+    letter-spacing: normal;
 }
-.title-medium{
-    color:#000000;
+.title-medium {
+    color: #000000;
     font-family: "Montserrat-Medium";
     font-size: 12px;
-    letter-spacing: normal;  
+    letter-spacing: normal;
 }
-.title-white{
-    color:#FFFFFF;
+.title-white {
+    color: #FFFFFF;
     font-family: "Montserrat-Bold";
     font-weight: 700;
     font-size: 18px;
 }
 
-.btn-center-flex{
+.btn-center-flex {
     display: flex;
     align-content: center;
     justify-content: center;
-    
+
 }
-.block-grey{
+.block-grey {
     background-color: #F9F9F9;
-    padding:35px;  
+    padding: 35px;
 }
-.block-darkgrey-radius{
+.block-darkgrey-radius {
     background-color: #EDEDED;
-    border-radius:10px;  
+    border-radius: 10px;
 }
 
-.block-black{
+.block-black {
     background-color: #000000;
-    height:400px;
+    height: 400px;
 }
-.block-lightorange{
+.block-lightorange {
     background-color: #FFF2F4;
     border-radius: 10px;
-    height:300px;
+    height: 300px;
 }
-.block-lg-lightorange{
-    background-color: #FFF2F4;  
+.block-lg-lightorange {
+    background-color: #FFF2F4;
     border-radius: 10px;
 }
-.red-title-bold{
-    color:#C22032;
+.red-title-bold {
+    color: #C22032;
     font-family: "Montserrat-Bold";
     font-size: 35px;
-    letter-spacing: normal;  
+    letter-spacing: normal;
 }
 
-.block-lg-lightorange-noborder{
-    background-color: #FFF2F4; 
-    margin:60px;
+.block-lg-lightorange-noborder {
+    background-color: #FFF2F4;
+    margin: 60px;
 }
-.background-card{
-  background-image: url('../images/fieldservicebackground.svg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
-  
+.background-card {
+    background-image: url('../images/fieldservicebackground.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
 }
 
-.background-dots{
+.background-dots {
     background-image: url('../images/dotsbackground.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.card-name{
+.card-name {
     font-family: "Poppins-medium";
-    color:#000000;
-    font-size:12px;
-    line-height:150%;
+    color: #000000;
+    font-size: 12px;
+    line-height: 150%;
 }
 
-.card-smalltxt{
+.card-smalltxt {
     font-family: "Poppins-regular";
-    color:#000000;
-    font-size:10px;
+    color: #000000;
+    font-size: 10px;
 }
 
-.card-smallpara{
+.card-smallpara {
     font-family: "Poppins-regular";
-    color:#000000;
-    font-size:8px;
+    color: #000000;
+    font-size: 8px;
 }
-.card-smalltitle{
+.card-smalltitle {
     font-family: "Poppins-regular";
-    color:#000000;
-    font-size:16px;
+    color: #000000;
+    font-size: 16px;
 }
-.black-sm-title{
-    color:#000000;
+.black-sm-title {
+    color: #000000;
     font-family: "Poppins-regular";
-    font-size:14px;
+    font-size: 14px;
 }
-.black-xl-title{
-    color:#000000;
+.black-xl-title {
+    color: #000000;
     font-family: "Poppins-Bold";
-    font-size:25px;
+    font-size: 25px;
 }
-.white-sm-title{
-    color:#FFFFFF;
+.white-sm-title {
+    color: #FFFFFF;
     font-family: "Poppins-Regular";
-    font-size:14px;
+    font-weight: 400;
+    font-size: 14px;
 }
 .checkedstar {
     color: #C22032;
-    
-  }
-  .uncheckedstar {
-    color: #FFFFFF;
-    
-  }
-  .rating{
-    font-size:30px;
-  }
-  .title-poppins-bold{
-    font-family: "Poppins-SemiBold";
-    color:#000;
-    font-size:14px;
-  }
-  .pointer-cursor{
-    cursor: pointer;
-  }
 
- .grey-ouline-block{
-    border:1px solid #CDCDCD;
-    padding:8px;
+}
+.uncheckedstar {
+    color: #FFFFFF;
+
+}
+.rating {
+    font-size: 30px;
+}
+.title-poppins-bold {
+    font-family: "Poppins-SemiBold";
+    color: #000;
+    font-size: 14px;
+}
+.pointer-cursor {
+    cursor: pointer;
+}
+
+.grey-ouline-block {
+    border: 1px solid #CDCDCD;
+    padding: 8px;
     border-radius: 5px;
     cursor: pointer;
- }
- .d-flex-common{
-    display:flex;
+}
+.d-flex-common {
+    display: flex;
     justify-content: space-between;
     align-items: center;
- }
- .d-flex-column{
-     display:flex;
-     flex-direction:column;
-    
- }
-.main-carousel{
-    margin-top:116px;
+}
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
 
-    .carousel-caption{
-        h1{
+}
+.main-carousel {
+    margin-top: 116px;
+
+    .carousel-caption {
+        h1 {
             font-family: "Montserrat-Bold";
-            span{
+            span {
                 font-family: "Montserrat-Bold";
                 background: url('../images/Red_Rectangle.svg'), url('../images/red_arrows.svg');
                 background-size: 100%, 8%;
@@ -239,54 +239,47 @@
                 padding: 4px;
             }
         }
-        p{
+        p {
             font-size: 20px;
         }
-        .input-group{
-            .form-control{
+        .input-group {
+            .form-control {
                 border-radius: 0;
                 border: none;
             }
         }
-        .input-group-text{
+        .input-group-text {
             padding: 0;
             border-radius: 0;
-            .form-control{
+            .form-control {
                 border-radius: 0;
                 background-color: #F4F4F4;
             }
         }
-        .sect-getservice{
+        .sect-getservice {
             display: flex;
             gap: 20px;
             margin-top: 20px;
         }
     }
 
-    .carousel-caption-feature{
-        top: 30% !important;;
-        h1{
-            font-family: "Montserrat-Bold";     
-            
-        }
-        p{
-            font-size: 20px;
-        }
-        .input-group{
-            .form-control{
+    .carousel-caption-feature {
+        top: 30% !important;
+        .input-group {
+            .form-control {
                 border-radius: 0;
                 border: none;
             }
         }
-        .input-group-text{
+        .input-group-text {
             padding: 0;
             border-radius: 0;
-            .form-control{
+            .form-control {
                 border-radius: 0;
                 background-color: #F4F4F4;
             }
         }
-        .sect-getservice{
+        .sect-getservice {
             display: flex;
             gap: 20px;
             margin-top: 20px;
@@ -294,7 +287,7 @@
     }
 }
 
-.btn-getstarted{
+.btn-getstarted {
     color: #FFF;
     border-radius: 0;
     background: #C22032;
@@ -304,13 +297,13 @@
     cursor: pointer;
     border: 1px solid #C22032;
     white-space: nowrap;
-    &:hover{
+    &:hover {
         background: #ae1d2d;
         box-shadow: 3px 3px 10px #333;
     }
 }
-.mt-116{
-    margin-top: 116px!important;
+.mt-116 {
+    margin-top: 116px !important;
 }
 .banner-block {
     .block-img {
@@ -332,24 +325,24 @@
         left: 0;
         right: 0;
         margin: 0 auto;
-        h1{
+        h1 {
             font-family: "Poppins-bold";
             font-weight: 700;
             line-height: 100%;
             color: #FFFFFF;
         }
-        p{
+        p {
             font-weight: 400;
             line-height: 1.5;
             color: #FFFFFF;
             margin-top: 20px;
         }
-        .search-industry{
+        .search-industry {
             margin-top: 25px;
-            input{
+            input {
                 border-right: 0;
             }
-            .btnsearch{
+            .btnsearch {
                 width: 60px;
                 height: 60px;
                 border: none;
@@ -371,22 +364,22 @@
     cursor: pointer;
     border: 1px solid rgba(243, 243, 243, 1);
 }
-.block-red{
+.block-red {
     border-radius: 0;
     background: #C22032;
     padding: 8px 15px;
     outline: none;
     cursor: pointer;
     border: 1px solid #C22032;
-    margin-top:-41px;
+    margin-top: -41px;
 }
-.btn-white{
+.btn-white {
     border-radius: 0;
     background: #FFFFFF;
-    color:#000000;
+    color: #000000;
     padding: 8px 15px;
     outline: none;
     cursor: pointer;
     border: 1px solid #FFFFFF;
-   
+
 }
