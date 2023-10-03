@@ -1,32 +1,64 @@
+.main-carousel{
+    .carousel-caption {
+        position: absolute;
+        left: 5%;
+        bottom: 1.25rem;
+        right: auto;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: left;
+        top: 50%;
+        transform: translate(0, -50%);
+        max-width: 50%;
+    }
+}
+.industry-slider {
+    .carousel-indicators {
+        bottom: -50px;
+    }
 
-.industry-slider{
-.carousel-indicators {    
-bottom:-50px;
-}
-.carousel-dark .carousel-indicators [data-bs-target] {
-    background-color: #C22032;
-    border-radius: 30px;
+    .carousel-dark {
+        .carousel-indicators [data-bs-target] {
+            background-color: #C22032;
+            border-radius: 30px;
+        }
+    }
+
+    .carousel-dark {
+        .carousel-indicators [data-bs-target] {
+            background-color: #C22032;
+            border-radius: 30px;
+        }
+    }
+
+    .carousel-indicators {
+        .active {
+            opacity: 2;
+        }
+    }
+
+    .carousel-indicators [data-bs-target] {
+
+        width: 10px;
+        height: 10px;
+        border-top: 0;
+        border-bottom: 0;
+        transition: opacity .6s ease;
+    }
+
 }
 
-.carousel-dark .carousel-indicators [data-bs-target] {
-    background-color: #C22032;
-    border-radius: 30px;
+.getdemo-modal {
+    .modal-header {
+        border-bottom: 0;
+    }
 }
-.carousel-indicators .active {
-    opacity: 2;
+.modal-title{
+    font-family: "Poppins-semibold";
 }
-.carousel-indicators [data-bs-target] {
-    
-    width: 10px;
-    height: 10px;
-    border-top: 0;
-    border-bottom: 0; 
-    transition: opacity .6s ease;
-}
-
-}
-.getdemo-modal{
 .modal-header {
-    border-bottom: 0;
-}
+    .btn-close{
+        margin: 0!important;
+    }
 }

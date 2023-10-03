@@ -1,16 +1,22 @@
-<svg width="56" height="52" viewBox="0 0 56 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_1137_1587" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="56" height="52">
-<path d="M0 3.8147e-06H56V52H0V3.8147e-06Z" fill="white"/>
-</mask>
-<g mask="url(#mask0_1137_1587)">
-<path d="M6.8334 30.8347L0.852337 15.3959C0.749634 15.1268 0.902212 14.8289 1.19195 14.7306C4.35682 13.675 7.65885 12.6424 10.9921 11.6013M42.7131 41.776L23.6051 48.1534L15.2192 50.9531C14.9296 51.0515 14.6086 50.9097 14.5028 50.6408L8.09187 34.0826" stroke="#B07AE6" stroke-width="1.25977" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M46.4917 41.1746L26.6486 44.333L17.8639 45.7328C17.5618 45.7791 17.269 45.5882 17.216 45.3076L13.9732 27.7373L10.4002 8.3939C10.3472 8.11055 10.5528 7.84151 10.8549 7.79235L20.8669 6.19874" stroke="#B07AE6" stroke-width="1.25977" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20.8669 22.0334V1.55631C20.8669 1.25843 21.1287 1.01549 21.4495 1.01549H47.4948H47.9309C48.1084 1.01549 48.1583 1.08201 48.4605 1.34811L54.8495 7.00534C55.1081 7.23965 55.1797 7.26565 55.1797 7.42185V7.75731V31.8931V40.6306C55.1797 40.9284 54.9181 41.1743 54.5973 41.1743H30.7481H21.4495C21.1287 41.1743 20.8669 40.9284 20.8669 40.6306V25.5677" stroke="#B07AE6" stroke-width="1.25977" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M47.4946 1.01575L47.5071 6.38089C47.5071 7.58116 48.6909 7.5059 49.2608 7.5059H55.1795" stroke="#B07AE6" stroke-width="1.25977" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M49.915 12.0813H26.4614" stroke="#B07AE6" stroke-width="1.25977" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M49.915 17.4927H26.4614" stroke="#B07AE6" stroke-width="1.25977" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M49.915 22.9041H26.4614" stroke="#B07AE6" stroke-width="1.25977" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M49.915 28.3154H26.4614" stroke="#B07AE6" stroke-width="1.25977" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M49.915 33.7271H26.4614" stroke="#B07AE6" stroke-width="1.25977" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="70" height="70" viewBox="0 0 70 70" style="enable-background:new 0 0 70 70;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#9E7DB8;stroke-width:1.5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#9E7DB8;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#9E7DB8;stroke-width:1.2598;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<polygon class="st0" points="62.2,49.8 28,49.8 28,10 54.6,10 62.2,16.9 	"/>
+	<path class="st0" d="M54.6,10v5.5c0,0.5,0.4,1,1,1H62"/>
+	<line class="st1" x1="33.5" y1="21.2" x2="56.9" y2="21.2"/>
+	<line class="st1" x1="33.5" y1="26.6" x2="56.9" y2="26.6"/>
+	<line class="st1" x1="33.5" y1="32" x2="56.9" y2="32"/>
+	<line class="st1" x1="33.5" y1="37.4" x2="56.9" y2="37.4"/>
+	<line class="st1" x1="33.5" y1="42.8" x2="56.9" y2="42.8"/>
+	<polyline class="st1" points="27.8,15.3 17.1,17.1 24,55 52.6,49.8 	"/>
+	<polyline class="st1" points="17.7,20.9 7.8,24.2 13.9,40 	"/>
+	<polyline class="st2" points="14.8,42.4 21.7,60 51.6,49.8 	"/>
 </g>
 </svg>

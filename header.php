@@ -30,17 +30,18 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
     <title>FieldWeb</title>
 </head>
+
 <body>
-    <div class="site-header fixed-top ">
-        <div class="header-top container-fluid">
-            <ul class="me-2">
-                <li><a href="tel:+919315228028">+91 93152 28028</a></li>
-                <li>|</li>
-                <li><a href="#" class="d-flex">Sign in <span class="ms-2"><img src="assets/images/signin.svg" class="signin-size" /></span> </a></li>
-            </ul>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container-fluid">
+    <header class="fixed-top">
+        <div class="site-header">
+            <div class="header-top container-fluid">
+                <ul class="me-2">
+                    <li><a href="tel:+919315228028">+91 93152 28028</a></li>
+                    <li>|</li>
+                    <li><a href="#" class="d-flex">Sign in <span class="ms-2"><img src="assets/images/signin.svg" class="signin-size" /></span> </a></li>
+                </ul>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <a href="index.php" class="navbar-brand" href="#"> <img src="assets/images/logo.svg" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -68,73 +69,107 @@
                     </ul>
                     <div class="navbar-buttons">
                         <button type="button" class="btn-outline-black">Explore Pricing</button>
-                        <button type="button" class="btn-red" data-bs-toggle="modal"
-                            data-bs-target="#getdemoModal">Get Demo</button>
+                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </div>
+            </nav>
+        </div>
+    </header>
 
     <!-- Modal popup for Get Demo -->
-    <!-- Modal -->
-    <div class="getdemo-modal">
-        <div class="modal fade" id="getdemoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <div class="d-flex gap-5 align-items-center">
-                            <img src="assets/images/redfieldweblogo.svg">
-                            <p class="title-poppins-bold">Request a personalized demo</p>
+    <div class="modal fade" id="getdemoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="assets/images/redfieldweblogo.svg">
+                    <h6 class="modal-title">Request a personalized demo</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Company Name*">
                         </div>
-                        <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close"
-                            class="pointer-cursor" />
-                    </div>
-                    <div class="modal-body">
-                        <div class="row mb-3">
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" placeholder="Company Name*">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="number" class="form-control mt-2" placeholder="Mobile Number*">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="email" class="form-control mt-2" placeholder="Email Id">
-                            </div>
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control mt-2" placeholder="Preferred Date">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control mt-2" placeholder="Preferred Time">
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="Mobile Number*">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email Id">
+                        </div>
+                        <div class="sect-datetime">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Preferred Date">
+                                        <span class="input-group-text"><img src="assets/images/date-icon.svg" /></span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" class="form-control mt-2" placeholder="Name*">
-                            </div>
-                            <div class="col-md-12 mt-2">
-                                <div class="grey-ouline-block">
-                                    <div class="d-flex-common">
-                                        <p class="black-sm-title">Select Industry</p>
-                                        <img src="assets/images/rightarrow.svg" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 mt-2">
-                                <div class="grey-ouline-block">
-                                    <div class="d-flex-common">
-                                        <p class="black-sm-title">Select Number of Techs</p>
-                                        <img src="assets/images/rightarrow.svg" />
+                                <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Preferred Time">
+                                        <span class="input-group-text"><img src="assets/images/time-icon.svg" /></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <div class="grey-ouline-block">
+                                <div class="d-flex-common">
+                                    <p class="black-sm-title">Select Industry</p>
+                                    <img src="assets/images/rightarrow.svg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="grey-ouline-block">
+                                <div class="d-flex-common">
+                                    <p class="black-sm-title">Select Number of Techs</p>
+                                    <img src="assets/images/rightarrow.svg" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="text-center mb-3">
+                    <button type="button" class="btn-red">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal popup for Contact Sales -->
+    <div class="modal fade" id="mdl_contactsales" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Contact to Sales</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Company Name*">
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="Contact Number*">
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select">
+                                <option>Business Whatsapp</option>
+                                <option>DND</option>
+                                <option>White label customer app</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="text-center mb-3">
-                        <button type="button" class="btn-red">SUBMIT</button>
-                    </div>
+                </div>
+                <div class="text-center mb-3">
+                    <button type="button" class="btn-red">SUBMIT</button>
                 </div>
             </div>
         </div>
@@ -162,4 +197,5 @@
         });
     </script>
 </body>
+
 </html>
