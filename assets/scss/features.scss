@@ -17,24 +17,24 @@
         padding: 0 2rem;
         right: 0;
         margin: 0 auto;
-        h1{
+        h1 {
             font-family: "Poppins-bold";
             font-weight: 700;
             line-height: 100%;
             color: #FFFFFF;
         }
-        p{
+        p {
             font-weight: 400;
             line-height: 1.5;
             color: #FFFFFF;
             margin-top: 20px;
         }
-        .search-industry{
+        .search-industry {
             margin-top: 25px;
-            input{
+            input {
                 border-right: 0;
             }
-            .btnsearch{
+            .btnsearch {
                 width: 60px;
                 height: 60px;
                 border: none;
@@ -45,64 +45,101 @@
             }
         }
     }
-    .d-flex-feature{
+    .d-flex-feature {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .email-textbox{
-        height:50px;
+    .email-textbox {
+        height: 50px;
     }
 }
-.features-main{
-    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {    
+.features-main {
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
         background-color: rgba(194, 32, 50, 1);
-        color:#FFFFFF;
+        color: #FFFFFF;
     }
     .nav-link {
         background-color: rgba(194, 32, 50, 1);
-        color:#FFFFFF;
-   }
+        color: #FFFFFF;
+    }
     .nav-pills .nav-link {
-         border-radius: none;
+        border-radius: none;
     }
 }
-.sub-tab{
-    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {    
+.sub-tab {
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
         background-color: rgba(194, 32, 50, 1);
-        color:#FFFFFF;
+        color: #FFFFFF;
     }
     .nav-link {
         background: rgba(243, 243, 243, 1);
-        color:#000000;
-   }
+        color: #000000;
+    }
     .nav-pills .nav-link {
-         border-radius: none;
+        border-radius: none;
     }
 }
-.sub-content{
-    .card-body{
+.sub-content {
+    .card-body {
         background-color: rgba(240, 240, 240, 1);
     }
-    .text-left{
+    .text-left {
         text-align: left;
     }
-    .sub-content-flex{   
+    .sub-content-flex {
         display: flex;
         align-items: center;
     }
-    .bborder{
+    .bborder {
         border-bottom: 1.5px solid #000000;
         line-height: 50px;
-        width:300px;
+        width: 300px;
     }
-    .sub-content-arrow-img{
-        width:20px;
-        height:20px;
+    .sub-content-arrow-img {
+        width: 20px;
+        height: 20px;
     }
-    .tab-anchor{
-        a{
-        text-decoration: none;
+    .tab-anchor {
+        a {
+            text-decoration: none;
         }
     }
+}
+
+.featuregetmore-list {
+    text-align: right;
+    ul {
+        li {
+            display: inline-block;
+            font-size: 14px;
+            font-family: "Montserrat-Medium";
+            color: rgba(117, 117, 117, 1);
+            padding: 0 10px;
+
+        }
+    }
+}
+.lineargradiant-block{
+border:1px solid rgba(158, 158, 158, 1);
+}
+.d-flex-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature-img{
+    height:30px;
+    width:30px;
+}
+.feature-grey-block{
+    background-color: rgba(243, 243, 243, 1);
+    border-radius: 10px;
+}
+.feature-job-title{
+    color:#000000;
+    font-family: "Montserrat-Bold";
+    font-size: 16px;
+    letter-spacing: normal;  
 }
