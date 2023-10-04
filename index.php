@@ -66,7 +66,6 @@ include_once 'header.php';
     </div>
   </div>
 </div>
-
 <section class="feature-section" data-aos="fade-up">
   <div class="main-Wrapper">
     <div class="text-center mt-5 mb-5">
@@ -265,52 +264,48 @@ include_once 'header.php';
         <img src="assets/images/country-map.jpg" class="img-fluid" />
       </div>
       <div class="col-md-7">
-        <h3>Transformative Results with FieldWeb FSM</h3>
+        <h2>Transformative Results with FieldWeb FSM</h3>
         <p class="pt-2 subtext-mont">FieldWeb makes running a service business easier, with quoting,
           scheduling, invoicing, report and payments in one place.</p>
-
         <div class="row mt-3">
           <div class="col-md-5 mt-2">
             <div class="block-darkgrey p-2">
-              <h2 class="title">200000+</h2>
-              <p class="title-sm-para">Field Service experts trust FieldWeb</p>
+              <h3><span class="count">200000</span>+</h3>
+              <p>Field Service experts trust FieldWeb</p>
             </div>
           </div>
           <div class="col-md-5 mt-2">
             <div class="block-darkgrey p-2">
-              <h2 class="title">50+</h2>
-              <p class="title-sm-para">Field Service Industries served us</p>
+              <h3><span class="count">50</span>+</h3>
+              <p>Field Service Industries served us</p>
             </div>
           </div>
         </div>
         <div class="row mt-3">
           <div class="col-md-5 mt-2">
             <div class="block-darkgrey p-2">
-              <h2 class="title">5 Million + </h2>
-              <p class="title-sm-para">households have been served
-                by FieldWeb-powered businesses</p>
+              <h3><span class="count">5</span> Million + </h3>
+              <p>households have been served by FieldWeb-powered businesses</p>
             </div>
           </div>
           <div class="col-md-5 mt-2">
             <div class="block-darkgrey p-2">
-              <h2 class="title">14</h2>
-              <p class="title-sm-para">hours per week saved
-                using FieldWeb, on average</p>
+              <h3><span class="count">14</span></h3>
+              <p>hours per week saved using FieldWeb, on average</p>
             </div>
           </div>
         </div>
         <div class="row mt-3">
           <div class="col-md-5 mt-2">
             <div class="block-darkgrey p-2">
-              <h2 class="title">27 %</h2>
-              <p class="title-sm-para">Average Increase in Monthly Revenue using FieldWeb</p>
+              <h3><span class="count">27</span>%</h3>
+              <p>Average Increase in Monthly Revenue using FieldWeb</p>
             </div>
           </div>
           <div class="col-md-5 mt-2">
             <div class="block-darkgrey p-2">
-              <h2 class="title">35%</h2>
-              <p class="title-sm-para">no. of Customers increase By
-                using FieldWeb</p>
+              <h3><span class="count">35</span>%</h3>
+              <p>no. of Customers increase By using FieldWeb</p>
             </div>
           </div>
         </div>
@@ -522,6 +517,7 @@ include_once 'header.php';
 include_once 'footer.php';
 ?>
 
+<!--slick slider--->
 <script>
   $('.preview-carousel').slick({
     arrows: true,
@@ -550,5 +546,20 @@ include_once 'footer.php';
     autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1
+  });
+</script>
+
+<!--counter--->
+<script>
+  $('.count').each(function() {
+    $(this).prop('Counter', 0).animate({
+      Counter: $(this).text()
+    }, {
+      duration: 4000,
+      easing: 'swing',
+      step: function(now) {
+        $(this).text(Math.ceil(now));
+      }
+    });
   });
 </script>

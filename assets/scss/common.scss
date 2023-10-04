@@ -504,6 +504,7 @@
             font-size: 25px;
             padding: 20px;
             text-align: center;
+            border-radius: 25px;
         }
 
         &:hover .hover-text {
@@ -570,11 +571,20 @@
 }
 
 .sect-transresults {
-    h3 {
+    h2 {
         color: #000000;
         font-family: "Montserrat-SemiBold";
         font-size: 25px;
         letter-spacing: normal;
+    }
+    h3{
+        color: #000000;
+        font-family: "Montserrat-Bold";
+        font-size: 35px;
+        letter-spacing: normal;
+        span{
+            font-family: "Montserrat-Bold";
+        }
     }
 }
 

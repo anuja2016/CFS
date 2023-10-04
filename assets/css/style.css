@@ -449,6 +449,7 @@
   font-size: 25px;
   padding: 20px;
   text-align: center;
+  border-radius: 25px;
 }
 .industries-slider a:hover .hover-text {
   opacity: 1;
@@ -496,11 +497,20 @@
   font-family: "Montserrat-regular";
 }
 
-.sect-transresults h3 {
+.sect-transresults h2 {
   color: #000000;
   font-family: "Montserrat-SemiBold";
   font-size: 25px;
   letter-spacing: normal;
+}
+.sect-transresults h3 {
+  color: #000000;
+  font-family: "Montserrat-Bold";
+  font-size: 35px;
+  letter-spacing: normal;
+}
+.sect-transresults h3 span {
+  font-family: "Montserrat-Bold";
 }
 
 .sect-oneapp .row .col-md-3 {
