@@ -52,7 +52,7 @@
                             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="about.php">About Us</a>
                         </li>
                         <li>
                             <a class="nav-link" href="industries.php">Industries</a>
@@ -80,61 +80,112 @@
     <div class="modal fade" id="getdemoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header">
-                    <img src="assets/images/redfieldweblogo.svg">
-                    <h6 class="modal-title">Request a personalized demo</h5>
+                <div id="gd-form">
+                    <div class="modal-header">
+                        <img src="assets/images/redfieldweblogo.svg">
+                        <h6 class="modal-title">Request a personalized demo</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Company Name*">
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" placeholder="Mobile Number*">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email Id">
+                            </div>
+                            <div class="sect-datetime">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="Preferred Date">
+                                            <span class="input-group-text"><img src="assets/images/date-icon.svg" /></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="Preferred Time">
+                                            <span class="input-group-text"><img src="assets/images/time-icon.svg" /></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <div id="btn-SelectIndustry" class="grey-ouline-block">
+                                    <div class="d-flex-common">
+                                        <p class="black-sm-title">Select Industry</p>
+                                        <img src="assets/images/rightarrow.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div id="btn-SelectTechnician" class="grey-ouline-block">
+                                    <div class="d-flex-common">
+                                        <p class="black-sm-title">Select Number of Techs</p>
+                                        <img src="assets/images/rightarrow.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="text-center mb-3">
+                        <button type="button" class="btn-red">SUBMIT</button>
+                    </div>
+                </div>
+                <div id="gd-industries" style="display: none;">
+                    <div class="modal-header">
+                        <a class="btn-back"><img src="assets/images/chevron-left.svg"></a>
+                        <h6 class="modal-title">What is your comapny's main industry</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="gd-gridlist">
+                            <li><a class="gd-active">HVAC</a></li>
+                            <li><a>Plumbing</a></li>
+                            <li><a>CCTV</a></li>
+                            <li><a>RO</a></li>
+                            <li><a>Computer & IT</a></li>
+                            <li><a>Lift & Escalator</a></li>
+                            <li><a>Water Treatment</a></li>
+                            <li><a>Printing</a></li>
+                            <li><a>Electrical Repair</a></li>
+                            <li><a>Home Appliance Repair</a></li>
+                            <li><a>Pest Control</a></li>
+                            <li><a id="btn-otherIndustry">Other</a></li>
+                        </ul>
+                        <div id="sect-otherindustry" style="display: none;">
+                            <div class="p-1">
+                                <input type="text" class="form-control rounded-0">
+                            </div>
+                            <div class="text-center mt-3">
+                                <button type="button" class="btn-red">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="gd-technician" style="display: none;">
+                    <div class="modal-header">
+                        <a class="btn-back"><img src="assets/images/chevron-left.svg"></a>
+                        <h6 class="modal-title">How many technician work at your Company</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Company Name*">
-                        </div>
-                        <div class="mb-3">
-                            <input type="number" class="form-control" placeholder="Mobile Number*">
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Email Id">
-                        </div>
-                        <div class="sect-datetime">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder="Preferred Date">
-                                        <span class="input-group-text"><img src="assets/images/date-icon.svg" /></span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder="Preferred Time">
-                                        <span class="input-group-text"><img src="assets/images/time-icon.svg" /></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Name">
-                        </div>
-                        <div class="mb-3">
-                            <div class="grey-ouline-block">
-                                <div class="d-flex-common">
-                                    <p class="black-sm-title">Select Industry</p>
-                                    <img src="assets/images/rightarrow.svg" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <div class="grey-ouline-block">
-                                <div class="d-flex-common">
-                                    <p class="black-sm-title">Select Number of Techs</p>
-                                    <img src="assets/images/rightarrow.svg" />
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="text-center mb-3">
-                    <button type="button" class="btn-red">SUBMIT</button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="gd-gridlist">
+                            <li><a class="gd-active">1 worker</a></li>
+                            <li><a>2-5 worker</a></li>
+                            <li><a>6-10 worker</a></li>
+                            <li><a>11-20 worker</a></li>
+                            <li><a>21-30 worker</a></li>
+                            <li><a>31-40 worker</a></li>
+                            <li><a>50+ worker</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -196,5 +247,27 @@
             aos_init();
         });
     </script>
+    <!--get demo popup--->
+    <script>
+        $(document).ready(function() {
+            $("#btn-SelectIndustry").click(function() {
+                $("#gd-form").hide();
+                $("#gd-industries").show();
+            });
+            $(".btn-back").click(function() {
+                $("#gd-form").show();
+                $("#gd-industries").hide();
+                $("#gd-technician").hide();
+            });
+            $("#btn-otherIndustry").click(function() {
+                $("#sect-otherindustry").toggle();
+            });
+            $("#btn-SelectTechnician").click(function() {
+                $("#gd-form").hide();
+                $("#gd-technician").show();
+            });
+        });
+    </script>
 </body>
+
 </html>

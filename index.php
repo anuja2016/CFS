@@ -397,7 +397,7 @@ include_once 'header.php';
     </div>
   </div>
   <div class="btn-center-flex mb-5">
-    <a href="#" target="" class="btn-red arrowBtn u-button has-hover mt-4">
+    <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover mt-4">
       <span class="u-button-arrow"></span>
       <span>Book a Slot</span>
     </a>
@@ -471,6 +471,7 @@ include_once 'header.php';
     </div>
   </div>
 </section>
+<!----------get demo----------->
 <section class="sect-demo mt-10 pb-3" data-aos="fade-up">
   <div class="block-lightorange">
     <h4 class="title-semibold pt-4">"Unlock Efficiency: Schedule Your FieldWeb FSM Demo Today!"</h4>

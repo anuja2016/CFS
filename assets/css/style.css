@@ -673,6 +673,61 @@
   font-size: 1rem;
 }
 
+.top-wrapper {
+  margin-top: 122px;
+}
+
+.sect-about h3 {
+  font-size: 24px;
+}
+
+#gd-industries ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+#gd-industries .form-control {
+  padding: 12px;
+}
+
+.gd-gridlist li {
+  width: 50%;
+  flex-shrink: 0;
+  padding: 5px;
+}
+.gd-gridlist li a {
+  border: 1px solid #cdcdcd;
+  padding: 12px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+.gd-gridlist li a:hover {
+  background: #ffebeb;
+  border: 1px solid #ffebeb;
+  color: #000;
+  text-decoration: none;
+}
+
+.gd-active {
+  background: #ffebeb;
+  border: 1px solid #ffebeb !important;
+}
+
+#gd-technician ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#getdemoModal .modal-header {
+  gap: 15px;
+  grid-gap: 15px;
+}
+
 @font-face {
   font-family: "Poppins-light";
   src: url("./../fonts/Poppins/Poppins-Light.ttf");
