@@ -67,6 +67,11 @@
     font-family: "Montserrat-regular";
     font-size: 14px;
 }
+.subtitle-montb {
+    font-family: "Montserrat-Bold";
+    font-size: 20px;
+    line-height: 20px;
+}
 
 .block-light {
     background-color: #F9F9F9;
@@ -89,7 +94,7 @@
 .title-md {
     color: #000000;
     font-family: "Montserrat-regular";
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .title-semibold {
@@ -137,8 +142,11 @@
 .red-title-bold {
     color: #C22032;
     font-family: "Montserrat-Bold";
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: normal;
+    span{
+        font-family: "Montserrat-Bold";
+    }
 }
 
 .block-lg-lightorange-noborder {

@@ -1,15 +1,18 @@
-.white-square-image{
-    height:350px;
-    width:350px;
-}
+
 .white-block{
     padding: 15px;
     border-radius: 8px;
     background-color: #FFFFFF;
 }
-.leader-desk-header{
+.leader-desk-grid{
+    width: 75%;
+    margin: 0 auto;
     .card{
         border-radius: 10px;
+        &:hover{
+            box-shadow: 3px 3px 10px #ddd;
+            cursor: default;
+        }
     }
     img{
         width:80px;
@@ -18,29 +21,27 @@
     .leader-name{
         color:#000000;
         font-family: "Montserrat-SemiBold";
-        font-size: 12px;
-        letter-spacing: normal;  
-    }
-    .leader-info{
-        width:250px;
-        color:#000000;
-        font-family: "Montserrat-regular";
-        font-size: 8px;
-        letter-spacing: normal;  
-        text-align: left;
+        font-size: 18px;
+        letter-spacing: normal;
+        margin-bottom: 5px;
     }
     .flex-start{
         align-items: flex-start;
     }
-    .icon-img{
-        width:20px;
-        height:20px;
+    a{
+        &:hover{
+            filter: opacity(0.5);
+        }
+        .icon-img{
+            width:20px;
+            height:20px;
+        }
     }
 }
 .heading{
-    img{
-        height:200px;
-    }
+    // img{
+    //     height:200px;
+    // }
     .info-circle-img{
         height:15px;
         width:15px;
@@ -62,4 +63,45 @@
 label {
   display: inline-block;
   width: 5em;
+}
+.wcu-img{
+    position: relative;
+    .white-square-box{
+        position: absolute;
+        z-index: 1;
+        top: 35px;
+        right: 40px;
+        height: 360px;
+        background: #fff;
+        background-size: 100%;
+        display: block;
+        width: 400px;
+        border-radius: 30px;
+    }
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 2;
+        top: 35px;
+        // right: 40px;
+        height: 360px;
+        background: url('../images/whychoose_us.png');
+        background-size: 100%;
+        display: block;
+        width: 550px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    &::after{
+        content: "";
+        background: url('../images/red-border.svg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        width: 186px;
+        height: 430px;
+        right: 0px;
+        z-index: 0;
+    }
 }

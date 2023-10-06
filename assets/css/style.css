@@ -68,6 +68,12 @@
   font-size: 14px;
 }
 
+.subtitle-montb {
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+  line-height: 20px;
+}
+
 .block-light {
   background-color: #F9F9F9;
   padding: 35px;
@@ -89,7 +95,7 @@
 .title-md {
   color: #000000;
   font-family: "Montserrat-regular";
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .title-semibold {
@@ -135,8 +141,11 @@
 .red-title-bold {
   color: #C22032;
   font-family: "Montserrat-Bold";
-  font-size: 35px;
+  font-size: 45px;
   letter-spacing: normal;
+}
+.red-title-bold span {
+  font-family: "Montserrat-Bold";
 }
 
 .block-lg-lightorange-noborder {
@@ -1007,49 +1016,45 @@ a:hover {
   margin: 0 !important;
 }
 
-.white-square-image {
-  height: 350px;
-  width: 350px;
-}
-
 .white-block {
   padding: 15px;
   border-radius: 8px;
   background-color: #FFFFFF;
 }
 
-.leader-desk-header .card {
+.leader-desk-grid {
+  width: 75%;
+  margin: 0 auto;
+}
+.leader-desk-grid .card {
   border-radius: 10px;
 }
-.leader-desk-header img {
+.leader-desk-grid .card:hover {
+  box-shadow: 3px 3px 10px #ddd;
+  cursor: default;
+}
+.leader-desk-grid img {
   width: 80px;
   height: 80px;
 }
-.leader-desk-header .leader-name {
+.leader-desk-grid .leader-name {
   color: #000000;
   font-family: "Montserrat-SemiBold";
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: normal;
+  margin-bottom: 5px;
 }
-.leader-desk-header .leader-info {
-  width: 250px;
-  color: #000000;
-  font-family: "Montserrat-regular";
-  font-size: 8px;
-  letter-spacing: normal;
-  text-align: left;
-}
-.leader-desk-header .flex-start {
+.leader-desk-grid .flex-start {
   align-items: flex-start;
 }
-.leader-desk-header .icon-img {
+.leader-desk-grid a:hover {
+  filter: opacity(0.5);
+}
+.leader-desk-grid a .icon-img {
   width: 20px;
   height: 20px;
 }
 
-.heading img {
-  height: 200px;
-}
 .heading .info-circle-img {
   height: 15px;
   width: 15px;
@@ -1064,6 +1069,47 @@ a:hover {
 label {
   display: inline-block;
   width: 5em;
+}
+
+.wcu-img {
+  position: relative;
+}
+.wcu-img .white-square-box {
+  position: absolute;
+  z-index: 1;
+  top: 35px;
+  right: 40px;
+  height: 360px;
+  background: #fff;
+  background-size: 100%;
+  display: block;
+  width: 400px;
+  border-radius: 30px;
+}
+.wcu-img::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 35px;
+  height: 360px;
+  background: url("../images/whychoose_us.png");
+  background-size: 100%;
+  display: block;
+  width: 550px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.wcu-img::after {
+  content: "";
+  background: url("../images/red-border.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 186px;
+  height: 430px;
+  right: 0px;
+  z-index: 0;
 }
 
 footer {
