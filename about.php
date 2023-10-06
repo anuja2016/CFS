@@ -194,13 +194,12 @@ include_once 'header.php';
 <section class="text-center pt-5 mb-3" data-aos="fade-up">
     <h2 class="title-semibold"> Over 200000+ Field Service Businesses in 50+ </h2>
     <h2 class="title-semibold">industries trust FieldWeb</h2>
-    </p>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <p class="title-md">IN 40 YEARS OF EXPERIENCE</p>
                 <h4 class="title pt-2">Trusted By </p>
-                <h3 class="red-title-bold pt-1"><span class="count">40000</span> + Users</p>
+                <h3 class="red-title-bold drawn-underline"><span class="count">40000</span> + Users</h3>
             </div>
             <div class="col-md-6">
                 <img src="assets/images/idea.svg" alt="..." class="img-fluid">
@@ -210,7 +209,7 @@ include_once 'header.php';
 </section>
 <!----------get demo----------->
 <section class="sect-demo mt-10 pb-3" data-aos="fade-up">
-    <div class="block-lightorange">
+    <div class="block-lightorange text-center">
         <h4 class="title-semibold pt-4">"Unlock Efficiency: Schedule Your FieldWeb FSM Demo Today!"</h4>
         <p class="card-name pt-2">"Experience the future of field service management. </p>
         <p class="card-name">Book your tailored FieldWeb FSM demo now. Elevate your business today!"</p>

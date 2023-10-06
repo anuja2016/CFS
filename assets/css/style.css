@@ -133,7 +133,7 @@
 .block-lightorange {
   background-color: #FFF2F4;
   border-radius: 30px;
-  padding: 30px 15px;
+  padding: 30px;
 }
 
 .block-lg-lightorange {
@@ -197,7 +197,6 @@
 .title-poppins-bold {
   font-family: "Poppins-SemiBold";
   color: #000;
-  font-size: 14px;
 }
 
 .pointer-cursor {
@@ -207,7 +206,6 @@
 .grey-ouline-block {
   border: 1px solid #dee2e6;
   padding: 8px;
-  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -294,19 +292,19 @@
 
 .banner-block .block-img img {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   object-fit: cover;
   object-position: top;
 }
 .banner-block .content {
   position: absolute;
-  top: 50%;
+  top: 70%;
   transform: translate(0, -50%);
   max-width: 60%;
   z-index: 5;
   text-align: center;
   padding: 0 2rem;
-  left: 0;
+  left: auto;
   right: 0;
   margin: 0 auto;
 }
@@ -323,7 +321,7 @@
   margin-top: 20px;
 }
 .banner-block .content .search-industry {
-  margin-top: 25px;
+  margin: 25px auto 0;
 }
 .banner-block .content .search-industry input {
   border-right: 0;
@@ -343,7 +341,7 @@
   padding-bottom: 1.25rem;
   background-image: url("../images/drawn-underline.svg");
   background-repeat: no-repeat;
-  background-position: center 45px;
+  background-position: center 50px;
   background-size: 100% 18%;
   font-style: normal;
   font-family: "Montserrat-Bold";
@@ -606,6 +604,10 @@
   margin-top: 6.875rem;
 }
 
+.mt-20 {
+  margin-top: 13.75rem;
+}
+
 .trusted-companies {
   width: 75%;
   margin: 0 auto;
@@ -644,11 +646,7 @@
   padding-top: 3rem;
 }
 .sect-demo .block-lightorange {
-  text-align: center;
-  margin-top: -100px;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-bottom: 2rem;
+  margin: -100px 3rem 2rem;
 }
 .sect-demo .block-lightorange .sect-demo-email {
   display: flex;
@@ -682,6 +680,23 @@
 }
 .sect-demo .sect-demo-cn p.cn-sofadvice {
   font-size: 1rem;
+}
+.sect-demo .subtitle {
+  font-size: 16px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  font-family: "Poppins-regular";
+}
+.sect-demo h2 {
+  font-family: "Poppins-bold";
+  line-height: 40px;
+}
+.sect-demo h2 .drawn-underline {
+  background-position: center 38px;
+  font-style: italic;
+}
+.sect-demo .subtext {
+  font-size: 20px;
 }
 
 .top-wrapper {
@@ -1518,31 +1533,37 @@ footer .footlogo {
   opacity: 0.75;
 }
 
-.built-trade .card-body {
-  box-shadow: 0 0 10px 5px rgba(206, 207, 254, 0.25);
+.sect-services {
+  margin-top: -40px;
 }
-.built-trade .trade-img {
+.sect-services .card {
+  box-shadow: 0 0 10px 5px rgba(206, 207, 254, 0.25);
+  border-radius: 15px;
+}
+.sect-services .services-icon {
   width: 100px;
   height: 100px;
 }
-.built-trade a {
+.sect-services a {
   text-decoration: none;
   font-family: "Montserrat-Medium";
   font-size: 10px;
   color: #C22032;
 }
-.built-trade .arrow-img {
+.sect-services .arrow-img {
   width: 20px;
   height: 20px;
 }
-.built-trade .d-flex-trade {
+.sect-services .d-flex-trade {
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.book-demo .card {
+.sect-demo .card {
   border-radius: 10px;
+  box-shadow: 0px 0px 10px #ddd;
+  margin-top: -120px;
 }
 
 .bannerfeature-block .block-img img {

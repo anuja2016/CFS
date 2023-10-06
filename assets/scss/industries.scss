@@ -1,8 +1,10 @@
-.built-trade{
-    .card-body{
+.sect-services{
+    margin-top: -40px;
+    .card{
         box-shadow: 0 0 10px 5px rgba(206, 207, 254, 0.25);
+        border-radius: 15px;
     }
-    .trade-img{
+    .services-icon{
         width:100px;
         height:100px;
     }
@@ -23,8 +25,10 @@
     }
 
 }
-.book-demo{
+.sect-demo{
     .card{
         border-radius: 10px;
+        box-shadow: 0px 0px 10px #ddd;
+        margin-top: -120px;
     }
 }

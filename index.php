@@ -473,7 +473,7 @@ include_once 'header.php';
 </section>
 <!----------get demo----------->
 <section class="sect-demo mt-10 pb-3" data-aos="fade-up">
-  <div class="block-lightorange">
+  <div class="block-lightorange text-center">
     <h4 class="title-semibold pt-4">"Unlock Efficiency: Schedule Your FieldWeb FSM Demo Today!"</h4>
     <p class="card-name pt-2">"Experience the future of field service management. </p>
     <p class="card-name">Book your tailored FieldWeb FSM demo now. Elevate your business today!"</p>
