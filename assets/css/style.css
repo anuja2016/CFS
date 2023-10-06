@@ -25,6 +25,7 @@
 .title-red {
   color: #C22032;
   font-family: "Montserrat-Medium";
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: 2px;
 }
@@ -32,6 +33,7 @@
 .title-sm-red {
   color: #C22032;
   font-family: "Montserrat-Medium";
+  font-weight: 500;
   font-size: 12px;
 }
 
@@ -737,6 +739,37 @@
   grid-gap: 15px;
 }
 
+.btn-grey {
+  color: #000000;
+  border-radius: 0;
+  background: rgb(243, 243, 243);
+  font-family: "Poppins-regular";
+  padding: 8px 15px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgb(243, 243, 243);
+}
+
+.block-red {
+  border-radius: 0;
+  background: #C22032;
+  padding: 8px 15px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #C22032;
+  margin-top: -41px;
+}
+
+.btn-white {
+  border-radius: 0;
+  background: #FFFFFF;
+  color: #000000;
+  padding: 8px 15px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+}
+
 @font-face {
   font-family: "Poppins-light";
   src: url("./../fonts/Poppins/Poppins-Light.ttf");
@@ -945,9 +978,6 @@ body p {
 
 ul {
   margin: 0 !important;
-}
-ul li {
-  list-style: none;
 }
 
 svg {
@@ -1473,6 +1503,172 @@ footer .footlogo {
 .slick-dots li.slick-active button:before {
   color: #C22032;
   opacity: 0.75;
+}
+
+.built-trade .card-body {
+  box-shadow: 0 0 10px 5px rgba(206, 207, 254, 0.25);
+}
+.built-trade .trade-img {
+  width: 100px;
+  height: 100px;
+}
+.built-trade a {
+  text-decoration: none;
+  font-family: "Montserrat-Medium";
+  font-size: 10px;
+  color: #C22032;
+}
+.built-trade .arrow-img {
+  width: 20px;
+  height: 20px;
+}
+.built-trade .d-flex-trade {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.book-demo .card {
+  border-radius: 10px;
+}
+
+.bannerfeature-block .block-img img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  object-position: top;
+}
+.bannerfeature-block .content {
+  position: absolute;
+  top: 60%;
+  transform: translate(0, -50%);
+  max-width: 60%;
+  z-index: 5;
+  text-align: center;
+  padding: 0 2rem;
+  right: 0;
+  margin: 0 auto;
+}
+.bannerfeature-block .content h1 {
+  font-family: "Poppins-bold";
+  font-weight: 700;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.bannerfeature-block .content p {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+.bannerfeature-block .content .search-industry {
+  margin-top: 25px;
+}
+.bannerfeature-block .content .search-industry input {
+  border-right: 0;
+}
+.bannerfeature-block .content .search-industry .btnsearch {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 0 0.375rem 0.375rem 0;
+  padding: 1px;
+  background: #FFFFFF;
+  margin-left: 0;
+}
+.bannerfeature-block .d-flex-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerfeature-block .email-textbox {
+  height: 50px;
+}
+
+.features-main .nav-pills .nav-link.active,
+.features-main .nav-pills .show > .nav-link {
+  background-color: rgb(194, 32, 50);
+  color: #FFFFFF;
+}
+.features-main .nav-link {
+  background-color: rgb(194, 32, 50);
+  color: #FFFFFF;
+}
+.features-main .nav-pills .nav-link {
+  border-radius: none;
+}
+
+.sub-tab .nav-pills .nav-link.active,
+.sub-tab .nav-pills .show > .nav-link {
+  background-color: rgb(194, 32, 50);
+  color: #FFFFFF;
+}
+.sub-tab .nav-link {
+  background: rgb(243, 243, 243);
+  color: #000000;
+}
+.sub-tab .nav-pills .nav-link {
+  border-radius: none;
+}
+
+.sub-content .card-body {
+  background-color: rgb(240, 240, 240);
+}
+.sub-content .text-left {
+  text-align: left;
+}
+.sub-content .sub-content-flex {
+  display: flex;
+  align-items: center;
+}
+.sub-content .bborder {
+  border-bottom: 1.5px solid #000000;
+  line-height: 50px;
+  width: 300px;
+}
+.sub-content .sub-content-arrow-img {
+  width: 20px;
+  height: 20px;
+}
+.sub-content .tab-anchor a {
+  text-decoration: none;
+}
+
+.featuregetmore-list {
+  text-align: right;
+}
+.featuregetmore-list ul li {
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Montserrat-Medium";
+  color: rgb(117, 117, 117);
+  padding: 0 10px;
+}
+
+.lineargradiant-block {
+  border: 1px solid rgb(158, 158, 158);
+}
+
+.d-flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature-img {
+  height: 30px;
+  width: 30px;
+}
+
+.feature-grey-block {
+  background-color: rgb(243, 243, 243);
+  border-radius: 10px;
+}
+
+.feature-job-title {
+  color: #000000;
+  font-family: "Montserrat-Bold";
+  font-size: 16px;
+  letter-spacing: normal;
 }
 
 /*# sourceMappingURL=style.css.map */

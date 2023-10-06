@@ -1,0 +1,30 @@
+.built-trade{
+    .card-body{
+        box-shadow: 0 0 10px 5px rgba(206, 207, 254, 0.25);
+    }
+    .trade-img{
+        width:100px;
+        height:100px;
+    }
+    a{
+        text-decoration: none;
+        font-family: "Montserrat-Medium";
+        font-size: 10px;
+        color:#C22032;
+    }
+    .arrow-img{
+        width:20px;
+        height:20px;
+    }
+    .d-flex-trade{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+}
+.book-demo{
+    .card{
+        border-radius: 10px;
+    }
+}
