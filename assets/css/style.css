@@ -1011,6 +1011,19 @@ a:hover {
   transform: translate(0, -50%);
   max-width: 50%;
 }
+.main-carousel .carousel-caption-feature {
+  position: absolute;
+  left: 5%;
+  bottom: 1.25rem;
+  right: auto;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: left;
+  top: 30%;
+  transform: translate(0, -50%);
+  max-width: 50%;
+}
 
 .industry-slider .carousel-indicators {
   bottom: -50px;
