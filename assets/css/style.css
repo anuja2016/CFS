@@ -325,6 +325,7 @@
 }
 .banner-block .content .search-industry input {
   border-right: 0;
+  border-radius: 0.375rem 0 0 0.375rem;
 }
 .banner-block .content .search-industry .btnsearch {
   width: 60px;
@@ -1540,24 +1541,43 @@ footer .footlogo {
   box-shadow: 0 0 10px 5px rgba(206, 207, 254, 0.25);
   border-radius: 15px;
 }
+.sect-services .card:hover .services-icon {
+  transform: scale(1.1);
+}
+.sect-services .card:hover .arrow-img {
+  transform: translate(5px, 0px);
+}
 .sect-services .services-icon {
   width: 100px;
   height: 100px;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 .sect-services a {
   text-decoration: none;
-  font-family: "Montserrat-Medium";
-  font-size: 10px;
-  color: #C22032;
 }
 .sect-services .arrow-img {
   width: 20px;
   height: 20px;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-.sect-services .d-flex-trade {
+.sect-services .d-flex-links {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+.sect-services .d-flex-links p {
+  color: #C22032;
+}
+.sect-services .carousel-inner {
+  padding: 20px;
 }
 
 .sect-demo .card {
