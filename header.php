@@ -84,7 +84,7 @@
                     <div class="modal-header">
                         <img src="assets/images/redfieldweblogo.svg">
                         <h6 class="modal-title">Request a personalized demo</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <form>
@@ -226,48 +226,7 @@
         </div>
     </div>
 
-    <!--scripts--->
-    <script type="text/javascript" src="assets/js/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="assets/js/aos.js"></script>
-    <script type="text/javascript" src="assets/js/slick.min.js"></script>
-    <script>
-        /**
-         * Animation on scroll function and init
-         */
-        function aos_init() {
-            AOS.init({
-                duration: 1000,
-                easing: 'ease-in-out',
-                once: true,
-                mirror: false
-            });
-        }
-        window.addEventListener('load', () => {
-            aos_init();
-        });
-    </script>
-    <!--get demo popup--->
-    <script>
-        $(document).ready(function() {
-            $("#btn-SelectIndustry").click(function() {
-                $("#gd-form").hide();
-                $("#gd-industries").show();
-            });
-            $(".btn-back").click(function() {
-                $("#gd-form").show();
-                $("#gd-industries").hide();
-                $("#gd-technician").hide();
-            });
-            $("#btn-otherIndustry").click(function() {
-                $("#sect-otherindustry").toggle();
-            });
-            $("#btn-SelectTechnician").click(function() {
-                $("#gd-form").hide();
-                $("#gd-technician").show();
-            });
-        });
-    </script>
+    
 </body>
 
 </html>

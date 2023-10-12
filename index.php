@@ -312,7 +312,6 @@ include_once 'header.php';
       </div>
     </div>
   </div>
-  </div>
 </section>
 <!----------One App To Replace----------->
 <section class="main-Wrapper sect-oneapp" data-aos="fade-up">
@@ -518,49 +517,3 @@ include_once 'header.php';
 include_once 'footer.php';
 ?>
 
-<!--slick slider--->
-<script>
-  $('.preview-carousel').slick({
-    arrows: true,
-    variableWidth: true,
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 4
-  });
-
-  $('.industries-slider').slick({
-    infinite: true,
-    autoplay: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    dots: true
-  });
-  $('.trusted-industries-slider').slick({
-    infinite: true,
-    autoplay: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    dots: true
-  });
-  $('.trusted-companies').slick({
-    infinite: true,
-    autoplay: true,
-    slidesToShow: 4,
-    slidesToScroll: 1
-  });
-</script>
-
-<!--counter--->
-<script>
-  $('.count').each(function() {
-    $(this).prop('Counter', 0).animate({
-      Counter: $(this).text()
-    }, {
-      duration: 4000,
-      easing: 'swing',
-      step: function(now) {
-        $(this).text(Math.ceil(now));
-      }
-    });
-  });
-</script>

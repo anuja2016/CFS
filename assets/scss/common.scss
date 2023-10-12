@@ -7,7 +7,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 1rem;
-    color: #3C3C3E;
+    color: #000000;
 }
 
 .site-header {
@@ -29,17 +29,25 @@
     letter-spacing: 2px;
 
 }
+
 .title-sm-red {
     color: #C22032;
     font-family: "Montserrat-Medium";
     font-weight: 500;
-    font-size: 12px;
+    font-size: 1rem;
 }
 
 .title {
     color: #000000;
     font-family: "Montserrat-Bold";
     font-size: 35px;
+    letter-spacing: normal;
+}
+
+.title-md-montbold {
+    color: #000000;
+    font-family: "Montserrat-Bold";
+    font-size: 25px;
     letter-spacing: normal;
 }
 
@@ -68,6 +76,7 @@
     font-family: "Montserrat-regular";
     font-size: 14px;
 }
+
 .subtitle-montb {
     font-family: "Montserrat-Bold";
     font-size: 20px;
@@ -79,6 +88,7 @@
     padding: 35px;
     margin: 20px;
 }
+
 .darkgrey-block {
     background-color: #D9D9D9;
     height: 300px;
@@ -144,7 +154,8 @@
     font-family: "Montserrat-Bold";
     font-size: 45px;
     letter-spacing: normal;
-    span{
+
+    span {
         font-family: "Montserrat-Bold";
     }
 }
@@ -186,6 +197,7 @@
     color: #C22032;
 
 }
+
 .uncheckedstar {
     color: #FFFFFF;
 }
@@ -194,11 +206,12 @@
     font-size: 30px;
 }
 
-.title-poppins-bold {
+.title-poppins-sbold {
     font-family: "Poppins-SemiBold";
     color: #000;
     // font-size: 14px;
 }
+
 .pointer-cursor {
     cursor: pointer;
 }
@@ -209,6 +222,7 @@
     // border-radius: 5px;
     cursor: pointer;
 }
+
 .d-flex-common {
     display: flex;
     justify-content: space-between;
@@ -227,6 +241,8 @@
     .carousel-caption {
         h1 {
             font-family: "Montserrat-Bold";
+            font-size: 55px;
+
             span {
                 font-family: "Montserrat-Bold";
                 background: url('../images/Red_Rectangle.svg'), url('../images/red_arrows.svg');
@@ -257,6 +273,7 @@
                 background-color: #F4F4F4;
             }
         }
+
         .sect-getservice {
             display: flex;
             gap: 20px;
@@ -275,6 +292,7 @@
     cursor: pointer;
     border: 1px solid #C22032;
     white-space: nowrap;
+
     &:hover {
         background: #ae1d2d;
     }
@@ -322,12 +340,14 @@
         left: auto;
         right: 0;
         margin: 0 auto;
+
         h1 {
             font-family: "Poppins-bold";
             font-weight: 700;
             line-height: 100%;
             color: #FFFFFF;
         }
+
         p {
             font-weight: 400;
             line-height: 1.5;
@@ -356,12 +376,92 @@
     }
 }
 
+.banner-block-lft {
+    .block-img {
+        img {
+            width: 100%;
+            height: 100vh;
+            object-fit: contain;
+            object-position: top;
+        }
+    }
+
+    .content {
+        position: absolute;
+        top: 60%;
+        transform: translate(0, -50%);
+        max-width: 55%;
+        z-index: 5;
+        text-align: left;
+        // padding: 0 2rem;
+        left: 2%;
+        right: auto;
+        margin: 0 auto;
+
+        h1 {
+            font-family: "Poppins-bold";
+            font-weight: 700;
+            line-height: 65px;
+            color: #FFFFFF;
+            font-size: 55px;
+
+            .drawn-underline-wh {
+                background-position: center 60px;
+            }
+        }
+
+        p {
+            font-weight: 400;
+            line-height: 1.5;
+            color: #FFFFFF;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        .sect-getservice {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            max-width: 80%;
+
+            .input-group {
+                .input-group-text {
+                    padding: 0;
+                    border-radius: 0;
+
+                    .form-control {
+                        border-radius: 0;
+                        background-color: #F4F4F4;
+                    }
+                }
+
+                .form-control {
+                    border-radius: 0;
+                    border: none;
+                }
+            }
+        }
+
+    }
+}
+
 .drawn-underline {
     display: inline;
     padding-bottom: 1.25rem;
     background-image: url('../images/drawn-underline.svg');
     background-repeat: no-repeat;
-    background-position: center 50px;
+    background-position: center 45px;
+    background-size: 100% 18%;
+    font-style: normal;
+    font-family: "Montserrat-Bold";
+}
+
+.drawn-underline-wh {
+    display: inline;
+    padding-bottom: 1.25rem;
+    background-image: url('../images/drawn-underline-white.svg');
+    background-repeat: no-repeat;
+    background-position: center 45px;
     background-size: 100% 18%;
     font-style: normal;
     font-family: "Montserrat-Bold";
@@ -577,12 +677,14 @@
         font-size: 25px;
         letter-spacing: normal;
     }
-    h3{
+
+    h3 {
         color: #000000;
         font-family: "Montserrat-Bold";
         font-size: 35px;
         letter-spacing: normal;
-        span{
+
+        span {
             font-family: "Montserrat-Bold";
         }
     }
@@ -682,6 +784,7 @@
 .mt-10 {
     margin-top: 6.875rem;
 }
+
 .mt-20 {
     margin-top: 13.75rem;
 }
@@ -710,6 +813,7 @@
 
     ul {
         list-style: none;
+        padding-left: 0;
 
         li {
             display: inline-block;
@@ -718,6 +822,7 @@
             img {
                 width: 50px;
                 height: 50px;
+                object-fit: contain;
             }
         }
     }
@@ -727,7 +832,7 @@
     background-image: url('../images/dotsbackground.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 3rem;
+    padding-top: 3rem !important;
 
     .block-lightorange {
         margin: -100px 3rem 2rem;
@@ -751,100 +856,120 @@
         grid-gap: 20px;
         align-items: center;
         justify-content: center;
+
         p {
             font-family: "Poppins-semibold";
             color: #535353;
+
             &.cn-google {
                 font-size: 2rem;
             }
+
             &.cn-playstore {
                 font-size: 1.6rem;
             }
+
             &.cn-capterra {
                 font-size: 1.3rem;
             }
+
             &.cn-sofadvice {
                 font-size: 1rem;
             }
         }
     }
-    .subtitle{
+
+    .subtitle {
         font-size: 16px;
         letter-spacing: 4px;
         line-height: 30px;
         font-family: "Poppins-regular";
     }
-    h2{
+
+    h2 {
         font-family: "Poppins-bold";
         line-height: 40px;
-        .drawn-underline{
+
+        .drawn-underline {
             background-position: center 38px;
             font-style: italic;
         }
     }
-    .subtext{
+
+    .subtext {
         font-size: 20px;
     }
 }
-.top-wrapper{
+
+.top-wrapper {
     margin-top: 122px;
 }
+
 .sect-about {
-    h3{
+    h3 {
         font-size: 24px;
     }
 }
-#gd-industries{
-    ul{
+
+#gd-industries {
+    ul {
         list-style: none;
         padding-left: 0;
         display: flex;
         flex-wrap: wrap;
     }
-    .form-control{
+
+    .form-control {
         padding: 12px;
     }
 }
-.gd-gridlist{
-    li{
+
+.gd-gridlist {
+    li {
         width: 50%;
         flex-shrink: 0;
         padding: 5px;
-        a{
+
+        a {
             border: 1px solid #cdcdcd;
             padding: 12px;
             display: block;
             text-align: center;
             text-decoration: none;
             color: #000;
-            &:hover{
+
+            &:hover {
                 background: #ffebeb;
                 border: 1px solid #ffebeb;
                 color: #000;
                 text-decoration: none;
             }
         }
-        
+
     }
 }
-.gd-active{
+
+.gd-active {
     background: #ffebeb;
-    border: 1px solid #ffebeb!important;
+    border: 1px solid #ffebeb !important;
 }
-#gd-technician{
-    ul{
+
+#gd-technician {
+    ul {
         list-style: none;
         padding-left: 0;
         display: flex;
         flex-wrap: wrap;
     }
 }
+
 #getdemoModal {
-    .modal-header{
-        gap:15px;
+    .modal-header {
+        gap: 15px;
         grid-gap: 15px;
     }
 }
+
 .btn-grey {
     color: #000000;
     border-radius: 0;
@@ -854,7 +979,14 @@
     outline: none;
     cursor: pointer;
     border: 1px solid rgba(243, 243, 243, 1);
+
+    &:hover {
+        background-color: #FFFFFF;
+        border: 1px solid #C22032;
+        color: #C22032;
+    }
 }
+
 .block-red {
     border-radius: 0;
     background: #C22032;
@@ -864,6 +996,7 @@
     border: 1px solid #C22032;
     margin-top: -41px;
 }
+
 .btn-white {
     border-radius: 0;
     background: #FFFFFF;
@@ -872,5 +1005,59 @@
     outline: none;
     cursor: pointer;
     border: 1px solid #FFFFFF;
+}
 
+.client-review {
+    margin: 10px;
+
+    .review-card {
+        background-image: url('../images/quote-start.svg'), url('../images/whatsapp-icon.svg'), url('../images/whatsapp-icon.svg'), url('../images/whatsapp-icon.svg'), url('../images/quote-end.svg');
+        background-size: 10%, 2%, 3%, 4%, 10%;
+        background-position: left top, 40% 42%, 30% 86%, 68% 50%, right bottom;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-color: #FFF4F4;
+        border-radius: 60px;
+        padding: 20px;
+        box-shadow: 10px 10px 10px #f0f0f0;
+        margin: 20px;
+        cursor: pointer;
+
+        .review-card-content {
+            padding: 50px 0;
+            max-width: 70%;
+            margin: 0 auto;
+
+            p {
+                color: #818181;
+                line-height: 35px;
+            }
+
+            h5 {
+                font-family: "Poppins-regular";
+                color: #C22032;
+            }
+        }
+
+        .sect-rating {
+            ul {
+                li {
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            background: #333;
+            width: 186px;
+            height: 430px;
+            right: 0px;
+            z-index: 0;
+        }
+    }
 }

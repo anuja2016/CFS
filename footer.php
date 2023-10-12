@@ -78,3 +78,109 @@
     </div>
   </div>
 </footer>
+
+
+<!--scripts--->
+<script type="text/javascript" src="assets/js/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="assets/js/aos.js"></script>
+<script type="text/javascript" src="assets/js/slick.min.js"></script>
+<script>
+  /**
+   * Animation on scroll function and init
+   */
+  function aos_init() {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    });
+  }
+  window.addEventListener('load', () => {
+    aos_init();
+  });
+</script>
+<!--get demo popup--->
+<script>
+  $(document).ready(function() {
+    $("#btn-SelectIndustry").click(function() {
+      $("#gd-form").hide();
+      $("#gd-industries").show();
+    });
+    $(".btn-back").click(function() {
+      $("#gd-form").show();
+      $("#gd-industries").hide();
+      $("#gd-technician").hide();
+    });
+    $("#btn-otherIndustry").click(function() {
+      $("#sect-otherindustry").toggle();
+    });
+    $("#btn-SelectTechnician").click(function() {
+      $("#gd-form").hide();
+      $("#gd-technician").show();
+    });
+  });
+</script>
+
+<!--slick slider--->
+<script>
+  $('.preview-carousel').slick({
+    arrows: true,
+    variableWidth: true,
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 4
+  });
+
+  $('.industries-slider').slick({
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true
+  });
+  $('.trusted-industries-slider').slick({
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true
+  });
+  $('.trusted-companies').slick({
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 4,
+    slidesToScroll: 1
+  });
+  $('.features-slider').slick({
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+  });
+  $('.client-review').slick({
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+  });
+  
+</script>
+
+<!--counter--->
+<script>
+  $('.count').each(function() {
+    $(this).prop('Counter', 0).animate({
+      Counter: $(this).text()
+    }, {
+      duration: 4000,
+      easing: 'swing',
+      step: function(now) {
+        $(this).text(Math.ceil(now));
+      }
+    });
+  });
+</script>
