@@ -113,7 +113,7 @@ include_once 'header.php';
     <div class="row">
       <div class="col-md-6">
         <div>
-          <p class="title-xl-mont">Streamline Your Business Operations</p>
+          <p class="title-mont-semibold">Streamline Your Business Operations</p>
           <p class="subtext-mont pt-2">Say goodbye to juggling multiple platforms. Our all-in-one Field Service
             Management solution centralizes everything you need to efficiently run your Field service business
             in one convenient location, accessible wherever you are.

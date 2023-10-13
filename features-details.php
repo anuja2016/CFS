@@ -24,7 +24,7 @@ include_once 'header.php';
         <div class="overlay"></div>
     </div>
 </section>
-<section class="main-Wrapper mb-5">
+<section class="main-Wrapper mb-5" data-aos="fade-up">
     <div class="mb-3 text-center">
         <h3 class="title-md-montbold">FieldWeb helps you stay organized at each stage of the job.</h3>
     </div>
@@ -39,356 +39,327 @@ include_once 'header.php';
         </ul>
     </div>
 </section>
-<div class="block-grey mt-4 mb-3">
+<section class="block-grey-md mt-4 mb-3" data-aos="fade-up">
     <div class="text-center">
-        <p class="title-subtitle-sm">How do quotes work in FieldWeb?</p>
-        <p class="black-sm-title mt-2">With these quoting features, Jobber helps you save time, win more work, and offer
-            the </p>
-        <p class="black-sm-title"> professional and convenient experience that your customers expect.</p>
+        <h3 class="title-md-montbold mb-3">How do quotes work in FieldWeb?</h3>
+        <p>With these quoting features, Jobber helps you save time, win more work, and offer the professional and convenient experience that your customers expect.</p>
     </div>
-</div>
-<div class="mt-5 mb-3">
-    <div class="d-flex-evenly">
-        <div class="flex-1">
-            <div class="lineargradiant-block p-2">
-                <div class="d-flex gap-3 align-items-center">
-                    <img src="assets/images/listnoteicon.svg" class="feature-img" />
-                    <p>Book Job</p>
-                </div>
+</section>
+<section class="features-main mt-5 mb-3" data-aos="fade-up">
+    <div class="main-Wrapper">
+        <ul class="nav nav-pills justify-content-center mb-3">
+            <div class="d-flex gap-4">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tb-createquote">Create Quote</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-send-slatc">Send SLA and T&C</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-quoteapproval">Quote Approvals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-quotestatus">Quote Statuses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-createjob">Create Jobs</a>
+                </li>
             </div>
-        </div>
-        <div class="flex-1">
-            <div class="lineargradiant-block p-2">
-                <div class="d-flex gap-3 align-items-center">
-                    <img src="assets/images/listnoteicon.svg" class="feature-img" />
-                    <p>Job Assignment</p>
-                </div>
-            </div>
-        </div>
-        <div class="flex-1">
-            <div class="lineargradiant-block p-2">
-                <div class="d-flex gap-3 align-items-center">
-                    <img src="assets/images/listnoteicon.svg" class="feature-img" />
-                    <p>Quotations Design</p>
-                </div>
-            </div>
-        </div>
-        <div class="flex-1">
-            <div class="lineargradiant-block p-2">
-                <div class="d-flex gap-3 align-items-center">
-                    <img src="assets/images/listnoteicon.svg" class="feature-img" />
-                    <p>Quotations Design</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container pt-5">
-    <div class="row">
-        <div class="col-md-6">
-            <p class="title-black-small text-left">Quote Design</p>
-            <p class="title-xls text-left">Make customer-riendly quotes in less time</p>
-            <p class="text-left title-md pt-2">Create and send a professional-looking quote before you’ve even left the
-                customer’s property.</p>
-            <p class="text-left title-md pt-2">Your quotes will clearly display the details of the work along with
-                images of your products and services—or photos taken at the on-
-                site assessment.</p>
-            <div class="mt-3 text-left">
-                <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get
-                    Demo</button>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <img src="assets/images/quatationimg.svg" class="card-img-top" alt="...">
-        </div>
-    </div>
-</div>
-<div class="container pt-5">
-    <div class="row">
-        <div class="col-md-6">
-            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-        </div>
-        <div class="col-md-6">
-            <p class="title-black-small text-left">Quote Design</p>
-            <p class="title-xls text-left">Make customer-riendly quotes in less time</p>
-            <p class="text-left title-md pt-2">Create and send a professional-looking quote before you’ve even left the
-                customer’s property.</p>
-            <p class="text-left title-md pt-2">Your quotes will clearly display the details of the work along with
-                images of your products and services—or photos taken at the on-
-                site assessment.</p>
-            <div class="mt-3 text-left">
-                <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Book A Slot
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container pt-5">
-    <div class="row">
-        <div class="col-md-6">
-            <p class="title-black-small text-left">Quote Design</p>
-            <p class="title-xls text-left">Make customer-riendly quotes in less time</p>
-            <p class="text-left title-md pt-2">Create and send a professional-looking quote before you’ve even left the
-                customer’s property.</p>
-            <p class="text-left title-md pt-2">Your quotes will clearly display the details of the work along with
-                images of your products and services—or photos taken at the on-
-                site assessment.</p>
-            <div class="mt-3 text-left">
-                <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get
-                    Demo</button>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <img src="assets/images/quatationimg.svg" class="card-img-top" alt="...">
-        </div>
-    </div>
-</div>
-<div class="container mt-4 mb-5">
-    <div class="feature-grey-block">
-        <div class="p-5">
-            <div class="text-center">
-                <p class="feature-job-title">What is job quoting software?</p>
-            </div>
-            <div class="container">
-                <p class="black-sm-title pt-4 text-left">Quoting software like Jobber helps you put your services and
-                    costs
-                    into an online, interactive quote that customers can approve quickly.</p>
-                <p class="black-sm-title pt-4 text-left">Here’s how quoting in Jobber works:</p>
-                <div class="pt-4">
-                    <ul class="text-left title-sm">
-                        <li class="pt-2">Pre-built quote templates are customized with your company details and branding
-                        </li>
-                        <li class="pt-2">Select from a list of your products and services and add images</li>
-                        <li class="pt-2">View your quote estimated margin, and modify your line item pricing in response
-                        </li>
-                        <li class="pt-2">Send quotes to customers by text or email, with a link for online review and
-                            approval</li>
-                        <li class="pt-2">Schedule automatic follow-ups on quotes you haven’t heard back on</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container mt-5 mb-5">
-
-    <div class="row">
-        <div class="col-md-6">
-
-            <div class="feature-grey-block p-4">
-                <div class="text-center">
-                    <div class="block-red title-white">For your Business:</div>
-                </div>
-                <ul class="text-left title-sm-para">
-                    <li class="pt-3">Spend less time creating quotes and chasing down approval
-                    </li>
-                    <li class="pt-3">Win bigger jobs by offering consumer financing and add-ons in your quote</li>
-                    <li class="pt-3">Improve your win rate by 16% by sending quotes via text message
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="feature-grey-block p-4">
-                <div class="text-center">
-                    <div class="block-red title-white">For your Customer:</div>
-                </div>
-                <ul class="text-left title-sm-para">
-                    <li class="pt-3">Spend less time creating quotes and chasing down approval
-                    </li>
-                    <li class="pt-3">Win bigger jobs by offering consumer financing and add-ons in your quote</li>
-                    <li class="pt-3">Improve your win rate by 16% by sending quotes via text message
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="mt-5 mb-5">
-    <div class="carousel slide carousel-fade main-carousel" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/images/black-back-image.svg" class="img-fluid" alt="..." />
-                <div class="carousel-caption-feature d-md-block">
-                    <p class="white-sm-title">BOOK YOUR FREE DEMO</p>
-                    <h1>Learn more about FieldWeb</h1>
-                    <button type="submit" class="btn-white">
-                        <div class="d-flex-trade gap-2">
-                            Get Demo
-                            <img src="assets/images/arrowrightblack.svg" class="feature-img" />
-                        </div>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="text-center mt-5 mb-3">
-    <p class="title-red">OUR POWERFUL FEATURES</p>
-    <p class="title">I Switched to FieldWeb</p>
-</div>
-<div class="text-center mt-4 mb-3">
-    <p class="title-semibold">Big & Small Business Trusted Us
-    <p>
-
-</div>
-<div class="preview-carousel">
-    <div class="container m-5">
-        <div class="row">
-            <div class="col-md-3">
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div class="col-md-3">
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div class="col-md-3">
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div class="col-md-3">
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal -->
-<div class="getdemo-modal">
-    <div class="modal fade" id="getdemoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="d-flex gap-5 align-items-center">
-                        <img src="assets/images/redfieldweblogo.svg">
-                        <p class="title-poppins-bold">Request a personalized demo</p>
-                    </div>
-                    <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close" class="pointer-cursor" />
-
-                </div>
-                <div class="modal-body">
-                    <div class="row mb-3">
-                        <div class="col-md-12">
-                            <input type="text" class="form-control" placeholder="Company Name*">
-                        </div>
-                        <div class="col-md-12">
-                            <input type="number" class="form-control mt-2" placeholder="Mobile Number*">
-                        </div>
-                        <div class="col-md-12">
-                            <input type="email" class="form-control mt-2" placeholder="Email Id">
-                        </div>
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control mt-2" placeholder="Preferred Date">
-
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control mt-2" placeholder="Preferred Time">
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-md-12">
-                            <input type="text" class="form-control mt-2" placeholder="Name*">
-                        </div>
-                        <div class="col-md-12 mt-2">
-                            <div class="grey-ouline-block">
-                                <div class="d-flex-common">
-                                    <p class="black-sm-title">Select Industry</p>
-                                    <img src="assets/images/rightarrow.svg" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mt-2">
-                            <div class="grey-ouline-block">
-                                <div class="d-flex-common">
-                                    <p class="black-sm-title">Select Number of Techs</p>
-                                    <img src="assets/images/rightarrow.svg" />
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="text-center mb-3">
-                    <button type="button" class="btn-red">SUBMIT</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="book-demo">
-    <div class="background-dots mt-3 mb-3">
-        <div class="block-lg-lightorange m-5 p-5">
-            <div class="container">
+        </ul>
+        <div class="tab-content mt-5">
+            <div class="tab-pane fade show active" id="tb-createquote">
                 <div class="row">
-                    <div class="col-md-7">
-                        <p class="card-name">LEADING All -IN ONE SOFTWARE</p>
-                        <p class="black-xl-title pt-2">Book your Personalized Demo to learn more</p>
-                        <p class="black-sm-title pt-3">Explore why 1000 + service professional trust FieldWeb to run
-                            their business.</p>
+                    <div class="col-md-6">
+                        <p class="title-sm-red mb-2">Create Quote</p>
+                        <h2 class="title-mont-semibold">Craft Quick and Customer - Friendly Quotes Effortlessly with FieldWeb</h2>
+                        <p class="mb-3">Effortlessly Craft Winning Quotes with FieldWeb's Advanced Quotation Feature.</p>
+                        <p class="mb-3">Empower your business with easy-to-use tools for accurate and professional quoting, enhancing your client relationships and boosting success.</p>
+                        <p class="mb-3">Add multiple services and items with their quantity and price and make your quotation easily understandable to your customers.</p>
+                        <div class="mt-3 text-left">
+                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                        </div>
                     </div>
-                    <div class="col-md-5">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="modal-header">
-                                    <div class="d-flex gap-5 align-items-center">
-                                        <div></div>
-                                        <p class="title-poppins-bold pl-5">Request a personalized demo</p>
+                    <div class="col-md-6">
+                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tb-send-slatc">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="title-sm-red mb-2">Send SLA and T&C</p>
+                        <h2 class="title-mont-semibold">Enhance Quoting Precision: Send SLA and T&C's Effortlessly with FieldWeb</h2>
+                        <p class="mb-3">FieldWeb lets you bolster clarity and adherence by attaching Service Level Agreements and Terms & Conditions directly to your quotes. </p>
+                        <p class="mb-3">Elevate client communication with comprehensive, transparent quotations, fostering trust and ensuring compliance for smoother interactions and successful partnerships.</p>
+                        <div class="mt-3 text-left">
+                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tb-quoteapproval">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="title-sm-red mb-2">Quote Approvals</p>
+                        <h2 class="title-mont-semibold">Streamline Customer Approvals</h2>
+                        <p class="mb-3">FieldWeb empowers clients to conveniently give their nod to quotes through the dedicated customer app. </p>
+                        <p class="mb-3">Enhance engagement and simplify the process, making it easier than ever for customers to approve quotes on the go, fostering efficient communication and swift decision-making</p>
+                        <div class="mt-3 text-left">
+                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tb-quotestatus">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="title-sm-red mb-2">Quote Statuses</p>
+                        <h2 class="title-mont-semibold">Effortlessly Manage Quote Statuses</h2>
+                        <p class="mb-3">FieldWeb offers intuitive control over varied quote statuses, providing a comprehensive view of converted quotes and those requiring follow-up. </p>
+                        <p class="mb-3">This functionality ensures a streamlined workflow, empowering businesses to efficiently track the progress of quotes and take informed actions for enhanced customer engagement and business growth.</p>
+                        <div class="mt-3 text-left">
+                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tb-createjob">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="title-sm-red mb-2">Create Jobs</p>
+                        <h2 class="title-mont-semibold">Effortless Job Creation from Approved Quotes with FieldWeb's Streamlined Workflow</h2>
+                        <p class="mb-3">With FieldWeb, approved quotes transform into tasks instantly.</p>
+                        <p class="mb-3">Effortlessly convert quotes to actionable jobs, optimizing efficiency and eliminating manual steps. Elevate your workflow with streamlined task creation directly from approved quotes, ensuring swift and accurate project initiation.</p>
+                        <div class="mt-3 text-left">
+                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main-Wrapper mt-10 mb-5" data-aos="fade-up">
+    <div class="sect-jobquote">
+        <h2 class="title text-center">What is job quoting software?</h2>
+        <p class="mt-3 mb-4">Quote management software is a digital tool designed to streamline and enhance the process of creating, managing, and tracking quotations for products or services offered by a business. This software simplifies and automates what was once a time-consuming and manual task, enabling businesses to provide accurate quotes more efficiently and effectively.</p>
+        <ul>
+            <li><img src="assets/images/arrowrightblack.svg" class="img-fluid">The software enables businesses to generate quotes quickly by pulling in product and pricing information.</li>
+            <li><img src="assets/images/arrowrightblack.svg" class="img-fluid">Users can create standardized templates that maintain branding and consistency while tailoring quotes to individual customer needs.</li>
+            <li><img src="assets/images/arrowrightblack.svg" class="img-fluid">Quote management software allows multiple team members to collaborate on creating and reviewing quotes in real time.</li>
+            <li><img src="assets/images/arrowrightblack.svg" class="img-fluid">Advanced algorithms calculate prices based on various factors such as quantity, services, items and other variables, ensuring accurate and competitive quotes.</li>
+            <li><img src="assets/images/arrowrightblack.svg" class="img-fluid">The software provides insights into the success rate of quotes, allowing businesses to analyze trends, identify bottlenecks, and optimize their quoting process.</li>
+        </ul>
+    </div>
+</section>
+<section class="main-Wrapper mt-5 mb-5" data-aos="fade-up">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="quote-grey-block p-4">
+                <h5 class="block-red text-center">For your Business:</h5>
+                <ul class="text-left title-sm-para">
+                    <li class="pt-3">Spend less time creating quotes and chasing down approval</li>
+                    <li class="pt-3">Win bigger jobs by offering consumer financing and add-ons in your quote</li>
+                    <li class="pt-3">Improve your win rate by 16% by sending quotes via text message</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="quote-grey-block p-4">
+                <h5 class="block-red text-center">For your Customer:</h5>
+                <ul class="text-left title-sm-para">
+                    <li class="pt-3">Spend less time creating quotes and chasing down approval</li>
+                    <li class="pt-3">Win bigger jobs by offering consumer financing and add-ons in your quote</li>
+                    <li class="pt-3">Improve your win rate by 16% by sending quotes via text message</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-8 mb-3" data-aos="fade-up">
+    <div class="learnmore-block">
+        <p>BOOK YOUR FREE DEMO</p>
+        <h3>Learn more about <span>FieldWeb</span></h1>
+        <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
+    </div>
+</section>
+<section class="text-center mt-8 mb-3" data-aos="fade-up">
+    <p class="title-red">OUR POWERFUL FEATURES</p>
+    <h2 class="title drawn-underline">I Switched to FieldWeb</h2>
+    <div class="main-Wrapper">
+        <div class="client-review mt-5">
+            <div class="review-card">
+                <div class="review-card-content">
+                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                    <p>Wonderful Support from Team.</p>
+                    <p>Thanks</p>
+                    <h4 class="title-poppins-sbold">Nextgen Technologies</h4>
+                    <h5>Arendhu</h5>
+                    <div class="sect-rating">
+                        <ul>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="review-card-content">
+                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                    <p>Wonderful Support from Team.</p>
+                    <p>Thanks</p>
+                    <h4 class="title-poppins-sbold">Splash RO System</h4>
+                    <h5>Mohit Sapra</h5>
+                    <div class="sect-rating">
+                        <ul>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="review-card-content">
+                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                    <p>Wonderful Support from Team.</p>
+                    <p>Thanks</p>
+                    <h4 class="title-poppins-sbold">Godavari Mineral Water Technologies</h4>
+                    <h5>Chiranjeevi Rao</h5>
+                    <div class="sect-rating">
+                        <ul>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="review-card-content">
+                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                    <p>Wonderful Support from Team.</p>
+                    <p>Thanks</p>
+                    <h4 class="title-poppins-sbold">Image India</h4>
+                    <h5>Prasad Raju Kalindi</h5>
+                    <div class="sect-rating">
+                        <ul>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-10 mb-3" data-aos="fade-up">
+    <div class="main-Wrapper">
+        <div class="text-center mt-5 mb-5">
+            <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
+        </div>
+        <div class="trusted-companies mt-5">
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
+        </div>
+    </div>
+</section>
+<!----------get demo----------->
+<section class="main-Wrapper sect-demo mt-20 pb-3" data-aos="fade-up">
+    <div class="block-lightorange">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="subtitle">LEADING All -IN ONE SOFTWARE</p>
+                <h2 class="black-xl-title pt-2">Book your <span class="drawn-underline">Personalized Demo</span> to learn more</h2>
+                <p class="subtext">Explore why 1000 + service professional trust FieldWeb to run their business.</p>
+            </div>
+            <div class="col-md-5 ms-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="modal-header">
+                            <h6 class="title-poppins-sbold">Request a personalized demo</h6>
+                            <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close" class="pointer-cursor" />
+                        </div>
+                        <div class="row mb-3 mt-3">
+                            <div class="col-md-12">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control mt-2" placeholder="First Name">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="number" class="form-control mt-2" placeholder="Mobile Number*">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control mt-2" placeholder="Company Name*">
+                            </div>
+                            <div class="col-md-12 mt-2">
+                                <div class="grey-ouline-block">
+                                    <div class="d-flex-common">
+                                        <p class="black-sm-title">Select Industry</p>
+                                        <img src="assets/images/rightarrow.svg" />
                                     </div>
-                                    <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close" class="pointer-cursor" />
-                                </div>
-                                <div class="row mb-3 mt-3">
-                                    <div class="col-md-12">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input type="text" class="form-control mt-2" placeholder="First Name">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input type="number" class="form-control mt-2" placeholder="Mobile Number*">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input type="text" class="form-control mt-2" placeholder="Company Name*">
-                                    </div>
-                                    <div class="col-md-12 mt-2">
-                                        <div class="grey-ouline-block">
-                                            <div class="d-flex-common">
-                                                <p class="black-sm-title">Select Industry</p>
-                                                <img src="assets/images/rightarrow.svg" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 mt-2">
-                                        <div class="grey-ouline-block">
-                                            <div class="d-flex-common">
-                                                <p class="black-sm-title">Select Number of Techs</p>
-                                                <img src="assets/images/rightarrow.svg" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="text-center mb-3">
-                                    <button type="button" class="btn-red">SUBMIT</button>
                                 </div>
                             </div>
+                            <div class="col-md-12 mt-2">
+                                <div class="grey-ouline-block">
+                                    <div class="d-flex-common">
+                                        <p class="black-sm-title">Select Number of Techs</p>
+                                        <img src="assets/images/rightarrow.svg" />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="text-center mb-3">
+                            <button type="button" class="btn-red">SUBMIT</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
+
+
 <?php
 include_once 'footer.php';
 ?>
-<script>
-    $('.preview-carousel').slick({
-        arrows: true,
-        variableWidth: true,
-        centerMode: true,
-        centerPadding: '60px',
-        slidesToShow: 4
-    });
-</script>

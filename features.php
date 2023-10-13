@@ -14,7 +14,6 @@ include_once 'header.php';
                 <button class="btnsearch"><img src="assets/images/search-icon.svg" class="img-fluid" alt="search" /></button>
             </div>
         </div>
-        <div class="overlay"></div>
     </div>
 </section>
 <section class="sect-transresults mt-5 mb-3">
@@ -138,35 +137,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">QUOTATION</h3>
                                             <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
                                             <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -188,35 +187,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">SCHEDULING</h3>
                                             <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
                                             <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -238,35 +237,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">COMPLETE JOB</h3>
                                             <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
                                             <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -288,35 +287,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">INVOICE</h3>
                                             <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
                                             <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -338,35 +337,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">MEMBERSHIPS</h3>
                                             <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
                                             <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -388,35 +387,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">LEAD MANAGEMENT</h3>
                                             <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
                                             <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
                                                     <p class="title-sm">Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -474,35 +473,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">MOBILE APP</h3>
                                             <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
                                             <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -524,35 +523,35 @@ include_once 'header.php';
                                             <p class="title-md-montbold">ESTIMATES</p>
                                             <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
                                             <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -574,35 +573,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">PRICEBOOK</h3>
                                             <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
                                             <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -624,35 +623,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">EQUIPMENT</h3>
                                             <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
                                             <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -674,35 +673,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">FORMS</h3>
                                             <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
                                             <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -724,35 +723,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">TIMESHEETS</h3>
                                             <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
                                             <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -810,35 +809,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">MOBILE APP</h3>
                                             <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
                                             <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -860,35 +859,35 @@ include_once 'header.php';
                                             <p class="title-md-montbold">ESTIMATES</p>
                                             <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
                                             <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -910,35 +909,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">PRICEBOOK</h3>
                                             <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
                                             <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -960,35 +959,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">EQUIPMENT</h3>
                                             <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
                                             <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -1010,35 +1009,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">FORMS</h3>
                                             <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
                                             <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -1060,35 +1059,35 @@ include_once 'header.php';
                                             <h3 class="title-md-montbold">TIMESHEETS</h3>
                                             <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
                                             <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                            <div class="mt-3">
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Quote</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Add Multiple Services and Items</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Attach SLA and T&C’s</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Approvals</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Quote Statuses</p>
-                                                </div>
-                                                <div class="sub-content-flex bborder gap-2">
-                                                    <img src="assets/images/arrowrightblack.svg" class="sub-content-arrow-img" />
-                                                    <p>Create Jobs</p>
-                                                </div>
-                                                <div class="mt-3 text-left">
-                                                    <a href="featuresgetmore.php" role="button" class="btn-red">Learn More</a>
-                                                    <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
-                                                </div>
+                                            <ul class="f-list w-50">
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-4 text-left">
+                                                <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                                <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                             </div>
                                         </div>
                                         <div class="col-md-6">

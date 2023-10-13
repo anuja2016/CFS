@@ -51,22 +51,6 @@
         text-align: left;
     }
 
-    .sub-content-flex {
-        display: flex;
-        align-items: center;
-    }
-
-    .bborder {
-        border-bottom: 1.5px solid #000000;
-        line-height: 50px;
-        width: 300px;
-    }
-
-    .sub-content-arrow-img {
-        width: 20px;
-        height: 20px;
-    }
-
     .tab-anchor {
         a {
             text-decoration: none;
@@ -88,29 +72,59 @@
     width: 30px;
 }
 
-.feature-grey-block {
+.quote-grey-block {
     background-color: rgba(243, 243, 243, 1);
     border-radius: 10px;
+    position: relative;
+
+    h5 {
+        font-family: "Montserrat-SemiBold";
+    }
 }
 
-.feature-job-title {
-    color: #000000;
-    font-family: "Montserrat-Bold";
-    font-size: 16px;
-    letter-spacing: normal;
-}
-.job-list{
-    ul{
+.job-list {
+    ul {
         list-style: none;
         padding-left: 0;
         text-align: center;
-        li{
+
+        li {
             border-right: 2px solid #ddd;
             display: inline-block;
             padding: 0px 10px;
             color: #929292;
-            &:last-child{
+
+            &:last-child {
                 border-right: 0;
+            }
+        }
+    }
+}
+
+.sect-jobquote {
+    background-color: #F3F3F3;
+    padding: 40px;
+    border-radius: 20px;
+
+    p {
+        line-height: 28px;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            text-decoration: none;
+            display: flex;
+            gap: 10px;
+            grid-gap: 10px;
+            align-items: start;
+            padding: 7px 0;
+
+            img {
+                width: 20px;
+                height: 20px;
             }
         }
     }

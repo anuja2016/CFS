@@ -1,55 +1,92 @@
-.sect-services{
+.sect-services {
     margin-top: -50px;
-    .card{
+
+    .card {
         box-shadow: 0 0 10px 5px rgba(206, 207, 254, 0.25);
         border-radius: 15px;
         height: 100%;
-        &:hover{
-            .services-icon{
+
+        &:hover {
+            .services-icon {
                 transform: scale(1.1);
             }
-            .arrow-img{
+
+            .arrow-img {
                 transform: translate(5px, 0px);
             }
         }
     }
-    .services-icon{
-        width:100px;
-        height:100px;
+
+    .services-icon {
+        width: 100px;
+        height: 100px;
         transition-duration: 0.3s;
         -webkit-transition-property: transform;
         transition-property: transform;
         -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
     }
-    a{
+
+    a {
         text-decoration: none;
     }
-    .arrow-img{
-        width:20px;
-        height:20px;
+
+    .arrow-img {
+        width: 20px;
+        height: 20px;
         transition-duration: 0.3s;
         -webkit-transition-property: transform;
         transition-property: transform;
         -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
     }
-    .d-flex-links{
+
+    .d-flex-links {
         justify-content: center;
         align-items: center;
         display: flex;
-        p{
+
+        p {
             color: #C22032;
         }
     }
-    .carousel-inner{
+
+    .carousel-inner {
         padding: 20px;
     }
+
+    h5 {
+        font-family: "Poppins-semibold";
+    }
 }
-.sect-demo{
-    .card{
+
+.sect-demo {
+    .card {
         border-radius: 10px;
         box-shadow: 0px 0px 10px #ddd;
         margin-top: -120px;
+    }
+}
+
+.bg-golden {
+    background-color: #CBA10E !important;
+}
+
+.bg-red {
+    background-color: #A60B1C !important;
+}
+
+.bg-blue {
+    background-color: #0F2C95 !important;
+}
+
+.bg-green {
+    background-color: #20AE09 !important;
+}
+
+#accordionfaq {
+    .accordion-button {
+        font-family: 'Montserrat-Medium';
+        font-weight: 600;
     }
 }

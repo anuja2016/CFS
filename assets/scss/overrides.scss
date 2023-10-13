@@ -75,3 +75,18 @@
         margin: 0!important;
     }
 }
+#accordionservice{
+    .accordion-button{
+        color: #FFFFFF;
+        img{
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        &::after{
+            background-image:url('../images/chevron-down-icon-wh.svg');
+            margin-top: 5px;
+        }
+    }
+}
+

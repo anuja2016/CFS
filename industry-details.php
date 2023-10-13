@@ -23,556 +23,370 @@ include_once 'header.php';
                 <button type="submit" class="btn-getstarted">Get Started</button>
             </div>
         </div>
-        <div class="overlay"></div>
     </div>
 </section>
-<section class="sect-services">
-    <div class="industry-slider main-Wrapper">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide mb-5" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<section class="mb-3" data-aos="fade-up">
+    <div class="wrapper-head">
+        <p class="title-red">OUR POWERFUL FEATURES</p>
+        <h2 class="title">What is HVAC Field Service Management Software?</h2>
+    </div>
+    <div class="main-Wrapper mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="mb-3">In the fast-paced world of HVAC services, efficiency and accuracy are paramount. FieldWeb offers comprehensive HVAC business software that revolutionizes the way you manage your operations.</p>
+                <p class="mb-3"><b>Effortless Management:</b> Our HVAC business software streamlines every aspect of your operations. From scheduling appointments and dispatching technicians to tracking inventory and generating invoice..</p>
+                <p class="mb-3"><b>Real-time Updates:</b> Stay in the loop with real-time updates. Receive instant notifications when new jobs are booked, enabling you to assign tasks promptly & technicians can access job details.</p>
+                <p class="mb-3"><b>Enhanced Customer Engagement:</b> Our HVAC software allows clients to book appointments online, view service history, and access quotes. </p>
+                <p><b>Key Benefits:</b></p>
+                <ul class="mt-3 ps-3">
+                    <li><b>Efficient Scheduling:</b> Optimize technician schedules for faster response times.</li>
+                    <li><b>Inventory Management:</b> Track and manage inventory effortlessly.</li>
+                    <li><b>Accurate Invoicing:</b> Generate professional invoices with accurate pricing.</li>
+                    <li><b>Real-time Communication:</b> Stay connected with clients and field staff instantly.</li>
+                </ul>
+                <div class="mt-3 text-left">
+                    <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Start Free Trial</button>
+                </div>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/hvac.svg" class="services-icon" />
-                                    <p class="card-name pt-2"> Roadside Assistance</p>
-                                    <p class="card-smallpara m-2">"Enhance roadside assistance with FSM software.
-                                        Seamlessly handle dispatch, appointments, and customer interactions for
-                                        prompt support."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>HVAC Software </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/ro_repair.svg" class="services-icon" />
-                                    <p class="card-name pt-2"> RO Repair </p>
-                                    <p class="card-smallpara m-2">"Optimize HVAC operations with advanced FSM
-                                        software. Streamline scheduling, inventory, and customer management
-                                        effortlessly."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>RO Software </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/lift_escalators.svg" class="services-icon" />
-                                    <p class="card-name pt-2"> Lift & Escalators</p>
-                                    <p class="card-smallpara m-2">"Transform lift and escalator services with FSM
-                                        software. Optimize maintenance, scheduling, and customer interactions
-                                        seamlessly."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Lift & Escalator Software </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
+            <div class="col-md-6">
+                <img src="assets/images/quotation-bg.svg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-10 mb-3" data-aos="fade-up">
+    <div class="wrapper-head">
+        <p class="title-red">OUR POWERFUL FEATURES</p>
+        <h2 class="title">Making HVAC service run smoothly for your business</h2>
+        <p class="mt-5">Running an HVAC business can be tough. From scheduling jobs to dispatching technicians, disorganization can lead to inefficiency. That's where FieldWeb's HVAC software comes in. It simplifies everything – create estimates, installations, repairs, job tracking and on the job reports – all in one place.</p>
+    </div>
+    <div class="main-Wrapper mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion accordion-flush" id="accordionservice">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="service-headingOne">
+                            <button class="accordion-button collapsed bg-golden" type="button" data-bs-toggle="collapse" data-bs-target="#service-collapseOne" aria-expanded="false" aria-controls="service-collapseOne">
+                                <img src="assets/images/quotes-icon.svg" /> Quotes
+                            </button>
+                        </h2>
+                        <div id="service-collapseOne" class="accordion-collapse collapse" aria-labelledby="service-headingOne" data-bs-parent="#accordionservice">
+                            <div class="accordion-body">
+                                <ul class="f-list">
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Add multiple services and items</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Share Quote & take follow-ups</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Change Quote Status</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Quote Approvals</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/plumbing.svg" class="services-icon" />
-                                    <p class="card-name pt-2"> Plumbing</p>
-                                    <p class="card-smallpara m-2">"Revolutionize plumbing tasks with FSM software.
-                                        Efficiently manage jobs, dispatch, and customer communication effortlessly."
-                                    </p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Plumbing Software </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/cctv.svg" class="services-icon" />
-                                    <p class="card-name pt-2"> CCTV </p>
-                                    <p class="card-smallpara m-2">Empower your CCTV business with FSM software.
-                                        Streamline tasks, manage clients, and enhance service efficiency
-                                        effortlessly."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>CCTV Software </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/pest_control.svg" class="services-icon" />
-                                    <p class="card-name pt-2"> Pest Control</p>
-                                    <p class="card-smallpara m-2">"Revamp pest control operations with FSM software.
-                                        Optimize scheduling, reporting, and customer interactions for seamless
-                                        service."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Pest Control </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="service-headingTwo">
+                            <button class="accordion-button collapsed bg-red" type="button" data-bs-toggle="collapse" data-bs-target="#service-collapseTwo" aria-expanded="false" aria-controls="service-collapseTwo">
+                                <img src="assets/images/schedule-job-icon.svg" /> Schedule Job
+                            </button>
+                        </h2>
+                        <div id="service-collapseTwo" class="accordion-collapse collapse" aria-labelledby="service-headingTwo" data-bs-parent="#accordionservice">
+                            <div class="accordion-body">
+                                <ul class="f-list">
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Assign jobs</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Map and route optimization</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Real - Time Updates</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Job Reminders</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/solar_repair.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Solar Repair</p>
-                                    <p class="card-smallpara m-2">"Boost your solar business with FSM software.
-                                        Effortlessly manage projects, maintenance, and client interactions for
-                                        success."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Solar Software </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/electrical.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Electrical</p>
-                                    <p class="card-smallpara m-2">"Elevate electrical operations with FSM software.
-                                        Streamline scheduling, reporting, and customer interactions seamlessly."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Electrical Software </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/home_appliance.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Home Appliance</p>
-                                    <p class="card-smallpara m-2">"Revolutionize home appliance repairs using FSM
-                                        software. Optimize scheduling, reporting, and client communication for
-                                        efficient service."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Home Appliance</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="service-headingThree">
+                            <button class="accordion-button collapsed bg-blue" type="button" data-bs-toggle="collapse" data-bs-target="#service-collapseThree" aria-expanded="false" aria-controls="service-collapseThree">
+                                <img src="assets/images/complete-job-icon.svg" /> Complete Job
+                            </button>
+                        </h2>
+                        <div id="service-collapseThree" class="accordion-collapse collapse" aria-labelledby="service-headingThree" data-bs-parent="#accordionservice">
+                            <div class="accordion-body">
+                                <ul class="f-list">
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Job Notification</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Job Detailing</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Job Images</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Completion Report</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/broadband_service.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Broadband Service</p>
-                                    <p class="card-smallpara m-2">"Boost broadband services with FSM software.
-                                        Seamlessly manage installations, appointments, and customer interactions for
-                                        connectivity excellence."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Broadband Service</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/computer_it.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Computer & IT</p>
-                                    <p class="card-smallpara m-2">"Empower IT solutions with FSM software.
-                                        Streamline task management, appointments, and client support for tech
-                                        excellence."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Computer & IT </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/geyser_repair.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Geyser Repair</p>
-                                    <p class="card-smallpara m-2">"Revolutionize geyser repairs through FSM
-                                        software. Optimize scheduling, reporting, and customer communication for
-                                        efficient service."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Geyser Repair</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="service-headingFour">
+                            <button class="accordion-button collapsed bg-green" type="button" data-bs-toggle="collapse" data-bs-target="#service-collapseFour" aria-expanded="false" aria-controls="service-collapseFour">
+                                <img src="assets/images/invoice-icon.svg" /> Invoice
+                            </button>
+                        </h2>
+                        <div id="service-collapseFour" class="accordion-collapse collapse" aria-labelledby="service-headingFour" data-bs-parent="#accordionservice">
+                            <div class="accordion-body">
+                                <ul class="f-list">
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Generate Invoice</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Invoice Statuses</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Payment Followup</p>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/arrowrightblack.svg" />
+                                        <p class="title-sm">Record Payment</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/roadside_assistance.svg" class="services-icon" />
-                                    <p class="card-name pt-2"> Roadside Assistance</p>
-                                    <p class="card-smallpara m-2">"Enhance roadside assistance with FSM software.
-                                        Seamlessly handle dispatch, appointments, and customer interactions for
-                                        prompt support."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Roadside Assistance </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/medical_equipment.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Medical Equipment </p>
-                                    <p class="card-smallpara m-2">"Elevate medical equipment services using FSM
-                                        software. Seamlessly manage maintenance, appointments, and client
-                                        interactions for precision."
-                                    </p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Medical Equipment </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/general_contracting.svg" class="services-icon" />
-                                    <p class="card-name pt-2"> General Contracting</p>
-                                    <p class="card-smallpara m-2">"Empower general contracting projects with FSM
-                                        software. Streamline tasks, appointments, and communication for seamless
-                                        project execution."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>General Contracting</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/home_clean.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Home Clean</p>
-                                    <p class="card-smallpara m-2">"Elevate home cleaning services using FSM
-                                        software. Seamlessly manage appointments, reporting, and customer
-                                        satisfaction for a sparkling result."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Home Clean </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/painting_service.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Painting Service</p>
-                                    <p class="card-smallpara m-2">"Transform painting projects with FSM software.
-                                        Efficiently manage scheduling, resources, and client interactions for
-                                        vibrant results."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Painting Service </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/handyman_repair.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Handyman Repair</p>
-                                    <p class="card-smallpara m-2">"Enhance handyman repairs using FSM software.
-                                        Seamlessly manage tasks, appointments, and client communication for prompt
-                                        solutions."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Handyman Repair </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/carpet_cleaning.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Carpet Cleaning</p>
-                                    <p class="card-smallpara m-2">"Revamp carpet cleaning with FSM software.
-                                        Optimize scheduling, reporting, and customer interactions for a fresher home
-                                        environment."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Carpet Cleaning</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/pool_cleaning.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Pool Cleaning</p>
-                                    <p class="card-smallpara m-2">"Elevate pool cleaning with FSM software.
-                                        Efficiently manage appointments, maintenance, and client communication for
-                                        crystal-clear results."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Pool Cleaning</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/airduct_cleaning.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Air Duct Cleaning</p>
-                                    <p class="card-smallpara m-2">"Empower air duct cleaning using FSM software.
-                                        Seamlessly manage appointments, reporting, and customer satisfaction for
-                                        fresher air."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Air Duct Cleaning</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/fireplace_chimney.svg" class="services-icon" />
-                                    <p class="card-name pt-2">FirePlace & Chimney</p>
-                                    <p class="card-smallpara m-2">"Transform fireplace and chimney services with FSM
-                                        software. Streamline scheduling, resources, and client interactions for
-                                        safer warmth."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Fireplace & Chimney</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/landscaping_lawn.svg" class="services-icon" />
-                                    <p class="card-name pt-2">LandScaping & Lawn</p>
-                                    <p class="card-smallpara m-2">"Revolutionize landscaping and lawn care with FSM
-                                        software. Optimize tasks, appointments, and communication for lush outdoor
-                                        spaces."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Landscaping & Lawn</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/septictank_cleaning.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Septic Tank Cleaning</p>
-                                    <p class="card-smallpara m-2">"Boost septic tank cleaning with FSM software.
-                                        Efficiently manage appointments, maintenance, and customer interactions for
-                                        a clean environment."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Septic Tank Cleaning</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/janitoral_cleaning.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Janitoral Cleaning</p>
-                                    <p class="card-smallpara m-2">"janitorial cleaning with FSM software. Seamlessly
-                                        manage appointments, tasks, and client interactions for spotless spaces."
-                                    </p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Janitoral Cleaning</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/roofing_service.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Roofing Service</p>
-                                    <p class="card-smallpara m-2">"Transform roofing projects with FSM software.
-                                        Efficiently manage tasks, appointments, and communication for secure
-                                        structures."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Roofing Service</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/snow-removal.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Snow Removal</p>
-                                    <p class="card-smallpara m-2">"snow removal using FSM software. Seamlessly
-                                        manage dispatch, appointments, customer communication for safer pathways."
-                                    </p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Snow Removal </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/window_cleaning.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Window Cleaning </p>
-                                    <p class="card-smallpara m-2">"window cleaning with FSM software. Optimize
-                                        scheduling, reporting, and customer interactions for crystal-clear views."
-                                    </p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Window Cleaning</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/garagedoor_installation.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Garage Door Installation</p>
-                                    <p class="card-smallpara m-2">"Boost garage door installations with FSM
-                                        software. Efficiently manage tasks, appointments, and client communication
-                                        for seamless entrances."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Garage Door Installation </p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/locksmith_service.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Locksmith Service</p>
-                                    <p class="card-smallpara m-2">"Enhance locksmith solutions using FSM software.
-                                        Seamlessly manage appointments, reporting, and client interactions for
-                                        secure access."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>LockSmith Service</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/irrigation_service.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Irrigation Service</p>
-                                    <p class="card-smallpara m-2">"Empower irrigation services with FSM software.
-                                        Streamline scheduling, resources, and customer communication for greener
-                                        landscapes."</p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Irrigation Service</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/audiovisual_repair.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Audio Visual Repair</p>
-                                    <p class="card-smallpara m-2">"Revamp audio visual repairs using FSM software.
-                                        Optimize appointments, tasks, and communication for enhanced experiences."
-                                    </p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Audio Visual Repair</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="card">
-                                <div class="card-body text-center">
-                                    <img src="assets/images/printer_repair.svg" class="services-icon" />
-                                    <p class="card-name pt-2">Printer Repair</p>
-                                    <p class="card-smallpara m-2">“Transform printer repairs with FSM software.
-                                        Efficiently manage tasks, appointments, and client interactions for optimal
-                                        performance."
-                                    </p>
-                                    <div class="d-flex-links gap-2">
-                                        <p>Printer Repair</p>
-                                        <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card sub-content">
+                    <img src="assets/images/job-schedules-bg2.svg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <p class="title-xls">HVAC Scheduling Software</p>
+                        <p class="pt-2">Efficient HVAC scheduling is essential for smooth operations. Our HVAC Scheduling Software simplifies appointment management, technician dispatch, and ensures timely service, enhancing your business's performance.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<section class="main-Wrapper text-center pt-5 mb-3" data-aos="fade-up">
-    <div class="row align-items-center">
-        <div class="col-md-6">
-            <p class="title-md">IN 40 YEARS OF EXPERIENCE</p>
-            <h4 class="title pt-2">Trusted By </p>
-                <h3 class="red-title-bold drawn-underline"><span class="count">40000</span> + Users</h3>
+<section class="mt-8 mb-3" data-aos="fade-up">
+    <div class="learnmore-block">
+        <p>BOOK YOUR FREE DEMO</p>
+        <h3>Learn more about <span>FieldWeb</span></h1>
+            <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
+    </div>
+</section>
+<section class="mt-10 mb-3" data-aos="fade-up">
+    <div class="wrapper-head">
+        <p class="title-red">OUR POWERFUL FEATURES</p>
+        <h2 class="title">Frequently Asked Questions</h2>
+    </div>
+    <div class="main-Wrapper mt-5">
+        <div class="accordion accordion-flush" id="accordionfaq">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseOne" aria-expanded="false" aria-controls="faq-collapseOne">
+                    What is HVAC business software, and how can it benefit my HVAC company? 
+                    </button>
+                </h2>
+                <div id="faq-collapseOne" class="accordion-collapse collapse" aria-labelledby="faq-headingOne" data-bs-parent="#accordionfaq">
+                    <div class="accordion-body">
+                    HVAC business software is a comprehensive tool that helps streamline your operations, from scheduling appointments to dispatching technicians and managing invoices. It boosts efficiency, reduces errors, and enhances customer satisfaction.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseTwo" aria-expanded="false" aria-controls="faq-collapseTwo">
+                    Is FieldWeb's HVAC software suitable for both small and large HVAC businesses?
+                    </button>
+                </h2>
+                <div id="faq-collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq-headingTwo" data-bs-parent="#accordionfaq">
+                    <div class="accordion-body">
+                    Absolutely, FieldWeb's HVAC software is designed to cater to businesses of all sizes. Whether you're a small local HVAC company or a larger enterprise, our software can be tailored to meet your needs.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseThree" aria-expanded="false" aria-controls="faq-collapseThree">
+                    Can I track the progress of HVAC jobs and technician assignments in real time?
+                    </button>
+                </h2>
+                <div id="faq-collapseThree" class="accordion-collapse collapse" aria-labelledby="faq-headingThree" data-bs-parent="#accordionfaq">
+                    <div class="accordion-body">
+                    Yes, FieldWeb's HVAC software offers real-time updates on job progress and technician assignments. You can monitor task statuses, technician locations, and more, ensuring smooth communication and efficient faq delivery.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseFour" aria-expanded="false" aria-controls="faq-collapseFour">
+                    Can I use FieldWeb's HVAC software to create professional and accurate estimates?
+                    </button>
+                </h2>
+                <div id="faq-collapseFour" class="accordion-collapse collapse" aria-labelledby="faq-headingFour" data-bs-parent="#accordionfaq">
+                    <div class="accordion-body">
+                    Yes, our software includes features to help you create detailed and accurate estimates for your HVAC services. You can customize quotes based on services, materials, and labor, ensuring transparency and winning customer trust.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseFive" aria-expanded="false" aria-controls="faq-collapseFive">
+                    Does FieldWeb's HVAC software offer mobile accessibility for technicians in the field?
+                    </button>
+                </h2>
+                <div id="faq-collapseFive" class="accordion-collapse collapse" aria-labelledby="faq-headingFive" data-bs-parent="#accordionfaq">
+                    <div class="accordion-body">
+                    Absolutely, our software is designed to be accessible on mobile devices. Technicians can access job details, update statuses, and communicate with the office directly from their smartphones or tablets.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseSix" aria-expanded="false" aria-controls="faq-collapseSix">
+                    How does FieldWeb's HVAC software help in improving customer engagement and satisfaction?
+                    </button>
+                </h2>
+                <div id="faq-collapseSix" class="accordion-collapse collapse" aria-labelledby="faq-headingSix" data-bs-parent="#accordionfaq">
+                    <div class="accordion-body">
+                    Our HVAC software allows clients to book appointments online, view service history, and access estimates easily. This transparency fosters trust, enhances communication, and ultimately leads to higher customer satisfaction.
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6">
-            <img src="assets/images/idea.svg" alt="..." class="img-fluid">
+    </div>
+</section>
+<section class="text-center mt-10 mb-3" data-aos="fade-up">
+    <p class="title-red">OUR POWERFUL FEATURES</p>
+    <h2 class="title drawn-underline">I Switched to FieldWeb</h2>
+    <div class="main-Wrapper">
+        <div class="client-review mt-5">
+            <div class="review-card">
+                <div class="review-card-content">
+                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                    <p>Wonderful Support from Team.</p>
+                    <p>Thanks</p>
+                    <h4 class="title-poppins-sbold">Nextgen Technologies</h4>
+                    <h5>Arendhu</h5>
+                    <div class="sect-rating">
+                        <ul>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="review-card-content">
+                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                    <p>Wonderful Support from Team.</p>
+                    <p>Thanks</p>
+                    <h4 class="title-poppins-sbold">Splash RO System</h4>
+                    <h5>Mohit Sapra</h5>
+                    <div class="sect-rating">
+                        <ul>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="review-card-content">
+                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                    <p>Wonderful Support from Team.</p>
+                    <p>Thanks</p>
+                    <h4 class="title-poppins-sbold">Godavari Mineral Water Technologies</h4>
+                    <h5>Chiranjeevi Rao</h5>
+                    <div class="sect-rating">
+                        <ul>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="review-card-content">
+                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                    <p>Wonderful Support from Team.</p>
+                    <p>Thanks</p>
+                    <h4 class="title-poppins-sbold">Image India</h4>
+                    <h5>Prasad Raju Kalindi</h5>
+                    <div class="sect-rating">
+                        <ul>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-10 mb-3" data-aos="fade-up">
+    <div class="main-Wrapper">
+        <div class="text-center mt-5 mb-5">
+            <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
+        </div>
+        <div class="trusted-companies mt-5">
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
+            <div>
+                <img src="assets/images/trustlogo.svg" />
+            </div>
         </div>
     </div>
 </section>
