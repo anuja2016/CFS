@@ -265,50 +265,50 @@ include_once 'header.php';
       </div>
       <div class="col-md-7">
         <h2>Transformative Results with FieldWeb FSM</h3>
-        <p class="pt-2 subtext-mont">FieldWeb makes running a service business easier, with quoting,
-          scheduling, invoicing, report and payments in one place.</p>
-        <div class="row mt-3">
-          <div class="col-md-5 mt-2">
-            <div class="block-darkgrey p-2">
-              <h3><span class="count">200000</span>+</h3>
-              <p>Field Service experts trust FieldWeb</p>
+          <p class="pt-2 subtext-mont">FieldWeb makes running a service business easier, with quoting,
+            scheduling, invoicing, report and payments in one place.</p>
+          <div class="row mt-3">
+            <div class="col-md-5 mt-2">
+              <div class="block-darkgrey p-2">
+                <h3><span class="count">200000</span>+</h3>
+                <p>Field Service experts trust FieldWeb</p>
+              </div>
+            </div>
+            <div class="col-md-5 mt-2">
+              <div class="block-darkgrey p-2">
+                <h3><span class="count">50</span>+</h3>
+                <p>Field Service Industries served us</p>
+              </div>
             </div>
           </div>
-          <div class="col-md-5 mt-2">
-            <div class="block-darkgrey p-2">
-              <h3><span class="count">50</span>+</h3>
-              <p>Field Service Industries served us</p>
+          <div class="row mt-3">
+            <div class="col-md-5 mt-2">
+              <div class="block-darkgrey p-2">
+                <h3><span class="count">5</span> Million + </h3>
+                <p>households have been served by FieldWeb-powered businesses</p>
+              </div>
+            </div>
+            <div class="col-md-5 mt-2">
+              <div class="block-darkgrey p-2">
+                <h3><span class="count">14</span></h3>
+                <p>hours per week saved using FieldWeb, on average</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-md-5 mt-2">
-            <div class="block-darkgrey p-2">
-              <h3><span class="count">5</span> Million + </h3>
-              <p>households have been served by FieldWeb-powered businesses</p>
+          <div class="row mt-3">
+            <div class="col-md-5 mt-2">
+              <div class="block-darkgrey p-2">
+                <h3><span class="count">27</span>%</h3>
+                <p>Average Increase in Monthly Revenue using FieldWeb</p>
+              </div>
+            </div>
+            <div class="col-md-5 mt-2">
+              <div class="block-darkgrey p-2">
+                <h3><span class="count">35</span>%</h3>
+                <p>no. of Customers increase By using FieldWeb</p>
+              </div>
             </div>
           </div>
-          <div class="col-md-5 mt-2">
-            <div class="block-darkgrey p-2">
-              <h3><span class="count">14</span></h3>
-              <p>hours per week saved using FieldWeb, on average</p>
-            </div>
-          </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-md-5 mt-2">
-            <div class="block-darkgrey p-2">
-              <h3><span class="count">27</span>%</h3>
-              <p>Average Increase in Monthly Revenue using FieldWeb</p>
-            </div>
-          </div>
-          <div class="col-md-5 mt-2">
-            <div class="block-darkgrey p-2">
-              <h3><span class="count">35</span>%</h3>
-              <p>no. of Customers increase By using FieldWeb</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -405,8 +405,8 @@ include_once 'header.php';
 <!----------Trusted industries----------->
 <section class="main-Wrapper" data-aos="fade-up">
   <div class="text-center mt-5 mb-3">
-    <h2 class="title">Over 200000+ Field Service Businesses in 50+<h2>
-        <h2 class="title">industries trust FieldWeb</h2>
+    <h2 class="title">Over 200000+ Field Service Businesses in 50+</h2>
+    <h2 class="title">industries trust FieldWeb</h2>
   </div>
   <div class="block-lightorange mt-10">
     <div class="trusted-industries-slider">
@@ -516,4 +516,3 @@ include_once 'header.php';
 <?php
 include_once 'footer.php';
 ?>
-

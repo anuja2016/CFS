@@ -2,33 +2,23 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='assets/css/style.css' rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>FieldWeb</title>-->
-
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/aos.css" rel="stylesheet">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
-    <title>FieldWeb</title>
+    <title> Best Field Service Management Software - FieldWeb</title>
+    <meta name="title" content="Best Field Service Management | FSM Software - FieldWeb" />
+    <meta property="og:title" content="Best Field Service Management | FSM Software - FieldWeb" />
+    <meta property="og:description" content=" FieldWeb is a Field Service Management software that helps businesses streamline their field service operations." />
+    <meta name="description" content="FieldWeb is a Field Service Management software that offers a wide range of features to optimize your field service operations." />
+    <meta name="keywords" content="field service management software, Best Field Service Management Software,field service management app, field service management software for small business, field service scheduling, best crm software for FSM, Field business management software, inventory management software small business,inventory tracking system for small business, best field service software,Mobile workforce management software, Best FFM software  for small business, Field force automations software, technician management software, technician scheduling software, inventory tracking system for small business, field service management software india, Field Service Management & Automation solution, field service tracking software" />
+    <!--TWitter card-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="FieldWeb">
+    <meta name="twitter:title" content="Best Field Service Management Software | FSM Application - FieldWeb">
+    <meta name="twitter:description" content="FieldWeb is a field workforce management application with advanced features like real-time tracking, inventory, attendance,  income and expense management, and many more.">
 </head>
 
 <body>
@@ -47,7 +37,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarText">
-                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
                         <li>
                             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                         </li>
@@ -61,10 +51,10 @@
                             <a class="nav-link" href="features.php">Features</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="blog.php">Blog</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="contact.php">Contact Us</a>
                         </li>
                     </ul>
                     <div class="navbar-buttons">
@@ -84,7 +74,7 @@
                     <div class="modal-header">
                         <img src="assets/images/redfieldweblogo.svg">
                         <h6 class="modal-title">Request a personalized demo</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <form>
@@ -173,7 +163,7 @@
                     <div class="modal-header">
                         <a class="btn-back"><img src="assets/images/chevron-left.svg"></a>
                         <h6 class="modal-title">How many technician work at your Company</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <ul class="gd-gridlist">
@@ -226,7 +216,7 @@
         </div>
     </div>
 
-    
+
 </body>
 
 </html>
