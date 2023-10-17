@@ -26,7 +26,10 @@ include_once 'header.php';
 </section>
 <section class="mt-3 mb-3 px-3" data-aos="fade-up">
     <div class="main-Wrapper">
-        <div class="features-slider">
+        <div class="wrapper-head">
+            <h2 class="title">Trending Blogs</h2>
+        </div>
+        <div class="features-slider mt-8">
             <div>
                 <div class="row">
                     <div class="col-md-6">
