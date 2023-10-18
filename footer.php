@@ -160,6 +160,20 @@
     slidesToScroll: 1,
     dots: true
   });
+  $('.blog-slider').slick({
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+  });
+  $('.rpost-slider').slick({
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true
+  });
   $('.client-review').slick({
     infinite: true,
     autoplay: true,

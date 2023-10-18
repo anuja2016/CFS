@@ -29,7 +29,7 @@ include_once 'header.php';
         <div class="wrapper-head">
             <h2 class="title">Trending Blogs</h2>
         </div>
-        <div class="features-slider mt-8">
+        <div class="blog-slider mt-8">
             <div>
                 <div class="row">
                     <div class="col-md-6">
@@ -40,7 +40,7 @@ include_once 'header.php';
                         <h2 class="title-mont-semibold">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
                         <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <div class="mt-3 text-left">
-                            <a href="#" class="btn-red arrowBtn u-button has-hover mt-4">
+                            <a href="blog-details.php" class="btn-red arrowBtn u-button has-hover mt-4">
                                 <span class="u-button-arrow"></span>
                                 <span>Learn More</span>
                             </a>
@@ -58,7 +58,7 @@ include_once 'header.php';
                         <h2 class="title-mont-semibold">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
                         <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <div class="mt-3 text-left">
-                            <a href="#" class="btn-red arrowBtn u-button has-hover mt-4">
+                            <a href="blog-details.php" class="btn-red arrowBtn u-button has-hover mt-4">
                                 <span class="u-button-arrow"></span>
                                 <span>Learn More</span>
                             </a>
@@ -76,7 +76,7 @@ include_once 'header.php';
                         <h2 class="title-mont-semibold">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
                         <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <div class="mt-3 text-left">
-                            <a href="#" class="btn-red arrowBtn u-button has-hover mt-4">
+                            <a href="blog-details.php" class="btn-red arrowBtn u-button has-hover mt-4">
                                 <span class="u-button-arrow"></span>
                                 <span>Learn More</span>
                             </a>
@@ -94,7 +94,7 @@ include_once 'header.php';
                         <h2 class="title-mont-semibold">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
                         <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <div class="mt-3 text-left">
-                            <a href="#" class="btn-red arrowBtn u-button has-hover mt-4">
+                            <a href="blog-details.php" class="btn-red arrowBtn u-button has-hover mt-4">
                                 <span class="u-button-arrow"></span>
                                 <span>Learn More</span>
                             </a>
@@ -112,7 +112,7 @@ include_once 'header.php';
                         <h2 class="title-mont-semibold">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
                         <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <div class="mt-3 text-left">
-                            <a href="#" class="btn-red arrowBtn u-button has-hover mt-4">
+                            <a href="blog-details.php" class="btn-red arrowBtn u-button has-hover mt-4">
                                 <span class="u-button-arrow"></span>
                                 <span>Learn More</span>
                             </a>
@@ -154,7 +154,7 @@ include_once 'header.php';
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
                         <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
-                        <a href="#">
+                        <a href="blog-details.php">
                             <p>Learn More</p>
                             <img src="assets/images/arrowright-red.svg" class="arrow-img">
                         </a>
@@ -168,7 +168,7 @@ include_once 'header.php';
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
                         <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
-                        <a href="#">
+                        <a href="blog-details.php">
                             <p>Learn More</p>
                             <img src="assets/images/arrowright-red.svg" class="arrow-img">
                         </a>
@@ -182,7 +182,7 @@ include_once 'header.php';
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
                         <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
-                        <a href="#">
+                        <a href="blog-details.php">
                             <p>Learn More</p>
                             <img src="assets/images/arrowright-red.svg" class="arrow-img">
                         </a>
@@ -196,7 +196,7 @@ include_once 'header.php';
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
                         <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
-                        <a href="#">
+                        <a href="blog-details.php">
                             <p>Learn More</p>
                             <img src="assets/images/arrowright-red.svg" class="arrow-img">
                         </a>
@@ -207,8 +207,8 @@ include_once 'header.php';
         <div class="mt-5">
             <ul class="pagination justify-content-center">
                 <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
                 <li class="page-item"><a class="page-link" href="#">3</a></li>
                 <li class="page-item"><a class="page-link" href="#">Next</a></li>
             </ul>
