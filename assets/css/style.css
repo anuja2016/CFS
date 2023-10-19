@@ -51,6 +51,13 @@
   letter-spacing: normal;
 }
 
+.title-md-montsbold {
+  color: #000000;
+  font-family: "Montserrat-SemiBold";
+  font-size: 25px;
+  letter-spacing: normal;
+}
+
 .title-xls {
   color: #000000;
   font-family: "Montserrat-Bold";
@@ -658,6 +665,7 @@
   width: 105px;
   height: 105px;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 .ti-card:hover {
   -webkit-transform: scale(1.05);
@@ -949,10 +957,18 @@
   outline: none;
   cursor: pointer;
   border: none;
+  transition: 0.3s;
 }
 .btn-getdemo-wh img {
   width: 20px;
   height: 20px;
+}
+.btn-getdemo-wh:hover {
+  color: #FFFFFF;
+  background: #c22032;
+}
+.btn-getdemo-wh:hover img {
+  filter: invert(1);
 }
 
 .learnmore-block {
@@ -1686,8 +1702,8 @@ footer .footlogo {
 /* Icons */
 @font-face {
   font-family: "slick";
-  src: url("./fonts/slick.eot");
-  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
+  src: url("./fonts/./../fonts/Slick/slick.eot");
+  src: url("./fonts/./../fonts/Slick/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/./../fonts/Slick/slick.woff") format("woff"), url("./fonts/./../fonts/Slick/slick.ttf") format("truetype"), url("./fonts/./../fonts/Slick/slick.svg#slick") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1696,13 +1712,13 @@ footer .footlogo {
 .slick-next {
   position: absolute;
   display: block;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
   line-height: 0px;
   font-size: 0px;
   cursor: pointer;
-  background: transparent;
-  color: transparent;
+  background: #F3F3F3;
+  color: #656565;
   top: 50%;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
@@ -1710,18 +1726,21 @@ footer .footlogo {
   padding: 0;
   border: none;
   outline: none;
+  z-index: 1;
+  border-radius: 50%;
 }
 .slick-prev:hover, .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus {
   outline: none;
-  background: transparent;
-  color: transparent;
+  background: #c22032;
+  color: #ffffff;
 }
 .slick-prev:hover:before, .slick-prev:focus:before,
 .slick-next:hover:before,
 .slick-next:focus:before {
   opacity: 1;
+  filter: invert(50%) brightness(200%);
 }
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before {
@@ -1732,32 +1751,54 @@ footer .footlogo {
   font-family: "slick";
   font-size: 20px;
   line-height: 1;
-  color: white;
+  color: #656565;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.slick-prev {
+  left: -45px;
+}
 [dir=rtl] .slick-prev {
   left: auto;
-  right: -25px;
+  right: -45px;
 }
 .slick-prev:before {
-  content: "←";
-}
-[dir=rtl] .slick-prev:before {
-  content: "→";
+  content: "";
+  background-image: url("../images/arrow-left-gray.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 50%;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 42px;
+  height: 42px;
+  top: 0;
 }
 
+.slick-next {
+  right: -45px;
+}
 [dir=rtl] .slick-next {
-  left: -25px;
+  left: -45px;
   right: auto;
 }
 .slick-next:before {
-  content: "→";
-}
-[dir=rtl] .slick-next:before {
-  content: "←";
+  content: "";
+  background-image: url("../images/arrow-right-gray.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 50%;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 42px;
+  height: 42px;
+  top: 0;
 }
 
 /* Dots */
@@ -1910,7 +1951,6 @@ footer .footlogo {
   background-color: rgb(194, 32, 50);
   color: #FFFFFF;
   border-radius: 0;
-  color: #FFFFFF;
 }
 .features-main .nav-pills .nav-link:hover {
   background-color: #ae1d2d;
@@ -2218,6 +2258,121 @@ select.form-control {
   top: 130px;
   width: 100%;
   z-index: 1;
+}
+
+.customerapp-tabs .nav-pills .nav-link.active,
+.customerapp-tabs .nav-pills .show > .nav-link {
+  background-color: #c22032;
+  color: #ffffff;
+  border: 2px solid #c22032;
+}
+.customerapp-tabs .nav-pills .nav-link.active img,
+.customerapp-tabs .nav-pills .show > .nav-link img {
+  filter: invert(50%) brightness(200%);
+}
+.customerapp-tabs .nav-pills .nav-link {
+  color: #000000;
+  border-radius: 0;
+  border: 2px solid #ddd;
+}
+.customerapp-tabs .nav-pills .nav-link:hover {
+  color: #ffffff;
+  background-color: #c22032;
+  box-shadow: 3px 3px 10px #dedede;
+  border: 2px solid #c22032;
+}
+.customerapp-tabs .nav-pills .nav-link:hover img {
+  filter: invert(50%) brightness(200%);
+}
+.customerapp-tabs .nav-pills .nav-link img {
+  width: 35px;
+  height: 35px;
+}
+
+.sect-subscribe {
+  display: flex;
+  gap: 20px;
+  grid-gap: 20px;
+}
+.sect-subscribe .form-control {
+  border-radius: 0;
+}
+
+.subscribe-block {
+  position: relative;
+  background-color: #000000;
+  padding: 35px 75px;
+}
+.subscribe-block h3 {
+  color: #FFFFFF;
+}
+.subscribe-block ul {
+  list-style: none;
+  padding-left: 0;
+}
+.subscribe-block ul li {
+  display: flex;
+  gap: 5px;
+  grid-gap: 5px;
+  align-items: start;
+  padding: 5px 0;
+  color: #ffffff;
+}
+.subscribe-block ul li img {
+  margin-top: 5px;
+}
+
+.custapp-slider {
+  text-align: left;
+}
+.custapp-slider .custapp-content {
+  background-color: #F3F3F3;
+  padding: 20px 30px;
+  border-radius: 25px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.custapp-slider .custapp-content h2 {
+  margin-bottom: 20px;
+}
+.custapp-slider .custapp-content p {
+  margin-bottom: 15px;
+}
+
+.cust-feedback-slider {
+  background-color: #F3F3F3;
+  border-radius: 25px;
+}
+.cust-feedback-slider .slick-list {
+  padding: 30px 20px;
+}
+.cust-feedback-slider .custf-details .row {
+  align-items: center;
+}
+.cust-feedback-slider .custf-details .row .custf-prof {
+  text-align: center;
+}
+.cust-feedback-slider .custf-details .row .custf-prof img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+.cust-feedback-slider .custf-details .row .custf-prof h6 {
+  font-family: "Montserrat-Medium";
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.cust-feedback-slider .custf-details .row .custf-content h4 {
+  font-family: "Montserrat-bold";
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.cust-feedback-slider .custf-details .row .custf-content p {
+  line-height: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

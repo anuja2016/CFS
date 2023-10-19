@@ -126,6 +126,7 @@
 <!--slick slider--->
 <script>
   $('.preview-carousel').slick({
+    arrows: false,
     arrows: true,
     variableWidth: true,
     centerMode: true,
@@ -134,6 +135,7 @@
   });
 
   $('.industries-slider').slick({
+    arrows: false,
     infinite: true,
     autoplay: true,
     slidesToShow: 3,
@@ -141,6 +143,7 @@
     dots: true
   });
   $('.trusted-industries-slider').slick({
+    arrows: false,
     infinite: true,
     autoplay: true,
     slidesToShow: 3,
@@ -148,12 +151,14 @@
     dots: true
   });
   $('.trusted-companies').slick({
+    arrows: false,
     infinite: true,
     autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1
   });
   $('.features-slider').slick({
+    arrows: false,
     infinite: true,
     autoplay: true,
     slidesToShow: 1,
@@ -161,6 +166,7 @@
     dots: true
   });
   $('.blog-slider').slick({
+    arrows: false,
     infinite: true,
     autoplay: true,
     slidesToShow: 1,
@@ -168,13 +174,31 @@
     dots: true
   });
   $('.rpost-slider').slick({
+    arrows: false,
     infinite: true,
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     dots: true
   });
+  $('.custapp-slider').slick({
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+  });
+  $('.cust-feedback-slider').slick({
+    arrows: false,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+  });
+  
   $('.client-review').slick({
+    arrows: false,
     infinite: true,
     autoplay: true,
     slidesToShow: 1,

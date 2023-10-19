@@ -197,8 +197,8 @@ include_once 'header.php';
 <section class="mt-8 mb-3" data-aos="fade-up">
     <div class="learnmore-block">
         <p>BOOK YOUR FREE DEMO</p>
-        <h3>Learn more about <span>FieldWeb</span></h1>
-            <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
+        <h3>Learn more about <span>FieldWeb</span></h3>
+        <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
     </div>
 </section>
 <section class="mt-10 mb-3" data-aos="fade-up">
@@ -211,72 +211,72 @@ include_once 'header.php';
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseOne" aria-expanded="false" aria-controls="faq-collapseOne">
-                    What is HVAC business software, and how can it benefit my HVAC company? 
+                        What is HVAC business software, and how can it benefit my HVAC company?
                     </button>
                 </h2>
                 <div id="faq-collapseOne" class="accordion-collapse collapse" aria-labelledby="faq-headingOne" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                    HVAC business software is a comprehensive tool that helps streamline your operations, from scheduling appointments to dispatching technicians and managing invoices. It boosts efficiency, reduces errors, and enhances customer satisfaction.
+                        HVAC business software is a comprehensive tool that helps streamline your operations, from scheduling appointments to dispatching technicians and managing invoices. It boosts efficiency, reduces errors, and enhances customer satisfaction.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseTwo" aria-expanded="false" aria-controls="faq-collapseTwo">
-                    Is FieldWeb's HVAC software suitable for both small and large HVAC businesses?
+                        Is FieldWeb's HVAC software suitable for both small and large HVAC businesses?
                     </button>
                 </h2>
                 <div id="faq-collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq-headingTwo" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                    Absolutely, FieldWeb's HVAC software is designed to cater to businesses of all sizes. Whether you're a small local HVAC company or a larger enterprise, our software can be tailored to meet your needs.
+                        Absolutely, FieldWeb's HVAC software is designed to cater to businesses of all sizes. Whether you're a small local HVAC company or a larger enterprise, our software can be tailored to meet your needs.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseThree" aria-expanded="false" aria-controls="faq-collapseThree">
-                    Can I track the progress of HVAC jobs and technician assignments in real time?
+                        Can I track the progress of HVAC jobs and technician assignments in real time?
                     </button>
                 </h2>
                 <div id="faq-collapseThree" class="accordion-collapse collapse" aria-labelledby="faq-headingThree" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                    Yes, FieldWeb's HVAC software offers real-time updates on job progress and technician assignments. You can monitor task statuses, technician locations, and more, ensuring smooth communication and efficient faq delivery.
+                        Yes, FieldWeb's HVAC software offers real-time updates on job progress and technician assignments. You can monitor task statuses, technician locations, and more, ensuring smooth communication and efficient faq delivery.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseFour" aria-expanded="false" aria-controls="faq-collapseFour">
-                    Can I use FieldWeb's HVAC software to create professional and accurate estimates?
+                        Can I use FieldWeb's HVAC software to create professional and accurate estimates?
                     </button>
                 </h2>
                 <div id="faq-collapseFour" class="accordion-collapse collapse" aria-labelledby="faq-headingFour" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                    Yes, our software includes features to help you create detailed and accurate estimates for your HVAC services. You can customize quotes based on services, materials, and labor, ensuring transparency and winning customer trust.
+                        Yes, our software includes features to help you create detailed and accurate estimates for your HVAC services. You can customize quotes based on services, materials, and labor, ensuring transparency and winning customer trust.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingFive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseFive" aria-expanded="false" aria-controls="faq-collapseFive">
-                    Does FieldWeb's HVAC software offer mobile accessibility for technicians in the field?
+                        Does FieldWeb's HVAC software offer mobile accessibility for technicians in the field?
                     </button>
                 </h2>
                 <div id="faq-collapseFive" class="accordion-collapse collapse" aria-labelledby="faq-headingFive" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                    Absolutely, our software is designed to be accessible on mobile devices. Technicians can access job details, update statuses, and communicate with the office directly from their smartphones or tablets.
+                        Absolutely, our software is designed to be accessible on mobile devices. Technicians can access job details, update statuses, and communicate with the office directly from their smartphones or tablets.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingSix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseSix" aria-expanded="false" aria-controls="faq-collapseSix">
-                    How does FieldWeb's HVAC software help in improving customer engagement and satisfaction?
+                        How does FieldWeb's HVAC software help in improving customer engagement and satisfaction?
                     </button>
                 </h2>
                 <div id="faq-collapseSix" class="accordion-collapse collapse" aria-labelledby="faq-headingSix" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                    Our HVAC software allows clients to book appointments online, view service history, and access estimates easily. This transparency fosters trust, enhances communication, and ultimately leads to higher customer satisfaction.
+                        Our HVAC software allows clients to book appointments online, view service history, and access estimates easily. This transparency fosters trust, enhances communication, and ultimately leads to higher customer satisfaction.
                     </div>
                 </div>
             </div>

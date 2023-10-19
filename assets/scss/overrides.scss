@@ -1,4 +1,4 @@
-.main-carousel{
+.main-carousel {
     .carousel-caption {
         position: absolute;
         left: 2%;
@@ -12,6 +12,7 @@
         transform: translate(0, -50%);
         max-width: 50%;
     }
+
     .carousel-caption-feature {
         position: absolute;
         left: 5%;
@@ -26,6 +27,7 @@
         max-width: 50%;
     }
 }
+
 .industry-slider {
     .carousel-indicators {
         bottom: -50px;
@@ -67,26 +69,30 @@
         border-bottom: 0;
     }
 }
-.modal-title{
+
+.modal-title {
     font-family: "Poppins-semibold";
 }
+
 .modal-header {
-    .btn-close{
-        margin: 0!important;
+    .btn-close {
+        margin: 0 !important;
     }
 }
-#accordionservice{
-    .accordion-button{
+
+#accordionservice {
+    .accordion-button {
         color: #FFFFFF;
-        img{
+
+        img {
             width: 40px;
             height: 40px;
             margin-right: 10px;
         }
-        &::after{
-            background-image:url('../images/chevron-down-icon-wh.svg');
+
+        &::after {
+            background-image: url('../images/chevron-down-icon-wh.svg');
             margin-top: 5px;
         }
     }
 }
-

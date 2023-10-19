@@ -51,6 +51,13 @@
     letter-spacing: normal;
 }
 
+.title-md-montsbold {
+    color: #000000;
+    font-family: "Montserrat-SemiBold";
+    font-size: 25px;
+    letter-spacing: normal;
+}
+
 .title-xls {
     color: #000000;
     font-family: "Montserrat-Bold";
@@ -764,6 +771,7 @@
         width: 105px;
         height: 105px;
         border-radius: 50%;
+        margin-bottom: 10px;
     }
 
     &:hover {
@@ -795,6 +803,7 @@
 .mt-20 {
     margin-top: 13.75rem;
 }
+
 .mb-6 {
     margin-bottom: 3.5rem;
 }
@@ -1102,10 +1111,20 @@
     outline: none;
     cursor: pointer;
     border: none;
+    transition: 0.3s;
 
     img {
         width: 20px;
         height: 20px;
+    }
+
+    &:hover {
+        color: #FFFFFF;
+        background: #c22032;
+
+        img {
+            filter: invert(1);
+        }
     }
 }
 
@@ -1127,33 +1146,37 @@
     h3 {
         font-family: "Poppins-semibold";
         font-size: 30px;
-        span{
+
+        span {
             font-family: "Poppins-semibold";
             font-style: italic;
         }
     }
 }
-.wrapper-head{
+
+.wrapper-head {
     width: 70%;
     margin: 0 auto;
     text-align: center;
-    h2{
-        &::after{
+
+    h2 {
+        &::after {
             content: "";
-                    display: block;
-                    padding-bottom: 1.25rem;
-                    background-image: url('../images/drawn-underline.svg');
-                    background-repeat: no-repeat;
-                    background-position: center 85%;
-                    background-size: 100% 70%;
-                    position: absolute;
-                    z-index: 1;
-                    width: 100%;
-                    left: 0;
-                    right: 0;
+            display: block;
+            padding-bottom: 1.25rem;
+            background-image: url('../images/drawn-underline.svg');
+            background-repeat: no-repeat;
+            background-position: center 85%;
+            background-size: 100% 70%;
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            left: 0;
+            right: 0;
         }
     }
 }
+
 .f-list {
     gap: 5px;
     grid-gap: 5px;
@@ -1168,7 +1191,8 @@
         border-bottom: 1.5px solid #000;
         font-family: "Montserrat-Medium";
         font-weight: 600;
-        &:last-child{
+
+        &:last-child {
             border-bottom: 0;
         }
     }
@@ -1178,6 +1202,7 @@
         height: 20px;
     }
 }
+
 .banner-block-rht {
     .block-img {
         img {
