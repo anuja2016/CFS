@@ -35,9 +35,9 @@
         <h4>Resource</h4>
         <ul class="footer-menu">
           <li><a href="#">Pricing</a></li>
-          <li><a href="#">Press & Media</a></li>
-          <li><a href="#">Customer App</a></li>
-          <li><a href="#">Blogs</a></li>
+          <li><a href="press-media.php">Press & Media</a></li>
+          <li><a href="customer-app.php">Customer App</a></li>
+          <li><a href="blog.php">Blogs</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-md-4">
