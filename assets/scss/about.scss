@@ -9,6 +9,7 @@
     margin: 0 auto;
     .card{
         border-radius: 10px;
+        border: 0;
         &:hover{
             box-shadow: 3px 3px 10px #ddd;
             cursor: default;

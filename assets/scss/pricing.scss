@@ -1,0 +1,225 @@
+.sect-pricing {
+    background-color: #FFEEF0;
+    position: relative;
+    height: 670px;
+    margin-top: 250px;
+
+    .row {
+        position: absolute;
+        max-width: 1180px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: -200px auto 0;
+    }
+
+    .pricing-plan {
+        border: 2px solid #CAD7DC;
+        border-radius: 6px;
+        text-align: center;
+        background-color: #fff;
+
+        &:hover {
+            box-shadow: 0px 10px 10px #ddd;
+            cursor: default;
+
+            h2 {
+                color: #C22032;
+            }
+        }
+
+        .pricing-plan-head {
+            border-bottom: 0;
+            margin-top: 1rem;
+            padding: 1rem;
+
+            h3 {
+                font-family: 'Montserrat-Bold';
+                font-size: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                grid-gap: 5px;
+
+                &::before {
+                    content: "";
+                    background-image: url('../images/circle-gray.svg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 50%;
+                    border: 2px solid #4D6974;
+                    border-radius: 50%;
+                    width: 25px;
+                    height: 25px;
+                    display: inline-block;
+                }
+            }
+        }
+
+        .pricing-plan-body {
+            ul {
+                list-style: none;
+                text-decoration: none;
+                padding-left: 0;
+                padding: 0 1rem 1rem;
+
+                li {
+                    padding: 5px;
+                    display: flex;
+                    align-items: center;
+
+                    &::before {
+                        content: "";
+                        background-image: url('../images/circle-black.svg');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 78%;
+                        border: 1px solid #000000;
+                        border-radius: 50%;
+                        width: 15px;
+                        height: 15px;
+                        display: inline-block;
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            h2 {
+                font-family: 'Montserrat-Bold';
+                font-size: 50px;
+                display: flex;
+                align-items: baseline;
+                gap: 5px;
+                grid-gap: 5px;
+                justify-content: center;
+                transition: color 0.5s ease;
+
+                small {
+                    font-size: 1rem;
+                }
+            }
+
+            .prod-user {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                grid-gap: 5px;
+                justify-content: center;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+
+        .pricing-plan-foot {
+            background: #C22032;
+            color: #fff;
+            padding: 25px 15px;
+            border-radius: 0 0 3px 3px;
+
+            p {
+                text-align: left;
+                margin-bottom: 10px;
+            }
+
+            ul {
+                list-style: none;
+                text-decoration: none;
+                padding-left: 0;
+
+                li {
+                    text-align: left;
+                    padding: 5px 0;
+
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        &.popular-plan {
+            border: 2px solid #C22032;
+            position: relative;
+
+            .pricing-plan-head {
+                span {
+                    background-color: #C22032;
+                    padding: 5px;
+                    border: none;
+                    color: #fff;
+                    position: absolute;
+                    top: -18px;
+                    width: 70%;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+.cust-feedback-slider2 {
+    background-color: #FFE2E6;
+    border-radius: 25px;
+    width: 85%;
+    margin: -100px auto 0;
+    .slick-list{
+        padding: 30px 20px;
+    }
+    .custf-details {
+
+        // display: flex;
+        .row {
+            align-items: center;
+
+            .custf-prof {
+                text-align: center;
+
+                img {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    margin: 0 auto 10px;
+                }
+
+                h6 {
+                    font-family: "Montserrat-Medium";
+                    font-weight: 600;
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                }
+            }
+
+            .custf-content {
+                h4 {
+                    font-family: "Montserrat-bold";
+                    font-size: 25px;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+.sect-addons{
+    background-color: #fff;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 15px;
+    padding: 40px;
+    cursor:default;
+    img{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}

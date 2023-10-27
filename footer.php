@@ -85,6 +85,13 @@
 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="assets/js/aos.js"></script>
 <script type="text/javascript" src="assets/js/slick.min.js"></script>
+<!--tooltip--->
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+</script>
 <script>
   /**
    * Animation on scroll function and init
@@ -196,7 +203,15 @@
     slidesToScroll: 1,
     dots: true
   });
-  
+  $('.cust-feedback-slider2').slick({
+    arrows: false,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+  });
+
   $('.client-review').slick({
     arrows: false,
     infinite: true,
@@ -205,7 +220,6 @@
     slidesToScroll: 1,
     dots: true
   });
-  
 </script>
 
 <!--counter--->

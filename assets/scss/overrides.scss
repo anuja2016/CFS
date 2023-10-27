@@ -96,3 +96,38 @@
         }
     }
 }
+
+.currency-switch {
+    &.form-check {
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        grid-gap: 5px;
+
+        .form-check-input {
+            float: none;
+            margin-left: 0;
+            width: 3em;
+            height: 1.5em;
+            cursor: pointer;
+            margin-top: 0;
+            &:checked {
+                background-color: #C22032;
+                border-color: #C22032;
+            }
+
+            &:focus {
+                --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+                border-color: #c9c9c9;
+                outline: 0;
+                box-shadow: 0 0 0 0.25rem rgb(201 201 201 / 25%)
+            }
+        }
+    }
+
+    span {
+        font-family: 'Montserrat-Bold';
+        font-size: 20px;
+    }
+}

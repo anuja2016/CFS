@@ -5,7 +5,7 @@
         box-shadow: 0 0 10px 5px rgba(206, 207, 254, 0.25);
         border-radius: 15px;
         height: 100%;
-
+        border: 0;
         &:hover {
             .services-icon {
                 transform: scale(1.1);
@@ -65,6 +65,7 @@
         border-radius: 10px;
         box-shadow: 0px 0px 10px #ddd;
         margin-top: -120px;
+        border:0;
     }
 }
 
@@ -88,5 +89,10 @@
     .accordion-button {
         font-family: 'Montserrat-Medium';
         font-weight: 600;
+    }
+}
+.card {
+    &.sub-content{
+        border:0;
     }
 }
