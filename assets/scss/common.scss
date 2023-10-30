@@ -43,6 +43,12 @@
     font-size: 35px;
     letter-spacing: normal;
 }
+.title-white {
+    color: #FFFFFF;
+    font-family: "Montserrat-SemiBold";
+    font-size: 25px;
+    letter-spacing: normal;
+}
 
 .title-md-montbold {
     color: #000000;
@@ -1318,4 +1324,25 @@
         }
 
     }
+}
+.block-black {
+    border-radius: 30px;
+    padding:30px;
+    background-color: #000000;
+
+    .trusted-industries-slider {
+        margin-top: 20px;
+        padding: 0 30px;
+    
+        .slick-track {
+            top: 15px;
+            margin-bottom: 28px;
+    
+            .slick-slide {
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+        }
+    }
+    
 }
