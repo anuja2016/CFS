@@ -184,7 +184,7 @@ include_once 'header.php';
             </div>
             <div class="col-md-6">
                 <div class="card sub-content">
-                    <img src="assets/images/job-schedules-bg2.svg" class="card-img-top">
+                    <img src="assets/images/job-schedules-bg2.svg" class="img-fluid">
                     <div class="card-body text-center">
                         <p class="title-xls">HVAC Scheduling Software</p>
                         <p class="pt-2">Efficient HVAC scheduling is essential for smooth operations. Our HVAC Scheduling Software simplifies appointment management, technician dispatch, and ensures timely service, enhancing your business's performance.</p>

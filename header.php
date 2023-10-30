@@ -58,7 +58,7 @@
                         </li>
                     </ul>
                     <div class="navbar-buttons">
-                        <button type="button" class="btn-outline-black">Explore Pricing</button>
+                        <a href="pricing.php" class="btn-outline-black">Explore Pricing</a>
                         <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>

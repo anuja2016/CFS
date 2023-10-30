@@ -199,7 +199,7 @@ include_once 'header.php';
             <div class="col-md-6">
                 <p class="title-md">IN 40 YEARS OF EXPERIENCE</p>
                 <h4 class="title pt-2">Trusted By </p>
-                <h3 class="red-title-bold drawn-underline"><span class="count">40000</span> + Users</h3>
+                <h3 class="red-title-bold drawn-underline"><span class="count">40000</span>+ Users</h3>
             </div>
             <div class="col-md-6">
                 <img src="assets/images/idea.svg" alt="..." class="img-fluid">
