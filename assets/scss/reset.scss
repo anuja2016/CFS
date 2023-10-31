@@ -20,6 +20,9 @@ ul{
 svg{
     color: #333333;
 }
+a{
+    text-decoration: none!important;
+}
 a:hover{
     cursor: pointer;
     text-decoration: none;
@@ -31,3 +34,9 @@ a:hover{
 // .card {
 //     border: 0!important; 
 // }
+.white-block{
+.card {
+    
+    border-radius: 10px!important;
+}
+}

@@ -46,7 +46,7 @@
           <li><a href="#">About</a></li>
           <li><a href="#">Careers</a></li>
           <li><a href="#">Refer a friend</a></li>
-          <li><a href="#">Partners</a></li>
+          <li><a href="partnership.php">Partners</a></li>
           <li><a href="#">Contact us</a></li>
         </ul>
       </div>
