@@ -1265,7 +1265,7 @@ include_once 'header.php';
 
                         </div>
                         <div class="text-center mb-3">
-                            <button type="button" class="btn-red">SUBMIT</button>
+                            <a href="thankyou.php" type="button" class="btn-red">SUBMIT</a>
                         </div>
                     </div>
                 </div>

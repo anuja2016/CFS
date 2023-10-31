@@ -297,6 +297,21 @@
   background: #ae1d2d;
 }
 
+.btn-getstarted-radius {
+  color: #FFF;
+  border-radius: 30px;
+  background: #C22032;
+  font-family: "Poppins-regular";
+  padding: 12px 42px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #C22032;
+  white-space: nowrap;
+}
+.btn-getstarted-radius:hover {
+  background: #ae1d2d;
+}
+
 .btn-getstarted-blk {
   color: #FFF;
   border-radius: 0;
@@ -423,6 +438,58 @@
 .banner-block-lft .content .sect-getservice .input-group .form-control {
   border-radius: 0;
   border: none;
+}
+
+.block-banner-thankyou {
+  position: relative;
+}
+.block-banner-thankyou .block-img img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: top;
+}
+.block-banner-thankyou .content-thankyou {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100% !important;
+  z-index: 5;
+  text-align: center;
+  padding: 0 2rem;
+  left: auto;
+  right: 0;
+  margin: 0 auto;
+}
+.block-banner-thankyou .content-thankyou h1 {
+  font-family: "Poppins-bold";
+  font-weight: 700;
+  line-height: 100%;
+  color: #FFFFFF;
+  font-size: 55px;
+}
+.block-banner-thankyou .content-thankyou p {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #FFFFFF;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.block-banner-thankyou .content-thankyou .search-industry {
+  margin: 25px auto 0;
+}
+.block-banner-thankyou .content-thankyou .search-industry input {
+  border-right: 0;
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+.block-banner-thankyou .content-thankyou .search-industry .btnsearch {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 0 0.375rem 0.375rem 0;
+  padding: 1px;
+  background: #FFFFFF;
+  margin-left: 0;
 }
 
 .drawn-underline {
@@ -1202,6 +1269,24 @@
   font-size: 20px;
 }
 
+.white-block {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px 50px;
+}
+
+.icon-img {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-sm-img {
+  width: 20px;
+  height: 20px;
+}
+
 @font-face {
   font-family: "Poppins-light";
   src: url("./../fonts/Poppins/Poppins-Light.ttf");
@@ -1437,6 +1522,10 @@ svg {
   color: #333333;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 a:hover {
   cursor: pointer;
   text-decoration: none;
@@ -1445,6 +1534,10 @@ a:hover {
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   color: #000000 !important;
   font-size: 14px;
+}
+
+.white-block .card {
+  border-radius: 10px !important;
 }
 
 .main-carousel .carousel-caption {
@@ -2625,6 +2718,95 @@ select.form-control {
   border-color: #C22032;
   font-family: "Montserrat-Bold";
   font-family: 15px;
+}
+
+.thankyou-title {
+  color: #000000;
+  font-family: "Poppins-Semibold";
+  font-size: 20px;
+}
+
+.thankyou-para {
+  color: #000000;
+  font-family: "Poppins-Medium";
+  font-size: 12px;
+}
+
+.thankyou-card-title {
+  color: #000000;
+  font-family: "Poppins-Semibold";
+  font-size: 16px;
+  text-align: left;
+}
+
+.thankyou-red-para {
+  color: #C22032;
+  font-family: "Poppins-Regular";
+  font-size: 12px;
+}
+
+.watchnow-float {
+  display: flex;
+  float: right;
+  align-items: center;
+}
+
+.shape-radius {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.whiteblock-position {
+  margin-top: -120px;
+  position: relative;
+}
+
+#playVideo {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  background-color: #D9D9D9;
+  opacity: 0.7;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  text-align: center;
+  height: 45px;
+  width: 45px;
+}
+
+#playVideo2 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  background-color: #D9D9D9;
+  opacity: 0.7;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  text-align: center;
+  height: 45px;
+  width: 45px;
+}
+
+#playVideo3 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  background-color: #D9D9D9;
+  opacity: 0.7;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  text-align: center;
+  height: 45px;
+  width: 45px;
 }
 
 .sect-pricing {
