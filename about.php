@@ -194,7 +194,7 @@ include_once 'header.php';
 <section class="text-center pt-5 mb-3" data-aos="fade-up">
     <h2 class="title-semibold"> Over 200000+ Field Service Businesses in 50+ </h2>
     <h2 class="title-semibold">industries trust FieldWeb</h2>
-    <div class="container">
+    <div class="main-Wrapper">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <p class="title-md">IN 40 YEARS OF EXPERIENCE</p>

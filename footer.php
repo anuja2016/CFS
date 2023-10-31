@@ -211,6 +211,14 @@
     slidesToScroll: 1,
     dots: true
   });
+  $('.fw-life-slider').slick({
+    arrows: true,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false
+  });
 
   $('.client-review').slick({
     arrows: false,

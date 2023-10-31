@@ -1365,3 +1365,28 @@
 
     }
 }
+.custom-tabs {
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        background-color: #c22032;
+        color: #FFFFFF;
+        border: 2px solid #c22032;
+    }
+
+    .nav-pills {
+        .nav-link {
+            background-color: rgb(255 255 255);
+            color: #000000;
+            border-radius: 0;
+            border: 2px solid #ddd;
+
+            &:hover {
+                background-color: #c22032;
+                box-shadow: 3px 3px 10px #dedede;
+                border: 2px solid #c22032;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

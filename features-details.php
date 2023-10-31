@@ -45,7 +45,7 @@ include_once 'header.php';
         <p>With these quoting features, Jobber helps you save time, win more work, and offer the professional and convenient experience that your customers expect.</p>
     </div>
 </section>
-<section class="features-main mt-5 mb-3" data-aos="fade-up">
+<section class="custom-tabs mt-5 mb-3" data-aos="fade-up">
     <div class="main-Wrapper">
         <ul class="nav nav-pills justify-content-center mb-3">
             <div class="d-flex gap-4">
