@@ -1,82 +1,148 @@
-.thankyou-title{
-    color: #000000;
-    font-family: "Poppins-Semibold";
-    font-size: 20px;
-}
-.thankyou-para{
-    color: #000000;
-    font-family: "Poppins-Medium";
-    font-size: 12px;
-}
-.thankyou-card-title{
-    color: #000000;
-    font-family: "Poppins-Semibold";
-    font-size: 16px;
-    text-align: left;
-}
-.thankyou-red-para{
-    color: #C22032;
-    font-family: "Poppins-Regular";
-    font-size: 12px;
-   
-}
-.watchnow-float{
-    display: flex;
-    float:right;
-    align-items: center;
-}
-.shape-radius{
-    border-radius: 20px;
-    padding:10px;
-}
-.whiteblock-position{
-    margin-top:-120px;
-    position:relative;
-}
-#playVideo {
-    position:absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    background-color: #D9D9D9;
-    opacity: 0.7;
-    border-radius: 50%;
-    padding:8px;
-    cursor: pointer;
-    text-align: center;
-    height:45px;
-    width:45px;
-  }
+.sect-thankyou {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgb(181 181 181 / 20%);
+    margin-top: -120px;
+    position: relative;
+    margin-bottom: 100px;
 
-  #playVideo2 {
-    position:absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    background-color: #D9D9D9;
-    opacity: 0.7;
-    border-radius: 50%;
-    padding:8px;
-    cursor: pointer;
-    text-align: center;
-    height:45px;
-    width:45px;
-  }
+    .thankyou-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
-  #playVideo3 {
-    position:absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    background-color: #D9D9D9;
-    opacity: 0.7;
-    border-radius: 50%;
-    padding:8px;
-    cursor: pointer;
-    text-align: center;
-    height:45px;
-    width:45px;
-  }
+        .thankyou-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            grid-gap: 10px;
+
+            img {
+                width: 35px;
+                height: 35px;
+            }
+
+            h3 {
+                color: #000000;
+                font-family: "Poppins-Semibold";
+                font-size: 20px;
+                margin-bottom: 0;
+            }
+        }
+
+        .btn-viewall {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            grid-gap: 10px;
+            color: #000000;
+
+            img {
+                width: 20px;
+                height: 20px;
+                transition-duration: 0.3s;
+                -webkit-transition-property: transform;
+                transition-property: transform;
+                -webkit-transition-timing-function: ease-out;
+                transition-timing-function: ease-out;
+            }
+
+            &:hover {
+                color: #C22032;
+
+                img {
+                    transform: translate(5px, 0px);
+                    filter: brightness(0.5);
+                }
+            }
+        }
+    }
+}
+
+.thankyou-grid {
+    background-color: #ECECEC;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    display: block;
+
+    .video-thumbnail {
+        position: relative;
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 5px 5px 7px #e3e3e3;
+
+        .play-overlay {
+            opacity: 1;
+        }
+        .link-red-arrow{
+            img {
+                transform: translate(5px, 0px);
+            }
+        }
+    }
+
+    &:first-child {
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 1.5rem;
+            display: block;
+            position: relative;
+        }
+    }
+
+    h4 {
+        color: #000000;
+        font-family: "Poppins-Semibold";
+        font-size: 1rem;
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .link-red-arrow {
+        display: flex;
+        color: #C22032;
+        font-size: 14px;
+        text-align: right;
+        gap: 8px;
+        justify-content: end;
+
+        img {
+            transition-duration: 0.3s;
+            -webkit-transition-property: transform;
+            transition-property: transform;
+            -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+            padding: 0;
+        }
+
+    }
+
+    .play-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgb(0 0 0 / 35%);
+        z-index: 1;
+        border-radius: 1.5rem;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto;
+            background: rgb(255 255 255 / 32%);
+            padding: 12px;
+        }
+    }
+}

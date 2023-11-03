@@ -125,7 +125,7 @@
                         </form>
                     </div>
                     <div class="text-center mb-3">
-                        <button type="button" class="btn-red">SUBMIT</button>
+                        <a href="thankyou.php" class="btn-red">SUBMIT</a>
                     </div>
                 </div>
                 <div id="gd-industries" style="display: none;">

@@ -82,7 +82,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="features-main mt-5 mb-3">
+<section class="custom-tabs mt-5 mb-3">
     <div class="main-Wrapper">
         <ul class="nav nav-pills justify-content-center mb-3">
             <div class="d-flex gap-4">

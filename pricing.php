@@ -404,7 +404,7 @@ include_once 'header.php';
     </div>
 </section>
 <section class="text-center pt-5 mb-3" data-aos="fade-up">
-    <div class="container">
+    <div class="main-Wrapper">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <p class="title-md">IN 7 YEARS OF EXPERIENCE</p>
