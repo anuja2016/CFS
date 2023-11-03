@@ -34,7 +34,7 @@
       <div class="col-lg-2 col-md-4">
         <h4>Resource</h4>
         <ul class="footer-menu">
-          <li><a href="#">Pricing</a></li>
+          <li><a href="pricing.php">Pricing</a></li>
           <li><a href="press-media.php">Press & Media</a></li>
           <li><a href="customer-app.php">Customer App</a></li>
           <li><a href="blog.php">Blogs</a></li>
@@ -43,11 +43,11 @@
       <div class="col-lg-2 col-md-4">
         <h4>Company</h4>
         <ul class="footer-menu">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Careers</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="career.php">Careers</a></li>
           <li><a href="#">Refer a friend</a></li>
           <li><a href="partnership.php">Partners</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="contact.php">Contact us</a></li>
         </ul>
       </div>
 
