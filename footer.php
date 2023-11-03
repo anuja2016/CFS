@@ -157,6 +157,14 @@
     slidesToScroll: 1,
     dots: true
   });
+  $('.stories-landing-slider').slick({
+    arrows: true,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: false
+  });
   $('.trusted-companies').slick({
     arrows: false,
     infinite: true,
@@ -234,5 +242,15 @@
         $(this).text(Math.ceil(now));
       }
     });
+  });
+
+
+  $('#accordion')
+  .on('show.bs.collapse', function(e) {   
+    $(e.target).prev('.panel-heading-custom').find('div').addClass('glyphicon glyphicon-minus');    
+  })
+  .on('hide.bs.collapse', function(e) {
+   $(e.target).prev('.panel-heading-custom').find('div').removeClass('glyphicon glyphicon-minus');
+   $(e.target).prev('.panel-heading-custom').find('div').addClass('glyphicon glyphicon-plus');   
   });
 </script>

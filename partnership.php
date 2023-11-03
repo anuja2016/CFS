@@ -77,7 +77,7 @@ include_once 'header.php';
                 <p>BOOK YOUR FREE DEMO</p>
                 <h3>Already a Deel partner and interested in learning more?</h1>
                     <button type="submit" class="btn-getdemo-wh">Get Demo
-                        <img src="assets/images/arrowrightblack.svg" /></button>
+                    <img src="assets/images/arrowrightblack.svg" /></button>
             </div>
         </div>
     </div>
