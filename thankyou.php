@@ -12,219 +12,145 @@ include_once 'header.php';
                 <a href="index.php" type="submit" class="btn-getstarted-radius">GO HOME</a>
             </div>
         </div>
-
     </div>
 </section>
-<div class="white-block whiteblock-position">
-    <div class="d-flex-common p-3">
-        <div class="d-flex align-items-center">
-            <img src="assets/images/youtubeicon.svg" class="icon-img">
-            <p class="thankyou-title">FieldWeb Video</p>
+<section class="main-Wrapper">
+    <div class="sect-thankyou">
+        <div class="thankyou-head">
+            <div class="thankyou-title">
+                <img src="assets/images/youtube-icon2.svg">
+                <h3>FieldWeb Video</h3>
+            </div>
+            <a href="#" class="btn-viewall">View all <img src="assets/images/arrow-right-gray2.svg"></a>
         </div>
-        <div class="d-flex align-items-center">
-            <p class="thankyou-para">View all</p>
-            <img src="assets/images/arrow-right-gray.svg" class="icon-sm-img">
+        <div class="row mt-2">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="https://www.youtube.com/watch?v=NsVz_cVlEsg" target="_blank" class="thankyou-grid">
+                    <div class="video-thumbnail">
+                        <img src="assets/images/video-thumbnail.jpg">
+                        <div class="play-overlay">
+                            <img src="assets/images/play-icon.svg">
+                        </div>
+                    </div>
+                    <h4>Effective ways to monetize mobile apps for better perfomance</h4>
+                    <div class="link-red-arrow">
+                        <span>Watch Now</span>
+                        <img src="assets/images/arrowright-red2.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="https://www.youtube.com/watch?v=NsVz_cVlEsg" target="_blank" class="thankyou-grid">
+                    <div class="video-thumbnail">
+                        <img src="assets/images/video-thumbnail.jpg">
+                        <div class="play-overlay">
+                            <img src="assets/images/play-icon.svg">
+                        </div>
+                    </div>
+                    <h4>Effective ways to monetize mobile apps for better perfomance</h4>
+                    <div class="link-red-arrow">
+                        <span>Watch Now</span>
+                        <img src="assets/images/arrowright-red2.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="https://www.youtube.com/watch?v=NsVz_cVlEsg" target="_blank" class="thankyou-grid">
+                    <div class="video-thumbnail">
+                        <img src="assets/images/video-thumbnail.jpg">
+                        <div class="play-overlay">
+                            <img src="assets/images/play-icon.svg">
+                        </div>
+                    </div>
+                    <h4>Effective ways to monetize mobile apps for better perfomance</h4>
+                    <div class="link-red-arrow">
+                        <span>Watch Now</span>
+                        <img src="assets/images/arrowright-red2.svg">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="thankyou-head mt-5">
+            <div class="thankyou-title">
+                <img src="assets/images/youtube-icon2.svg">
+                <h3>FieldWeb Press & Media</h3>
+            </div>
+            <a href="#" class="btn-viewall">View all <img src="assets/images/arrow-right-gray2.svg"></a>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="press-media.php" target="_blank" class="thankyou-grid">
+                    <img src="assets/images/fieldwebimg1.svg">
+                    <h4>Effective ways to monetize mobile apps for better perfomance</h4>
+                    <div class="link-red-arrow">
+                        <span>Read More</span>
+                        <img src="assets/images/arrowright-red2.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="press-media.php" target="_blank" class="thankyou-grid">
+                    <img src="assets/images/fieldwebimg1.svg">
+                    <h4>Effective ways to monetize mobile apps for better perfomance</h4>
+                    <div class="link-red-arrow">
+                        <span>Read More</span>
+                        <img src="assets/images/arrowright-red2.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="press-media.php" target="_blank" class="thankyou-grid">
+                    <img src="assets/images/fieldwebimg1.svg">
+                    <h4>Effective ways to monetize mobile apps for better perfomance</h4>
+                    <div class="link-red-arrow">
+                        <span>Read More</span>
+                        <img src="assets/images/arrowright-red2.svg">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="thankyou-head mt-5">
+            <div class="thankyou-title">
+                <img src="assets/images/youtube-icon2.svg">
+                <h3>FieldWeb Blog</h3>
+            </div>
+            <a href="#" class="btn-viewall">View all <img src="assets/images/arrow-right-gray2.svg"></a>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="blog-details.php" target="_blank" class="thankyou-grid">
+                    <img src="assets/images/fieldweb-block-img.svg">
+                    <h4>Effective ways to monetize mobile apps for better perfomance</h4>
+                    <div class="link-red-arrow">
+                        <span>Read More</span>
+                        <img src="assets/images/arrowright-red2.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="blog-details.php" target="_blank" class="thankyou-grid">
+                    <img src="assets/images/fieldweb-block-img.svg">
+                    <h4>Effective ways to monetize mobile apps for better perfomance</h4>
+                    <div class="link-red-arrow">
+                        <span>Read More</span>
+                        <img src="assets/images/arrowright-red2.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <a href="blog-details.php" target="_blank" class="thankyou-grid">
+                    <img src="assets/images/fieldweb-block-img.svg">
+                    <h4>Effective ways to monetize mobile apps for better perfomance</h4>
+                    <div class="link-red-arrow">
+                        <span>Read More</span>
+                        <img src="assets/images/arrowright-red2.svg">
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
-    <div class="container mt-2">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <video id="videoID" width="100%" src="assets/videos/contact-us.mp4" class="shape-radius"
-                        preload="auto" loop></video>
-                    <div id="playVideo" preload="auto" controls> <img src="assets/images/playbtn.svg"
-                            class="icon-sm-img"></div>
+</section>
 
-                    <div class="card-body text-center">
-                        <p class="thankyou-card-title">Effective ways to monetize mobile apps for better perfomance</p>
-                    </div>
-                    <div>
-                        <div class="watchnow-float p-3">
-                            <p class="thankyou-red-para">Watch Now</p>
-                            <img src="assets/images/arrowright-red.svg" class="icon-sm-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <video id="videoID2" width="100%" src="assets/videos/contact-us.mp4" class="shape-radius"
-                        preload="auto" loop></video>
-                    <div id="playVideo2" preload="auto" controls> <img src="assets/images/playbtn.svg"
-                            class="icon-sm-img"></div>
-                    <div class="card-body text-center">
-                        <p class="thankyou-card-title">Effective ways to monetize mobile apps
-                            for better perfomance</p>
-                    </div>
-                    <div>
-                        <div class="watchnow-float p-3">
-                            <p class="thankyou-red-para">Watch Now</p>
-                            <img src="assets/images/arrowright-red.svg" class="icon-sm-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <video id="videoID3" width="100%" src="assets/videos/contact-us.mp4" class="shape-radius"></video>
-                    <div id="playVideo3" preload="auto" controls> <img src="assets/images/playbtn.svg"
-                            class="icon-sm-img"></div>
-                    <div class="card-body text-center">
-                        <p class="thankyou-card-title">Effective ways to monetize mobile apps
-                            for better perfomance</p>
-                    </div>
-                    <div>
-                        <div class="watchnow-float p-3">
-                            <p class="thankyou-red-para">Watch Now</p>
-                            <img src="assets/images/arrowright-red.svg" class="icon-sm-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="d-flex-common p-3">
-        <div class="d-flex align-items-center">
-            <img src="assets/images/youtubeicon.svg" class="icon-img">
-            <p class="thankyou-title">FieldWeb Press & Media</p>
-        </div>
-        <div class="d-flex align-items-center">
-            <p class="thankyou-para">View all</p>
-            <img src="assets/images/arrow-right-gray.svg" class="icon-sm-img">
-        </div>
-    </div>
-    <div class="container mt-2">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/fieldwebimg1.svg" class="shape-radius">
-                    <div class="card-body text-center">
-                        <p class="thankyou-card-title">Effective ways to monetize mobile apps for better perfomance</p>
-                    </div>
-                    <div>
-                        <div class="watchnow-float p-3">
-                            <p class="thankyou-red-para">Read More</p>
-                            <img src="assets/images/arrowright-red.svg" class="icon-sm-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/fieldwebimg1.svg" class="shape-radius">
-                    <div class="card-body text-center">
-                        <p class="thankyou-card-title">Effective ways to monetize mobile apps
-                            for better perfomance</p>
-                    </div>
-                    <div>
-                        <div class="watchnow-float p-3">
-                            <p class="thankyou-red-para">Read More</p>
-                            <img src="assets/images/arrowright-red.svg" class="icon-sm-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/fieldwebimg1.svg" class="shape-radius">
-                    <div class="card-body text-center">
-                        <p class="thankyou-card-title">Effective ways to monetize mobile apps
-                            for better perfomance</p>
-                    </div>
-                    <div>
-                        <div class="watchnow-float p-3">
-                            <p class="thankyou-red-para">Read More</p>
-                            <img src="assets/images/arrowright-red.svg" class="icon-sm-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="d-flex-common p-3">
-        <div class="d-flex align-items-center">
-            <img src="assets/images/youtubeicon.svg" class="icon-img">
-            <p class="thankyou-title">FieldWeb Blog</p>
-        </div>
-        <div class="d-flex align-items-center">
-            <p class="thankyou-para">View all</p>
-            <img src="assets/images/arrow-right-gray.svg" class="icon-sm-img">
-        </div>
-    </div>
-    <div class="container mt-2">
-        <div class="row mb-5">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/fieldweb-block-img.svg" class="shape-radius">
-                    <div class="card-body text-center">
-                        <p class="thankyou-card-title">Effective ways to monetize mobile apps for better perfomance</p>
-                    </div>
-                    <div>
-                        <div class="watchnow-float p-3">
-                            <p class="thankyou-red-para">Read More</p>
-                            <img src="assets/images/arrowright-red.svg" class="icon-sm-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/fieldweb-block-img.svg" class="shape-radius">
-                    <div class="card-body text-center">
-                        <p class="thankyou-card-title">Effective ways to monetize mobile apps
-                            for better perfomance</p>
-                    </div>
-                    <div>
-                        <div class="watchnow-float p-3">
-                            <p class="thankyou-red-para">Read More</p>
-                            <img src="assets/images/arrowright-red.svg" class="icon-sm-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/fieldweb-block-img.svg" class="shape-radius">
-                    <div class="card-body text-center">
-                        <p class="thankyou-card-title">Effective ways to monetize mobile apps
-                            for better perfomance</p>
-                    </div>
-                    <div>
-                        <div class="watchnow-float p-3">
-                            <p class="thankyou-red-para">Read More</p>
-                            <img src="assets/images/arrowright-red.svg" class="icon-sm-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<script>
-    document.getElementById('playVideo').addEventListener('click', function () {
-        document.getElementById('videoID').play();
-        document.getElementById('playVideo').style.display = 'none';
-    });
-    document.getElementById('videoID').onended = function () {
-        document.getElementById('playVideo').style.display = 'block';
-    }
-
-    document.getElementById('playVideo2').addEventListener('click', function () {
-        document.getElementById('videoID2').play();
-        document.getElementById('playVideo2').style.display = 'none';
-    });
-    document.getElementById('videoID2').onended = function () {
-        document.getElementById('playVideo2').style.display = 'block';
-    }
-
-    document.getElementById('playVideo3').addEventListener('click', function () {
-        document.getElementById('videoID3').play();
-        document.getElementById('playVideo3').style.display = 'none';
-    });
-    document.getElementById('videoID3').onended = function () {
-        document.getElementById('playVideo3').style.display = 'block';
-    }
-</script>
 <?php
 include_once 'footer.php';
 ?>
