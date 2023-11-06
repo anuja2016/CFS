@@ -16,7 +16,7 @@ include_once 'header.php';
             <a href="https://play.google.com/store/games?device=windows&utm_source=apac_med&hl=en-IN&utm_medium=hasem&utm_content=Jun1223&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Jun1223-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700076784774234_creativeid_480977734961_device_c&gclid=EAIaIQobChMI9YLJ8aS5gQMVGiRgCh24HwCGEAAYASAAEgJTufD_BwE&gclsrc=aw.ds"
                 target="_blank"><img src="assets/images/googlestore.svg" /></a>
         </div>
-        <img src="assets/images/landing-bg.svg">
+        <img src="assets/images/landing-bg.svg" class="img-fluid" >
     </div>
     <!-- <div class="block-banner-landing mt-116">
         <div class="block-img" style="background-color:#000;"><img src="assets/images/landing-bg.svg"></div>

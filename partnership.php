@@ -3,8 +3,8 @@ include_once 'header.php';
 ?>
 
 <section>
-    <div class="banner-block-lft mt-116">
-        <div class="block-img"><img src="assets/images/partner-bg.svg"></div>
+    <div class="banner-block-lft-partner mt-116">
+        <div class="block-img"><img src="assets/images/partner-bg.svg" ></div>
         <div class="content">
             <h1>Grow on a global scale as a Deel Partner</h1>
             <p>FieldWeb is complex and time-consuming. Deel Partners empower their
@@ -17,10 +17,10 @@ include_once 'header.php';
         <div class="overlay"></div>
     </div>
 </section>
-<section>
+<section class="mt-5 mb-3">
     <div class="container">
         <div class="block-darkgrey">
-            <p class="title-md-montbold text-center p-3">Why become a Deel partner?</p>
+            <p class="title-md-montbold text-center p-4">Why become a Deel partner?</p>
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-4">
