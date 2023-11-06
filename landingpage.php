@@ -3,7 +3,7 @@ include_once 'header.php';
 ?>
 
 <section>
-    <div class="landing-app-block text-center mt-116">
+    <div class="landing-app-block margin-btm text-center mt-116">
         <div class="pt-5">
         <p class="landing-white-title">We Bring Emotions to Your Life</p>
         <p class="landing-white-para">Feugiat primis ligula risus auctor laoreet augue egestas mauris
@@ -18,25 +18,8 @@ include_once 'header.php';
         </div>
         <img src="assets/images/landing-bg.svg" class="img-fluid" >
     </div>
-    <!-- <div class="block-banner-landing mt-116">
-        <div class="block-img" style="background-color:#000;"><img src="assets/images/landing-bg.svg"></div>
-        <div class="content-landing">
-            <h1>We Bring Emotions to Your Life</h1>
-            <p>Feugiat primis ligula risus auctor laoreet augue egestas mauris
-                viverra tortor in iaculis suscipit
-            </p>
-            <div class="d-flex justify-content-center gap-1 mt-3">
-                <a href="https://www.apple.com/in/app-store/" target="_blank"><img
-                        src="assets/images/appstorelogo.svg" /></a>
-                <a href="https://play.google.com/store/games?device=windows&utm_source=apac_med&hl=en-IN&utm_medium=hasem&utm_content=Jun1223&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Jun1223-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700076784774234_creativeid_480977734961_device_c&gclid=EAIaIQobChMI9YLJ8aS5gQMVGiRgCh24HwCGEAAYASAAEgJTufD_BwE&gclsrc=aw.ds"
-                    target="_blank"><img src="assets/images/googlestore.svg" /></a>
-            </div>
-
-        </div>
-
-    </div> -->
 </section>
-<section>
+<section class="margin-btm">
     <marquee scrollamount="20" behavior=scroll direction="right"
         onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();"
         onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
@@ -83,7 +66,7 @@ include_once 'header.php';
     </marquee>
 </section>
 <section>
-    <div class="container mt-5 mb-3">
+    <div class="container margin-btm">
         <div class="block-darkgrey p-3">
             <div class="container">
                 <div class="row">
@@ -172,8 +155,8 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="sect-homeservice mt-5" data-aos="fade-up">
-    <div class="container mb-3">
+<section class="sect-homeservice margin-btm" data-aos="fade-up">
+    <div class="container margin-btm">
         <div class="row">
             <div class="col-md-6">
                 <div>
@@ -311,7 +294,7 @@ include_once 'header.php';
                 <div class="mt-1">
                     <div class="lightblock-radius d-flex justify-content-md-center">
                         <div class="d-flex gap-3">
-                            <img src="assets/images/oscarlogo.svg" class="icon-img" />
+                            <img src="assets/images/oscarlogo.svg" class="icon-landing-img" />
                             <div class="d-flex-column">
                                 <p class="lightblock-title">OSCAR PLUS ELEVATOR</p>
                                 <p class="lightblock-para">“Aliquam a augue suscipit, luctus neque</p>
@@ -366,7 +349,7 @@ include_once 'header.php';
 <div class="divider"></div>
 <!----------Trusted industries----------->
 <section class="main-Wrapper" data-aos="fade-up">
-    <div class="text-center mt-5 mb-3">
+    <div class="text-center margin-btm">
         <h2 class="title">10k+ Customers Love AppSet</h2>
         <p class="title-md">libero tempus, tempor posuere ligula varius</p>
     </div>
@@ -411,7 +394,7 @@ include_once 'header.php';
     </div>
 </section>
 <div class="divider"></div>
-<section class="mt-5 mb-3">
+<section class="margin-btm">
     <div class="text-center">
         <h2 class="title">Our Stories & Latest News</h2>
         <p class="title-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero tempus, tempor
@@ -572,7 +555,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-5 mb-3" data-aos="fade-up">
+<section class="margin-btm" data-aos="fade-up">
     <div class="showcase-app-block">
         <div class="row">
             <div class=" offset-md-2 col-md-5 pt-4">
@@ -596,8 +579,8 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section>
-    <div class="text-center mt-8 mb-3">
+<section class="margin-btm">
+    <div class="text-center margin-btm">
         <h2 class="title"> <span class="stories-red-title">FAQ</span> - Frequently Asked Questions</h2>
         <p class="title-md">Lorem Ipsum is simply dummy text of the printing and typese tting
             indus orem Ipsum has beenthe standard dummy.</p>

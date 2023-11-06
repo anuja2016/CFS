@@ -24,7 +24,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-3 mb-3 px-3" data-aos="fade-up">
+<section class="margin-btm px-3" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="wrapper-head">
             <h2 class="title">Trending Blogs</h2>
@@ -123,7 +123,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-7" data-aos="fade-up">
+<section class="mt-7 margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="sect-filter">
             <div class="me-3">
@@ -144,7 +144,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-7 mb-3" data-aos="fade-up">
+<section class="margin-btm" data-aos="fade-up">
     <div class="main-Wrapper blog-cards">
         <div class="row">
             <div class="col-md-6 mb-4">

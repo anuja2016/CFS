@@ -25,12 +25,12 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mb-3" data-aos="fade-up">
-    <div class="wrapper-head">
+<section class="margin-btm" data-aos="fade-up">
+    <div class="wrapper-head margin-btm">
         <p class="title-red">OUR POWERFUL FEATURES</p>
         <h2 class="title">What is HVAC Field Service Management Software?</h2>
     </div>
-    <div class="main-Wrapper mt-5">
+    <div class="main-Wrapper margin-btm">
         <div class="row">
             <div class="col-md-6">
                 <p class="mb-3">In the fast-paced world of HVAC services, efficiency and accuracy are paramount. FieldWeb offers comprehensive HVAC business software that revolutionizes the way you manage your operations.</p>
@@ -54,13 +54,13 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-10 mb-3" data-aos="fade-up">
-    <div class="wrapper-head">
+<section class="margin-btm" data-aos="fade-up">
+    <div class="wrapper-head margin-btm">
         <p class="title-red">OUR POWERFUL FEATURES</p>
         <h2 class="title">Making HVAC service run smoothly for your business</h2>
         <p class="mt-5">Running an HVAC business can be tough. From scheduling jobs to dispatching technicians, disorganization can lead to inefficiency. That's where FieldWeb's HVAC software comes in. It simplifies everything – create estimates, installations, repairs, job tracking and on the job reports – all in one place.</p>
     </div>
-    <div class="main-Wrapper mt-5">
+    <div class="main-Wrapper margin-btm">
         <div class="row">
             <div class="col-md-6">
                 <div class="accordion accordion-flush" id="accordionservice">
@@ -194,14 +194,14 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-8 mb-3" data-aos="fade-up">
+<section class="margin-btm" data-aos="fade-up">
     <div class="learnmore-block">
         <p>BOOK YOUR FREE DEMO</p>
         <h3>Learn more about <span>FieldWeb</span></h3>
         <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
     </div>
 </section>
-<section class="mt-10 mb-3" data-aos="fade-up">
+<section class="margin-btm" data-aos="fade-up">
     <div class="wrapper-head">
         <p class="title-red">OUR POWERFUL FEATURES</p>
         <h2 class="title">Frequently Asked Questions</h2>
@@ -283,7 +283,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="text-center mt-10 mb-3" data-aos="fade-up">
+<section class="text-center margin-btm" data-aos="fade-up">
     <p class="title-red">OUR POWERFUL FEATURES</p>
     <h2 class="title drawn-underline">I Switched to FieldWeb</h2>
     <div class="main-Wrapper">
@@ -363,7 +363,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-10 mb-3" data-aos="fade-up">
+<section class="mt-8 margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="text-center mt-5 mb-5">
             <h2 class="title-semibold">Big & Small Business Trusted Us<h2>

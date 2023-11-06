@@ -1450,6 +1450,18 @@
   margin: 20px 150px;
 }
 
+.margin-btm {
+  margin-bottom: 3rem;
+}
+
+.margin-sm-btm {
+  margin-bottom: 2rem;
+}
+
+.margin-tp {
+  margin-top: 3rem !important;
+}
+
 @font-face {
   font-family: "Poppins-light";
   src: url("./../fonts/Poppins/Poppins-Light.ttf");
@@ -3104,6 +3116,11 @@ select.form-control {
   width: 400px;
 }
 
+.icon-landing-img {
+  height: 60px;
+  width: 60px;
+}
+
 .stunning-header .landing-menu {
   padding-left: 0;
   list-style: none;
@@ -3121,6 +3138,7 @@ select.form-control {
   border: 1px solid #C2C2C2;
   padding: 10px;
   border-radius: 30px;
+  width: 90%;
 }
 
 .lightblock-title {

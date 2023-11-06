@@ -1,7 +1,6 @@
 <?php
 include_once 'header.php';
 ?>
-
 <section>
     <div class="banner-block mt-116">
         <div class="block-img"><img src="assets/images/industry_banner.svg"></div>
@@ -16,7 +15,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="sect-services">
+<section class="sect-services margin-btm">
     <div class="industry-slider main-Wrapper">
         <div id="carouselExampleDark" class="carousel carousel-dark slide mb-5" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -554,7 +553,7 @@ include_once 'header.php';
     </div>
 </section>
 
-<section class="main-Wrapper text-center pt-5 mb-3" data-aos="fade-up">
+<section class="main-Wrapper text-center margin-btm" data-aos="fade-up">
     <div class="row align-items-center">
         <div class="col-md-6">
             <p class="title-md">IN 40 YEARS OF EXPERIENCE</p>

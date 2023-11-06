@@ -2,7 +2,7 @@
 include_once 'header.php';
 ?>
 
-<div class="carousel slide carousel-fade main-carousel" data-bs-ride="carousel">
+<div class="carousel slide carousel-fade main-carousel margin-btm" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="assets/images/slider1.svg" class="img-fluid" alt="slider1" />
@@ -66,9 +66,9 @@ include_once 'header.php';
     </div>
   </div>
 </div>
-<section class="feature-section" data-aos="fade-up">
+<section class="feature-section margin-btm" data-aos="fade-up">
   <div class="main-Wrapper">
-    <div class="text-center mt-5 mb-5">
+    <div class="text-center margin-sm-btm">
       <p class="title-red">OUR POWERFUL FEATURES</p>
       <h2 class="title">Simplify Your <span class="drawn-underline">Service Business</span> Operations</p>
     </div>
@@ -104,9 +104,9 @@ include_once 'header.php';
   </div>
 </section>
 
-<section class="sect-homeservice" data-aos="fade-up">
-  <div class="main-Wrapper mb-3">
-    <div class="text-center mt-5 mb-5">
+<section class="sect-homeservice margin-btm" data-aos="fade-up">
+  <div class="main-Wrapper">
+    <div class="text-center margin-sm-btm">
       <p class="title-red">FEATURES FOR YOURS</p>
       <h2 class="title drawn-underline">Home Service Business</p>
     </div>
@@ -204,9 +204,9 @@ include_once 'header.php';
   </div>
 </section>
 <!----------INDUSTRIES----------->
-<section data-aos="fade-up">
+<section data-aos="fade-up margin-btm">
   <div class="main-Wrapper">
-    <div class="text-center mt-5 mb-5">
+    <div class="text-center margin-sm-btm">
       <p class="title-red">50+ INDUSTRIES</p>
       <h2 class="title drawn-underline">Served by FieldWeb</h2>
     </div>
@@ -257,7 +257,7 @@ include_once 'header.php';
   </div>
 </section>
 <!----------Transformative Results----------->
-<section class="block-grey mb-3 sect-transresults" data-aos="fade-up">
+<section class="block-grey sect-transresults margin-btm" data-aos="fade-up">
   <div class="main-Wrapper">
     <div class="row">
       <div class="col-md-5">
@@ -314,12 +314,12 @@ include_once 'header.php';
   </div>
 </section>
 <!----------One App To Replace----------->
-<section class="main-Wrapper sect-oneapp" data-aos="fade-up">
-  <div class="text-center mt-5 mb-3">
+<section class="main-Wrapper sect-oneapp margin-btm" data-aos="fade-up">
+  <div class="text-center margin-sm-btm">
     <h2 class="title">One App To Replace Them All</h2>
     <p class="title-sm-red">All your work in one place :</p>
   </div>
-  <div class="grid-list mb-3">
+  <div class="grid-list margin-btm">
     <div class="row text-center mt-5">
       <div class="col-md-3 col-sm-4 col-6">
         <div class="d-flex align-items-center text-start gap-3">
@@ -403,8 +403,8 @@ include_once 'header.php';
   </div>
 </section>
 <!----------Trusted industries----------->
-<section class="main-Wrapper" data-aos="fade-up">
-  <div class="text-center mt-5 mb-3">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
+  <div class="text-center">
     <h2 class="title">Over 200000+ Field Service Businesses in 50+</h2>
     <h2 class="title">industries trust FieldWeb</h2>
   </div>
@@ -443,12 +443,12 @@ include_once 'header.php';
     </div>
   </div>
 </section>
-<section data-aos="fade-up">
+<section data-aos="fade-up margin-btm">
   <div class="main-Wrapper">
-    <div class="text-center mt-5 mb-5">
+    <div class="text-center margin-sm-btm">
       <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
     </div>
-    <div class="trusted-companies mt-5">
+    <div class="trusted-companies">
       <div>
         <img src="assets/images/trustlogo.svg" />
       </div>

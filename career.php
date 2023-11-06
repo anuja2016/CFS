@@ -3,18 +3,18 @@ include_once 'header.php';
 ?>
 
 <section>
-    <div class="banner-block-lft mt-116">
+    <div class="banner-block-lft mt-116 margin-btm">
         <div class="block-img"><img src="assets/images/career-bg.svg"></div>
         <div class="content">
             <h1>Grow on a global scale as a Deel Partner</h1>
             <p>FieldWeb is complex and time-consuming. Deel Partners empower their clients to make global hiring more accessible than ever</p>
-            <div class="mt-4">
+            <div class="pt-4">
                 <button type="submit" class="btn-getstarted" data-bs-toggle="modal" data-bs-target="#getdemoModal">Become a Deel Partner</button>
             </div>
         </div>
     </div>
 </section>
-<section class="custom-tabs mt-3 mb-3" data-aos="fade-up">
+<section class="custom-tabs margin-btm" data-aos="fade-up">
     <div class="wrapper-head">
         <h2 class="title">FieldWeb Jobs</h2>
     </div>
@@ -264,7 +264,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="main-Wrapper mt-8 mb-8" data-aos="fade-up">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
     <div class="sect-fw-life">
         <div class="fw-life-slider">
             <div class="fw-life-review">
@@ -321,7 +321,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="sect-culture mt-8">
+<section class="sect-culture margin-btm">
     <div class="wrapper-head">
         <h2 class="title">Culture At FieldWeb</h2>
     </div>
