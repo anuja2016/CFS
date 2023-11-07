@@ -1,7 +1,7 @@
 <footer data-aos="fade-up">
   <div class="main-Wrapper">
     <div class="row">
-      <div class="col-lg-2 col-md-4">
+      <div class="col-md-2 col-sm-6 col-6">
         <h4>Features</h4>
         <ul class="footer-menu">
           <li><a href="#">Job Scheduling</a></li>
@@ -16,7 +16,7 @@
           <li><a href="#">All Features<span class="ps-2"><img src="assets/images/whitearrow.svg" /></span></a></li>
         </ul>
       </div>
-      <div class="col-lg-2 col-md-4">
+      <div class="col-md-2 col-sm-6 col-6">
         <h4>Industries</h4>
         <ul class="footer-menu">
           <li><a href="#">HVAC </a></li>
@@ -31,7 +31,7 @@
           <li><a href="#">All Industries<span class="ps-2"><img src="assets/images/whitearrow.svg" /></span></a></li>
         </ul>
       </div>
-      <div class="col-lg-2 col-md-4">
+      <div class="col-md-2 col-sm-6 col-6">
         <h4>Resource</h4>
         <ul class="footer-menu">
           <li><a href="pricing.php">Pricing</a></li>
@@ -40,18 +40,18 @@
           <li><a href="blog.php">Blogs</a></li>
         </ul>
       </div>
-      <div class="col-lg-2 col-md-4">
+      <div class="col-md-2 col-sm-6 col-6">
         <h4>Company</h4>
         <ul class="footer-menu">
           <li><a href="about.php">About</a></li>
           <li><a href="career.php">Careers</a></li>
           <li><a href="#">Refer a friend</a></li>
-          <li><a href="partnership.php">Partners</a></li>
+          <li><a href="partners.php">Partners</a></li>
           <li><a href="contact.php">Contact us</a></li>
         </ul>
       </div>
 
-      <div class="col-lg-4 col-md-4 ps-4">
+      <div class="col-md-4 ps-4 col-sm-6 col-6">
         <img class="footlogo" src="assets/images/footer-logo.svg" />
         <div>
           <div class="getintouch">
@@ -78,6 +78,7 @@
     </div>
   </div>
 </footer>
+<button onclick="topFunction()" id="btnScrollTop" title="Go to top"><img src="assets/images/arrow-top-white.svg" /></button>
 
 
 <!--scripts--->
@@ -91,6 +92,30 @@
   var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
   })
+</script>
+<!--scroll top--->
+<script>
+  // Get the button
+  let mybutton = document.getElementById("btnScrollTop");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {
+    scrollFunction()
+  };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 </script>
 <script>
   /**
@@ -155,7 +180,20 @@
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    dots: true
+    dots: true,
+    responsive: [{
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
   });
   $('.trusted-companies').slick({
     arrows: false,

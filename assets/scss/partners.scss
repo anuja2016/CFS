@@ -1,0 +1,216 @@
+.btn-red-rounded {
+    color: #FFF;
+    border-radius: 0;
+    background: #C22032;
+    // font-family: "Montserrat-Bold";
+    padding: 8px 45px;
+    outline: none;
+    border-radius: 35px;
+    width: fit-content;
+    cursor: pointer;
+    border: 1px solid #C22032;
+
+    &:hover {
+        background: #ae1d2d;
+        box-shadow: 3px 3px 10px #dedede;
+    }
+}
+
+.sect-deal-partner {
+    h5 {
+        color: #000000;
+        font-family: "Montserrat-Bold";
+        font-size: 1.2rem;
+        letter-spacing: normal;
+        cursor: default;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        cursor: default;
+    }
+}
+
+.sect_benefits {
+    .table {
+        thead {
+            tr {
+                th {
+                    vertical-align: top;
+
+                    &:first-child {
+                        background-color: #6F3894;
+                        color: #fff;
+                        font-family: "Montserrat-Medium";
+                        font-weight: normal;
+                        border-right: 4px solid #fff;
+                    }
+
+                    &:nth-child(2) {
+                        background-color: #212120;
+                        color: #fff;
+                        background-image: url('../images/Stellar_bg.svg');
+                        background-size: 100%;
+                        background-repeat: no-repeat;
+                        border-right: 4px solid #fff;
+                    }
+
+                    &:nth-child(3) {
+                        background-color: #252525;
+                        color: #9FB459;
+                        background-image: url('../images/Ethereum_bg.svg');
+                        background-size: 100%;
+                        background-repeat: no-repeat;
+                        background-position: bottom;
+                        border-right: 4px solid #fff;
+                    }
+
+                    &:nth-child(4) {
+                        background-color: #212120;
+                        color: #EBB94F;
+                        background-image: url('../images/Bitcoin_bg.svg');
+                        background-size: 100%;
+                        background-repeat: no-repeat;
+                        background-position: bottom;
+                    }
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    &:first-child {
+                        background-color: #212120;
+                        color: #fff;
+                        .d-flex{
+                            align-items:center;
+                        }
+                        img {
+                            margin-right: 5px;
+                        }
+                        border-right: 4px solid #fff;
+                    }
+
+                    &:nth-child(2) {
+                        background-color: #212120;
+                        color: #fff;
+                        font-family: "Montserrat-Bold";
+                        text-align: center;
+                        border-right: 4px solid #fff;
+                    }
+
+                    &:nth-child(3) {
+                        background-color: #252525;
+                        color: #B8D499;
+                        font-family: "Montserrat-Bold";
+                        text-align: center;
+                        border-right: 4px solid #fff;
+                    }
+
+                    &:nth-child(4) {
+                        background-color: #212120;
+                        color: #F5EA14;
+                        font-family: "Montserrat-Bold";
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        tfoot {
+            tr {
+                td {
+                    &:first-child {
+                        background-color: #5C5C5C;
+                        color: #fff;
+                        border-right: 4px solid #fff;
+                    }
+
+                    &:nth-child(2) {
+                        background-color: #5C5C5C;
+                        color: #fff;
+                        font-family: "Montserrat-Bold";
+                        text-align: center;
+                        padding-bottom: 1.5rem;
+                        border-right: 4px solid #fff;
+                    }
+
+                    &:nth-child(3) {
+                        background-color: #5C5C5C;
+                        color: #B8D499;
+                        font-family: "Montserrat-Bold";
+                        text-align: center;
+                        padding-bottom: 2rem;
+                        border-right: 4px solid #fff;
+                    }
+
+                    &:nth-child(4) {
+                        background-color: #5C5C5C;
+                        color: #F5EA14;
+                        font-family: "Montserrat-Bold";
+                        text-align: center;
+                        padding-bottom: 2rem;
+                    }
+                }
+            }
+        }
+
+        tr {
+            th {
+                border-bottom: 0;
+
+                .d-flex {
+                    align-items: center;
+                    gap: 8px;
+                    grid-gap: 8px;
+
+                    img {
+                        width: 55px;
+                        height: 55px;
+                    }
+
+                    h4 {
+                        margin-bottom: 0;
+                        font-family: "Montserrat-Medium";
+                        font-weight: normal;
+                    }
+
+                    p {
+                        font-family: 'Montserrat-Regular';
+                        font-weight: normal;
+                    }
+                }
+            }
+
+            td {
+                border-bottom: 0;
+            }
+        }
+    }
+}
+
+.bg-purple {
+    background-color: #6F3894 !important;
+}
+
+.bg-bonus {
+    background-color: #5C5C5C;
+    color: #EBB94F;
+    background-image: url('../images/Bonus_bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.txt-yellow{
+    color: #EED814!important;
+}

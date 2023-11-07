@@ -414,31 +414,31 @@ include_once 'header.php';
         <img src="assets/images/image1.svg" />
         <h5 class="ti-card-name"> Chiranjeevi Rao</h5>
         <p class="ti-card-companyname">Godhavari Mineral Water Technologies</p>
-        <p>FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
       </div>
       <div class="ti-card">
         <img src="assets/images/image2.svg" />
         <h5 class="ti-card-name"> Prasad Raju Kalindi</h5>
         <p class="ti-card-companyname"> ImageIndia</p>
-        <p>FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
       </div>
       <div class="ti-card">
         <img src="assets/images/image3.svg" />
         <h5 class="ti-card-name">Mohit Sapra</h5>
         <p class="ti-card-companyname">Splash RO systems</p>
-        <p>FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
       </div>
       <div class="ti-card">
         <img src="assets/images/image2.svg" />
         <h5 class="ti-card-name"> Prasad Raju Kalindi</h5>
         <p class="ti-card-companyname"> ImageIndia</p>
-        <p>FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
       </div>
       <div class="ti-card">
         <img src="assets/images/image3.svg" />
         <h5 class="ti-card-name">Mohit Sapra</h5>
         <p class="ti-card-companyname">Splash RO systems</p>
-        <p>FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
       </div>
     </div>
   </div>
