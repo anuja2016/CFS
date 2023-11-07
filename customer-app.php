@@ -2,7 +2,7 @@
 include_once 'header.php';
 ?>
 <section>
-    <div class="banner-block-lft mt-116">
+    <div class="banner-block-lft mt-116 margin-btm">
         <div class="block-img"><img src="assets/images/customer-app-bg.svg"></div>
         <div class="content">
             <h1>A convenient online client portal that keeps work moving forward</h1>
@@ -24,15 +24,15 @@ include_once 'header.php';
         <div class="overlay"></div>
     </div>
 </section>
-<section class="main-Wrapper mb-5" data-aos="fade-up">
-    <div class="mb-3 text-center w-75 m-auto">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
+    <div class="margin-btm text-center w-75 m-auto">
         <h3 class="title-md-montsbold">How do quotes work in FieldWeb?</h3>
         <p>With these quoting features, Jobber helps you save time, win more work, and offer the professional and convenient experience that your customers expect.</p>
     </div>
 </section>
-<section class="customerapp-tabs mt-10 mb-3" data-aos="fade-up">
+<section class="customerapp-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
-        <ul class="nav nav-pills justify-content-center mb-3">
+        <ul class="nav nav-pills justify-content-center margin-btm">
             <div class="d-flex gap-4">
                 <li class="nav-item">
                     <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tb-BrandCustomization"><img src="assets/images/Brand-Customization-icon.svg"> Branding and Customization</a>
@@ -116,7 +116,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="main-Wrapper mt-10 mb-5" data-aos="fade-up">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
     <div class="sect-jobquote">
         <div class="w-75 m-auto">
             <h2 class="title text-center">What is client hub?</h2>
@@ -125,7 +125,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="main-Wrapper mt-5 mb-5" data-aos="fade-up">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
     <div class="row">
         <div class="col-md-6">
             <div class="quote-grey-block p-4">
@@ -149,7 +149,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-8 mb-3" data-aos="fade-up">
+<section class="margin-btm" data-aos="fade-up">
     <div class="subscribe-block">
         <div class="main-Wrapper">
             <div class="row">
@@ -171,7 +171,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-8 me-5 ms-5 mb-3" data-aos="fade-up">
+<section class="margin-btm me-5 ms-5" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="text-center">
             <h2 class="title">Customer App Testimonial</h2>
@@ -266,12 +266,12 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-10 mb-8" data-aos="fade-up">
+<section class="margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
-        <div class="text-center mt-5 mb-5">
+        <div class="text-center mt-8 margin-btm">
             <h2 class="title">Over 200,000 home service pros trust Jobber<h2>
         </div>
-        <div class="cust-feedback-slider mt-5">
+        <div class="cust-feedback-slider mt-3">
             <div>
                 <div class="custf-details">
                     <div class="row justify-content-center">

@@ -24,7 +24,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-5 mb-3">
+<section class="margin-btm">
     <div class="main-Wrapper">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -41,8 +41,8 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="pt-5 pb-5" data-aos="fade-up">
-    <div class="text-center mt-5 mb-4">
+<section class="margin-btm" data-aos="fade-up">
+    <div class="text-center margin-btm">
         <h2 class="title">Fieldweb team is here to help you!!</h2>
         <p>Join us on social media to keep up with the latest news, advice, and information from the best app for field service businesses.</p>
     </div>
@@ -83,7 +83,7 @@ include_once 'header.php';
 </section>
 <!----------Trusted industries----------->
 <section class="main-Wrapper" data-aos="fade-up">
-    <div class="text-center mt-5 mb-3">
+    <div class="text-center margin-btm">
         <h2 class="title">Over 200000+ Field Service Businesses in 50+</h2>
         <h2 class="title">industries trust FieldWeb</h2>
     </div>
@@ -122,7 +122,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-8 mb-3" data-aos="fade-up">
+<section class="mt-8 margin-btm" data-aos="fade-up">
     <div class="learnmore-block">
         <p>BOOK YOUR FREE DEMO</p>
         <h3>Learn more about <span>FieldWeb</span></h1>
@@ -131,7 +131,7 @@ include_once 'header.php';
 </section>
 <section data-aos="fade-up">
     <div class="main-Wrapper">
-        <div class="text-center mt-10 mb-5">
+        <div class="text-center mt-10 margin-btm">
             <h2 class="title-semibold">Over 10,000+ Customer Worldwide<h2>
         </div>
         <div class="trusted-companies mt-5">
@@ -157,7 +157,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get in touch----------->
-<section class="main-Wrapper mt-10 mb-5" data-aos="fade-up">
+<section class="main-Wrapper mt-10 margin-btm" data-aos="fade-up">
     <div class="">
         <div class="row">
             <div class="col-md-6">
@@ -167,16 +167,16 @@ include_once 'header.php';
             <div class="col-md-6">
                 <div class="sect-wboxs">
                     <h2 class="title-poppins-sbold">Get In Touch</h2>
-                    <div class="mb-3 mt-3">
+                    <div class="margin-btm mt-3">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="mb-3">
+                                <div class="margin-btm">
                                     <label class="form-label">Name*</label>
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="mb-3">
+                                <div class="margin-btm">
                                     <label class="form-label">Company Name*</label>
                                     <input type="text" class="form-control">
                                 </div>
@@ -184,28 +184,28 @@ include_once 'header.php';
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="mb-3">
+                                <div class="margin-btm">
                                     <label class="form-label">Phone Number*</label>
                                     <input type="number" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="mb-3">
+                                <div class="margin-btm">
                                     <label class="form-label">Email*</label>
                                     <input type="email" class="form-control">
                                 </div>
                             </div>
                         </div>
-                        <div class="mb-3">
+                        <div class="margin-btm">
                             <label for="exampleInputPassword1" class="form-label">Demo Date</label>
                             <input type="date" class="form-control">
                         </div>
-                        <div class="mb-3">
+                        <div class="margin-btm">
                             <label class="form-label">Message</label>
                             <textarea rows="4" class="form-control"></textarea>
                         </div>
                     </div>
-                    <div class="mb-3">
+                    <div class="margin-btm">
                         <button type="button" class="btn-red">SUBMIT</button>
                     </div>
                 </div>

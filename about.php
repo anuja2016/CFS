@@ -2,23 +2,23 @@
 include_once 'header.php';
 ?>
 
-<section class="top-wrapper">
+<section class="top-wrapper margin-btm">
     <img src="assets/images/aboutbackground.svg" class="img-fluid" alt="...">
 </section>
-<section class="main-Wrapper sect-about mt-4 mb-3" data-aos="fade-up">
+<section class="main-Wrapper sect-about margin-btm" data-aos="fade-up">
     <div class="row">
-        <div class="col-md-7 mt-3">
+        <div class="col-md-7">
             <h3 class="title">About FieldWeb</h3>
-            <p class="mb-3">FieldWeb is a field service management (FSM) application for small businesses that helps business owners to track and manage their field business operations easily and securely.</p>
-            <p class="mb-3">FieldWeb comes up with a large set of features like Real-Time Task Scheduling, AMC management, CRM, Asset management etc.</p>
-            <p class="mb-3">Today, FieldWeb is becoming a household name. Business Owners and fieldworkers use the app extensively while creating 1000's tasks every day. The high engagement has resulted in more than 25% of revenue growth, a 27% decrease in customer churn rate and a 32% increase in workers' productivity.</p>
+            <p class="mt-2">FieldWeb is a field service management (FSM) application for small businesses that helps business owners to track and manage their field business operations easily and securely.</p>
+            <p class="mt-2">FieldWeb comes up with a large set of features like Real-Time Task Scheduling, AMC management, CRM, Asset management etc.</p>
+            <p class="mt-2">Today, FieldWeb is becoming a household name. Business Owners and fieldworkers use the app extensively while creating 1000's tasks every day. The high engagement has resulted in more than 25% of revenue growth, a 27% decrease in customer churn rate and a 32% increase in workers' productivity.</p>
         </div>
-        <div class="col-md-5 mt-3 ">
+        <div class="col-md-5">
             <img src="assets/images/about-fieldweb.png" class="img-fluid" alt="...">
         </div>
     </div>
 </section>
-<section class="main-Wrapper mt-5" data-aos="fade-up">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
     <div class="block-lightorange rounded-0">
         <div class="row">
             <div class="col-md-6 px-5 py-3">
@@ -62,11 +62,11 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="main-Wrapper mt-5" data-aos="fade-up">
-    <div class="text-center mb-3">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
+    <div class="text-center margin-sm-btm">
         <h2 class="title">Heading</h2>
     </div>
-    <div class="heading pb-5">
+    <div class="heading">
         <div class="row text-center align-items-end">
             <div class="col-md-2">
                 <img src="assets/images/seed1img.svg" alt="Seed of Ambition">
@@ -115,7 +115,7 @@ include_once 'header.php';
 </section>
 
 <section class="block-lg-lightorange pt-5 pb-5" data-aos="fade-up">
-    <div class="text-center mb-3">
+    <div class="text-center margin-sm-btm">
         <h2 class="title-semibold"> From Leader's Desk</h2>
     </div>
     <div class="leader-desk-grid">
@@ -191,7 +191,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="text-center pt-5 mb-3" data-aos="fade-up">
+<section class="text-center pt-5 margin-btm" data-aos="fade-up">
     <h2 class="title-semibold"> Over 200000+ Field Service Businesses in 50+ </h2>
     <h2 class="title-semibold">industries trust FieldWeb</h2>
     <div class="main-Wrapper">

@@ -24,8 +24,8 @@ include_once 'header.php';
         <div class="overlay"></div>
     </div>
 </section>
-<section class="main-Wrapper mb-5" data-aos="fade-up">
-    <div class="mb-3 text-center">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
+    <div class="margin-btm text-center">
         <h3 class="title-md-montbold">FieldWeb helps you stay organized at each stage of the job.</h3>
     </div>
     <div class="job-list mt-4">
@@ -39,13 +39,13 @@ include_once 'header.php';
         </ul>
     </div>
 </section>
-<section class="block-grey-md mt-4 mb-3" data-aos="fade-up">
+<section class="block-grey-md margin-btm" data-aos="fade-up">
     <div class="text-center">
         <h3 class="title-md-montbold mb-3">How do quotes work in FieldWeb?</h3>
         <p>With these quoting features, Jobber helps you save time, win more work, and offer the professional and convenient experience that your customers expect.</p>
     </div>
 </section>
-<section class="custom-tabs mt-5 mb-3" data-aos="fade-up">
+<section class="custom-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <ul class="nav nav-pills justify-content-center mb-3">
             <div class="d-flex gap-4">
@@ -66,7 +66,7 @@ include_once 'header.php';
                 </li>
             </div>
         </ul>
-        <div class="tab-content mt-5">
+        <div class="tab-content margin-btm mt-5">
             <div class="tab-pane fade show active" id="tb-createquote">
                 <div class="row">
                     <div class="col-md-6">
@@ -151,7 +151,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="main-Wrapper mt-10 mb-5" data-aos="fade-up">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
     <div class="sect-jobquote">
         <h2 class="title text-center">What is job quoting software?</h2>
         <p class="mt-3 mb-4">Quote management software is a digital tool designed to streamline and enhance the process of creating, managing, and tracking quotations for products or services offered by a business. This software simplifies and automates what was once a time-consuming and manual task, enabling businesses to provide accurate quotes more efficiently and effectively.</p>
@@ -164,7 +164,7 @@ include_once 'header.php';
         </ul>
     </div>
 </section>
-<section class="main-Wrapper mt-5 mb-5" data-aos="fade-up">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
     <div class="row">
         <div class="col-md-6">
             <div class="quote-grey-block p-4">
@@ -188,14 +188,14 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-8 mb-3" data-aos="fade-up">
+<section class="margin-btm" data-aos="fade-up">
     <div class="learnmore-block">
         <p>BOOK YOUR FREE DEMO</p>
         <h3>Learn more about <span>FieldWeb</span></h1>
         <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
     </div>
 </section>
-<section class="text-center mt-8 mb-3" data-aos="fade-up">
+<section class="text-center margin-btm" data-aos="fade-up">
     <p class="title-red">OUR POWERFUL FEATURES</p>
     <h2 class="title drawn-underline">I Switched to FieldWeb</h2>
     <div class="main-Wrapper">
@@ -275,9 +275,9 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-10 mb-3" data-aos="fade-up">
+<section class="mt-10 margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
-        <div class="text-center mt-5 mb-5">
+        <div class="text-center margin-btm">
             <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
         </div>
         <div class="trusted-companies mt-5">
@@ -349,7 +349,7 @@ include_once 'header.php';
                             </div>
 
                         </div>
-                        <div class="text-center mb-3">
+                        <div class="text-center margin-btm">
                             <button type="button" class="btn-red">SUBMIT</button>
                         </div>
                     </div>

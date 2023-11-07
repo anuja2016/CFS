@@ -14,7 +14,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mb-3" data-aos="fade-up">
+<section class="margin-btm" data-aos="fade-up">
     <div class="d-flex gap-4 justify-content-center mb-5">
         <span>Save Up To Rs.1000/user/month <img src="assets/images/arrow-rightblack-bold.svg"> </span>
         <div class="form-check form-switch currency-switch">
@@ -25,7 +25,7 @@ include_once 'header.php';
     </div>
     <div class="sect-pricing">
         <div class="main-Wrapper">
-            <div class="row mb-3">
+            <div class="row margin-btm">
                 <div class="col-md-4">
                     <div class="pricing-plan mb-4">
                         <div class="pricing-plan-head">
@@ -43,7 +43,7 @@ include_once 'header.php';
                             <div class="p-3">
                                 <button type="submit" class="btn-red w-100 rounded">Buy Now</button>
                             </div>
-                            <div class="prod-user mb-3">
+                            <div class="prod-user margin-btm">
                                 <img src="assets/images/user-icon.svg">
                                 <span>1 User</span>
                                 <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="1 User">
@@ -79,7 +79,7 @@ include_once 'header.php';
                             <div class="p-3">
                                 <button type="submit" class="btn-red w-100 rounded">Buy Now</button>
                             </div>
-                            <div class="prod-user mb-3">
+                            <div class="prod-user margin-btm">
                                 <img src="assets/images/user-icon.svg">
                                 <span>1 - 5 User</span>
                                 <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="1 - 5 User">
@@ -114,7 +114,7 @@ include_once 'header.php';
                             <div class="p-3">
                                 <button type="submit" class="btn-red w-100 rounded">Buy Now</button>
                             </div>
-                            <div class="prod-user mb-3">
+                            <div class="prod-user margin-btm">
                                 <img src="assets/images/user-icon.svg">
                                 <span>1 - 15 User</span>
                                 <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="1 - 15 User">
@@ -136,7 +136,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="main-Wrapper mb-3" data-aos="fade-up">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
     <div class="cust-feedback-slider2">
         <div>
             <div class="custf-details">
@@ -178,7 +178,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="main-Wrapper mt-10 mb-10" data-aos="fade-up">
+<section class="main-Wrapper mt-8 margin-btm" data-aos="fade-up">
     <div class="sect-addons">
         <div class="wrapper-head">
             <h2 class="title">FieldWeb Addons</h2>
@@ -207,7 +207,7 @@ include_once 'header.php';
 </section>
 <!----------One App To Replace----------->
 <section class="main-Wrapper sect-oneapp" data-aos="fade-up">
-    <div class="text-center mt-5 mb-3">
+    <div class="text-center margin-btm">
         <h2 class="title">One App To Replace Them All</h2>
         <p class="title-sm-red">All your work in one place :</p>
     </div>
@@ -294,9 +294,9 @@ include_once 'header.php';
         </a>
     </div>
 </section>
-<section class="mt-10 mb-3" data-aos="fade-up">
+<section class="mt-8 margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
-        <div class="text-center mt-5 mb-5">
+        <div class="text-center margin-btm">
             <h2 class="title-semibold">Over 10,000+ Customer Worldwide<h2>
         </div>
         <div class="trusted-companies mt-5">
@@ -321,7 +321,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-10 mb-3" data-aos="fade-up">
+<section class="mt-8 margin-btm" data-aos="fade-up">
     <div class="wrapper-head">
         <p class="title-red">OUR POWERFUL FEATURES</p>
         <h2 class="title">Frequently Asked Questions</h2>
@@ -403,7 +403,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="text-center pt-5 mb-3" data-aos="fade-up">
+<section class="text-center  margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="row align-items-center">
             <div class="col-md-6">

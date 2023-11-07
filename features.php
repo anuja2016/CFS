@@ -2,7 +2,7 @@
 include_once 'header.php';
 ?>
 
-<section>
+<section class="margin-btm">
     <div class="banner-block mt-116">
         <div class="block-img"><img src="assets/images/features-bg.svg"></div>
         <div class="content">
@@ -16,7 +16,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="sect-transresults mt-5 mb-3">
+<section class="sect-transresults margin-btm">
     <div class="main-Wrapper">
         <div class="row">
             <div class="col-md-5">
@@ -82,7 +82,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="custom-tabs mt-5 mb-3">
+<section class="custom-tabs margin-btm">
     <div class="main-Wrapper">
         <ul class="nav nav-pills justify-content-center mb-3">
             <div class="d-flex gap-4">
@@ -1190,9 +1190,9 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-10 mb-3" data-aos="fade-up">
+<section class="mt-10 margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
-        <div class="text-center mt-5 mb-5">
+        <div class="text-center margin-btm">
             <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
         </div>
         <div class="trusted-companies mt-5">
