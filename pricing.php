@@ -15,7 +15,7 @@ include_once 'header.php';
     </div>
 </section>
 <section class="margin-btm" data-aos="fade-up">
-    <div class="d-flex gap-4 justify-content-center mb-5">
+    <div class="d-flex gap-4 justify-content-center mt-5 mb-5">
         <span>Save Up To Rs.1000/user/month <img src="assets/images/arrow-rightblack-bold.svg"> </span>
         <div class="form-check form-switch currency-switch">
             <span>INR</span>

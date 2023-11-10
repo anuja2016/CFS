@@ -174,6 +174,14 @@
     slidesToScroll: 1,
     dots: true
   });
+  $('.landing-slider').slick({
+    arrows: false,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    dots: true
+  });
   $('.trusted-industries-slider').slick({
     arrows: false,
     infinite: true,
@@ -267,6 +275,15 @@
   });
 
   $('.client-review').slick({
+    arrows: false,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+  });
+
+  $('.customer-say').slick({
     arrows: false,
     infinite: true,
     autoplay: true,
