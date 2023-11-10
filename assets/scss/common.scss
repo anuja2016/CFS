@@ -149,11 +149,6 @@
     border-radius: 10px;
     height: 100%;
 }
-.block-landing-darkgrey {
-    background-color: #000000;
-    border-radius: 10px;
-    height: 100%;
-}
 .block-lightorange {
     background-color: #FFF2F4;
     border-radius: 30px;
@@ -798,7 +793,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    cursor: pointer;
+    cursor: default;
     padding: 5px;
 
     &:hover {
@@ -1366,51 +1361,23 @@
     position: relative;
     background-color: #000000;
     color: #FFFFFF;
-    padding: 35px 75px;
+    padding: 50px 75px;
     background-image: url('../images/get_demo.svg');
     background-size: 28%;
     background-position: right 7% bottom;
     background-repeat: no-repeat;
 
     p {
-        font-family: "Inter-semibold";
-        font-size: 14px;
+        font-family:'Montserrat-SemiBold' ;
     }
 
     h3 {
-        font-family: "Poppins-semibold";
-        font-size: 30px;
+        font-family: 'Montserrat-SemiBold';
+        font-size: 35px;
     }
 }
 
-.showcase-app-block {
-    position: relative;
-    background-color: #000000;
-    background-size: cover;
-    color: #FFFFFF;
-    padding: 35px 75px;
-    background-image: url('../images/appshowcase-bg.svg');
-    background-position: center;
-    // background-position: top 100% bottom;
-    background-repeat: no-repeat;
 
-    .showcase-main-title{
-        font-family: "Poppins-semibold";
-        font-size: 40px;
-    }
-    .landingpage-showcase-title  {
-        font-family: "Inter-semibold";
-        font-size: 14px;
-    }
-    .mobilepair-img{
-        position: absolute;
-        width: 400px;
-        top: -55px; 
-       height: 450px; 
-    
-    }
-    
-}
 
 .wrapper-head {
     width: 70%;
@@ -1580,22 +1547,25 @@
     border-radius: 30px;
     padding:50px;
     background-color: #000000;
+}
+.block-black2 {
+    border-radius: 10px;
+    background-color: #000000;
+    height: 100%;
+}
+.trusted-industries-slider {
+    margin-top: 20px;
+    padding: 0 30px;
 
-    .trusted-industries-slider {
-        margin-top: 20px;
-        padding: 0 30px;
-    
-        .slick-track {
-            top: 15px;
-            margin-bottom: 28px;
-    
-            .slick-slide {
-                margin-left: 15px;
-                margin-right: 15px;
-            }
+    .slick-track {
+        top: 15px;
+        margin-bottom: 28px;
+
+        .slick-slide {
+            margin-left: 15px;
+            margin-right: 15px;
         }
     }
-    
 }
 .banner-block-center2 {
     position: relative;
@@ -1691,12 +1661,12 @@
     background-color: #ae1d2d;
   }
 
-.btn-red-radius{
+.btn-bright-red{
     color: #FFF;
     border-radius: 10px;
-    background: #F1374C;
+    background: linear-gradient(85.85deg, #F1374C 2.1%, #E83347 99.6%);
     font-family: "Poppins-regular";
-    padding: 8px 15px;
+    padding: 8px 25px;
     outline: none;
     width: fit-content;
     cursor: pointer;
@@ -1728,12 +1698,60 @@
     margin:20px 150px;
 }
 .margin-btm{
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 .margin-sm-btm{
     margin-bottom: 2rem;
 }
-.margin-tp{
-    margin-top: 3rem!important;
-    
+.margin-tp-lg{
+    margin-top: 5rem!important;
+}
+.margin-btm-lg{
+    margin-top: 5rem!important;
+}
+.margin-tp-xl{
+    margin-top: 8rem!important;
+}
+.margin-btm-xl{
+    margin-bottom: 8rem!important;
+}
+.store-links {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+
+    li {
+        padding: 0;
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            -webkit-transition: -webkit-transform ease-out 0.4s;
+            -moz-transition: -moz-transform ease-out 0.4s;
+            transition: transform ease-out 0.4s;
+            display: block;
+            border-radius: 50%;
+
+            img {
+                width: 128px;
+                height: 45px;
+                transition-duration: 0.3s;
+                -webkit-transition-property: transform;
+                transition-property: transform;
+                -webkit-transition-timing-function: ease-out;
+                transition-timing-function: ease-out;
+            }
+
+            &:hover {
+                img {
+                    -webkit-transform: scale(0.97);
+                    -moz-transform: scale(0.97);
+                    -ms-transform: scale(0.97);
+                    transform: scale(0.97);
+                    box-shadow: 4px 4px 10px #444;
+                }
+            }
+
+        }
+    }
 }

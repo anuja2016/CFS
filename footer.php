@@ -203,13 +203,26 @@
       },
     ]
   });
-  $('.stories-landing-slider').slick({
+  $('.our-stories-slider').slick({
     arrows: true,
     infinite: true,
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    dots: false
+    dots: false,
+    responsive: [{
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
   });
   $('.trusted-companies').slick({
     arrows: false,

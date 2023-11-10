@@ -29,14 +29,14 @@ include_once 'header.php';
         <div class="row">
             <div class="col-md-8">
                 <img src="assets/images/blog/blog-10.svg" class="img-fluid">
-                <h2 class="title-mont-semibold mt-5 margin-btm">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
+                <h2 class="title-mont-semibold mt-5">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
                 <div class="mt-5">
                     <h4 class="title-md-montbold">Introduction:</h4>
                     <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game changer for streamlining processes, enhancing productivity,and improving customer satisfaction. In this blog, we will explore the top five benefits of implementing FSM software specifically tailored for HVAC businesses. Let's dive in and discover how this technology can revolutionize your HVAC operations in the following pointers.</p>
                 </div>
                 <div class="mt-4">
                     <h4 class="title-md-montbold">1. Enhanced Service Efficiency</h4>
-                    <ul class="unorder-list margin-btm">
+                    <ul class="unorder-list mb-3">
                         <li><b>Automated Work Order Management:</b> FSM software simplifies the creation, assignment, and tracking of work orders. This eliminates manual paperwork and reduces the chances of errors, ensuring a smooth flow of operations.</li>
                         <li><b>Real-Time Technician Dispatching:</b> With FSM software, dispatchers can efficiently assign the right technician to the right job based on skills, availability, and proximity. Real-time updates enable quick responses to customer requests, resulting in improved service efficiency.</li>
                         <li><b>Mobile Accessibility:</b> Technicians equipped with mobile devices can access work orders, customer information, equipment details, and service instructions on the go. This eliminates the need for manual paperwork and allows technicians to complete tasks more efficiently, resulting in higher productivity.</li>
@@ -48,7 +48,7 @@ include_once 'header.php';
                 </div>
                 <div class="mt-5">
                     <h4 class="title-md-montbold">2. Improved Customer Satisfaction</h4>
-                    <ul class="unorder-list margin-btm">
+                    <ul class="unorder-list mb-3">
                         <li><b>Automated Work Order Management:</b> FSM software simplifies the creation, assignment, and tracking of work orders. This eliminates manual paperwork and reduces the chances of errors, ensuring a smooth flow of operations.</li>
                         <li><b>Real-Time Technician Dispatching:</b> With FSM software, dispatchers can efficiently assign the right technician to the right job based on skills, availability, and proximity. Real-time updates enable quick responses to customer requests, resulting in improved service efficiency.</li>
                         <li><b>Mobile Accessibility:</b> Technicians equipped with mobile devices can access work orders, customer information, equipment details, and service instructions on the go. This eliminates the need for manual paperwork and allows technicians to complete tasks more efficiently, resulting in higher productivity.</li>
@@ -60,7 +60,7 @@ include_once 'header.php';
                 </div>
                 <div class="mt-5">
                     <h4 class="title-md-montbold">3. Improved Customer Satisfaction</h4>
-                    <ul class="unorder-list margin-btm">
+                    <ul class="unorder-list mb-3">
                         <li><b>Automated Work Order Management:</b> FSM software simplifies the creation, assignment, and tracking of work orders. This eliminates manual paperwork and reduces the chances of errors, ensuring a smooth flow of operations.</li>
                         <li><b>Real-Time Technician Dispatching:</b> With FSM software, dispatchers can efficiently assign the right technician to the right job based on skills, availability, and proximity. Real-time updates enable quick responses to customer requests, resulting in improved service efficiency.</li>
                         <li><b>Mobile Accessibility:</b> Technicians equipped with mobile devices can access work orders, customer information, equipment details, and service instructions on the go. This eliminates the need for manual paperwork and allows technicians to complete tasks more efficiently, resulting in higher productivity.</li>
@@ -101,7 +101,7 @@ include_once 'header.php';
             <div class="card">
                 <img src="assets/images/blog/blog-6.svg" class="img-fluid card-img-top">
                 <div class="card-body">
-                    <p class="title-sm-red margin-btm">HVAC Business</p>
+                    <p class="title-sm-red">HVAC Business</p>
                     <h4>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h4>
                     <p class="fourlines-txtwrap">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                     <a href="#">
@@ -113,7 +113,7 @@ include_once 'header.php';
             <div class="card">
                 <img src="assets/images/blog/blog-7.svg" class="img-fluid card-img-top">
                 <div class="card-body">
-                    <p class="title-sm-red margin-btm">HVAC Business</p>
+                    <p class="title-sm-red">HVAC Business</p>
                     <h4>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h4>
                     <p class="fourlines-txtwrap">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                     <a href="#">
@@ -125,7 +125,7 @@ include_once 'header.php';
             <div class="card">
                 <img src="assets/images/blog/blog-8.svg" class="img-fluid card-img-top">
                 <div class="card-body">
-                    <p class="title-sm-red margin-btm">HVAC Business</p>
+                    <p class="title-sm-red">HVAC Business</p>
                     <h4>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h4>
                     <p class="fourlines-txtwrap">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                     <a href="#">
@@ -137,7 +137,7 @@ include_once 'header.php';
             <div class="card">
                 <img src="assets/images/blog/blog-9.svg" class="img-fluid card-img-top">
                 <div class="card-body">
-                    <p class="title-sm-red margin-btm">HVAC Business</p>
+                    <p class="title-sm-red">HVAC Business</p>
                     <h4>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h4>
                     <p class="fourlines-txtwrap">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                     <a href="#">
