@@ -1,8 +1,8 @@
 <?php
 include_once 'header.php';
 ?>
-<section>
-    <div class="container p-5 mt-116">
+<section class="margin-btm">
+    <div class="container-fluid pt-5 mt-116">
         <div class="row">
             <div class="offset-md-1 col-md-5">
                 <p class="leading-small-txt">Add any text you like here.</p>
@@ -25,8 +25,8 @@ include_once 'header.php';
                         target="_blank"><img src="assets/images/googlestore.svg" /></a>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="assets/images/mobile-app-header-bg.svg" class="img-size">
+            <div class="offset-md-1 col-md-5">
+                <img src="assets/images/mobile-app-header-bg.svg" class="fw-app-img">
             </div>
         </div>
     </div>
@@ -206,7 +206,7 @@ include_once 'header.php';
         <div class="container pt-5">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="assets/images/manage-sales-service-bg.svg" class="img-size">
+                    <img src="assets/images/manage-sales-service-bg.svg" class="platform-app-img">
                 </div>
                 <div class="col-md-6">
                     <p class="grey-small-txt">FIELD FORCE AUTOMATION</p>
@@ -279,7 +279,7 @@ include_once 'header.php';
                 </div>
             </div>
             <div class="col-md-5 offset-md-1">
-                <img src="assets/images/modern-ui-mobile-app-bg.svg" class="img-size">
+                <img src="assets/images/modern-ui-mobile-app-bg.svg" class="fw-app-img">
             </div>
         </div>
     </div>
@@ -597,7 +597,7 @@ include_once 'header.php';
                 </div>
                 <div class="center_screen">
                     <div class="img">
-                        <img src="assets/images/download-mobile.svg" alt="image" class="img-size">
+                        <img src="assets/images/download-mobile.svg" alt="image" class="fw-app-img">
                     </div>
                     <div class="d-flex gap-3 align-items-center justify-content-center">
 
@@ -848,9 +848,7 @@ include_once 'header.php';
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="accordion-item mt-3">
+                            <div class="accordion-item mt-3">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faq-content-4">
@@ -867,6 +865,7 @@ include_once 'header.php';
                                 </div>
                             </div>
                         </div>
+                        </div>  
                     </div>
                 </div>
             </div>

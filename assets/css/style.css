@@ -3930,6 +3930,18 @@ select.form-control {
   box-shadow: 0 4px 8px rgba(181, 181, 181, 0.2);
 }
 
+.fw-app-img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.platform-app-img {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
 .sect-pricing {
   background-color: #FFEEF0;
   position: relative;

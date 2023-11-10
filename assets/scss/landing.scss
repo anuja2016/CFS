@@ -776,3 +776,14 @@ text_list_section .owl-stage-outer, .textFlow_list .owl-stage, .textFlow_list .o
         box-shadow: 0 4px 8px rgb(181 181 181 / 20%);
     }
 }
+.fw-app-img{
+    width:400px;
+    height:400px;
+    object-fit: contain;
+}
+.platform-app-img{
+    width:500px;
+    height:500px;
+    object-fit: contain;
+
+}
