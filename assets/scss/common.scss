@@ -1706,6 +1706,22 @@ body{
         box-shadow: 3px 3px 10px #dedede;
     }
 }
+
+.btn-brown-radius{
+    color: #FFF;
+    border-radius: 10px;
+    background: #C22032;
+    font-family: "Poppins-regular";
+    padding: 8px 15px;
+    outline: none;
+    width: fit-content;
+    cursor: pointer;
+    border: 1px solid #C22032;
+    &:hover{
+        background: #ae1d2d;
+        box-shadow: 3px 3px 10px #dedede;
+    }
+}
 .divider{
     height: 0.7px;
     background-color: #C5C5C5;
