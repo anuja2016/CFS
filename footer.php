@@ -1,7 +1,7 @@
 <footer data-aos="fade-up">
   <div class="main-Wrapper">
     <div class="row">
-      <div class="col-md-2 col-sm-6 col-6">
+      <div class="col-md-2 col-sm-4 col-6">
         <h4>Features</h4>
         <ul class="footer-menu">
           <li><a href="#">Job Scheduling</a></li>
@@ -16,7 +16,7 @@
           <li><a href="#">All Features<span class="ps-2"><img src="assets/images/whitearrow.svg" /></span></a></li>
         </ul>
       </div>
-      <div class="col-md-2 col-sm-6 col-6">
+      <div class="col-md-2 col-sm-4 col-6">
         <h4>Industries</h4>
         <ul class="footer-menu">
           <li><a href="#">HVAC </a></li>
@@ -31,7 +31,7 @@
           <li><a href="#">All Industries<span class="ps-2"><img src="assets/images/whitearrow.svg" /></span></a></li>
         </ul>
       </div>
-      <div class="col-md-2 col-sm-6 col-6">
+      <div class="col-md-2 col-sm-4 col-6">
         <h4>Resource</h4>
         <ul class="footer-menu">
           <li><a href="pricing.php">Pricing</a></li>
@@ -40,7 +40,7 @@
           <li><a href="blog.php">Blogs</a></li>
         </ul>
       </div>
-      <div class="col-md-2 col-sm-6 col-6">
+      <div class="col-md-2 col-sm-4 col-6">
         <h4>Company</h4>
         <ul class="footer-menu">
           <li><a href="about.php">About</a></li>
@@ -51,7 +51,7 @@
         </ul>
       </div>
 
-      <div class="col-md-4 ps-4 col-sm-6 col-6">
+      <div class="col-md-4 col-sm-6 col-12">
         <img class="footlogo" src="assets/images/footer-logo.svg" />
         <div>
           <div class="getintouch">
@@ -172,7 +172,20 @@
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    dots: true
+    dots: true,
+    responsive: [{
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
   });
   $('.trusted-industries-slider').slick({
     arrows: false,

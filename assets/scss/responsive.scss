@@ -1,17 +1,13 @@
+@media only screen and (min-width: 2000px) {}
+
+@media only screen and (min-width: 1820px) {}
+
+@media only screen and (min-width: 1800px) {}
+
+@media only screen and (max-width: 1500px) {}
+
 @media only screen and (max-width: 1440px) {
     body {
-        .main-Wrapper {
-            max-width: 1280px;
-            width: 100%;
-            padding: 0 1rem;
-        }
-
-        .site-header {
-            max-width: 1280px;
-            width: 100%;
-            padding: 0 1rem;
-        }
-
         h1 {
             font-size: 40px;
         }
@@ -36,21 +32,91 @@
             font-size: 16px;
         }
     }
-}
 
-@media only screen and (max-width: 768px) {
-    .block-lightorange {
-        height: 800px;
+    .main-Wrapper {
+        max-width: 1280px;
+        width: 100%;
+        padding: 0 1rem;
     }
 
+    .site-header {
+        max-width: 1280px;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .sect-demo .block-lightorange {
+        max-width: 1280px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1366px) {}
+
+@media only screen and (max-width: 1280px) {
+    body {
+        font-size: 0.875rem !important;
+    }
+
+    .form-control {
+        font-size: 0.875rem !important;
+    }
+
+    .navbar-buttons {
+        padding-left: 2rem;
+    }
+
+    .navbar-expand-lg {
+        .navbar-nav {
+            .nav-link {
+                padding-right: 0.3rem !important;
+                padding-left: 0.3rem !important;
+            }
+        }
+    }
+
+    .btn-outline-black {
+        padding: 8px 8px;
+    }
+
+    .site-header .navbar-nav {
+        gap: 17px;
+        grid-gap: 17px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar-expand-lg {
+        .navbar-nav {
+            .nav-link {
+                padding-right: 0.2rem !important;
+                padding-left: 0.2rem !important;
+            }
+        }
+    }
+
+    .site-header .navbar-nav {
+        gap: 15px;
+        grid-gap: 15px;
+    }
+
+    .navbar-buttons {
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 991.5px) {
+    .sect-transresults h3 {
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
     .block-lg-lightorange {
-        // height:550px;
-        // width:100%;
         margin: 20px;
     }
-}
 
-@media only screen and (max-width: 768px) {
     .main-carousel {
         .carousel-item {
             img {
@@ -63,11 +129,266 @@
             .carousel-caption {
                 max-width: 100%;
                 right: 5%;
+                left: 5%;
             }
         }
     }
 
     .btn-getstarted {
         padding: 12px 20px;
+    }
+
+    .sect-transresults {
+        .row {
+            .col-md-7 {
+                margin-top: 2rem;
+            }
+        }
+    }
+
+    .sect-demo {
+        .block-lightorange {
+            .sect-demo-email {
+                display: block;
+                width: 90%;
+                margin: 25px auto;
+
+                .form-control {
+                    margin-bottom: 10px;
+                    padding: 12px;
+                }
+            }
+
+            .btn-getstarted-blk {
+                width: 100%;
+            }
+        }
+
+        .sect-demo-cn {
+            p {
+                &.cn-google {
+                    font-size: 1.5rem;
+                }
+
+                &.cn-playstore {
+                    font-size: 1.2rem;
+                }
+
+                &.cn-capterra {
+                    font-size: 0.9rem;
+                }
+
+                &.cn-sofadvice {
+                    font-size: 0.6rem;
+                }
+            }
+        }
+    }
+
+    .sect-rating {
+        ul {
+            li {
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+    footer {
+        .col-md-2 {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .main-carousel {
+        .carousel-caption {
+            h1 {
+                font-size: 40px;
+            }
+        }
+    }
+
+    .store-links {
+        li {
+            a {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+
+    .feature-section {
+        .row {
+            .col-md-3 {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .dsk-fwlogo {
+        display: none;
+    }
+
+    .mob-fwlogo {
+        display: block;
+    }
+
+    .home-service-item {
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .sect-oneapp {
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .home-service-item {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .sect-oneapp {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .sect-rating {
+        ul {
+            li {
+                padding: 0 2px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+
+    .sect-demo {
+        .sect-demo-cn {
+            p {
+                &.cn-google {
+                    font-size: 1.2rem;
+                }
+
+                &.cn-playstore {
+                    font-size: 0.9rem;
+                }
+
+                &.cn-capterra {
+                    font-size: 0.6rem;
+                }
+
+                &.cn-sofadvice {
+                    font-size: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .fw-att-features {
+        gap: 5px;
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .navbar-buttons {
+        padding-left: 0rem;
+    }
+    .main-carousel {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .sect-rating {
+        ul {
+            li {
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+    .sect-transresults h3 {
+        font-size: 25px;
+    }
+
+    body {
+        font-size: 0.75rem !important;
+    }
+
+    .mob-fwlogo {
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .main-carousel {
+        .carousel-caption {
+            h1 {
+                font-size: 35px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .title-mont-semibold {
+        font-size: 28px;
+    }
+
+    .title-red {
+        font-size: 18px;
+    }
+
+    .home-service-item {
+        p {
+            word-break: break-all;
+        }
+    }
+
+    .home-service-item {
+        gap: 0.5rem;
+    }
+
+    .navbar-buttons {
+        .btn-red {
+            padding: 8px;
+        }
+    }
+
+    .site-header {
+        .navbar-brand {
+            margin-right: 0.4rem;
+        }
     }
 }

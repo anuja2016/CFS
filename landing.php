@@ -18,7 +18,7 @@ include_once 'header.php';
     </div>
 </section>
 <section class="margin-btm">
-    <marquee scrollamount="20" behavior=scroll direction="right" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();" onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
+    <marquee scrollamount="20" behavior=scroll direction="right">
         <div class="d-flex flex-row align-items-center">
             <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
             <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>

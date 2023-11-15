@@ -1,7 +1,7 @@
 .main-carousel {
     .carousel-caption {
         position: absolute;
-        left: 2%;
+        left: auto;
         bottom: 1.25rem;
         right: auto;
         padding-top: 1.25rem;
@@ -129,5 +129,21 @@
     span {
         font-family: 'Montserrat-Bold';
         font-size: 20px;
+    }
+}
+.site-header {
+    .navbar-toggler{
+        border:none;
+        margin: 0 0 0 10px;
+        padding: 0;
+        &:focus{
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    .navbar-toggler-icon{
+        background-image: url('../images/navbar-toggler-icon.svg');
+        width: 29px;
+        height: 19px;
     }
 }

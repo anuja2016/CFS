@@ -1,4 +1,23 @@
 @charset "UTF-8";
+body h1 {
+  font-size: 60px;
+}
+body h2 {
+  font-size: 38px;
+}
+body h3 {
+  font-size: 30px;
+}
+body h4 {
+  font-size: 28px;
+}
+body h5 {
+  font-size: 24px;
+}
+body h6 {
+  font-size: 20px;
+}
+
 .fixed-top {
   background-color: #FFFFFF;
 }
@@ -20,6 +39,20 @@
 
 .color-white {
   color: #FFFFFF;
+}
+
+.dsk-fwlogo {
+  display: block;
+}
+
+.mob-fwlogo {
+  display: none;
+}
+
+.main-carousel .carousel-item img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
 }
 
 .title-red {
@@ -704,9 +737,18 @@
   box-shadow: 2px 2px 10px #ddd;
   border-radius: 5px;
 }
+.home-service-item img {
+  width: 70px;
+  height: 70px;
+}
 
 .feature-section .row .col-md-3 {
   cursor: default;
+}
+.feature-section .row .col-md-3 h5 {
+  color: #000000;
+  font-family: "Montserrat-SemiBold";
+  letter-spacing: normal;
 }
 .feature-section .row .col-md-3 p {
   cursor: default;
@@ -937,12 +979,14 @@
 
 .sect-demo {
   background-image: url("../images/dotsbackground.svg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   padding-top: 3rem !important;
+  background-size: 100%;
 }
 .sect-demo .block-lightorange {
-  margin: -100px 3rem 2rem;
+  width: 1400px;
+  margin: -100px auto 0 auto;
 }
 .sect-demo .block-lightorange .sect-demo-email {
   display: flex;
@@ -1344,19 +1388,6 @@
   height: 100%;
 }
 
-.trusted-industries-slider {
-  margin-top: 20px;
-  padding: 0 30px;
-}
-.trusted-industries-slider .slick-track {
-  top: 15px;
-  margin-bottom: 28px;
-}
-.trusted-industries-slider .slick-track .slick-slide {
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
 .banner-block-center2 {
   position: relative;
 }
@@ -1517,6 +1548,14 @@
   -ms-transform: scale(0.97);
   transform: scale(0.97);
   box-shadow: 4px 4px 10px #444;
+}
+
+.fw-att-features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
 @font-face {
@@ -1698,16 +1737,6 @@
 }
 
 @media only screen and (max-width: 1440px) {
-  body .main-Wrapper {
-    max-width: 1280px;
-    width: 100%;
-    padding: 0 1rem;
-  }
-  body .site-header {
-    max-width: 1280px;
-    width: 100%;
-    padding: 0 1rem;
-  }
   body h1 {
     font-size: 40px;
   }
@@ -1726,16 +1755,65 @@
   body h6 {
     font-size: 16px;
   }
+  .main-Wrapper {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .site-header {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .sect-demo .block-lightorange {
+    max-width: 1280px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  body {
+    font-size: 0.875rem !important;
+  }
+  .form-control {
+    font-size: 0.875rem !important;
+  }
+  .navbar-buttons {
+    padding-left: 2rem;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.3rem !important;
+    padding-left: 0.3rem !important;
+  }
+  .btn-outline-black {
+    padding: 8px 8px;
+  }
+  .site-header .navbar-nav {
+    gap: 17px;
+    grid-gap: 17px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.2rem !important;
+    padding-left: 0.2rem !important;
+  }
+  .site-header .navbar-nav {
+    gap: 15px;
+    grid-gap: 15px;
+  }
+  .navbar-buttons {
+    padding-left: 1rem;
+  }
+}
+@media (max-width: 991.5px) {
+  .sect-transresults h3 {
+    font-size: 30px;
+  }
 }
 @media only screen and (max-width: 768px) {
-  .block-lightorange {
-    height: 800px;
-  }
   .block-lg-lightorange {
     margin: 20px;
   }
-}
-@media only screen and (max-width: 768px) {
   .main-carousel .carousel-item img {
     width: 100%;
     height: 100vh;
@@ -1745,9 +1823,155 @@
   .main-carousel .carousel-item .carousel-caption {
     max-width: 100%;
     right: 5%;
+    left: 5%;
   }
   .btn-getstarted {
     padding: 12px 20px;
+  }
+  .sect-transresults .row .col-md-7 {
+    margin-top: 2rem;
+  }
+  .sect-demo .block-lightorange .sect-demo-email {
+    display: block;
+    width: 90%;
+    margin: 25px auto;
+  }
+  .sect-demo .block-lightorange .sect-demo-email .form-control {
+    margin-bottom: 10px;
+    padding: 12px;
+  }
+  .sect-demo .block-lightorange .btn-getstarted-blk {
+    width: 100%;
+  }
+  .sect-demo .sect-demo-cn p.cn-google {
+    font-size: 1.5rem;
+  }
+  .sect-demo .sect-demo-cn p.cn-playstore {
+    font-size: 1.2rem;
+  }
+  .sect-demo .sect-demo-cn p.cn-capterra {
+    font-size: 0.9rem;
+  }
+  .sect-demo .sect-demo-cn p.cn-sofadvice {
+    font-size: 0.6rem;
+  }
+  .sect-rating ul li img {
+    width: 40px;
+    height: 40px;
+  }
+  footer .col-md-2 {
+    margin-bottom: 2rem;
+  }
+  .main-carousel .carousel-caption h1 {
+    font-size: 40px;
+  }
+  .store-links li a {
+    margin-bottom: 0.5rem;
+  }
+  .feature-section .row .col-md-3 {
+    margin-bottom: 0.5rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .dsk-fwlogo {
+    display: none;
+  }
+  .mob-fwlogo {
+    display: block;
+  }
+  .home-service-item img {
+    width: 50px;
+    height: 50px;
+  }
+  .sect-oneapp img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home-service-item img {
+    width: 40px;
+    height: 40px;
+  }
+  .sect-oneapp img {
+    width: 40px;
+    height: 40px;
+  }
+  .sect-rating ul li {
+    padding: 0 2px;
+  }
+  .sect-rating ul li img {
+    width: 30px;
+    height: 30px;
+  }
+  .sect-demo .sect-demo-cn p.cn-google {
+    font-size: 1.2rem;
+  }
+  .sect-demo .sect-demo-cn p.cn-playstore {
+    font-size: 0.9rem;
+  }
+  .sect-demo .sect-demo-cn p.cn-capterra {
+    font-size: 0.6rem;
+  }
+  .sect-demo .sect-demo-cn p.cn-sofadvice {
+    font-size: 0.5rem;
+  }
+  .fw-att-features {
+    gap: 5px;
+  }
+  .fw-att-features p {
+    font-size: 12px;
+  }
+  .navbar-buttons {
+    padding-left: 0rem;
+  }
+  .main-carousel {
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .sect-rating ul li img {
+    width: 25px;
+    height: 25px;
+  }
+  .sect-transresults h3 {
+    font-size: 25px;
+  }
+  body {
+    font-size: 0.75rem !important;
+  }
+  .mob-fwlogo img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .main-carousel .carousel-caption h1 {
+    font-size: 35px;
+  }
+  .main-carousel .carousel-caption p {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .title-mont-semibold {
+    font-size: 28px;
+  }
+  .title-red {
+    font-size: 18px;
+  }
+  .home-service-item p {
+    word-break: break-all;
+  }
+  .home-service-item {
+    gap: 0.5rem;
+  }
+  .navbar-buttons .btn-red {
+    padding: 8px;
+  }
+  .site-header .navbar-brand {
+    margin-right: 0.4rem;
   }
 }
 * {
@@ -1794,7 +2018,7 @@ a:hover {
 
 .main-carousel .carousel-caption {
   position: absolute;
-  left: 2%;
+  left: auto;
   bottom: 1.25rem;
   right: auto;
   padding-top: 1.25rem;
@@ -1894,6 +2118,21 @@ a:hover {
 .currency-switch span {
   font-family: "Montserrat-Bold";
   font-size: 20px;
+}
+
+.site-header .navbar-toggler {
+  border: none;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+.site-header .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.site-header .navbar-toggler-icon {
+  background-image: url("../images/navbar-toggler-icon.svg");
+  width: 29px;
+  height: 19px;
 }
 
 .white-block {

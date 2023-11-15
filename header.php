@@ -32,10 +32,8 @@
                 </ul>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                <a href="index.php" class="navbar-brand" href="#"> <img src="assets/images/logo.svg" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <a href="index.php" class="navbar-brand dsk-fwlogo" href="#"><img src="assets/images/logo.svg" /></a>
+                <a href="index.php" class="navbar-brand mob-fwlogo" href="#"><img src="assets/images/fw-favicon.svg" /></a>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarText">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li>
@@ -57,11 +55,15 @@
                             <a class="nav-link" href="contact.php">Contact Us</a>
                         </li>
                     </ul>
-                    <div class="navbar-buttons">
-                        <a href="pricing.php" class="btn-outline-black">Explore Pricing</a>
-                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                    </div>
                 </div>
+                <div class="navbar-buttons">
+                    <a href="pricing.php" class="btn-outline-black">Explore Pricing</a>
+                    <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    <button class="navbar-toggler" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
             </nav>
         </div>
     </header>
