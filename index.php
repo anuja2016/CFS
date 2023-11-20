@@ -8,7 +8,8 @@ include_once 'header.php';
       <img src="assets/images/slider1.svg" class="img-fluid" alt="slider1" />
       <div class="carousel-caption d-md-block">
         <h1>One <span>Platform</span> For All Field Service</h1>
-        <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
+        <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.
+        </p>
         <div class="sect-getservice">
           <div class="input-group">
             <span class="input-group-text" id="basic-addon1">
@@ -28,7 +29,8 @@ include_once 'header.php';
       <img src="assets/images/slider2.svg" class="img-fluid" alt="slider2">
       <div class="carousel-caption d-md-block">
         <h1>One <span>Platform</span> For All Field Service</h1>
-        <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
+        <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.
+        </p>
         <div class="sect-getservice">
           <div class="input-group">
             <span class="input-group-text" id="basic-addon1">
@@ -48,7 +50,8 @@ include_once 'header.php';
       <img src="assets/images/slider3.svg" class="img-fluid" alt="slider3">
       <div class="carousel-caption d-md-block">
         <h1>One <span>Platform</span> For All Field Service</h1>
-        <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
+        <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.
+        </p>
         <div class="sect-getservice">
           <div class="input-group">
             <span class="input-group-text" id="basic-addon1">
@@ -257,7 +260,100 @@ include_once 'header.php';
   </div>
 </section>
 <!----------Transformative Results----------->
-<section class="block-grey sect-transresults margin-btm" data-aos="fade-up">
+<section class="margin-btm" data-aos="fade-up">
+  <div class="container">
+    <div class="block-lightorange rounded-0 p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="white-black-border p-2">
+              <div class="d-flex gap-2 align-items-center justify-content-center">
+              <img src="assets/images/androidicon.svg" class="leading-redcheck-img" alt="...">
+              <div class="d-flex-column">
+                <p class="landing-small-grey-txt">PlayStore</p>
+                <p class="title-medium">Rated 4.7/5 (4192)</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+          <div class="white-black-border p-2">
+              <div class="d-flex gap-2 align-items-center justify-content-center">
+              <img src="assets/images/App-Store.svg" class="leading-redcheck-img" alt="...">
+              <div class="d-flex-column">
+                <p class="landing-small-grey-txt">App Store</p>
+                <p class="title-medium">Rated 4.7/5 (4192)</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+          <div class="white-black-border p-2">
+              <div class="d-flex gap-2 align-items-center justify-content-center">
+              <img src="assets/images/google-icon.svg" class="leading-redcheck-img" alt="...">
+              <div class="d-flex-column">
+                <p class="landing-small-grey-txt">Google Reviews</p>
+                <p class="title-medium">Rated 4.7/5 (4192)</p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-4">
+        <div class="row">
+        <div class="col-md-4">
+          <div class="white-black-border p-4 text-center">
+          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
+          <h1 class="title">300k +</h1>
+          <p class="title-sm-mont">Total Learners</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+        <div class="white-black-border p-4 text-center">
+          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
+          <h1 class="title">300k +</h1>
+          <p class="title-sm-mont">Total Learners</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+        <div class="white-black-border p-4 text-center">
+          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
+          <h1 class="title">300k +</h1>
+          <p class="title-sm-mont">Total Learners</p>
+          </div>
+        </div>
+        </div>
+      </div>  
+      <div class="container mt-4">
+        <div class="row">
+        <div class="col-md-4">
+          <div class="white-black-border p-4 text-center">
+          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
+          <h1 class="title">300k +</h1>
+          <p class="title-sm-mont">Total Learners</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+        <div class="white-black-border p-4 text-center">
+          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
+          <h1 class="title">300k +</h1>
+          <p class="title-sm-mont">Total Learners</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+        <div class="white-black-border p-4 text-center">
+          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
+          <h1 class="title">300k +</h1>
+          <p class="title-sm-mont">Total Learners</p>
+          </div>
+        </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+<!-- <section class="block-grey sect-transresults margin-btm" data-aos="fade-up">
   <div class="main-Wrapper">
     <div class="row">
       <div class="col-md-5">
@@ -312,7 +408,7 @@ include_once 'header.php';
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!----------One App To Replace----------->
 <section class="main-Wrapper sect-oneapp margin-btm" data-aos="fade-up">
   <div class="text-center margin-sm-btm">
@@ -414,36 +510,86 @@ include_once 'header.php';
         <img src="assets/images/image1.svg" />
         <h5 class="ti-card-name"> Chiranjeevi Rao</h5>
         <p class="ti-card-companyname">Godhavari Mineral Water Technologies</p>
-        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful
+          Support from Team. Thanks</p>
       </div>
       <div class="ti-card">
         <img src="assets/images/image2.svg" />
         <h5 class="ti-card-name"> Prasad Raju Kalindi</h5>
         <p class="ti-card-companyname"> ImageIndia</p>
-        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful
+          Support from Team. Thanks</p>
       </div>
       <div class="ti-card">
         <img src="assets/images/image3.svg" />
         <h5 class="ti-card-name">Mohit Sapra</h5>
         <p class="ti-card-companyname">Splash RO systems</p>
-        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful
+          Support from Team. Thanks</p>
       </div>
       <div class="ti-card">
         <img src="assets/images/image2.svg" />
         <h5 class="ti-card-name"> Prasad Raju Kalindi</h5>
         <p class="ti-card-companyname"> ImageIndia</p>
-        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful
+          Support from Team. Thanks</p>
       </div>
       <div class="ti-card">
         <img src="assets/images/image3.svg" />
         <h5 class="ti-card-name">Mohit Sapra</h5>
         <p class="ti-card-companyname">Splash RO systems</p>
-        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful
+          Support from Team. Thanks</p>
       </div>
     </div>
   </div>
 </section>
 <section data-aos="fade-up margin-btm">
+<div class="text-center margin-sm-btm">
+      <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
+</div>
+<marquee scrollamount="20" behavior=scroll direction="right" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();" onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
+        <div class="d-flex flex-row align-items-center">
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+        </div>
+    </marquee>
+    <marquee scrollamount="20" behavior=scroll direction="left" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();" onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
+        <div class="d-flex flex-row align-items-center mt-0">
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+        </div>
+    </marquee>
+</section>
+<!-- <section data-aos="fade-up margin-btm">
   <div class="main-Wrapper">
     <div class="text-center margin-sm-btm">
       <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
@@ -469,7 +615,7 @@ include_once 'header.php';
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!----------get demo----------->
 <section class="sect-demo mt-10 pb-3" data-aos="fade-up">
   <div class="block-lightorange text-center">

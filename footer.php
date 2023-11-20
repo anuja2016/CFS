@@ -262,6 +262,13 @@
     slidesToScroll: 1,
     dots: true
   });
+  $('.landing-services-slider').slick({
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+  });
   $('.cust-feedback-slider').slick({
     arrows: false,
     infinite: true,
