@@ -641,97 +641,81 @@ exchange data with your own systems.</p>
 
 </div>
 </section>
-<section class="margin-btm mt-5" data-aos="fade-up">
+<section class="margin-btm mt-4" data-aos="fade-up">
     <div class="text-center margin-btm">
-        <h2 class="leading-lg-title"> <span>FAQ</span> - Frequently Asked Questions</h2>
-        <p class="title-md">Lorem Ipsum is simply dummy text of the printing and typese tting
-            indus orem Ipsum has beenthe standard dummy.</p>
+        <h2 class="title"> <span class="stories-red-title">FAQ</span> - Frequently Asked Questions</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy.</p>
     </div>
-    <div class="faq-stories mb-3">
-        <section class="mt-5">
-            <div class="container">
-                <div class="row">
-                    <div class="offset-md-2 col-md-8 offset-md-2">
-                        <div class="accordion accordion-flush" id="faqlist">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq-content-1">
-                                        How can i pay ?
-                                    </button>
-                                </h2>
-                                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem
-                                        Ipsum has. been the industrys standard dummy text ever since the when an unknown
-                                        printer took a galley of type and scrambled it to make a type specimen book. It
-                                        has survived not only five cen turies but also the leap into electronic
-                                        typesetting, remaining essentially unchanged.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item mt-3">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq-content-2">
-                                        How to setup account ?
-                                    </button>
-                                </h2>
-                                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem
-                                        Ipsum has. been the industrys standard dummy text ever since the when an unknown
-                                        printer took a galley of type and scrambled it to make a type specimen book. It
-                                        has survived not only five cen turies but also the leap into electronic
-                                        typesetting, remaining essentially unchanged.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item mt-3">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq-content-3">
-                                        What is process to get refund ?
-                                    </button>
-                                </h2>
-                                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem
-                                        Ipsum has. been the industrys standard dummy text ever since the when an unknown
-                                        printer took a galley of type and scrambled it to make a type specimen book. It
-                                        has survived not only five cen turies but also the leap into electronic
-                                        typesetting, remaining essentially unchanged.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mt-3">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq-content-4">
-                                        What is process to get refund ?
-                                    </button>
-                                </h2>
-                                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem
-                                        Ipsum has. been the industrys standard dummy text ever since the when an unknown
-                                        printer took a galley of type and scrambled it to make a type specimen book. It
-                                        has
-                                        survived not only five cen turies but also the leap into electronic typesetting,
-                                        remaining essentially unchanged.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <div class="faq-stories main-Wrapper mb-3">
+        <div class="accordion accordion-flush" id="accordionfaq">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseOne" aria-expanded="false" aria-controls="faq-collapseOne">
+                        How can i pay ?
+                    </button>
+                </h2>
+                <div id="faq-collapseOne" class="accordion-collapse collapse" aria-labelledby="faq-headingOne" data-bs-parent="#accordionfaq">
+                    <div class="accordion-body">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem
+                        Ipsum has. been the industrys standard dummy text ever since the when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It
+                        has survived not only five cen turies but also the leap into electronic
+                        typesetting, remaining essentially unchanged.
                     </div>
                 </div>
             </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseTwo" aria-expanded="false" aria-controls="faq-collapseTwo">
+                        How to setup account ?
+                    </button>
+                </h2>
+                <div id="faq-collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq-headingTwo" data-bs-parent="#accordionfaq">
+                    <div class="accordion-body">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem
+                        Ipsum has. been the industrys standard dummy text ever since the when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It
+                        has survived not only five cen turies but also the leap into electronic
+                        typesetting, remaining essentially unchanged.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseThree" aria-expanded="false" aria-controls="faq-collapseThree">
+                        What is process to get refund ?
+                    </button>
+                </h2>
+                <div id="faq-collapseThree" class="accordion-collapse collapse" aria-labelledby="faq-headingThree" data-bs-parent="#accordionfaq">
+                    <div class="accordion-body">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem
+                        Ipsum has. been the industrys standard dummy text ever since the when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It
+                        has survived not only five cen turies but also the leap into electronic
+                        typesetting, remaining essentially unchanged.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseFour" aria-expanded="false" aria-controls="faq-collapseFour">
+                        What is process to get refund ?
+                    </button>
+                </h2>
+                <div id="faq-collapseFour" class="accordion-collapse collapse" aria-labelledby="faq-headingFour" data-bs-parent="#accordionfaq">
+                    <div class="accordion-body">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem
+                        Ipsum has. been the industrys standard dummy text ever since the when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It
+                        has survived not only five cen turies but also the leap into electronic
+                        typesetting, remaining essentially unchanged.
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     </div>
 </section>
-
 </div>
 </section>
 <script>
