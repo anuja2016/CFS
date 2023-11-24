@@ -5,16 +5,15 @@ include_once 'header.php';
 <section>
     <div class="banner-block-lft mt-116 mb-5">
         <div class="block-img"><img src="assets/images/partner-bg.svg"></div>
-        <div class="content">
-            <h1>Grow on a global scale as a Deel Partner</h1>
-            <p>FieldWeb is complex and time-consuming. Deel Partners empower their
-                clients to make global hiring more accessible than ever</p>
-            <div class="sect-getservice">
-
-                <button type="submit" class="btn-getstarted">Become a Deel Partner</button>
+        <div class="main-Wrapper">
+            <div class="content">
+                <h1>Grow on a global scale as a Deel Partner</h1>
+                <p>FieldWeb is complex and time-consuming. Deel Partners empower their clients to make global hiring more accessible than ever</p>
+                <div class="sect-getservice">
+                    <button type="submit" class="btn-getstarted">Become a Deel Partner</button>
+                </div>
             </div>
         </div>
-        <div class="overlay"></div>
     </div>
 </section>
 <section>
@@ -265,16 +264,18 @@ include_once 'header.php';
         </table>
     </div>
 </section>
-<section class="mt-8 mb-3" data-aos="fade-up">
-    <div class="learnmore-block">
-        <div class="row">
-            <div class="col-md-8">
-                <p>BOOK YOUR FREE DEMO</p>
-                <h3>Already a Deel partner and interested in learning more?</h3>
-                <button type="submit" class="btn-getdemo-wh" data-bs-toggle="modal" data-bs-target="#getdemoModal">
-                    Get Demo
-                    <img src="assets/images/arrowrightblack.svg" />
-                </button>
+<section class="mt-8 mb-3 learnmore-block-outer" data-aos="fade-up">
+    <div class="main-Wrapper">
+        <div class="learnmore-block">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>BOOK YOUR FREE DEMO</p>
+                    <h3>Already a Deel partner and interested in learning more?</h3>
+                    <button type="submit" class="btn-getdemo-wh" data-bs-toggle="modal" data-bs-target="#getdemoModal">
+                        Get Demo
+                        <img src="assets/images/arrowrightblack.svg" />
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -381,7 +382,7 @@ include_once 'header.php';
             <h2 class="title-white">Over 200000+ Field Service Businesses in</h2>
             <h2 class="title-white">50+ industries trust FieldWeb</h2>
         </div>
-        <div class="trusted-industries-slider">
+        <div class="trusted-industries-slider mt-5">
             <div class="ti-card">
                 <img src="assets/images/image1.svg" />
                 <h5 class="ti-card-name">Chiranjeevi Rao</h5>

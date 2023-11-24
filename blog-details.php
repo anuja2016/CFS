@@ -2,24 +2,26 @@
 include_once 'header.php';
 ?>
 
-<section>
+<section class="margin-btm">
     <div class="banner-block-rht mt-116">
         <div class="block-img"><img src="assets/images/blog-bg2.svg"></div>
-        <div class="content text-center">
-            <h1>FieldWeb Blog.</h1>
-            <p>Get the knowledge and inspiration you need to run your home and commercial service business better.</p>
-            <div class="sect-getservice">
-                <div class="input-group">
-                    <span class="input-group-text" id="basic-addon1">
-                        <select class="form-control">
-                            <option>India</option>
-                            <option>Albania</option>
-                            <option>Algeria</option>
-                        </select>
-                    </span>
-                    <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+        <div class="main-Wrapper">
+            <div class="content text-center">
+                <h1>FieldWeb Blog.</h1>
+                <p>Get the knowledge and inspiration you need to run your home and commercial service business better.</p>
+                <div class="sect-getservice">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">
+                            <select class="form-control">
+                                <option>India</option>
+                                <option>Albania</option>
+                                <option>Algeria</option>
+                            </select>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+                    </div>
+                    <button type="submit" class="btn-getstarted">Get Started</button>
                 </div>
-                <button type="submit" class="btn-getstarted">Get Started</button>
             </div>
         </div>
     </div>

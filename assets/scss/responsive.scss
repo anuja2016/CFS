@@ -312,8 +312,20 @@
     .navbar-buttons {
         padding-left: 0rem;
     }
+
     .main-carousel {
         margin-top: 100px;
+    }
+
+    .customer-say {
+        .say-card {
+            .customer-say-img {
+                img {
+                    width: 80px!important;
+                    height: 80px!important;
+                }
+            }
+        }
     }
 }
 
@@ -360,6 +372,10 @@
 
     .title {
         font-size: 28px;
+
+        span {
+            font-size: 28px;
+        }
     }
 
     .title-mont-semibold {

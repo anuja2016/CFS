@@ -1,9 +1,9 @@
 <?php
 include_once 'header.php';
 ?>
-<section>
-    <div class="banner-block-lft mt-116">
-        <div class="block-img"><img src="assets/images/features-banner2.svg"></div>
+<section class="banner-block-lft mt-116 margin-btm">
+    <div class="block-img"><img src="assets/images/features-banner2.svg"></div>
+    <div class="main-Wrapper">
         <div class="content">
             <h1>The Better Way To Run Your Commercial Contracting Business</h1>
             <p>FieldWeb has the solutions commercial and residential contractors need to maximize profits, grow their businesses, and overcome any obstacle the day may bring. </p>
@@ -21,11 +21,10 @@ include_once 'header.php';
                 <button type="submit" class="btn-getstarted">Get Started</button>
             </div>
         </div>
-        <div class="overlay"></div>
     </div>
 </section>
 <section class="main-Wrapper margin-btm" data-aos="fade-up">
-    <div class="margin-btm text-center">
+    <div class="mb-3 text-center">
         <h3 class="title-md-montbold">FieldWeb helps you stay organized at each stage of the job.</h3>
     </div>
     <div class="job-list mt-4">
@@ -188,11 +187,13 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="margin-btm" data-aos="fade-up">
-    <div class="learnmore-block">
-        <p>BOOK YOUR FREE DEMO</p>
-        <h3>Learn more about <span>FieldWeb</span></h1>
-        <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
+<section class="margin-btm learnmore-block-outer" data-aos="fade-up">
+    <div class="main-Wrapper">
+        <div class="learnmore-block">
+            <p>BOOK YOUR FREE DEMO</p>
+            <h3>Learn more about <span>FieldWeb</span></h3>
+            <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
+        </div>
     </div>
 </section>
 <section class="text-center margin-btm" data-aos="fade-up">
@@ -303,7 +304,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="main-Wrapper sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">

@@ -2,25 +2,27 @@
 include_once 'header.php';
 ?>
 
-<section>
+<section class="margin-btm">
     <div class="banner-block-lft mt-116">
         <div class="block-img"><img src="assets/images/industry_banner2.svg"></div>
-        <div class="content">
-            <p>HVAC SOFTWARE</p>
-            <h1>Drive Sales with more-efficient <span class="drawn-underline-wh">HVAC</span> service Software</h1>
-            <p>The world’s leading all-in-one software for commercial and resident HVAC businesses.</p>
-            <div class="sect-getservice">
-                <div class="input-group">
-                    <span class="input-group-text" id="basic-addon1">
-                        <select class="form-control">
-                            <option>India</option>
-                            <option>Albania</option>
-                            <option>Algeria</option>
-                        </select>
-                    </span>
-                    <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+        <div class="main-Wrapper">
+            <div class="content">
+                <p>HVAC SOFTWARE</p>
+                <h1>Drive Sales with more-efficient <span class="drawn-underline-wh">HVAC</span> service Software</h1>
+                <p>The world’s leading all-in-one software for commercial and resident HVAC businesses.</p>
+                <div class="sect-getservice">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">
+                            <select class="form-control">
+                                <option>India</option>
+                                <option>Albania</option>
+                                <option>Algeria</option>
+                            </select>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+                    </div>
+                    <button type="submit" class="btn-getstarted">Get Started</button>
                 </div>
-                <button type="submit" class="btn-getstarted">Get Started</button>
             </div>
         </div>
     </div>
@@ -54,13 +56,13 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="margin-btm" data-aos="fade-up">
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
     <div class="wrapper-head margin-btm">
         <p class="title-red">OUR POWERFUL FEATURES</p>
         <h2 class="title">Making HVAC service run smoothly for your business</h2>
         <p class="mt-5">Running an HVAC business can be tough. From scheduling jobs to dispatching technicians, disorganization can lead to inefficiency. That's where FieldWeb's HVAC software comes in. It simplifies everything – create estimates, installations, repairs, job tracking and on the job reports – all in one place.</p>
     </div>
-    <div class="main-Wrapper margin-btm">
+    <div class="margin-btm">
         <div class="row">
             <div class="col-md-6">
                 <div class="accordion accordion-flush" id="accordionservice">
@@ -194,11 +196,13 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="margin-btm" data-aos="fade-up">
-    <div class="learnmore-block">
-        <p>BOOK YOUR FREE DEMO</p>
-        <h3>Learn more about <span>FieldWeb</span></h3>
-        <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
+<section class="margin-btm learnmore-block-outer" data-aos="fade-up">
+    <div class="main-Wrapper">
+        <div class="learnmore-block">
+            <p>BOOK YOUR FREE DEMO</p>
+            <h3>Learn more about <span>FieldWeb</span></h3>
+            <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
+        </div>
     </div>
 </section>
 <section class="margin-btm" data-aos="fade-up">
@@ -391,7 +395,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="main-Wrapper sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">

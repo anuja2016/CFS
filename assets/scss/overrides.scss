@@ -97,7 +97,7 @@
     }
 }
 
-.currency-switch {
+.custom-switch {
     &.form-check {
         padding-left: 0;
         display: flex;
@@ -145,5 +145,18 @@
         background-image: url('../images/navbar-toggler-icon.svg');
         width: 29px;
         height: 19px;
+    }
+}
+#accordionfaq {
+    .accordion-button{
+        &:not(.collapsed){
+            color: #c22032;
+            background-color: #ffeef0;
+            box-shadow: none;
+        }
+        &:focus{
+            border-color: none;
+            box-shadow: none;
+        }
     }
 }

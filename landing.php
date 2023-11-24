@@ -237,9 +237,9 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-5 mb-3" data-aos="fade-up">
-    <div class="showcase-block">
-        <div class="container">
+<section class="mt-5 mb-3 showcase-block-outer" data-aos="fade-up">
+    <div class="main-Wrapper">
+        <div class="showcase-block">
             <div class="row">
                 <div class="col-md-9">
                     <h3>Showcase your App with AppSet</h3>
@@ -308,14 +308,17 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<div class="divider margin-btm"></div>
+<div class="main-Wrapper">
+    <div class="divider margin-btm"></div>
+</div>
+
 <!----------Trusted industries----------->
 <section class="main-Wrapper margin-btm" data-aos="fade-up">
     <div class="text-center">
         <h2 class="title">10k+ Customers Love AppSet</h2>
         <p class="title-md">libero tempus, tempor posuere ligula varius</p>
     </div>
-    <div class="trusted-industries-slider">
+    <div class="trusted-industries-slider mt-5">
         <div class="ti-card">
             <img src="assets/images/image1.svg" />
             <h5 class="ti-card-name"> Chiranjeevi Rao</h5>
@@ -348,7 +351,9 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<div class="divider margin-tp-lg margin-btm"></div>
+<div class="main-Wrapper">
+    <div class="divider margin-btm"></div>
+</div>
 <section class="margin-btm">
     <div class="text-center mb-5">
         <h2 class="title mb-3">Our Stories & Latest News</h2>

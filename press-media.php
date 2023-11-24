@@ -169,7 +169,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="main-Wrapper sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">

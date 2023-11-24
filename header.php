@@ -5,14 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Best Field Service Management Software - FieldWeb</title>
     <link href='assets/css/style.css' rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/aos.css" rel="stylesheet">
-    <title> Best Field Service Management Software - FieldWeb</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+    <!--meta tags-->
     <meta name="title" content="Best Field Service Management | FSM Software - FieldWeb" />
     <meta property="og:title" content="Best Field Service Management | FSM Software - FieldWeb" />
     <meta property="og:description" content=" FieldWeb is a Field Service Management software that helps businesses streamline their field service operations." />
@@ -97,14 +96,14 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="Preferred Date">
-                                            <span class="input-group-text"><img src="assets/images/date-icon.svg" /></span>
+                                            <input type="date" class="form-control" placeholder="Preferred Date">
+                                            <!-- <span class="input-group-text"><img src="assets/images/date-icon.svg" /></span> -->
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="Preferred Time">
-                                            <span class="input-group-text"><img src="assets/images/time-icon.svg" /></span>
+                                            <input type="time" class="form-control" placeholder="Preferred Time">
+                                            <!-- <span class="input-group-text"><img src="assets/images/time-icon.svg" /></span> -->
                                         </div>
                                     </div>
                                 </div>

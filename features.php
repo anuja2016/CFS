@@ -2,9 +2,9 @@
 include_once 'header.php';
 ?>
 
-<section class="margin-btm">
-    <div class="banner-block mt-116">
-        <div class="block-img"><img src="assets/images/features-bg.svg"></div>
+<section class="banner-block mt-116 margin-btm">
+    <div class="block-img"><img src="assets/images/features-bg.svg"></div>
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
             <h1>Built exclusively for the trade</h1>
             <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service
@@ -1218,7 +1218,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="main-Wrapper sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">

@@ -2,24 +2,26 @@
 include_once 'header.php';
 ?>
 
-<section>
+<section class="margin-btm">
     <div class="banner-block-rht mt-116">
         <div class="block-img"><img src="assets/images/contact_us_bg.svg"></div>
-        <div class="content text-center">
-            <h1>Built exclusively for the trade</h1>
-            <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
-            <div class="sect-getservice">
-                <div class="input-group">
-                    <span class="input-group-text" id="basic-addon1">
-                        <select class="form-control">
-                            <option>India</option>
-                            <option>Albania</option>
-                            <option>Algeria</option>
-                        </select>
-                    </span>
-                    <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+        <div class="main-Wrapper d-flex justify-content-end">
+            <div class="content text-center">
+                <h1>Built exclusively for the trade</h1>
+                <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
+                <div class="sect-getservice">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">
+                            <select class="form-control">
+                                <option>India</option>
+                                <option>Albania</option>
+                                <option>Algeria</option>
+                            </select>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+                    </div>
+                    <button type="submit" class="btn-getstarted">Get Started</button>
                 </div>
-                <button type="submit" class="btn-getstarted">Get Started</button>
             </div>
         </div>
     </div>
@@ -41,7 +43,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="margin-btm" data-aos="fade-up">
+<section class="margin-btm sect-socialmedia" data-aos="fade-up">
     <div class="text-center margin-btm">
         <h2 class="title">Fieldweb team is here to help you!!</h2>
         <p>Join us on social media to keep up with the latest news, advice, and information from the best app for field service businesses.</p>
@@ -82,7 +84,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------Trusted industries----------->
-<section class="main-Wrapper" data-aos="fade-up">
+<section class="main-Wrapper mb-10" data-aos="fade-up">
     <div class="text-center margin-btm">
         <h2 class="title">Over 200000+ Field Service Businesses in 50+</h2>
         <h2 class="title">industries trust FieldWeb</h2>
@@ -93,40 +95,42 @@ include_once 'header.php';
                 <img src="assets/images/image1.svg" />
                 <h5 class="ti-card-name"> Chiranjeevi Rao</h5>
                 <p class="ti-card-companyname">Godhavari Mineral Water Technologies</p>
-                <p>FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+                <p class="ti-card-desc">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
             </div>
             <div class="ti-card">
                 <img src="assets/images/image2.svg" />
                 <h5 class="ti-card-name"> Prasad Raju Kalindi</h5>
                 <p class="ti-card-companyname"> ImageIndia</p>
-                <p>FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+                <p class="ti-card-desc">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
             </div>
             <div class="ti-card">
                 <img src="assets/images/image3.svg" />
                 <h5 class="ti-card-name">Mohit Sapra</h5>
                 <p class="ti-card-companyname">Splash RO systems</p>
-                <p>FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+                <p class="ti-card-desc">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
             </div>
             <div class="ti-card">
                 <img src="assets/images/image2.svg" />
                 <h5 class="ti-card-name"> Prasad Raju Kalindi</h5>
                 <p class="ti-card-companyname"> ImageIndia</p>
-                <p>FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+                <p class="ti-card-desc">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
             </div>
             <div class="ti-card">
                 <img src="assets/images/image3.svg" />
                 <h5 class="ti-card-name">Mohit Sapra</h5>
                 <p class="ti-card-companyname">Splash RO systems</p>
-                <p>FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
+                <p class="ti-card-desc">FieldWeb is such a great app for track the technicians and their work. Wonderful Support from Team. Thanks</p>
             </div>
         </div>
     </div>
 </section>
-<section class="mt-8 margin-btm" data-aos="fade-up">
-    <div class="learnmore-block">
-        <p>BOOK YOUR FREE DEMO</p>
-        <h3>Learn more about <span>FieldWeb</span></h1>
+<section class="margin-btm learnmore-block-outer" data-aos="fade-up">
+    <div class="main-Wrapper">
+        <div class="learnmore-block">
+            <p>BOOK YOUR FREE DEMO</p>
+            <h3>Learn more about <span>FieldWeb</span></h3>
             <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
+        </div>
     </div>
 </section>
 <section data-aos="fade-up">
@@ -167,16 +171,16 @@ include_once 'header.php';
             <div class="col-md-6">
                 <div class="sect-wboxs">
                     <h2 class="title-poppins-sbold">Get In Touch</h2>
-                    <div class="margin-btm mt-3">
+                    <div class="mt-3">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="margin-btm">
+                                <div class="mb-3">
                                     <label class="form-label">Name*</label>
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="margin-btm">
+                                <div class="mb-3">
                                     <label class="form-label">Company Name*</label>
                                     <input type="text" class="form-control">
                                 </div>
@@ -184,28 +188,28 @@ include_once 'header.php';
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="margin-btm">
+                                <div class="mb-3">
                                     <label class="form-label">Phone Number*</label>
                                     <input type="number" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="margin-btm">
+                                <div class="mb-3">
                                     <label class="form-label">Email*</label>
                                     <input type="email" class="form-control">
                                 </div>
                             </div>
                         </div>
-                        <div class="margin-btm">
+                        <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Demo Date</label>
                             <input type="date" class="form-control">
                         </div>
-                        <div class="margin-btm">
+                        <div class="mb-3">
                             <label class="form-label">Message</label>
                             <textarea rows="4" class="form-control"></textarea>
                         </div>
                     </div>
-                    <div class="margin-btm">
+                    <div class="mt-3">
                         <button type="button" class="btn-red">SUBMIT</button>
                     </div>
                 </div>

@@ -5,11 +5,13 @@ include_once 'header.php';
 <section>
     <div class="banner-block-lft mt-116">
         <div class="block-img"><img src="assets/images/pricing-bg.svg"></div>
-        <div class="content">
-            <h1>Get FieldWeb Demo for free now! Pick a plan later.</h1>
-            <p>Book your live demo now and access all FieldWeb features, no credit card required.</p>
-            <div class="mt-4">
-                <button type="submit" class="btn-getstarted" data-bs-toggle="modal" data-bs-target="#getdemoModal">Start Free Demo Now!</button>
+        <div class="main-Wrapper">
+            <div class="content">
+                <h1>Get FieldWeb Demo for free now! Pick a plan later.</h1>
+                <p>Book your live demo now and access all FieldWeb features, no credit card required.</p>
+                <div class="mt-4">
+                    <button type="submit" class="btn-getstarted" data-bs-toggle="modal" data-bs-target="#getdemoModal">Start Free Demo Now!</button>
+                </div>
             </div>
         </div>
     </div>
@@ -17,7 +19,7 @@ include_once 'header.php';
 <section class="margin-btm" data-aos="fade-up">
     <div class="d-flex gap-4 justify-content-center mt-5 mb-5">
         <span>Save Up To Rs.1000/user/month <img src="assets/images/arrow-rightblack-bold.svg"> </span>
-        <div class="form-check form-switch currency-switch">
+        <div class="form-check form-switch custom-switch">
             <span>INR</span>
             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
             <span>USD</span>
@@ -418,7 +420,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="main-Wrapper sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">

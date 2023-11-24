@@ -13,7 +13,7 @@
           <li><a href="#">Service Management</a></li>
           <li><a href="#">Passbook Management</a></li>
           <li><a href="#">Inventory Management</a></li>
-          <li><a href="#">All Features<span class="ps-2"><img src="assets/images/whitearrow.svg" /></span></a></li>
+          <li><a href="features.php">All Features<span class="ps-2"><img src="assets/images/whitearrow.svg" /></span></a></li>
         </ul>
       </div>
       <div class="col-md-2 col-sm-4 col-6">
@@ -28,7 +28,7 @@
           <li><a href="#">Landscaping and lawa </a></li>
           <li><a href="#">Pest Control </a></li>
           <li><a href="#">Home Cleaning </a></li>
-          <li><a href="#">All Industries<span class="ps-2"><img src="assets/images/whitearrow.svg" /></span></a></li>
+          <li><a href="industries.php">All Industries<span class="ps-2"><img src="assets/images/whitearrow.svg" /></span></a></li>
         </ul>
       </div>
       <div class="col-md-2 col-sm-4 col-6">
@@ -86,6 +86,7 @@
 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="assets/js/aos.js"></script>
 <script type="text/javascript" src="assets/js/slick.min.js"></script>
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 <!--tooltip--->
 <script>
   var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
@@ -332,14 +333,29 @@
       }
     });
   });
+</script>
+<script>
+  $('#DownloadTxtCarousel').owlCarousel({
+        items: 4,
+        loop: true,
+        margin: 10,
+        dots:false,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 1500,
+        autoplaySpeed: 1500,
+        autoplayHoverPause: false,
 
-
-  $('#accordion')
-  .on('show.bs.collapse', function(e) {   
-    $(e.target).prev('.panel-heading-custom').find('div').addClass('glyphicon glyphicon-minus');    
-  })
-  .on('hide.bs.collapse', function(e) {
-   $(e.target).prev('.panel-heading-custom').find('div').removeClass('glyphicon glyphicon-minus');
-   $(e.target).prev('.panel-heading-custom').find('div').addClass('glyphicon glyphicon-plus');   
-  });
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    })
 </script>

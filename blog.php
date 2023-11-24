@@ -2,9 +2,9 @@
 include_once 'header.php';
 ?>
 
-<section>
-    <div class="banner-block-rht mt-116">
-        <div class="block-img"><img src="assets/images/blog-bg.svg"></div>
+<section class="banner-block-rht mt-116 margin-btm">
+    <div class="block-img"><img src="assets/images/blog-bg.svg"></div>
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content text-center">
             <h1>FieldWeb Blog.</h1>
             <p>Get the knowledge and inspiration you need to run your home and commercial service business better.</p>
@@ -216,7 +216,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="main-Wrapper sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">

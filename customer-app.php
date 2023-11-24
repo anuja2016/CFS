@@ -4,24 +4,25 @@ include_once 'header.php';
 <section>
     <div class="banner-block-lft mt-116 margin-btm">
         <div class="block-img"><img src="assets/images/customer-app-bg.svg"></div>
-        <div class="content">
-            <h1>A convenient online client portal that keeps work moving forward</h1>
-            <p>Client hub is your customer’s online portal where they can request work, approve quotes, review scheduled jobs, make payments, and refer their friends.</p>
-            <div class="sect-getservice">
-                <div class="input-group">
-                    <span class="input-group-text" id="basic-addon1">
-                        <select class="form-control">
-                            <option>India</option>
-                            <option>Albania</option>
-                            <option>Algeria</option>
-                        </select>
-                    </span>
-                    <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+        <div class="main-Wrapper">
+            <div class="content">
+                <h1>A convenient online client portal that keeps work moving forward</h1>
+                <p>Client hub is your customer’s online portal where they can request work, approve quotes, review scheduled jobs, make payments, and refer their friends.</p>
+                <div class="sect-getservice">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">
+                            <select class="form-control">
+                                <option>India</option>
+                                <option>Albania</option>
+                                <option>Algeria</option>
+                            </select>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+                    </div>
+                    <button type="submit" class="btn-getstarted">Get Started</button>
                 </div>
-                <button type="submit" class="btn-getstarted">Get Started</button>
             </div>
         </div>
-        <div class="overlay"></div>
     </div>
 </section>
 <section class="main-Wrapper margin-btm" data-aos="fade-up">

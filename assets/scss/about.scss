@@ -26,6 +26,12 @@
         letter-spacing: normal;
         margin-bottom: 5px;
     }
+    .leader-desc{
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
     .flex-start{
         align-items: flex-start;
     }

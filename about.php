@@ -2,7 +2,7 @@
 include_once 'header.php';
 ?>
 
-<section class="top-wrapper margin-btm">
+<section class="about-banner-block margin-btm mt-116">
     <img src="assets/images/aboutbackground.svg" class="img-fluid" alt="...">
 </section>
 <section class="main-Wrapper sect-about margin-btm" data-aos="fade-up">
@@ -115,74 +115,76 @@ include_once 'header.php';
 </section>
 
 <section class="block-lg-lightorange pt-5 pb-5" data-aos="fade-up">
-    <div class="text-center margin-sm-btm">
-        <h2 class="title-semibold"> From Leader's Desk</h2>
-    </div>
-    <div class="leader-desk-grid">
-        <div class="row">
-            <div class="col-md-6 mt-2 mb-2">
-                <div class="card p-3">
-                    <div class="d-flex gap-3 align-items-start">
-                        <img src="assets/images/leaderimg1.svg" alt="...">
-                        <div class="d-flex-column flex-start">
-                            <h4 class="leader-name">Amit Dhawan</h4>
-                            <p class="pb-1 title-sm-para">Amit Dhawan</p>
-                            <p>Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
-                            <div class="d-flex gap-2 pt-4">
-                                <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
-                                <a href="https://twitter.com/"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>
-                                <a href="https://www.linkedin.com/"><img src="assets/images/linkedinblackicon.svg" class="icon-img"></a>
+    <div class="main-Wrapper">
+        <div class="text-center margin-sm-btm">
+            <h2 class="title-semibold"> From Leader's Desk</h2>
+        </div>
+        <div class="leader-desk-grid">
+            <div class="row">
+                <div class="col-md-6 mt-2 mb-2">
+                    <div class="card p-3">
+                        <div class="d-flex gap-3 align-items-start">
+                            <img src="assets/images/leaderimg1.svg" alt="...">
+                            <div class="d-flex-column flex-start">
+                                <h4 class="leader-name">Amit Dhawan</h4>
+                                <p class="pb-1">Amit Dhawan</p>
+                                <p class="leader-desc">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+                                <div class="d-flex gap-2 pt-4">
+                                    <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
+                                    <a href="https://twitter.com/"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>
+                                    <a href="https://www.linkedin.com/"><img src="assets/images/linkedinblackicon.svg" class="icon-img"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 mt-2 mb-2">
-                <div class="card p-3">
-                    <div class="d-flex gap-3 align-items-start">
-                        <img src="assets/images/leaderimg2.svg" alt="...">
-                        <div class="d-flex-column flex-start">
-                            <h4 class="leader-name">Sandeep Singh</h4>
-                            <p class="pb-1 title-sm-para">Amit Dhawan</p>
-                            <p>Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
-                            <div class="d-flex gap-2 pt-4">
-                                <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
-                                <a href="https://twitter.com/" target="_blank"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>
-                                <a href="https://www.linkedin.com/" target="_blank"><img src="assets/images/linkedinblackicon.svg" class="icon-img"></a>
+                <div class="col-md-6 mt-2 mb-2">
+                    <div class="card p-3">
+                        <div class="d-flex gap-3 align-items-start">
+                            <img src="assets/images/leaderimg2.svg" alt="...">
+                            <div class="d-flex-column flex-start">
+                                <h4 class="leader-name">Sandeep Singh</h4>
+                                <p class="pb-1">Amit Dhawan</p>
+                                <p class="leader-desc">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+                                <div class="d-flex gap-2 pt-4">
+                                    <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
+                                    <a href="https://twitter.com/" target="_blank"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>
+                                    <a href="https://www.linkedin.com/" target="_blank"><img src="assets/images/linkedinblackicon.svg" class="icon-img"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 mt-2 mb-2">
-                <div class="card p-3">
-                    <div class="d-flex gap-3 align-items-start">
-                        <img src="assets/images/leaderimg3.svg" alt="...">
-                        <div class="d-flex-column flex-start">
-                            <h4 class="leader-name">Shashank Tewari</h4>
-                            <p class="pb-1 title-sm-para">Amit Dhawan</p>
-                            <p>Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
-                            <div class="d-flex gap-2 pt-4">
-                                <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
-                                <a href="https://twitter.com/" target="_blank"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>
-                                <a href="https://www.linkedin.com/" target="_blank"><img src="assets/images/linkedinblackicon.svg" class="icon-img"></a>
+                <div class="col-md-6 mt-2 mb-2">
+                    <div class="card p-3">
+                        <div class="d-flex gap-3 align-items-start">
+                            <img src="assets/images/leaderimg3.svg" alt="...">
+                            <div class="d-flex-column flex-start">
+                                <h4 class="leader-name">Shashank Tewari</h4>
+                                <p class="pb-1">Amit Dhawan</p>
+                                <p class="leader-desc">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+                                <div class="d-flex gap-2 pt-4">
+                                    <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
+                                    <a href="https://twitter.com/" target="_blank"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>
+                                    <a href="https://www.linkedin.com/" target="_blank"><img src="assets/images/linkedinblackicon.svg" class="icon-img"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 mt-2 mb-2">
-                <div class="card p-3">
-                    <div class="d-flex gap-3 align-items-start">
-                        <img src="assets/images/leaderimg4.svg" alt="...">
-                        <div class="d-flex-column flex-start">
-                            <h4 class="leader-name">Sahil Bhatia</h4>
-                            <p class="pb-1 title-sm-para">Amit Dhawan</p>
-                            <p>Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
-                            <div class="d-flex gap-2 pt-4">
-                                <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
-                                <a href="https://twitter.com/" target="_blank"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>
-                                <a href="https://www.linkedin.com/" target="_blank"><img src="assets/images/linkedinblackicon.svg" class="icon-img"></a>
+                <div class="col-md-6 mt-2 mb-2">
+                    <div class="card p-3">
+                        <div class="d-flex gap-3 align-items-start">
+                            <img src="assets/images/leaderimg4.svg" alt="...">
+                            <div class="d-flex-column flex-start">
+                                <h4 class="leader-name">Sahil Bhatia</h4>
+                                <p class="pb-1">Amit Dhawan</p>
+                                <p class="leader-desc">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+                                <div class="d-flex gap-2 pt-4">
+                                    <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
+                                    <a href="https://twitter.com/" target="_blank"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>
+                                    <a href="https://www.linkedin.com/" target="_blank"><img src="assets/images/linkedinblackicon.svg" class="icon-img"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -199,7 +201,7 @@ include_once 'header.php';
             <div class="col-md-6">
                 <p class="title-md">IN 40 YEARS OF EXPERIENCE</p>
                 <h4 class="title pt-2">Trusted By </p>
-                <h3 class="red-title-bold drawn-underline"><span class="count">40000</span>+ Users</h3>
+                    <h3 class="red-title-bold drawn-underline"><span class="count">40000</span>+ Users</h3>
             </div>
             <div class="col-md-6">
                 <img src="assets/images/idea.svg" alt="..." class="img-fluid">
@@ -259,17 +261,17 @@ include_once 'header.php';
 </script>
 <!--counter--->
 <script>
-  $('.count').each(function() {
-    $(this).prop('Counter', 0).animate({
-      Counter: $(this).text()
-    }, {
-      duration: 4000,
-      easing: 'swing',
-      step: function(now) {
-        $(this).text(Math.ceil(now));
-      }
+    $('.count').each(function() {
+        $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 4000,
+            easing: 'swing',
+            step: function(now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
     });
-  });
 </script>
 
 <?php

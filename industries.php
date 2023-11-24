@@ -4,13 +4,14 @@ include_once 'header.php';
 <section>
     <div class="banner-block mt-116">
         <div class="block-img"><img src="assets/images/industry_banner.svg"></div>
-        <div class="content">
-            <h1>Built exclusively for the trade</h1>
-            <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service
-                Businesses.</p>
-            <div class="input-group search-industry w-75">
-                <input type="text" class="form-control" placeholder="Search your Industry" aria-label="MobileNumber">
-                <button class="btnsearch"><img src="assets/images/search-icon.svg" class="img-fluid" alt="search" /></button>
+        <div class="main-Wrapper d-flex justify-content-end">
+            <div class="content">
+                <h1>Built exclusively for the trade</h1>
+                <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
+                <div class="input-group search-industry w-75">
+                    <input type="text" class="form-control" placeholder="Search your Industry" aria-label="MobileNumber">
+                    <button class="btnsearch"><img src="assets/images/search-icon.svg" class="img-fluid" alt="search" /></button>
+                </div>
             </div>
         </div>
     </div>
@@ -557,8 +558,8 @@ include_once 'header.php';
     <div class="row align-items-center">
         <div class="col-md-6">
             <p class="title-md">IN 40 YEARS OF EXPERIENCE</p>
-            <h4 class="title pt-2">Trusted By </p>
-                <h3 class="red-title-bold drawn-underline"><span class="count">40000</span> + Users</h3>
+            <h4 class="title pt-2">Trusted By </h4>
+            <h3 class="red-title-bold drawn-underline"><span class="count">40000</span> + Users</h3>
         </div>
         <div class="col-md-6">
             <img src="assets/images/idea.svg" alt="..." class="img-fluid">
@@ -566,7 +567,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="main-Wrapper sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">
