@@ -27,7 +27,7 @@ include_once 'header.php';
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/hvac.svg" class="services-icon" />
@@ -42,7 +42,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/ro_repair.svg" class="services-icon" />
@@ -57,7 +57,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/lift_escalators.svg" class="services-icon" />
@@ -72,9 +72,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/plumbing.svg" class="services-icon" />
@@ -89,7 +87,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/cctv.svg" class="services-icon" />
@@ -104,7 +102,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/pest_control.svg" class="services-icon" />
@@ -119,9 +117,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/solar_repair.svg" class="services-icon" />
@@ -136,7 +132,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/electrical.svg" class="services-icon" />
@@ -150,7 +146,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/home_appliance.svg" class="services-icon" />
@@ -165,9 +161,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/broadband_service.svg" class="services-icon" />
@@ -182,7 +176,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/computer_it.svg" class="services-icon" />
@@ -197,7 +191,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/geyser_repair.svg" class="services-icon" />
@@ -216,7 +210,7 @@ include_once 'header.php';
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/roadside_assistance.svg" class="services-icon" />
@@ -231,7 +225,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/medical_equipment.svg" class="services-icon" />
@@ -247,7 +241,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/general_contracting.svg" class="services-icon" />
@@ -262,9 +256,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/home_clean.svg" class="services-icon" />
@@ -279,7 +271,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/painting_service.svg" class="services-icon" />
@@ -294,7 +286,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/handyman_repair.svg" class="services-icon" />
@@ -309,9 +301,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/carpet_cleaning.svg" class="services-icon" />
@@ -326,7 +316,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/pool_cleaning.svg" class="services-icon" />
@@ -341,7 +331,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/airduct_cleaning.svg" class="services-icon" />
@@ -356,9 +346,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/fireplace_chimney.svg" class="services-icon" />
@@ -373,7 +361,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/landscaping_lawn.svg" class="services-icon" />
@@ -388,7 +376,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/septictank_cleaning.svg" class="services-icon" />
@@ -407,7 +395,7 @@ include_once 'header.php';
                 </div>
                 <div class="carousel-item">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/janitoral_cleaning.svg" class="services-icon" />
@@ -422,7 +410,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/roofing_service.svg" class="services-icon" />
@@ -437,7 +425,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/snow-removal.svg" class="services-icon" />
@@ -452,9 +440,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/window_cleaning.svg" class="services-icon" />
@@ -469,7 +455,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/garagedoor_installation.svg" class="services-icon" />
@@ -484,7 +470,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/locksmith_service.svg" class="services-icon" />
@@ -499,9 +485,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/irrigation_service.svg" class="services-icon" />
@@ -516,7 +500,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/audiovisual_repair.svg" class="services-icon" />
@@ -531,7 +515,7 @@ include_once 'header.php';
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6 mb-4">
                             <a href="industry-details.php" class="card">
                                 <div class="card-body text-center">
                                     <img src="assets/images/printer_repair.svg" class="services-icon" />

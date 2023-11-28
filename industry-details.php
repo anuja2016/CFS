@@ -288,8 +288,10 @@ include_once 'header.php';
     </div>
 </section>
 <section class="text-center margin-btm" data-aos="fade-up">
-    <p class="title-red">OUR POWERFUL FEATURES</p>
-    <h2 class="title drawn-underline">I Switched to FieldWeb</h2>
+    <div class="wrapper-head">
+        <p class="title-red">OUR POWERFUL FEATURES</p>
+        <h2 class="title">I Switched to FieldWeb</h2>
+    </div>
     <div class="main-Wrapper">
         <div class="client-review mt-5">
             <div class="review-card">

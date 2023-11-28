@@ -425,7 +425,14 @@ body {
 .mt-116 {
     margin-top: 116px !important;
 }
-
+.overlay {
+    background: linear-gradient(0.75deg, #1C1A1B 5.51%, rgba(28, 26, 27, 0) 69.2%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
 .banner-block {
     position: relative;
 
@@ -1163,6 +1170,7 @@ body {
     background-attachment: fixed;
     padding-top: 3rem !important;
     background-size: 100%;
+    padding: 20px;
 
     .block-lightorange {
         // margin: -100px 3rem 2rem;
@@ -1316,6 +1324,7 @@ body {
     outline: none;
     cursor: pointer;
     border: 1px solid rgba(243, 243, 243, 1);
+    display: inline-block;
 
     &:hover {
         background-color: #FFFFFF;
@@ -1333,6 +1342,7 @@ body {
     position: absolute;
     left: 10%;
     right: 10%;
+    display: inline-block;
 }
 
 .btn-white {
@@ -1457,6 +1467,7 @@ body {
 
 .showcase-block-outer {
     background-color: #000000;
+
     .showcase-block {
         position: relative;
         background-color: #000000;
@@ -1466,11 +1477,11 @@ body {
         background-size: 28%;
         background-position: right 0 bottom;
         background-repeat: no-repeat;
-    
+
         p {
             font-family: 'Montserrat-SemiBold';
         }
-    
+
         h3 {
             font-family: 'Montserrat-SemiBold';
             font-size: 35px;
@@ -1718,11 +1729,17 @@ body {
     }
 
     .nav-pills {
+        .d-flex {
+            flex-flow: nowrap;
+            overflow-x: auto;
+        }
+
         .nav-link {
             background-color: rgb(255 255 255);
             color: #000000;
             border-radius: 0;
             border: 2px solid #ddd;
+            text-wrap: nowrap;
 
             &:hover {
                 background-color: #c22032;

@@ -4,7 +4,10 @@ include_once 'header.php';
 
 <section>
     <div class="banner-block-lft mt-116">
-        <div class="block-img"><img src="assets/images/pricing-bg.svg"></div>
+        <div class="block-img">
+            <img src="assets/images/pricing-bg.svg">
+            <div class="overlay"></div>
+        </div>
         <div class="main-Wrapper">
             <div class="content">
                 <h1>Get FieldWeb Demo for free now! Pick a plan later.</h1>

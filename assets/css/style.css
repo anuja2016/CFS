@@ -391,6 +391,15 @@ body h6 {
   margin-top: 116px !important;
 }
 
+.overlay {
+  background: linear-gradient(0.75deg, #1C1A1B 5.51%, rgba(28, 26, 27, 0) 69.2%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 .banner-block {
   position: relative;
 }
@@ -1003,6 +1012,7 @@ body h6 {
   background-attachment: fixed;
   padding-top: 3rem !important;
   background-size: 100%;
+  padding: 20px;
 }
 .sect-demo .block-lightorange {
   width: 1400px;
@@ -1126,6 +1136,7 @@ body h6 {
   outline: none;
   cursor: pointer;
   border: 1px solid rgb(243, 243, 243);
+  display: inline-block;
 }
 .btn-grey:hover {
   background-color: #FFFFFF;
@@ -1142,6 +1153,7 @@ body h6 {
   position: absolute;
   left: 10%;
   right: 10%;
+  display: inline-block;
 }
 
 .btn-white {
@@ -1461,11 +1473,16 @@ body h6 {
   color: #FFFFFF;
   border: 2px solid #c22032;
 }
+.custom-tabs .nav-pills .d-flex {
+  flex-flow: nowrap;
+  overflow-x: auto;
+}
 .custom-tabs .nav-pills .nav-link {
   background-color: rgb(255, 255, 255);
   color: #000000;
   border-radius: 0;
   border: 2px solid #ddd;
+  text-wrap: nowrap;
 }
 .custom-tabs .nav-pills .nav-link:hover {
   background-color: #c22032;
@@ -1948,6 +1965,119 @@ body h6 {
   .feature-section .row .col-md-3 {
     margin-bottom: 0.5rem;
   }
+  .sect-demo .card {
+    margin-top: 40px !important;
+  }
+  .banner-block .content {
+    max-width: 100%;
+  }
+  .sect-demo h2 .drawn-underline {
+    background-position: center 36px;
+    text-wrap: nowrap;
+  }
+  .client-review .review-card .review-card-content {
+    padding: 20px 0;
+    max-width: 100%;
+  }
+  .client-review .review-card .sect-rating ul li img {
+    width: 25px;
+    height: 25px;
+  }
+  .custom-tabs .tab-content .tab-pane .row:first-child .col-md-6 {
+    margin-bottom: 3rem;
+  }
+  .banner-block .block-img img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  .banner-block .content h1 {
+    line-height: 45px;
+    font-size: 40px;
+  }
+  .sect-demo.mt-20 {
+    margin-top: 8.75rem;
+  }
+  .banner-block-lft .block-img img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  .banner-block-lft .content h1 {
+    line-height: 45px;
+    font-size: 40px;
+  }
+  .banner-block-rht .block-img img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  .banner-block-rht .content {
+    max-width: 100%;
+  }
+  .banner-block-rht .content h1 {
+    line-height: 45px;
+    font-size: 40px;
+  }
+  .m-mb-5 {
+    margin-bottom: 3rem !important;
+  }
+  .learnmore-block-outer .learnmore-block {
+    padding: 35px 0px;
+    background-size: 40%;
+  }
+  .blog-slider .row:first-child .col-md-6 {
+    margin-bottom: 1rem;
+  }
+  .sect-floating {
+    margin-top: 3rem;
+  }
+  .sect-conthelp .row:first-child .col-md-6 {
+    margin-bottom: 3rem;
+  }
+  .sect-socialmedia .row .col-md-3 {
+    margin-bottom: 2rem;
+  }
+  .sect-socialmedia .block-lg-lightorange {
+    margin: 0;
+  }
+  .sect-map {
+    margin-bottom: 2rem;
+  }
+  .sect-map iframe {
+    height: 400px;
+  }
+  .sect-pricing {
+    height: auto !important;
+    margin-top: unset !important;
+    padding: 30px 0;
+  }
+  .sect-pricing .row {
+    position: relative !important;
+    margin: 0 auto 0 !important;
+  }
+  .cust-feedback-slider2 {
+    margin: 0 auto 0 !important;
+  }
+  .sect-addons .row .col-md-4 {
+    margin-bottom: 2rem;
+  }
+  .sect-addons .row .col-md-4:last-child {
+    margin-bottom: 0;
+  }
+  .sect-oneapp .row .col-md-3 img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .learnmore-block-outer .learnmore-block {
+    padding: 35px 0px 115px;
+    background-size: 320px;
+  }
 }
 @media only screen and (max-width: 580px) {
   .dsk-fwlogo {
@@ -1963,6 +2093,12 @@ body h6 {
   .sect-oneapp img {
     width: 50px;
     height: 50px;
+  }
+  .sect-socialmedia .row .col-md-3:last-child {
+    margin-bottom: 0;
+  }
+  .sect-socialmedia .block-lg-lightorange p {
+    min-height: 75px !important;
   }
 }
 @media only screen and (max-width: 480px) {

@@ -5,7 +5,7 @@ include_once 'header.php';
 <section class="margin-btm">
     <div class="banner-block-rht mt-116">
         <div class="block-img"><img src="assets/images/blog-bg2.svg"></div>
-        <div class="main-Wrapper">
+        <div class="main-Wrapper d-flex justify-content-end">
             <div class="content text-center">
                 <h1>FieldWeb Blog.</h1>
                 <p>Get the knowledge and inspiration you need to run your home and commercial service business better.</p>

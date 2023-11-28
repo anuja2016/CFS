@@ -26,7 +26,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="margin-btm">
+<section class="sect-conthelp margin-btm">
     <div class="main-Wrapper">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -44,35 +44,35 @@ include_once 'header.php';
     </div>
 </section>
 <section class="margin-btm sect-socialmedia" data-aos="fade-up">
-    <div class="text-center margin-btm">
+    <div class="main-Wrapper text-center margin-btm">
         <h2 class="title">Fieldweb team is here to help you!!</h2>
         <p>Join us on social media to keep up with the latest news, advice, and information from the best app for field service businesses.</p>
     </div>
-    <div class="block-lg-lightorange pt-5 pb-5">
+    <div class="block-lg-lightorange px-3 py-5">
         <div class="main-Wrapper">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <a href="https://www.linkedin.com/" target="_blank" class="cft-card">
                         <img src="assets/images/linkedin-icon.svg" />
                         <p>On LinkedIn you can find official news about new products, announcements, and career opportunities at FieldWeb.</p>
                         <h6>Join us on LinkedIn ></h6>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <a href="https://www.facebook.com/" target="_blank" class="cft-card">
                         <img src="assets/images/facebook-icon.svg" />
                         <p>Give us a like and follow on Facebook to keep up to date with the newest information and resources on how to grow your company.</p>
                         <h6>Like us on Facebook ></h6>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <a href="https://www.instagram.com/" target="_blank" class="cft-card">
                         <img src="assets/images/instagram-icon.svg" />
                         <p>Follow our IG to hear about new webinars and podcasts, and to get inspired by Pros doing the work.</p>
                         <h6>Follow us on Instagram ></h6>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <a href="https://www.youtube.com/" target="_blank" class="cft-card">
                         <img src="assets/images/youtube-icon.svg" />
                         <p>Subscribe to our YouTube channel to get advice and quick tips on how to run your field service business.</p>
@@ -164,7 +164,7 @@ include_once 'header.php';
 <section class="main-Wrapper mt-10 margin-btm" data-aos="fade-up">
     <div class="">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 sect-map">
                 <!-- <img src="assets/images/address-map.svg" class="img-fluid" /> -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.184250226005!2d77.05414127425028!3d28.443861692625653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18f20aad9c31%3A0x95f505543d1f0bc5!2sFieldWeb%20%7C%20FSM%20%7C%20Field%20Service%20Management%20Software!5e0!3m2!1sen!2sin!4v1697523649449!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>

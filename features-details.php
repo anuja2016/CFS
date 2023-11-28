@@ -2,7 +2,10 @@
 include_once 'header.php';
 ?>
 <section class="banner-block-lft mt-116 margin-btm">
-    <div class="block-img"><img src="assets/images/features-banner2.svg"></div>
+    <div class="block-img">
+        <img src="assets/images/features-banner2.svg">
+        <div class="overlay"></div>
+    </div>
     <div class="main-Wrapper">
         <div class="content">
             <h1>The Better Way To Run Your Commercial Contracting Business</h1>
@@ -166,7 +169,7 @@ include_once 'header.php';
 <section class="main-Wrapper margin-btm" data-aos="fade-up">
     <div class="row">
         <div class="col-md-6">
-            <div class="quote-grey-block p-4">
+            <div class="quote-grey-block p-4 m-mb-5">
                 <h5 class="block-red text-center">For your Business:</h5>
                 <ul class="text-left title-sm-para">
                     <li class="pt-3">Spend less time creating quotes and chasing down approval</li>
@@ -197,8 +200,11 @@ include_once 'header.php';
     </div>
 </section>
 <section class="text-center margin-btm" data-aos="fade-up">
-    <p class="title-red">OUR POWERFUL FEATURES</p>
-    <h2 class="title drawn-underline">I Switched to FieldWeb</h2>
+    <div class="wrapper-head text-center margin-btm">
+        <p class="title-red">OUR POWERFUL FEATURES</p>
+        <h2 class="title">I Switched to FieldWeb<p></p>
+        </h2>
+    </div>
     <div class="main-Wrapper">
         <div class="client-review mt-5">
             <div class="review-card">

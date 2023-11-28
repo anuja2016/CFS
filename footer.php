@@ -267,7 +267,20 @@
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    dots: true
+    dots: true,
+    responsive: [{
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
   });
   $('.custapp-slider').slick({
     infinite: true,

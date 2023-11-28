@@ -3,7 +3,10 @@ include_once 'header.php';
 ?>
 
 <section class="banner-block mt-116 margin-btm">
-    <div class="block-img"><img src="assets/images/features-bg.svg"></div>
+    <div class="block-img">
+        <img src="assets/images/features-bg.svg">
+        <div class="overlay"></div>
+    </div>
     <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
             <h1>Built exclusively for the trade</h1>
@@ -33,51 +36,46 @@ include_once 'header.php';
                 </div>
             </div>
             <div class="col-md-7">
-                <h2>Transformative Results with FieldWeb FSM</h3>
-                    <p class="pt-2 subtext-mont">FieldWeb makes running a service business easier, with quoting,
-                        scheduling, invoicing, report and payments in one place.</p>
-                    <div class="row mt-3">
-                        <div class="col-md-5 mt-2">
-                            <div class="block-darkgrey p-2">
-                                <h3><span class="count">200000</span>+</h3>
-                                <p>Field Service experts</p>
-                            </div>
-                        </div>
-                        <div class="col-md-5 mt-2">
-                            <div class="block-darkgrey p-2">
-                                <h3><span class="count">50</span>+</h3>
-                                <p>Field Service Industries</p>
-                            </div>
+                <h2>Transformative Results with FieldWeb FSM</h2>
+                <p class="pt-2 subtext-mont">FieldWeb makes running a service business easier, with quoting, scheduling, invoicing, report and payments in one place.</p>
+                <div class="row mt-3">
+                    <div class="col-md-5 col-sm-6 col-6 mt-2">
+                        <div class="block-darkgrey p-2">
+                            <h3><span class="count">200000</span>+</h3>
+                            <p>Field Service experts</p>
                         </div>
                     </div>
-                    <div class="row mt-3">
-                        <div class="col-md-5 mt-2">
-                            <div class="block-darkgrey p-2">
-                                <h3><span class="count">5</span> Million + </h3>
-                                <p>Households have been served</p>
-                            </div>
-                        </div>
-                        <div class="col-md-5 mt-2">
-                            <div class="block-darkgrey p-2">
-                                <h3><span class="count">14</span></h3>
-                                <p>Hours per week saved, on average</p>
-                            </div>
+                    <div class="col-md-5 col-sm-6 col-6 mt-2">
+                        <div class="block-darkgrey p-2">
+                            <h3><span class="count">50</span>+</h3>
+                            <p>Field Service Industries</p>
                         </div>
                     </div>
-                    <div class="row mt-3">
-                        <div class="col-md-5 mt-2">
-                            <div class="block-darkgrey p-2">
-                                <h3><span class="count">27</span>%</h3>
-                                <p>Average Increase in Monthly Revenue</p>
-                            </div>
-                        </div>
-                        <div class="col-md-5 mt-2">
-                            <div class="block-darkgrey p-2">
-                                <h3><span class="count">35</span>%</h3>
-                                <p>Decrease in Customer loss rate</p>
-                            </div>
+                    <div class="col-md-5 col-sm-6 col-6 mt-2">
+                        <div class="block-darkgrey p-2">
+                            <h3><span class="count">5</span> Million + </h3>
+                            <p>Households have been served</p>
                         </div>
                     </div>
+                    <div class="col-md-5 col-sm-6 col-6 mt-2">
+                        <div class="block-darkgrey p-2">
+                            <h3><span class="count">14</span></h3>
+                            <p>Hours per week saved, on average</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-6 mt-2">
+                        <div class="block-darkgrey p-2">
+                            <h3><span class="count">27</span>%</h3>
+                            <p>Average Increase in Monthly Revenue</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-6 mt-2">
+                        <div class="block-darkgrey p-2">
+                            <h3><span class="count">35</span>%</h3>
+                            <p>Decrease in Customer loss rate</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -1110,81 +1108,82 @@ include_once 'header.php';
     </div>
 </section>
 
-<section class="text-center mt-10 mb-3" data-aos="fade-up">
-    <p class="title-red">OUR POWERFUL FEATURES</p>
-    <h2 class="title drawn-underline">I Switched to FieldWeb</h2>
-    <div class="main-Wrapper">
-        <div class="client-review mt-5">
-            <div class="review-card">
-                <div class="review-card-content">
-                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
-                    <p>Wonderful Support from Team.</p>
-                    <p>Thanks</p>
-                    <h4 class="title-poppins-sbold">Nextgen Technologies</h4>
-                    <h5>Arendhu</h5>
-                    <div class="sect-rating">
-                        <ul>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
-                        </ul>
-                    </div>
+<section class="main-Wrapper text-center margin-btm" data-aos="fade-up">
+    <div class="wrapper-head text-center margin-btm">
+        <p class="title-red">OUR POWERFUL FEATURES</p>
+        <h2 class="title">I Switched to FieldWeb<p></p>
+        </h2>
+    </div>
+    <div class="client-review mt-5">
+        <div class="review-card">
+            <div class="review-card-content">
+                <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                <p>Wonderful Support from Team.</p>
+                <p>Thanks</p>
+                <h4 class="title-poppins-sbold">Nextgen Technologies</h4>
+                <h5>Arendhu</h5>
+                <div class="sect-rating">
+                    <ul>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                    </ul>
                 </div>
             </div>
-            <div class="review-card">
-                <div class="review-card-content">
-                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
-                    <p>Wonderful Support from Team.</p>
-                    <p>Thanks</p>
-                    <h4 class="title-poppins-sbold">Splash RO System</h4>
-                    <h5>Mohit Sapra</h5>
-                    <div class="sect-rating">
-                        <ul>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
-                        </ul>
-                    </div>
+        </div>
+        <div class="review-card">
+            <div class="review-card-content">
+                <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                <p>Wonderful Support from Team.</p>
+                <p>Thanks</p>
+                <h4 class="title-poppins-sbold">Splash RO System</h4>
+                <h5>Mohit Sapra</h5>
+                <div class="sect-rating">
+                    <ul>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                    </ul>
                 </div>
             </div>
-            <div class="review-card">
-                <div class="review-card-content">
-                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
-                    <p>Wonderful Support from Team.</p>
-                    <p>Thanks</p>
-                    <h4 class="title-poppins-sbold">Godavari Mineral Water Technologies</h4>
-                    <h5>Chiranjeevi Rao</h5>
-                    <div class="sect-rating">
-                        <ul>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
-                        </ul>
-                    </div>
+        </div>
+        <div class="review-card">
+            <div class="review-card-content">
+                <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                <p>Wonderful Support from Team.</p>
+                <p>Thanks</p>
+                <h4 class="title-poppins-sbold">Godavari Mineral Water Technologies</h4>
+                <h5>Chiranjeevi Rao</h5>
+                <div class="sect-rating">
+                    <ul>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                    </ul>
                 </div>
             </div>
-            <div class="review-card">
-                <div class="review-card-content">
-                    <p>FieldWeb is such a great app for track the technicians and their work.</p>
-                    <p>Wonderful Support from Team.</p>
-                    <p>Thanks</p>
-                    <h4 class="title-poppins-sbold">Image India</h4>
-                    <h5>Prasad Raju Kalindi</h5>
-                    <div class="sect-rating">
-                        <ul>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
-                            <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
-                        </ul>
-                    </div>
+        </div>
+        <div class="review-card">
+            <div class="review-card-content">
+                <p>FieldWeb is such a great app for track the technicians and their work.</p>
+                <p>Wonderful Support from Team.</p>
+                <p>Thanks</p>
+                <h4 class="title-poppins-sbold">Image India</h4>
+                <h5>Prasad Raju Kalindi</h5>
+                <div class="sect-rating">
+                    <ul>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="full-star"><img src="assets/images/full-star-yellow.svg"></li>
+                        <li class="half-star"><img src="assets/images/half-star-yellow.svg"></li>
+                    </ul>
                 </div>
             </div>
         </div>

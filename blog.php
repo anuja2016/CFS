@@ -3,7 +3,10 @@ include_once 'header.php';
 ?>
 
 <section class="banner-block-rht mt-116 margin-btm">
-    <div class="block-img"><img src="assets/images/blog-bg.svg"></div>
+    <div class="block-img">
+        <img src="assets/images/blog-bg.svg">
+        <div class="overlay"></div>
+    </div>
     <div class="main-Wrapper d-flex justify-content-end">
         <div class="content text-center">
             <h1>FieldWeb Blog.</h1>
