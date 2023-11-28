@@ -300,6 +300,53 @@ include_once 'header.php';
     </div>
 </section>
 <section class="mt-8 margin-btm" data-aos="fade-up">
+<div class="container">
+<div class="text-center">
+            <h2 class="title-semibold">Over 10,000+ Customer Worldwide<h2>
+</div>
+<marquee scrollamount="20" behavior=scroll direction="right" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();" onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
+        <div class="d-flex flex-row align-items-center">
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+        </div>
+    </marquee>
+    <marquee scrollamount="20" behavior=scroll direction="left" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();" onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
+        <div class="d-flex flex-row align-items-center mt-0">
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+        </div>
+    </marquee>
+</div>
+</section>
+<!-- <section class="mt-8 margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="text-center margin-btm">
             <h2 class="title-semibold">Over 10,000+ Customer Worldwide<h2>
@@ -325,7 +372,7 @@ include_once 'header.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <section class="mt-8 margin-btm" data-aos="fade-up">
     <div class="wrapper-head">
         <p class="title-red">OUR POWERFUL FEATURES</p>
@@ -413,7 +460,7 @@ include_once 'header.php';
         <div class="row align-items-center">
             <div class="col-md-6">
                 <p class="title-md">IN 7 YEARS OF EXPERIENCE</p>
-                <h4 class="title pt-2">Trusted By </p>
+                <h4 class="title pt-2">Trusted By </h4>
                     <h3 class="red-title-bold drawn-underline"><span class="count">10000</span>+ Users</h3>
             </div>
             <div class="col-md-6">

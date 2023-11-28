@@ -115,6 +115,7 @@ body {
     letter-spacing: normal;
 }
 
+
 .title-xls {
     color: #000000;
     font-family: "Montserrat-Bold";
@@ -1879,6 +1880,54 @@ body {
 
         }
     }
+}
+.red-border-btn{
+    color: #C22032;
+    border-radius: 10px;
+    font-family: "Poppins-regular";
+    padding: 8px 15px;
+    outline: none;
+    width: fit-content;
+    cursor: pointer;
+    border: 2px solid #C22032;
+    &:hover{
+        background: #ae1d2d;
+        box-shadow: 3px 3px 10px #dedede;
+        color:#FFFFFF;
+    }
+}
+.border-right-grey{
+    border-right: 2px solid #D3D3D3;
+}
+.border-right-black{
+    border-right: 1px solid #000000;
+}
+
+.star-landing-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            display: inline-block;
+            padding: 0 2px;
+
+            img {
+                width: 15px;
+                height: 15px;
+                object-fit: contain;
+            }
+        }
+    }
+}
+.white-black-border{
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border:1px solid #000000;
 }
 
 .store-links2 {

@@ -388,10 +388,24 @@
     width: 25px;
     height: 25px;
 }
+.leading-center-img{
+position: relative;
+margin-top:-70px;
 
-
-
-.block-white-wshadow {
+}
+.landing-img-lovefieldweb{
+    width:250px;
+    height:250px;
+}
+.leading-center-imgsize{
+    width:250px;
+    height:100%;
+}
+.simplify-app-img{
+    width:400px;
+    height:350px;
+}
+.block-landing-white{
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px rgb(181 181 181 / 20%);
     padding: 10px;
@@ -417,11 +431,43 @@
     h2 {
         font-family: "Montserrat-SemiBold";
     }
-
     h6 {
         font-family: "Montserrat-SemiBold";
     }
+    
+}
+.singleplatform-landing-app-block{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../images/lightorange-back.svg");
+    background-repeat: no-repeat;
 
+    .single-platform-title{
+        font-family: "Montserrat-SemiBold";
+    }
+    
+}
+.grey-small-txt{
+    font-family: "Montserrat-SemiBold";
+    color:#959595;
+    font-size:10px; 
+}
+.modernui-red-title{
+    font-family: "Montserrat-SemiBold";
+    color:#C22032;
+    font-size: 14px;
+}
+.best-simple-header{
+    display:flex;
+   margin-top: 1rem;
+   justify-content: center;
+   align-items: center;
+   .txt-grey{
+    color:#A0A0A0;
+    font-family: "Montserrat-SemiBold";
+    color: #959595;
+    font-size: 10px;
 }
 
 .grey-small-txt {
@@ -429,7 +475,6 @@
     color: #959595;
     font-size: 10px;
 }
-
 .price-discount {
     color: #C22032;
     font-size: 0.875rem;
@@ -685,7 +730,103 @@
         font-size: 0.75rem;
     }
 }
+//Managing a field
+.managing-grid {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    display: block;
+    box-shadow: 0 0 6px #ddd;
 
+    .video-thumbnail {
+        position: relative;
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 5px 5px 7px #e3e3e3;
+
+        .play-overlay {
+            opacity: 1;
+        }
+        .link-red-arrow{
+            img {
+                transform: translate(5px, 0px);
+            }
+        }
+    }
+
+    
+    h4 {
+        color: #000000;
+        font-family: "Poppins-Semibold";
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .link-red-arrow {
+        display: flex;
+        color: #C22032;
+        font-size: 16px;
+        text-align: center;
+        gap: 8px;
+        justify-content: center;
+        font-family: "Montserrat-Bold";
+
+        img {
+            transition-duration: 0.3s;
+            -webkit-transition-property: transform;
+            transition-property: transform;
+            -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+            padding: 0;
+        }
+
+    }
+
+    .play-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgb(0 0 0 / 35%);
+        z-index: 1;
+        border-radius: 1.5rem;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto;
+            background: rgb(255 255 255 / 32%);
+            padding: 12px;
+        }
+    }
+
+    .red-border-radius {
+        background-color: transparent;
+        color: #C22032;
+        border: 1px solid #C22032;
+        padding: 5px 20px;
+        border-radius: 30px;
+        font-family: "Montserrat-Medium";
+        font-size: 13px;
+
+    }
+
+    span {
+        color: #000000;
+        font-family: "Montserrat-Regular";
+        font-size: 12px; 
+    }
+}
 // Download background animation
 
 
