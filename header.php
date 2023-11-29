@@ -37,10 +37,10 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <a href="index.php" class="navbar-brand dsk-fwlogo" href="#"><img src="assets/images/logo.svg" /></a>
                 <a href="index.php" class="navbar-brand mob-fwlogo" href="#"><img src="assets/images/fw-favicon.svg" /></a>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <div class="collapse navbar-collapse justify-content-end">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li>
-                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                            <a class="nav-link active" href="index.php">Home</a>
                         </li>
                         <li>
                             <a class="nav-link" href="about.php">About Us</a>

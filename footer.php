@@ -87,6 +87,7 @@
 <script type="text/javascript" src="assets/js/aos.js"></script>
 <script type="text/javascript" src="assets/js/slick.min.js"></script>
 <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+
 <!--tooltip--->
 <script>
   var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
@@ -289,12 +290,25 @@
     slidesToScroll: 1,
     dots: true
   });
-  $('.landing-services-slider').slick({
+  $('.talk-aboutService-slider').slick({
     infinite: true,
     autoplay: true,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
-    dots: true
+    dots: true,
+    responsive: [{
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
   });
   $('.cust-feedback-slider').slick({
     arrows: false,
@@ -356,26 +370,64 @@
 </script>
 <script>
   $('#DownloadTxtCarousel').owlCarousel({
-        items: 4,
-        loop: true,
-        margin: 10,
-        dots:false,
-        autoplay: true,
-        slideTransition: 'linear',
-        autoplayTimeout: 1500,
-        autoplaySpeed: 1500,
-        autoplayHoverPause: false,
+    items: 4,
+    loop: true,
+    margin: 10,
+    dots: false,
+    autoplay: true,
+    slideTransition: 'linear',
+    autoplayTimeout: 1500,
+    autoplaySpeed: 1500,
+    autoplayHoverPause: false,
 
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 3
-            },
-            1000: {
-                items: 5
-            }
-        }
-    })
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 5
+      }
+    }
+  })
+  $('#TrustedCompaniesCarousel').owlCarousel({
+    items: 4,
+    loop: true,
+    margin: 10,
+    dots: false,
+    autoplay: true,
+    slideTransition: 'linear',
+    autoplayTimeout: 1500,
+    autoplaySpeed: 1500,
+    autoplayHoverPause: false,
+
+    responsive: {
+      0: {
+        items: 2
+      },
+      600: {
+        items: 4
+      },
+      1000: {
+        items: 8
+      }
+    }
+  })
+  
+</script>
+<!---menu active---->
+<script type="text/javascript">
+  $(document).ready(function() {
+    // $('.site-header .navbar-nav li a').click(function() {
+    //   alert("67588888888889");
+    //   $('.site-header .navbar-nav li a').removeClass('active');
+    //   $(this).addClass('active');
+    // });
+    $(".site-header .navbar-nav li a").on('click', function() {
+      $('.site-header .navbar-nav li a').removeClass('active');
+      $(this).addClass('active');
+    });
+  });
 </script>

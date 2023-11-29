@@ -32,9 +32,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/hvac.svg" class="services-icon" />
                                     <h5 class="mt-3"> Roadside Assistance</h5>
-                                    <p class="pt-2 pb-2">"Enhance roadside assistance with FSM software.
-                                        Seamlessly handle dispatch, appointments, and customer interactions for
-                                        prompt support."</p>
+                                    <p class="service-desc pt-2 pb-2">"Enhance roadside assistance with FSM software. Seamlessly handle dispatch, appointments, and customer interactions for prompt support."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>HVAC Software </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -47,9 +45,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/ro_repair.svg" class="services-icon" />
                                     <h5 class="mt-3"> RO Repair </h5>
-                                    <p class="pt-2 pb-2">"Optimize HVAC operations with advanced FSM
-                                        software. Streamline scheduling, inventory, and customer management
-                                        effortlessly."</p>
+                                    <p class="service-desc pt-2 pb-2">"Optimize HVAC operations with advanced FSM software. Streamline scheduling, inventory, and customer management effortlessly."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>RO Software </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -62,9 +58,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/lift_escalators.svg" class="services-icon" />
                                     <h5 class="mt-3"> Lift & Escalators</h5>
-                                    <p class="pt-2 pb-2">"Transform lift and escalator services with FSM
-                                        software. Optimize maintenance, scheduling, and customer interactions
-                                        seamlessly."</p>
+                                    <p class="service-desc pt-2 pb-2">"Transform lift and escalator services with FSM software. Optimize maintenance, scheduling, and customer interactions seamlessly."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Lift & Escalator Software </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -77,9 +71,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/plumbing.svg" class="services-icon" />
                                     <h5 class="mt-3"> Plumbing</h5>
-                                    <p class="pt-2 pb-2">"Revolutionize plumbing tasks with FSM software.
-                                        Efficiently manage jobs, dispatch, and customer communication effortlessly."
-                                    </p>
+                                    <p class="service-desc pt-2 pb-2">"Revolutionize plumbing tasks with FSM software.Efficiently manage jobs, dispatch, and customer communication effortlessly." </p>
                                     <div class="d-flex-links gap-2">
                                         <p>Plumbing Software </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -92,9 +84,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/cctv.svg" class="services-icon" />
                                     <h5 class="mt-3"> CCTV </h5>
-                                    <p class="pt-2 pb-2">Empower your CCTV business with FSM software.
-                                        Streamline tasks, manage clients, and enhance service efficiency
-                                        effortlessly."</p>
+                                    <p class="service-desc pt-2 pb-2">Empower your CCTV business with FSM software. Streamline tasks, manage clients, and enhance service efficiency effortlessly."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>CCTV Software </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -107,9 +97,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/pest_control.svg" class="services-icon" />
                                     <h5 class="mt-3"> Pest Control</h5>
-                                    <p class="pt-2 pb-2">"Revamp pest control operations with FSM software.
-                                        Optimize scheduling, reporting, and customer interactions for seamless
-                                        service."</p>
+                                    <p class="service-desc pt-2 pb-2">"Revamp pest control operations with FSM software. Optimize scheduling, reporting, and customer interactions for seamless service."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Pest Control </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -122,9 +110,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/solar_repair.svg" class="services-icon" />
                                     <h5 class="mt-3">Solar Repair</h5>
-                                    <p class="pt-2 pb-2">"Boost your solar business with FSM software.
-                                        Effortlessly manage projects, maintenance, and client interactions for
-                                        success."</p>
+                                    <p class="service-desc pt-2 pb-2">"Boost your solar business with FSM software. Effortlessly manage projects, maintenance, and client interactions for success."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Solar Software </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -137,8 +123,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/electrical.svg" class="services-icon" />
                                     <h5 class="mt-3">Electrical</h5>
-                                    <p class="pt-2 pb-2">"Elevate electrical operations with FSM software.
-                                        Streamline scheduling, reporting, and customer interactions seamlessly."</p>
+                                    <p class="service-desc pt-2 pb-2">"Elevate electrical operations with FSM software. Streamline scheduling, reporting, and customer interactions seamlessly."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Electrical Software </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -151,9 +136,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/home_appliance.svg" class="services-icon" />
                                     <h5 class="mt-3">Home Appliance</h5>
-                                    <p class="pt-2 pb-2">"Revolutionize home appliance repairs using FSM
-                                        software. Optimize scheduling, reporting, and client communication for
-                                        efficient service."</p>
+                                    <p class="service-desc pt-2 pb-2">"Revolutionize home appliance repairs using FSM software. Optimize scheduling, reporting, and client communication for efficient service."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Home Appliance</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -166,9 +149,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/broadband_service.svg" class="services-icon" />
                                     <h5 class="mt-3">Broadband Service</h5>
-                                    <p class="pt-2 pb-2">"Boost broadband services with FSM software.
-                                        Seamlessly manage installations, appointments, and customer interactions for
-                                        connectivity excellence."</p>
+                                    <p class="service-desc pt-2 pb-2">"Boost broadband services with FSM software. Seamlessly manage installations, appointments, and customer interactions for connectivity excellence."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Broadband Service</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -181,9 +162,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/computer_it.svg" class="services-icon" />
                                     <h5 class="mt-3">Computer & IT</h5>
-                                    <p class="pt-2 pb-2">"Empower IT solutions with FSM software.
-                                        Streamline task management, appointments, and client support for tech
-                                        excellence."</p>
+                                    <p class="service-desc pt-2 pb-2">"Empower IT solutions with FSM software. Streamline task management, appointments, and client support for tech excellence."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Computer & IT </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -196,9 +175,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/geyser_repair.svg" class="services-icon" />
                                     <h5 class="mt-3">Geyser Repair</h5>
-                                    <p class="pt-2 pb-2">"Revolutionize geyser repairs through FSM
-                                        software. Optimize scheduling, reporting, and customer communication for
-                                        efficient service."</p>
+                                    <p class="service-desc pt-2 pb-2">"Revolutionize geyser repairs through FSM software. Optimize scheduling, reporting, and customer communication for efficient service."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Geyser Repair</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -215,9 +192,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/roadside_assistance.svg" class="services-icon" />
                                     <h5 class="mt-3"> Roadside Assistance</h5>
-                                    <p class="pt-2 pb-2">"Enhance roadside assistance with FSM software.
-                                        Seamlessly handle dispatch, appointments, and customer interactions for
-                                        prompt support."</p>
+                                    <p class="service-desc pt-2 pb-2">"Enhance roadside assistance with FSM software. Seamlessly handle dispatch, appointments, and customer interactions for prompt support."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Roadside Assistance </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -230,10 +205,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/medical_equipment.svg" class="services-icon" />
                                     <h5 class="mt-3">Medical Equipment </h5>
-                                    <p class="pt-2 pb-2">"Elevate medical equipment services using FSM
-                                        software. Seamlessly manage maintenance, appointments, and client
-                                        interactions for precision."
-                                    </p>
+                                    <p class="service-desc pt-2 pb-2">"Elevate medical equipment services using FSM software. Seamlessly manage maintenance, appointments, and client interactions for precision." </p>
                                     <div class="d-flex-links gap-2">
                                         <p>Medical Equipment </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -246,9 +218,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/general_contracting.svg" class="services-icon" />
                                     <h5 class="mt-3"> General Contracting</h5>
-                                    <p class="pt-2 pb-2">"Empower general contracting projects with FSM
-                                        software. Streamline tasks, appointments, and communication for seamless
-                                        project execution."</p>
+                                    <p class="service-desc pt-2 pb-2">"Empower general contracting projects with FSM software. Streamline tasks, appointments, and communication for seamless project execution."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>General Contracting</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -261,9 +231,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/home_clean.svg" class="services-icon" />
                                     <h5 class="mt-3">Home Clean</h5>
-                                    <p class="pt-2 pb-2">"Elevate home cleaning services using FSM
-                                        software. Seamlessly manage appointments, reporting, and customer
-                                        satisfaction for a sparkling result."</p>
+                                    <p class="service-desc pt-2 pb-2">"Elevate home cleaning services using FSM software. Seamlessly manage appointments, reporting, and customer satisfaction for a sparkling result."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Home Clean </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -276,9 +244,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/painting_service.svg" class="services-icon" />
                                     <h5 class="mt-3">Painting Service</h5>
-                                    <p class="pt-2 pb-2">"Transform painting projects with FSM software.
-                                        Efficiently manage scheduling, resources, and client interactions for
-                                        vibrant results."</p>
+                                    <p class="service-desc pt-2 pb-2">"Transform painting projects with FSM software. Efficiently manage scheduling, resources, and client interactions for vibrant results."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Painting Service </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -291,9 +257,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/handyman_repair.svg" class="services-icon" />
                                     <h5 class="mt-3">Handyman Repair</h5>
-                                    <p class="pt-2 pb-2">"Enhance handyman repairs using FSM software.
-                                        Seamlessly manage tasks, appointments, and client communication for prompt
-                                        solutions."</p>
+                                    <p class="service-desc pt-2 pb-2">"Enhance handyman repairs using FSM software. Seamlessly manage tasks, appointments, and client communication for prompt solutions."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Handyman Repair </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -306,9 +270,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/carpet_cleaning.svg" class="services-icon" />
                                     <h5 class="mt-3">Carpet Cleaning</h5>
-                                    <p class="pt-2 pb-2">"Revamp carpet cleaning with FSM software.
-                                        Optimize scheduling, reporting, and customer interactions for a fresher home
-                                        environment."</p>
+                                    <p class="service-desc pt-2 pb-2">"Revamp carpet cleaning with FSM software. Optimize scheduling, reporting, and customer interactions for a fresher home environment."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Carpet Cleaning</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -321,9 +283,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/pool_cleaning.svg" class="services-icon" />
                                     <h5 class="mt-3">Pool Cleaning</h5>
-                                    <p class="pt-2 pb-2">"Elevate pool cleaning with FSM software.
-                                        Efficiently manage appointments, maintenance, and client communication for
-                                        crystal-clear results."</p>
+                                    <p class="service-desc pt-2 pb-2">"Elevate pool cleaning with FSM software. Efficiently manage appointments, maintenance, and client communication for crystal-clear results."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Pool Cleaning</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -336,9 +296,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/airduct_cleaning.svg" class="services-icon" />
                                     <h5 class="mt-3">Air Duct Cleaning</h5>
-                                    <p class="pt-2 pb-2">"Empower air duct cleaning using FSM software.
-                                        Seamlessly manage appointments, reporting, and customer satisfaction for
-                                        fresher air."</p>
+                                    <p class="service-desc pt-2 pb-2">"Empower air duct cleaning using FSM software. Seamlessly manage appointments, reporting, and customer satisfaction for fresher air."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Air Duct Cleaning</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -351,9 +309,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/fireplace_chimney.svg" class="services-icon" />
                                     <h5 class="mt-3">FirePlace & Chimney</h5>
-                                    <p class="pt-2 pb-2">"Transform fireplace and chimney services with FSM
-                                        software. Streamline scheduling, resources, and client interactions for
-                                        safer warmth."</p>
+                                    <p class="service-desc pt-2 pb-2">"Transform fireplace and chimney services with FSM software. Streamline scheduling, resources, and client interactions for safer warmth."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Fireplace & Chimney</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -366,9 +322,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/landscaping_lawn.svg" class="services-icon" />
                                     <h5 class="mt-3">LandScaping & Lawn</h5>
-                                    <p class="pt-2 pb-2">"Revolutionize landscaping and lawn care with FSM
-                                        software. Optimize tasks, appointments, and communication for lush outdoor
-                                        spaces."</p>
+                                    <p class="service-desc pt-2 pb-2">"Revolutionize landscaping and lawn care with FSM software. Optimize tasks, appointments, and communication for lush outdoor spaces."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Landscaping & Lawn</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -381,9 +335,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/septictank_cleaning.svg" class="services-icon" />
                                     <h5 class="mt-3">Septic Tank Cleaning</h5>
-                                    <p class="pt-2 pb-2">"Boost septic tank cleaning with FSM software.
-                                        Efficiently manage appointments, maintenance, and customer interactions for
-                                        a clean environment."</p>
+                                    <p class="service-desc pt-2 pb-2">"Boost septic tank cleaning with FSM software. Efficiently manage appointments, maintenance, and customer interactions for a clean environment."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Septic Tank Cleaning</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -400,9 +352,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/janitoral_cleaning.svg" class="services-icon" />
                                     <h5 class="mt-3">Janitoral Cleaning</h5>
-                                    <p class="pt-2 pb-2">"janitorial cleaning with FSM software. Seamlessly
-                                        manage appointments, tasks, and client interactions for spotless spaces."
-                                    </p>
+                                    <p class="service-desc pt-2 pb-2">"janitorial cleaning with FSM software. Seamlessly manage appointments, tasks, and client interactions for spotless spaces." </p>
                                     <div class="d-flex-links gap-2">
                                         <p>Janitoral Cleaning</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -415,9 +365,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/roofing_service.svg" class="services-icon" />
                                     <h5 class="mt-3">Roofing Service</h5>
-                                    <p class="pt-2 pb-2">"Transform roofing projects with FSM software.
-                                        Efficiently manage tasks, appointments, and communication for secure
-                                        structures."</p>
+                                    <p class="service-desc pt-2 pb-2">"Transform roofing projects with FSM software. Efficiently manage tasks, appointments, and communication for secure structures."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Roofing Service</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -430,9 +378,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/snow-removal.svg" class="services-icon" />
                                     <h5 class="mt-3">Snow Removal</h5>
-                                    <p class="pt-2 pb-2">"snow removal using FSM software. Seamlessly
-                                        manage dispatch, appointments, customer communication for safer pathways."
-                                    </p>
+                                    <p class="service-desc pt-2 pb-2">"snow removal using FSM software. Seamlessly manage dispatch, appointments, customer communication for safer pathways." </p>
                                     <div class="d-flex-links gap-2">
                                         <p>Snow Removal </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -445,9 +391,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/window_cleaning.svg" class="services-icon" />
                                     <h5 class="mt-3">Window Cleaning </h5>
-                                    <p class="pt-2 pb-2">"window cleaning with FSM software. Optimize
-                                        scheduling, reporting, and customer interactions for crystal-clear views."
-                                    </p>
+                                    <p class="service-desc pt-2 pb-2">"window cleaning with FSM software. Optimize scheduling, reporting, and customer interactions for crystal-clear views." </p>
                                     <div class="d-flex-links gap-2">
                                         <p>Window Cleaning</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -460,9 +404,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/garagedoor_installation.svg" class="services-icon" />
                                     <h5 class="mt-3">Garage Door Installation</h5>
-                                    <p class="pt-2 pb-2">"Boost garage door installations with FSM
-                                        software. Efficiently manage tasks, appointments, and client communication
-                                        for seamless entrances."</p>
+                                    <p class="service-desc pt-2 pb-2">"Boost garage door installations with FSM software. Efficiently manage tasks, appointments, and client communication for seamless entrances."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Garage Door Installation </p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -475,9 +417,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/locksmith_service.svg" class="services-icon" />
                                     <h5 class="mt-3">Locksmith Service</h5>
-                                    <p class="pt-2 pb-2">"Enhance locksmith solutions using FSM software.
-                                        Seamlessly manage appointments, reporting, and client interactions for
-                                        secure access."</p>
+                                    <p class="service-desc pt-2 pb-2">"Enhance locksmith solutions using FSM software. Seamlessly manage appointments, reporting, and client interactions for secure access."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>LockSmith Service</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -490,9 +430,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/irrigation_service.svg" class="services-icon" />
                                     <h5 class="mt-3">Irrigation Service</h5>
-                                    <p class="pt-2 pb-2">"Empower irrigation services with FSM software.
-                                        Streamline scheduling, resources, and customer communication for greener
-                                        landscapes."</p>
+                                    <p class="service-desc pt-2 pb-2">"Empower irrigation services with FSM software. Streamline scheduling, resources, and customer communication for greener landscapes."</p>
                                     <div class="d-flex-links gap-2">
                                         <p>Irrigation Service</p>
                                         <img src="assets/images/arrowrightblack.svg" class="arrow-img" />
@@ -505,8 +443,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/audiovisual_repair.svg" class="services-icon" />
                                     <h5 class="mt-3">Audio Visual Repair</h5>
-                                    <p class="pt-2 pb-2">"Revamp audio visual repairs using FSM software.
-                                        Optimize appointments, tasks, and communication for enhanced experiences."
+                                    <p class="service-desc pt-2 pb-2">"Revamp audio visual repairs using FSM software. Optimize appointments, tasks, and communication for enhanced experiences."
                                     </p>
                                     <div class="d-flex-links gap-2">
                                         <p>Audio Visual Repair</p>
@@ -520,9 +457,7 @@ include_once 'header.php';
                                 <div class="card-body text-center">
                                     <img src="assets/images/printer_repair.svg" class="services-icon" />
                                     <h5 class="mt-3">Printer Repair</h5>
-                                    <p class="pt-2 pb-2">“Transform printer repairs with FSM software.
-                                        Efficiently manage tasks, appointments, and client interactions for optimal
-                                        performance."
+                                    <p class="service-desc pt-2 pb-2">“Transform printer repairs with FSM software. Efficiently manage tasks, appointments, and client interactions for optimal performance."
                                     </p>
                                     <div class="d-flex-links gap-2">
                                         <p>Printer Repair</p>

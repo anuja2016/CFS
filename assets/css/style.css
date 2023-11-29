@@ -1,4 +1,23 @@
 @charset "UTF-8";
+body h1 {
+  font-size: 60px;
+}
+body h2 {
+  font-size: 38px;
+}
+body h3 {
+  font-size: 30px;
+}
+body h4 {
+  font-size: 28px;
+}
+body h5 {
+  font-size: 24px;
+}
+body h6 {
+  font-size: 20px;
+}
+
 .fixed-top {
   background-color: #FFFFFF;
 }
@@ -147,6 +166,12 @@
   letter-spacing: normal;
 }
 
+.title-bold {
+  color: #000000;
+  font-family: "Montserrat-Bold";
+  letter-spacing: normal;
+}
+
 .title-medium {
   color: #000000;
   font-family: "Montserrat-Medium";
@@ -171,6 +196,12 @@
 }
 
 .block-darkgrey {
+  background-color: #EDEDED;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.block-lightgrey {
   background-color: #EDEDED;
   border-radius: 10px;
   height: 100%;
@@ -210,7 +241,7 @@
 }
 
 .ti-card-companyname {
-  font-family: "Poppins-regular";
+  font-family: "Montserrat-Regular";
   color: #000000;
   font-size: 16px;
   margin-bottom: 15px;
@@ -1512,22 +1543,6 @@
   box-shadow: 3px 3px 10px #dedede;
 }
 
-.btn-brown-radius {
-  color: #FFF;
-  border-radius: 10px;
-  background: #C22032;
-  font-family: "Montserrat-Regular";
-  padding: 8px 15px;
-  outline: none;
-  width: fit-content;
-  cursor: pointer;
-  border: 1px solid #C22032;
-}
-.btn-brown-radius:hover {
-  background: #ae1d2d;
-  box-shadow: 3px 3px 10px #dedede;
-}
-
 .divider {
   height: 0.7px;
   background-color: #C5C5C5;
@@ -1627,7 +1642,7 @@
 }
 .star-landing-rating ul li {
   display: inline-block;
-  padding: 0 2px;
+  padding: 0 1px;
 }
 .star-landing-rating ul li img {
   width: 15px;
@@ -1680,6 +1695,22 @@
   justify-content: center;
   gap: 1rem;
   margin-top: 1.5rem;
+}
+
+.service-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.icon-80 {
+  width: 80px;
+  height: 80px;
+}
+
+#TrustedCompaniesCarousel .item img {
+  height: 70px;
 }
 
 @font-face {
@@ -3261,7 +3292,7 @@ select.form-control {
 }
 .customerapp-tabs .nav-pills .nav-link {
   color: #000000;
-  border-radius: 0;
+  border-radius: 6px;
   border: 2px solid #ddd;
 }
 .customerapp-tabs .nav-pills .nav-link:hover {
@@ -4004,27 +4035,6 @@ select.form-control {
   margin-left: -15px;
 }
 
-.leading-title {
-  font-family: "Montserrat-SemiBold";
-  color: #000000;
-  font-size: 24px;
-}
-.leading-title span {
-  color: #C22032;
-}
-
-.leading-bold-para {
-  font-family: "Montserrat-Bold";
-  color: #000000;
-  font-size: 12px;
-}
-
-.black-bold-small {
-  font-family: "Montserrat-Bold";
-  color: #000000;
-  font-size: 10px;
-}
-
 .black-bold-small-white {
   font-family: "Montserrat-Bold";
   color: #FFFFFF;
@@ -4051,11 +4061,6 @@ select.form-control {
   height: 80px;
 }
 
-.leading-xs-img {
-  width: 50px;
-  height: 50px;
-}
-
 .leading-redcheck-img {
   width: 25px;
   height: 25px;
@@ -4065,18 +4070,24 @@ select.form-control {
   position: relative;
   margin-top: -70px;
 }
+
 .landing-img-lovefieldweb {
   width: 250px;
   height: 250px;
 }
+
 .leading-center-imgsize {
   width: 250px;
   height: 100%;
 }
+
 .simplify-app-img {
-  width: 400px;
-  height: 350px;
+  max-width: 635px;
+  width: 100%;
+  height: 507px;
+  object-fit: contain;
 }
+
 .block-landing-white {
   background-color: #FFFFFF;
   box-shadow: 0 4px 8px rgba(181, 181, 181, 0.2);
@@ -4084,14 +4095,21 @@ select.form-control {
   border-radius: 10px;
   color: #000000;
 }
+.block-landing-white h3 {
+  font-family: "Montserrat-SemiBold";
+}
+.block-landing-white span {
+  font-family: "Montserrat-SemiBold";
+}
+
 .block-white-wshadow {
   background-color: #FFFFFF;
   box-shadow: 0 4px 8px rgba(181, 181, 181, 0.2);
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #000000;
 }
-.block-landing-white h3 {
+.block-white-wshadow h3 {
   font-family: "Montserrat-SemiBold";
 }
 .block-white-wshadow span {
@@ -4113,17 +4131,42 @@ select.form-control {
 }
 
 .singleplatform-landing-app-block {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-image: url("../images/lightorange-back.svg");
-  background-repeat: no-repeat;
+  background-color: #FFF2F2;
 }
-.singleplatform-landing-app-block .single-platform-title {
+.singleplatform-landing-app-block h2 {
   font-family: "Montserrat-SemiBold";
+  margin-top: 0.5rem;
+  color: #343F52;
+}
+.singleplatform-landing-app-block h6 {
+  font-family: "Montserrat-SemiBold";
+  margin-top: 1rem;
+  color: #343F52;
+}
+.singleplatform-landing-app-block p {
+  color: #60697B;
 }
 
 .grey-small-txt {
+  font-family: "Montserrat-SemiBold";
+  color: #959595;
+  font-size: 14px;
+}
+
+.modernui-red-title {
+  font-family: "Montserrat-SemiBold";
+  color: #C22032;
+  font-size: 14px;
+}
+
+.best-simple-header {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.best-simple-header .txt-grey {
+  color: #A0A0A0;
   font-family: "Montserrat-SemiBold";
   color: #959595;
   font-size: 10px;
@@ -4343,16 +4386,31 @@ select.form-control {
 .landing-grid span {
   color: #000000;
   font-size: 0.75rem;
-  font-family: "Montserrat-Regular";
-  font-size: 10px;
+}
+
+.sect-managing-grid {
+  background-image: url("../images/light-pink-circle.svg"), url("../images/light-pink-circle.svg");
+  background-size: 10%, 10%;
+  background-position: 25px 110px, right 25px bottom 25px;
+  background-repeat: no-repeat;
+  background-origin: content-box;
 }
 
 .managing-grid {
   background-color: #FFFFFF;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1.2rem;
   display: block;
   box-shadow: 0 0 6px #ddd;
+  color: #000000;
+  height: 100%;
+}
+.managing-grid p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 48px;
 }
 .managing-grid .video-thumbnail {
   position: relative;
@@ -4367,13 +4425,6 @@ select.form-control {
 .managing-grid:hover .link-red-arrow img {
   transform: translate(5px, 0px);
 }
-.managing-grid h4 {
-  color: #000000;
-  font-family: "Poppins-Semibold";
-  font-size: 1rem;
-  text-align: center;
-  margin-top: 15px;
-}
 .managing-grid .link-red-arrow {
   display: flex;
   color: #C22032;
@@ -4381,7 +4432,10 @@ select.form-control {
   text-align: center;
   gap: 8px;
   justify-content: center;
-  font-family: "Montserrat-Bold";
+  font-family: "Montserrat-SemiBold";
+}
+.managing-grid .link-red-arrow span {
+  font-family: "Montserrat-SemiBold";
 }
 .managing-grid .link-red-arrow img {
   transition-duration: 0.3s;
@@ -4422,15 +4476,6 @@ select.form-control {
   border-radius: 30px;
   font-family: "Montserrat-Medium";
   font-size: 13px;
-}
-.managing-grid p {
-  color: #000000;
-  font-family: "Montserrat-Regular";
-  font-size: 12px;
-}
-
-.downaload_section {
-  position: relative;
 }
 
 .row_am {
@@ -4579,6 +4624,13 @@ select.form-control {
   width: 100%;
 }
 
+.fw-banner-img {
+  max-width: 556px;
+  height: 378px;
+  object-fit: contain;
+  width: 100%;
+}
+
 .platform-app-img {
   max-width: 651px;
   width: 100%;
@@ -4638,6 +4690,44 @@ select.form-control {
 
 #DownloadTxtCarousel .owl-stage-outer {
   height: 55px;
+}
+
+.block-landing-grey {
+  background-color: #F3F3F3;
+  padding: 40px 0;
+  height: 600px;
+}
+.block-landing-grey h1 {
+  font-family: "Montserrat-bold";
+  font-weight: 700;
+  line-height: 100%;
+  color: #000000;
+  font-size: 55px;
+}
+.block-landing-grey h1 span {
+  font-family: "Montserrat-bold";
+  font-weight: 700;
+  line-height: 100%;
+  color: #C22032;
+  font-size: 55px;
+}
+
+.dark-grey-txt {
+  color: #60697B;
+}
+
+.light-grey-sbtxt {
+  color: #959595;
+  font-family: "Montserrat-SemiBold";
+}
+
+.talk-about-service {
+  background-color: #FFFFFF;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin: 20px;
+  display: block;
+  box-shadow: 0px 0px 20px rgba(251, 41, 255, 0.1);
 }
 
 .sect-pricing {

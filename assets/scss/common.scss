@@ -175,7 +175,11 @@ body {
 .title-semibold {
     color: #000000;
     font-family: "Montserrat-SemiBold";
-    // font-size: 28px;
+    letter-spacing: normal;
+}
+.title-bold {
+    color: #000000;
+    font-family: "Montserrat-Bold";
     letter-spacing: normal;
 }
 
@@ -204,6 +208,11 @@ body {
 }
 
 .block-darkgrey {
+    background-color: #EDEDED;
+    border-radius: 10px;
+    height: 100%;
+}
+.block-lightgrey {
     background-color: #EDEDED;
     border-radius: 10px;
     height: 100%;
@@ -1794,23 +1803,6 @@ body {
     }
 }
 
-.btn-brown-radius {
-    color: #FFF;
-    border-radius: 10px;
-    background: #C22032;
-    font-family: "Montserrat-Regular";
-    padding: 8px 15px;
-    outline: none;
-    width: fit-content;
-    cursor: pointer;
-    border: 1px solid #C22032;
-
-    &:hover {
-        background: #ae1d2d;
-        box-shadow: 3px 3px 10px #dedede;
-    }
-}
-
 .divider {
     height: 0.7px;
     background-color: #C5C5C5;
@@ -1914,7 +1906,7 @@ body {
 
         li {
             display: inline-block;
-            padding: 0 2px;
+            padding: 0 1px;
 
             img {
                 width: 15px;
@@ -1976,4 +1968,21 @@ body {
     justify-content: center;
     gap: 1rem;
     margin-top: 1.5rem;
+}
+.service-desc{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.icon-80{
+    width: 80px;
+    height: 80px;
+}
+#TrustedCompaniesCarousel{
+    .item{
+        img{
+            height: 70px;
+        }
+    }
 }
