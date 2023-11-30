@@ -402,6 +402,32 @@
     autoplayTimeout: 1500,
     autoplaySpeed: 1500,
     autoplayHoverPause: false,
+    
+
+    responsive: {
+      0: {
+        items: 2
+      },
+      600: {
+        items: 4
+      },
+      1000: {
+        items: 8
+      }
+    }
+  })
+
+  $('#TrustedCompaniesCarousel2').owlCarousel({
+    items: 4,
+    loop: true,
+    margin: 10,
+    dots: false,
+    autoplay: true,
+    slideTransition: 'linear',
+    autoplayTimeout: 1500,
+    autoplaySpeed: 1500,
+    autoplayHoverPause: false,
+    
 
     responsive: {
       0: {
