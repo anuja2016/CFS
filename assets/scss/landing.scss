@@ -453,17 +453,20 @@
 
 .singleplatform-landing-app-block {
     background-color: #FFF2F2;
-    h2{
+
+    h2 {
         font-family: "Montserrat-SemiBold";
         margin-top: .5rem;
         color: #343F52;
     }
-    h6{
+
+    h6 {
         font-family: "Montserrat-SemiBold";
         margin-top: 1rem;
         color: #343F52;
     }
-    p{
+
+    p {
         color: #60697B;
     }
 }
@@ -1159,10 +1162,12 @@
 .dark-grey-txt {
     color: #60697B;
 }
+
 .light-grey-sbtxt {
     color: #959595;
     font-family: 'Montserrat-SemiBold';
 }
+
 .talk-about-service {
     background-color: #FFFFFF;
     padding: 20px 30px;
@@ -1170,4 +1175,22 @@
     margin: 20px;
     display: block;
     box-shadow: 0px 0px 20px rgba(251, 41, 255, 0.1);
+
+    .d-flex {
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .d-flex-column {
+        h6 {
+            font-family: 'Montserrat-Medium';
+            margin-bottom: 0;
+        }
+
+        p {
+            color: #A0A0A0;
+        }
+    }
 }

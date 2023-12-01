@@ -309,7 +309,7 @@ include_once 'header.php';
             <div class="talk-about-service">
                 <img src="assets/images/quote-start2.svg" class="leading-redcheck-img">
                 <p class="landing-sm-grey-txt pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                <div class="d-flex align-items-center gap-2 mt-3">
+                <div class="d-flex align-items-center gap-3 mt-3">
                     <img src="assets/images/image2.svg" />
                     <div class="d-flex-column">
                         <h6>Prasad Raju Kalindi</h6>
@@ -320,7 +320,7 @@ include_once 'header.php';
             <div class="talk-about-service">
                 <img src="assets/images/quote-start2.svg" class="leading-redcheck-img">
                 <p class="landing-sm-grey-txt pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                <div class="d-flex  align-items-center gap-2 mt-3">
+                <div class="d-flex  align-items-center gap-3 mt-3">
                     <img src="assets/images/image3.svg" />
                     <div class="d-flex-column">
                         <h6>Mohit Sapra</h6>
@@ -331,7 +331,7 @@ include_once 'header.php';
             <div class="talk-about-service">
                 <img src="assets/images/quote-start2.svg" class="leading-redcheck-img">
                 <p class="landing-sm-grey-txt pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                <div class="d-flex  align-items-center gap-2 mt-3">
+                <div class="d-flex  align-items-center gap-3 mt-3">
                     <img src="assets/images/image2.svg" />
                     <div class="d-flex-column">
                         <h6>Prasad Raju Kalindi</h6>
@@ -342,7 +342,7 @@ include_once 'header.php';
             <div class="talk-about-service">
                 <img src="assets/images/quote-start2.svg" class="leading-redcheck-img">
                 <p class="landing-sm-grey-txt pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                <div class="d-flex  align-items-center gap-2 mt-3">
+                <div class="d-flex  align-items-center gap-3 mt-3">
                     <img src="assets/images/image3.svg" />
                     <div class="d-flex-column">
                         <h6>Mohit Sapra</h6>
