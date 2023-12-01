@@ -517,49 +517,89 @@ include_once 'header.php';
   </div>
 </section>
 <section data-aos="fade-up margin-btm">
-  <div class="text-center margin-sm-btm">
-    <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
-  </div>
-  <marquee scrollamount="20" behavior=scroll direction="right" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();" onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
-    <div class="d-flex flex-row align-items-center">
-      <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+<div class="text-center margin-sm-btm">
+      <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
+</div>
+<div class="owl-carousel owl-theme" id="TrustedCompaniesCarousel" >
+        <div class="item">
+            <img src="assets/images/gopienterprises.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/nextgenlogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/njclogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/gopienterprises.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/nextgenlogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/njclogo.svg" class="partner-img">
+        </div>
     </div>
-  </marquee>
-  <marquee scrollamount="20" behavior=scroll direction="left" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();" onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
-    <div class="d-flex flex-row align-items-center mt-0">
-      <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-      <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+    <div class="owl-carousel owl-theme mt-5" id="TrustedCompaniesCarousel2">
+        <div class="item">
+            <img src="assets/images/gopienterprises.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/nextgenlogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/njclogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/gopienterprises.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/nextgenlogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/njclogo.svg" class="partner-img">
+        </div>
     </div>
-  </marquee>
+<!-- <marquee scrollamount="20" behavior=scroll direction="right" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();" onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
+        <div class="d-flex flex-row align-items-center">
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+        </div>
+    </marquee>
+    <marquee scrollamount="20" behavior=scroll direction="left" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();" onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
+        <div class="d-flex flex-row align-items-center mt-0">
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
+            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
+        </div>
+    </marquee> -->
 </section>
 <!-- <section data-aos="fade-up margin-btm">
   <div class="main-Wrapper">

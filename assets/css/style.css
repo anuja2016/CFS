@@ -1724,6 +1724,10 @@ body h6 {
   height: 70px;
 }
 
+#TrustedCompaniesCarousel2 .item img {
+  height: 70px;
+}
+
 /*==================Sidebar navigation==================*/
 .sidenav-menu {
   padding: 10px 0;
