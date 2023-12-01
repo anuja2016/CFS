@@ -1713,6 +1713,10 @@ body h6 {
   height: 70px;
 }
 
+#TrustedCompaniesCarousel2 .item img {
+  height: 70px;
+}
+
 @font-face {
   font-family: "Poppins-light";
   src: url("./../fonts/Poppins/Poppins-Light.ttf");

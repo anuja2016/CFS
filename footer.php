@@ -403,6 +403,7 @@
     autoplaySpeed: 1500,
     autoplayHoverPause: false,
     
+    
 
     responsive: {
       0: {
@@ -426,6 +427,7 @@
     slideTransition: 'linear',
     autoplayTimeout: 1500,
     autoplaySpeed: 1500,
+    slidesToScroll: -1,
     autoplayHoverPause: false,
     
 
