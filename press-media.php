@@ -13,7 +13,7 @@ include_once 'header.php';
 </section>
 <section class="main-Wrapper pmnews-list margin-btm">
     <div class="row align-items-center justify-content-center">
-        <div class="col-md-5 mb-5">
+        <div class="col-md-5 col-sm-6 mb-5">
             <div class="pm-card">
                 <div class="pm-card-head">
                     <img src="assets/images/press-media/Khaleej_Times.svg">
@@ -31,7 +31,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="col-md-5 mb-5">
+        <div class="col-md-5 col-sm-6 mb-5">
             <div class="pm-card">
                 <div class="pm-card-head">
                     <img src="assets/images/press-media/zawya.svg">
@@ -49,7 +49,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="col-md-5 mb-5">
+        <div class="col-md-5 col-sm-6 mb-5">
             <div class="pm-card">
                 <div class="pm-card-head">
                     <img src="assets/images/press-media/biz-news-desk.svg">
@@ -67,7 +67,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="col-md-5 mb-5">
+        <div class="col-md-5 col-sm-6 mb-5">
             <div class="pm-card">
                 <div class="pm-card-head">
                     <img src="assets/images/press-media/media-brief.svg">
@@ -85,7 +85,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="col-md-5 mb-5">
+        <div class="col-md-5 col-sm-6 mb-5">
             <div class="pm-card">
                 <div class="pm-card-head">
                     <img src="assets/images/press-media/Quick-Biz-News.svg">
@@ -103,7 +103,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="col-md-5 mb-5">
+        <div class="col-md-5 col-sm-6 mb-5">
             <div class="pm-card">
                 <div class="pm-card-head">
                     <img src="assets/images/press-media/apn-news.svg">
@@ -121,7 +121,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="col-md-5 mb-5">
+        <div class="col-md-5 col-sm-6 mb-5">
             <div class="pm-card">
                 <div class="pm-card-head">
                     <img src="assets/images/press-media/money-nomical.svg">
@@ -139,7 +139,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="col-md-5 mb-5">
+        <div class="col-md-5 col-sm-6 mb-5">
             <div class="pm-card">
                 <div class="pm-card-head">
                     <img src="assets/images/press-media/vanity-stardom.svg">

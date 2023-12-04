@@ -36,6 +36,9 @@ body h6 {
   background-color: transparent;
   justify-content: space-between;
 }
+.site-header .header-top {
+  display: block;
+}
 
 .color-white {
   color: #FFFFFF;
@@ -2102,6 +2105,19 @@ body h6 {
   .sect-transresults h3 {
     font-size: 30px;
   }
+  .site-header .header-top {
+    display: none;
+  }
+  .site-header .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .mt-116 {
+    margin-top: 80px !important;
+  }
+  .main-carousel {
+    margin-top: 80px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .block-lg-lightorange {
@@ -2271,6 +2287,27 @@ body h6 {
     width: 50px;
     height: 50px;
   }
+  .sect-homeservice .homeservice-desc {
+    line-height: 20px;
+  }
+  .sect-oneapp .grid-list {
+    width: 100%;
+  }
+  .sect-wcu .block-lightorange {
+    padding: 1rem !important;
+  }
+  .sect-wcu .row .col-md-6:first-child {
+    margin-bottom: 3rem;
+  }
+  .sect-about .row .col-md-5 {
+    margin-bottom: 2rem;
+  }
+  .banner-block-center .content h1 {
+    font-size: 35px;
+  }
+  .banner-block-center .content {
+    max-width: 100%;
+  }
 }
 @media only screen and (max-width: 680px) {
   .learnmore-block-outer .learnmore-block {
@@ -2298,6 +2335,12 @@ body h6 {
   }
   .sect-socialmedia .block-lg-lightorange p {
     min-height: 75px !important;
+  }
+  .desk-contactdetails {
+    display: none !important;
+  }
+  .mob-contactdetails {
+    display: block !important;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -2337,9 +2380,6 @@ body h6 {
   .navbar-buttons {
     padding-left: 0rem;
   }
-  .main-carousel {
-    margin-top: 100px;
-  }
   .customer-say .say-card .customer-say-img img {
     width: 80px !important;
     height: 80px !important;
@@ -2354,6 +2394,20 @@ body h6 {
   }
   .sect-rating-review {
     padding: 12px;
+  }
+  footer .social-links li a img {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .store-links li a img {
+    width: 75px;
+    height: 26px;
+  }
+  .leader-desk-grid {
+    width: 100% !important;
+  }
+  .block-black {
+    padding: 20px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -2371,6 +2425,12 @@ body h6 {
     width: 50px;
     height: 50px;
   }
+  .mt-116 {
+    margin-top: 60px !important;
+  }
+  .main-carousel {
+    margin-top: 60px;
+  }
 }
 @media only screen and (max-width: 380px) {
   .main-carousel .carousel-caption h1 {
@@ -2378,6 +2438,9 @@ body h6 {
   }
   .main-carousel .carousel-caption p {
     font-size: 16px;
+  }
+  .banner-block-center .content h1 {
+    font-size: 35px;
   }
   .title {
     font-size: 28px;
@@ -2632,45 +2695,21 @@ a:hover {
   display: none;
 }
 
-.wcu-img {
-  position: relative;
+.sect-wcu .block-lightorange {
+  padding: 2rem;
 }
-.wcu-img .white-square-box {
-  position: absolute;
-  z-index: 1;
-  top: 35px;
-  right: 40px;
-  height: 360px;
-  background: #fff;
-  background-size: 100%;
-  display: block;
-  width: 400px;
-  border-radius: 30px;
+
+.wcu-img img {
+  width: 100%;
+  height: auto;
+  max-width: 570px;
+  max-height: 514px;
+  object-fit: contain;
 }
-.wcu-img::before {
-  content: "";
-  position: absolute;
-  z-index: 2;
-  top: 35px;
-  height: 360px;
-  background: url("../images/whychoose_us.png");
-  background-size: 100%;
-  display: block;
-  width: 550px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-.wcu-img::after {
-  content: "";
-  background: url("../images/red-border.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  width: 186px;
-  height: 430px;
-  right: 0px;
-  z-index: 0;
+
+.sect-leaderdesk {
+  background-color: #FFF2F4;
+  padding: 3rem 0;
 }
 
 footer {
@@ -2766,6 +2805,14 @@ footer .getintouch h5 a {
 }
 footer .footlogo {
   height: 65px;
+}
+
+.desk-contactdetails {
+  display: block;
+}
+
+.mob-contactdetails {
+  display: none;
 }
 
 /* Slider */
@@ -3042,9 +3089,12 @@ footer .footlogo {
   border-radius: 15px;
   height: 100%;
   border: 0;
+  padding: 30px;
 }
 .sect-services .card:hover .services-icon {
-  transform: scale(1.1);
+  cursor: pointer;
+  -webkit-transform: rotateY(190deg);
+  transform: rotateY(190deg);
 }
 .sect-services .card:hover .arrow-img {
   transform: translate(5px, 0px);
@@ -5083,9 +5133,17 @@ select.form-control {
   font-size: 1.2rem;
 }
 
+.sect-trustedby .row:first-child .col-md-6 {
+  margin-bottom: 1.5rem;
+}
+
+.custf-details {
+  padding: 20px;
+}
+
 .sect-jobs {
   background-image: url("../images/jobs/jobs-bg.svg");
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 50px 20px;

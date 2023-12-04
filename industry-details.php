@@ -33,7 +33,10 @@ include_once 'header.php';
         <h2 class="title">What is HVAC Field Service Management Software?</h2>
     </div>
     <div class="main-Wrapper margin-btm">
-        <div class="row">
+        <div class="row flex-row-reverse">
+            <div class="col-md-6 mb-3">
+                <img src="assets/images/quotation-bg.svg" class="img-fluid">
+            </div>
             <div class="col-md-6">
                 <p class="mb-3">In the fast-paced world of HVAC services, efficiency and accuracy are paramount. FieldWeb offers comprehensive HVAC business software that revolutionizes the way you manage your operations.</p>
                 <p class="mb-3"><b>Effortless Management:</b> Our HVAC business software streamlines every aspect of your operations. From scheduling appointments and dispatching technicians to tracking inventory and generating invoice..</p>
@@ -50,9 +53,6 @@ include_once 'header.php';
                     <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Start Free Trial</button>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="assets/images/quotation-bg.svg" class="img-fluid">
-            </div>
         </div>
     </div>
 </section>
@@ -64,7 +64,7 @@ include_once 'header.php';
     </div>
     <div class="margin-btm">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 mb-3">
                 <div class="accordion accordion-flush" id="accordionservice">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="service-headingOne">

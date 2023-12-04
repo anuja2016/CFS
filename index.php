@@ -117,20 +117,9 @@ include_once 'header.php';
       <p class="title-red">FEATURES FOR YOURS</p>
       <h2 class="title">Home Service Business</p>
     </div>
-    <div class="row justify-content-between">
-      <div class="col-md-5 col-sm-6">
-        <div class="mb-5">
-          <h3 class="title-mont-semibold">Streamline Your Business Operations</h3>
-          <p class="homeservice-desc">Say goodbye to juggling multiple platforms. Our all-in-one Field Service Management solution centralizes everything you need to efficiently run your Field service business in one convenient location, accessible wherever you are. </p>
-          <p class="homeservice-desc">Field service business in one convenient location, accessible wherever you are. Say goodbye to juggling multiple platforms.</p>
-          <a data-bs-toggle="modal" data-bs-target="#mdl_contactsales" class="btn-red arrowBtn u-button has-hover mt-4">
-            <span class="u-button-arrow"></span>
-            <span>Learn More</span>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="row">
+    <div class="row justify-content-between flex-row-reverse">
+    <div class="col-md-6">
+        <div class="row mb-5">
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
               <img src="assets/images/job_scheduling.svg" />
@@ -191,6 +180,17 @@ include_once 'header.php';
               <p>Service Management</p>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="">
+          <h3 class="title-mont-semibold">Streamline Your Business Operations</h3>
+          <p class="homeservice-desc">Say goodbye to juggling multiple platforms. Our all-in-one Field Service Management solution centralizes everything you need to efficiently run your Field service business in one convenient location, accessible wherever you are. </p>
+          <p class="homeservice-desc">Field service business in one convenient location, accessible wherever you are. Say goodbye to juggling multiple platforms.</p>
+          <a data-bs-toggle="modal" data-bs-target="#mdl_contactsales" class="btn-red arrowBtn u-button has-hover mt-4">
+            <span class="u-button-arrow"></span>
+            <span>Learn More</span>
+          </a>
         </div>
       </div>
     </div>
@@ -540,7 +540,7 @@ include_once 'header.php';
             <img src="assets/images/njclogo.svg" class="partner-img">
         </div>
     </div>
-    <div class="owl-carousel owl-theme mt-5" id="TrustedCompaniesCarousel2">
+    <div class="owl-carousel owl-theme mt-4" id="TrustedCompaniesCarousel2">
         <div class="item">
             <img src="assets/images/gopienterprises.svg" class="partner-img">
         </div>

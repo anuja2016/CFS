@@ -1191,7 +1191,7 @@ include_once 'header.php';
 </section>
 <section class="mt-10 margin-btm"data-aos="fade-up">
 <div class="main-Wrapper">
-        <div class="text-center">
+        <div class="text-center mb-5">
             <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
         </div>
         <div class="owl-carousel owl-theme" id="TrustedCompaniesCarousel" >
