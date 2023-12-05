@@ -556,7 +556,7 @@ include_once 'header.php';
             <img src="assets/images/njclogo.svg" class="partner-img">
         </div>
     </div>
-    <div class="owl-carousel owl-theme mt-5" id="TrustedCompaniesCarousel2">
+    <div class="owl-carousel owl-theme mt-5"  id="TrustedCompaniesCarousel2">
         <div class="item">
             <img src="assets/images/gopienterprises.svg" class="partner-img">
         </div>

@@ -427,7 +427,6 @@
     slideTransition: 'linear',
     autoplayTimeout: 1500,
     autoplaySpeed: 1500,
-    slidesToScroll: -1,
     autoplayHoverPause: false,
     
 
@@ -443,6 +442,7 @@
       }
     }
   })
+  
   
 </script>
 <!---menu active---->

@@ -91,12 +91,12 @@
         .navbar-nav {
             .nav-link.active, .nav-link:hover{
                 color: #C22032;
-                border-bottom: 2px solid #C22032;
+                border-bottom: 3px solid #C22032;
             }
             .show {
                 >.nav-link {
                     color: #000;
-                    border-bottom: 2px solid #C22032;
+                    border-bottom: 3px solid #C22032;
                 }
             }
         }
