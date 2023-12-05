@@ -6,15 +6,15 @@ include_once 'header.php';
     <img src="assets/images/aboutbackground.svg" class="img-fluid" alt="...">
 </section>
 <section class="main-Wrapper sect-about margin-btm" data-aos="fade-up">
-    <div class="row flex-row-reverse">
-        <div class="col-md-5">
+    <div class="row flex-row-reverse justify-content-between">
+        <div class="col-md-5" data-aos="fade-left">
             <img src="assets/images/about-fieldweb.png" class="img-fluid" alt="...">
         </div>
-        <div class="col-md-7">
-            <h3 class="title">About FieldWeb</h3>
-            <p class="mt-2">FieldWeb is a field service management (FSM) application for small businesses that helps business owners to track and manage their field business operations easily and securely.</p>
-            <p class="mt-2">FieldWeb comes up with a large set of features like Real-Time Task Scheduling, AMC management, CRM, Asset management etc.</p>
-            <p class="mt-2">Today, FieldWeb is becoming a household name. Business Owners and fieldworkers use the app extensively while creating 1000's tasks every day. The high engagement has resulted in more than 25% of revenue growth, a 27% decrease in customer churn rate and a 32% increase in workers' productivity.</p>
+        <div class="col-md-6" data-aos="fade-right">
+            <h3 class="title-bold mb-3">About FieldWeb</h3>
+            <p class="mb-3">FieldWeb is a field service management (FSM) application for small businesses that helps business owners to track and manage their field business operations easily and securely.</p>
+            <p class="mb-3">FieldWeb comes up with a large set of features like Real-Time Task Scheduling, AMC management, CRM, Asset management etc.</p>
+            <p>Today, FieldWeb is becoming a household name. Business Owners and fieldworkers use the app extensively while creating 1000's tasks every day. The high engagement has resulted in more than 25% of revenue growth, a 27% decrease in customer churn rate and a 32% increase in workers' productivity.</p>
         </div>
     </div>
 </section>
@@ -22,11 +22,11 @@ include_once 'header.php';
     <div class="main-Wrapper block-lightorange rounded-0">
         <div class="row flex-row-reverse">
             <div class="col-md-6">
-                <div class="wcu-img">
+                <div class="wcu-img" data-aos="fade-left">
                     <img src="assets/images/Why-Choose-us.svg">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-right">
                 <p>CHOOSE</p>
                 <h2 class="title">Why Choose us</h2>
                 <p class="mt-2">HVAC business software is a comprehensive tool that helps streamline your operations, from scheduling</p>
@@ -196,12 +196,12 @@ include_once 'header.php';
     <h2 class="title-semibold"> Over 200000+ Field Service Businesses in 50+ </h2>
     <h2 class="title-semibold">industries trust FieldWeb</h2>
     <div class="row align-items-center">
-        <div class="col-md-6 pb-3">
+        <div class="col-md-6 pb-3" data-aos="fade-right">
             <p class="title-md">IN 40 YEARS OF EXPERIENCE</p>
             <h4 class="title pt-2">Trusted By </h4>
             <h3 class="red-title-bold drawn-underline"><span class="count">40000</span>+ Users</h3>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-left">
             <img src="assets/images/idea.svg" alt="..." class="img-fluid">
         </div>
     </div>

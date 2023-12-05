@@ -253,17 +253,18 @@
 
 .showcase-app-block {
     position: relative;
+    background-image: url('../images/appshowcase-bg.svg');
 
     .content {
-        position: absolute;
-        top: 50%;
-        transform: translate(0, -50%);
+        position: relative;
+        /* top: 50%; */
+        /* transform: translate(0, -50%); */
         max-width: 80%;
         z-index: 5;
         text-align: center;
-        padding: 0 2rem;
-        left: 0;
-        right: 0;
+        padding: 75px 2rem;
+        /* left: 0; */
+        /* right: 0; */
         margin: 0 auto;
         color: #fff;
         text-align: left;
@@ -272,17 +273,19 @@
             max-width: 300px;
             width: 100%;
             height: 456px;
+            position: absolute;
+            transform: translate(0, -50%);
         }
     }
 
-    .showcase-app-block-img {
-        img {
-            width: 100%;
-            height: 365px;
-            object-fit: cover;
-            object-position: top;
-        }
-    }
+    // .showcase-app-block-img {
+    //     img {
+    //         width: 100%;
+    //         height: 365px;
+    //         object-fit: cover;
+    //         object-position: top;
+    //     }
+    // }
 
     h3 {
         font-family: 'Montserrat-Bold';
@@ -399,7 +402,7 @@
 .simplify-app-img {
     max-width: 635px;
     width: 100%;
-    height: 507px;
+    max-height: 507px;
     object-fit: contain;
 }
 
@@ -448,6 +451,9 @@
 
     h6 {
         font-family: "Montserrat-SemiBold";
+    }
+    .col-md-6{
+        margin-bottom: 2rem;
     }
 }
 
@@ -509,6 +515,7 @@
     background-color: #FFEFEF;
     border-radius: 8px;
     padding: 25px;
+    height: 100%;
 
     &.default-pricing-plan {
         color: #FFFFFF;
@@ -672,7 +679,7 @@
 
     &:first-child {
         img {
-            max-width: 100%;
+            width: 100%;
             height: auto;
             border-radius: 1.5rem;
             display: block;
@@ -703,6 +710,7 @@
         span {
             color: #C22032;
             font-size: 0.875rem;
+            text-wrap: nowrap;
         }
 
         img {
@@ -886,7 +894,7 @@
         .img {
             img {
                 max-width: 600px;
-                height: 662px;
+                max-height: 662px;
                 object-fit: contain;
                 width: 100%;
             }
@@ -1042,7 +1050,7 @@
 
 .lead-gen-img {
     max-width: 500px;
-    height: 600px;
+    max-height: 600px;
     object-fit: contain;
     width: 100%;
 }
@@ -1064,7 +1072,7 @@
 .platform-app-img {
     max-width: 651px;
     width: 100%;
-    height: 500px;
+    max-height: 500px;
     object-fit: contain;
 }
 
@@ -1193,4 +1201,47 @@
             color: #A0A0A0;
         }
     }
+}
+.sect-companies{
+    padding: 3rem;
+}
+.fieldforce-tabs {
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        background-color: #c22032;
+        color: #ffffff;
+        border: 2px solid #c22032;
+
+        img {
+            filter: invert(50%) brightness(200%);
+        }
+    }
+
+    .nav-pills {
+        .nav-link {
+            color: #000000;
+            border-radius: 6px;
+            border: 2px solid #ddd;
+
+            &:hover {
+                color: #ffffff;
+                background-color: #c22032;
+                box-shadow: 3px 3px 10px #dedede;
+                border: 2px solid #c22032;
+
+                img {
+                    filter: invert(50%) brightness(200%);
+                }
+            }
+
+            img {
+                width: 35px;
+                height: 35px;
+            }
+            text-wrap: nowrap;
+        }
+        // flex-flow: nowrap;
+        // overflow-x: auto;
+    }
+    
 }

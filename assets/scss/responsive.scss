@@ -41,6 +41,14 @@
         max-width: 1280px;
         width: 100%;
     }
+    .talk-aboutService-slider{
+        .slick-prev {
+            left: 0!important;
+        }
+        .slick-next {
+            right: 0!important;
+        }
+    }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -73,6 +81,10 @@
         gap: 17px;
         grid-gap: 17px;
     }
+    .block-landing-grey {
+        height: auto!important;
+    }
+    
 }
 
 @media only screen and (max-width: 1024px) {
@@ -92,6 +104,36 @@
 
     .navbar-buttons {
         padding-left: 1rem;
+    }
+    .icon-80 {
+        width: 60px;
+        height: 60px;
+    }
+    .download_section {
+        .text_block {
+            span{
+                font-size:30px!important;
+            }
+        }
+    }
+    #DownloadTxtCarousel {
+        .owl-stage-outer{
+            height: 30px!important;
+        }
+    }
+    .download_section {
+        .text_block {
+            .mark_star {
+                margin: 0 20px!important;
+            }
+        }
+    }
+    .star-landing-rating {
+        ul {
+            li {
+                padding: 0 0px;
+            }
+        }
     }
 }
 
@@ -113,6 +155,20 @@
     }
     .main-carousel {
         margin-top: 80px;
+    }
+    .showcase-app-block {
+        h3 {
+            font-size: 30px!important;
+        }
+    }
+    .showcase-app-block .content {
+        max-width: 100% !important;
+    }
+    .showcase-block-outer {
+        .showcase-block{
+            padding: 35px 0px 100px;
+            background-size: 50%;
+        }
     }
 }
 
@@ -481,6 +537,144 @@
             max-width: 100%;
         }
     }
+    .sect-streamline{
+        .row{
+            .col-md-7{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .our-stories-slider{
+        .slick-arrow{
+            display: none!important;
+        }
+    }
+    .talk-aboutService-slider{
+        .slick-arrow{
+            display: none!important;
+        }
+    }
+    .showcase-app-block {
+        .content{
+            max-width: 100%!important;
+        }
+    }
+    .showcase-app-block {
+        h3 {
+            font-size: 24px;
+        }
+    }
+    .showcase-app-block {
+        .content {
+            .mobile-app-img{
+                position: relative!important;
+                transform: none!important;
+            }
+        }
+    }
+    .sect-lead-generation {
+        h1 {
+            font-size: 40px!important;
+            span{
+                font-size: 40px!important;
+            }
+        }
+    }
+    .sect-app-features {
+        .Afeatures-app-img {
+            margin: 1rem 0 !important;
+        }
+    }
+    .sect-aboutapp{
+        .row{
+            .col-md-5{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .sect-app-features{
+        .text-end {
+            text-align: center!important;
+        }
+        .text-start {
+            text-align: center!important;
+        }
+    }
+    .sect-customer-say{
+        background-image: none!important;
+    }
+    #DownloadTxtCarousel {
+        .owl-stage-outer {
+            height: 30px!important;
+        }
+    }
+    .download_section {
+        .text_block {
+            span {
+                font-size: 30px!important;
+            }
+            .mark_star {
+                margin: 0 20px!important;
+            }
+        }
+    }
+    .download_section {
+        .background_slider {
+            padding: 25px 0!important;
+        }
+    }
+    .sect-companies {
+        h2 {
+            font-size: 35px!important;
+            span {
+                font-size: 35px!important;
+            }
+        }
+    }
+    .sect-companies{
+        padding: 1.5rem!important;
+    }
+    .sect-lead-generation{
+        .text-end {
+            text-align: center!important;
+        }
+    }
+    .block-landing-grey {
+        h1 {
+            font-size: 40px!important;
+            span{
+                font-size: 40px!important;
+            }
+        }
+    }
+    .block-lightgrey {
+        &.p-5 {
+            padding: 2rem!important;
+        }
+        .row{
+            .col-md-6{
+                margin-bottom: 3rem;
+            }
+        }
+    }
+    .block-grey{
+        .row{
+            .col-md-6{
+                &:first-child{
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+    .singleplatform-landing-app-block{
+        .row{
+            .col-md-6{
+                &:first-child{
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 680px) {
@@ -535,6 +729,19 @@
     }
     .mob-contactdetails{
         display: block!important;
+    }
+    .showcase-app-block {
+        .content {
+            position: relative !important;
+            transform: none!important;
+            text-align: center!important;
+            .col-md-5{
+                .d-flex{
+                    justify-content: center;
+                }
+                margin-bottom: 3rem;
+            }
+        }
     }
 }
 
@@ -649,6 +856,31 @@
     }
     .block-black {
         padding: 20px;
+    }
+    .download_section {
+        .text_block {
+            span {
+                font-size: 20px!important;
+            }
+            .mark_star {
+                margin: 0 20px!important;
+            }
+        }
+    }
+    #DownloadTxtCarousel {
+        .owl-stage-outer {
+            height: 20px!important;
+        }
+    }
+    .download_section{
+        .store-links2{
+
+        }
+    }
+    .sect-app-features{
+        .w-50 {
+            width: 100%!important;
+        }
     }
 }
 

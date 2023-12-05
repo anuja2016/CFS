@@ -57,8 +57,8 @@
           <div>
             <div class="getintouch">
               <p>GET IN TOUCH:</p>
-              <h5><a href="tel:+919315228028">+91 93152 28028</a></h5>
-              <p class="email-text mt-2"><a href="mailto: info@fieldweb.co.in">info@fieldweb.co.in</a></p>
+              <p class="git-telno mb-2"><a href="tel:+919315228028">+91 93152 28028</a></p>
+              <p><a href="mailto: info@fieldweb.co.in">info@fieldweb.co.in</a></p>
             </div>
 
             <h4 class="mt-3">FOLLOW US</h4>
@@ -99,6 +99,7 @@
     </div>
   </div>
 </footer>
+<button class="btnChatbot" title="Go to Chatbot"><img src="assets/images/chatbot-icon.svg" /></button>
 <button onclick="topFunction()" id="btnScrollTop" title="Go to top"><img src="assets/images/arrow-top-white.svg" /></button>
 
 
@@ -216,7 +217,20 @@
     autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    dots: true
+    dots: true,
+    responsive: [{
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+    ]
   });
   $('.trusted-industries-slider').slick({
     arrows: false,
@@ -403,7 +417,7 @@
 
     responsive: {
       0: {
-        items: 1
+        items: 2
       },
       600: {
         items: 3

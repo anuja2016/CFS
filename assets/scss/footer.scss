@@ -96,20 +96,23 @@ footer {
         }
     }
 
-    
+
 
     .getintouch {
         margin-top: 20px;
 
         p {
             color: #FFFFFF;
-        }
-
-        h5 {
             a {
                 color: #FFFFFF;
-                font-family: "Poppins-semibold";
-                text-decoration: none;
+                text-decoration: underline!important;
+            }
+            &.git-telno {
+                a {
+                    color: #FFFFFF;
+                    font-family: "Poppins-semibold";
+                    text-decoration: none!important;
+                }
             }
         }
     }
@@ -118,9 +121,11 @@ footer {
         height: 65px;
     }
 }
-.desk-contactdetails{
+
+.desk-contactdetails {
     display: block;
 }
-.mob-contactdetails{
+
+.mob-contactdetails {
     display: none;
 }

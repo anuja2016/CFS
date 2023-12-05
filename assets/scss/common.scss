@@ -41,7 +41,8 @@ body {
     margin: 0 auto;
     background-color: transparent;
     justify-content: space-between;
-    .header-top{
+
+    .header-top {
         display: block;
     }
 }
@@ -832,9 +833,10 @@ body {
 }
 
 .sect-homeservice {
-    h3{
+    h3 {
         line-height: 50px;
     }
+
     .homeservice-desc {
         line-height: 40px;
     }
@@ -1195,13 +1197,15 @@ body {
     background-size: 100%;
     padding: 20px;
 
-    .sect-demo-desc{
+    .sect-demo-desc {
         margin-top: 1rem;
         margin-bottom: 2rem;
-        p{
+
+        p {
             line-height: 40px;
         }
     }
+
     .block-lightorange {
         // margin: -100px 3rem 2rem;
         width: 1400px;
@@ -1280,11 +1284,6 @@ body {
     }
 }
 
-.sect-about {
-    h3 {
-        font-size: 24px;
-    }
-}
 
 #gd-industries {
     ul {
@@ -1806,6 +1805,25 @@ body {
     background-color: #ae1d2d;
 }
 
+.btnChatbot {
+    position: fixed;
+    bottom: 10px;
+    right: 45px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+
+    img {
+        width: 42px;
+        height: 42px;
+        &:hover{
+            filter: drop-shadow(2px 4px 6px #ddd);
+        }
+    }
+}
+
 .btn-bright-red {
     color: #FFF;
     border-radius: 10px;
@@ -2014,9 +2032,10 @@ body {
         }
     }
 }
-#TrustedCompaniesCarousel2{
-    .item{
-        img{
+
+#TrustedCompaniesCarousel2 {
+    .item {
+        img {
             height: 70px;
         }
     }
@@ -2035,7 +2054,8 @@ body {
             a {
                 padding: 10px 15px;
                 border-bottom: 1px solid #696969;
-                &:hover{
+
+                &:hover {
                     color: #C22032;
                 }
             }
@@ -2100,14 +2120,17 @@ body {
             }
         }
     }
-    h6{
+
+    h6 {
         font-family: 'Montserrat-SemiBold';
     }
-    .getintouch-email{
-        text-decoration: underline!important;
+
+    .getintouch-email {
+        text-decoration: underline !important;
         margin-top: 5px;
     }
 }
+
 #page-backdrop {
     position: fixed;
     display: none;
@@ -2117,13 +2140,15 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
-.sect-rating-review{
+
+.sect-rating-review {
     background-color: #FFF2F4;
     padding: 30px;
-    .social-rating-grid{
+
+    .social-rating-grid {
         background-color: #FFFFFF;
         border-radius: 6px;
         border: 2px solid #000000;
@@ -2132,27 +2157,32 @@ body {
         justify-content: center;
         gap: 10px;
         grid-gap: 10px;
+
         img {
             width: 25px;
             height: 25px;
         }
-        .d-flex-column{
-            p{
+
+        .d-flex-column {
+            p {
                 font-size: 0.875rem;
                 color: #B0B0B0;
             }
-            h6{
+
+            h6 {
                 font-family: 'Montserrat-Medium';
             }
         }
     }
 }
-.social-grid-block{
+
+.social-grid-block {
     background-color: #FFFFFF;
     border-radius: 6px;
     border: 2px solid #000000;
     padding: 1.5rem;
-    img{
+
+    img {
         width: 100px;
         height: 100px;
         object-fit: contain;
