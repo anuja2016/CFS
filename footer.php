@@ -52,32 +52,54 @@
       </div>
 
       <div class="col-md-4 col-sm-6 col-12">
-        <img class="footlogo" src="assets/images/footer-logo.svg" />
-        <div>
-          <div class="getintouch">
-            <p>GET IN TOUCH:</p>
-            <h5><a href="tel:+919315228028">+91 93152 28028</a></h5>
-            <p class="email-text mt-2"><a href="mailto: info@fieldweb.co.in">info@fieldweb.co.in</a></p>
+        <div class="desk-contactdetails">
+          <img class="footlogo" src="assets/images/footer-logo.svg" />
+          <div>
+            <div class="getintouch">
+              <p>GET IN TOUCH:</p>
+              <p class="git-telno mb-2"><a href="tel:+919315228028">+91 93152 28028</a></p>
+              <p><a href="mailto: info@fieldweb.co.in">info@fieldweb.co.in</a></p>
+            </div>
+
+            <h4 class="mt-3">FOLLOW US</h4>
+            <ul class="social-links">
+              <li><a href="https://www.youtube.com/" target="_blank"><img src="assets/images/youtubewhiteicon.svg" /></a></li>
+              <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookwhiteicon.svg" /></a></li>
+              <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/images/instagramwhiteicon.svg" /></a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank"><img src="assets/images/linkedinwhiteicon.svg" /></a></li>
+            </ul>
+            <h4 class="mt-3">Available On</h4>
+            <ul class="store-links">
+              <li><a href="https://www.apple.com/in/app-store/" target="_blank"><img src="assets/images/appstorelogo.svg" /></a></li>
+              <li><a href="https://play.google.com/store/games?device=windows&utm_source=apac_med&hl=en-IN&utm_medium=hasem&utm_content=Jun1223&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Jun1223-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700076784774234_creativeid_480977734961_device_c&gclid=EAIaIQobChMI9YLJ8aS5gQMVGiRgCh24HwCGEAAYASAAEgJTufD_BwE&gclsrc=aw.ds" target="_blank"><img src="assets/images/googlestore.svg" /></a></li>
+            </ul>
           </div>
-
-          <h4 class="mt-3">FOLLOW US</h4>
-          <ul class="social-links">
-            <li><a href="https://www.youtube.com/" target="_blank"><img src="assets/images/youtubewhiteicon.svg" /></a></li>
-            <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookwhiteicon.svg" /></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/images/instagramwhiteicon.svg" /></a></li>
-            <li><a href="https://www.linkedin.com/" target="_blank"><img src="assets/images/linkedinwhiteicon.svg" /></a></li>
-          </ul>
-
-          <h4 class="mt-3">Available On</h4>
-          <ul class="store-links">
-            <li><a href="https://www.apple.com/in/app-store/" target="_blank"><img src="assets/images/appstorelogo.svg" /></a></li>
-            <li><a href="https://play.google.com/store/games?device=windows&utm_source=apac_med&hl=en-IN&utm_medium=hasem&utm_content=Jun1223&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Jun1223-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700076784774234_creativeid_480977734961_device_c&gclid=EAIaIQobChMI9YLJ8aS5gQMVGiRgCh24HwCGEAAYASAAEgJTufD_BwE&gclsrc=aw.ds" target="_blank"><img src="assets/images/googlestore.svg" /></a></li>
-          </ul>
+        </div>
+        <div class="mob-contactdetails">
+          <div class="row">
+            <div class="col-6">
+              <h4 class="mt-3">FOLLOW US</h4>
+              <ul class="social-links">
+                <li><a href="https://www.youtube.com/" target="_blank"><img src="assets/images/youtubewhiteicon.svg" /></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookwhiteicon.svg" /></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/images/instagramwhiteicon.svg" /></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><img src="assets/images/linkedinwhiteicon.svg" /></a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h4 class="mt-3">Available On</h4>
+              <ul class="store-links">
+                <li><a href="https://www.apple.com/in/app-store/" target="_blank"><img src="assets/images/appstorelogo.svg" /></a></li>
+                <li><a href="https://play.google.com/store/games?device=windows&utm_source=apac_med&hl=en-IN&utm_medium=hasem&utm_content=Jun1223&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Jun1223-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700076784774234_creativeid_480977734961_device_c&gclid=EAIaIQobChMI9YLJ8aS5gQMVGiRgCh24HwCGEAAYASAAEgJTufD_BwE&gclsrc=aw.ds" target="_blank"><img src="assets/images/googlestore.svg" /></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </footer>
+<button class="btnChatbot" title="Go to Chatbot"><img src="assets/images/chatbot-icon.svg" /></button>
 <button onclick="topFunction()" id="btnScrollTop" title="Go to top"><img src="assets/images/arrow-top-white.svg" /></button>
 
 
@@ -195,7 +217,20 @@
     autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    dots: true
+    dots: true,
+    responsive: [{
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+    ]
   });
   $('.trusted-industries-slider').slick({
     arrows: false,
@@ -382,7 +417,7 @@
 
     responsive: {
       0: {
-        items: 1
+        items: 2
       },
       600: {
         items: 3
@@ -402,12 +437,11 @@
     autoplayTimeout: 1500,
     autoplaySpeed: 1500,
     autoplayHoverPause: false,
-    
-    
+
 
     responsive: {
       0: {
-        items: 2
+        items: 4
       },
       600: {
         items: 4
@@ -428,11 +462,11 @@
     autoplayTimeout: 1500,
     autoplaySpeed: 1500,
     autoplayHoverPause: false,
-    
+    rtl: true,
 
     responsive: {
       0: {
-        items: 2
+        items: 4
       },
       600: {
         items: 4
@@ -458,4 +492,17 @@
       $(this).addClass('active');
     });
   });
+</script>
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "280px";
+    // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    document.getElementById("page-backdrop").style.display = "block";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    // document.body.style.backgroundColor = "white";
+    document.getElementById("page-backdrop").style.display = "none";
+  }
 </script>

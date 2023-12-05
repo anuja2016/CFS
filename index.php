@@ -117,22 +117,9 @@ include_once 'header.php';
       <p class="title-red">FEATURES FOR YOURS</p>
       <h2 class="title">Home Service Business</p>
     </div>
-    <div class="row">
-      <div class="col-md-6 col-sm-6">
-        <div class="mb-5">
-          <h3 class="title-mont-semibold">Streamline Your Business Operations</h3>
-          <p class="subtext-mont pt-2">Say goodbye to juggling multiple platforms. Our all-in-one Field Service
-            Management solution centralizes everything you need to efficiently run your Field service business
-            in one convenient location, accessible wherever you are.
-          </p>
-          <a data-bs-toggle="modal" data-bs-target="#mdl_contactsales" class="btn-red arrowBtn u-button has-hover mt-4">
-            <span class="u-button-arrow"></span>
-            <span>Learn More</span>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="row">
+    <div class="row justify-content-between flex-row-reverse">
+    <div class="col-md-6">
+        <div class="row mb-5">
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
               <img src="assets/images/job_scheduling.svg" />
@@ -195,6 +182,17 @@ include_once 'header.php';
           </div>
         </div>
       </div>
+      <div class="col-md-5">
+        <div class="">
+          <h3 class="title-mont-semibold">Streamline Your Business Operations</h3>
+          <p class="homeservice-desc">Say goodbye to juggling multiple platforms. Our all-in-one Field Service Management solution centralizes everything you need to efficiently run your Field service business in one convenient location, accessible wherever you are. </p>
+          <p class="homeservice-desc">Field service business in one convenient location, accessible wherever you are. Say goodbye to juggling multiple platforms.</p>
+          <a data-bs-toggle="modal" data-bs-target="#mdl_contactsales" class="btn-red arrowBtn u-button has-hover mt-4">
+            <span class="u-button-arrow"></span>
+            <span>Learn More</span>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -207,37 +205,37 @@ include_once 'header.php';
     </div>
     <div class="industries-slider">
       <a href="#" class="mt-2">
-        <img src="assets/images/industryslider1.svg" class="d-block w-100" alt="..." />
+        <img src="assets/images/industryslider1.svg" class="d-block w-100" />
         <div class="hover-text">
           Lift & Elevators Service Business
         </div>
       </a>
       <a href="#" class="mt-2">
-        <img src="assets/images/industryslider2.svg" class="d-block w-100" alt="...">
+        <img src="assets/images/industryslider2.svg" class="d-block w-100">
         <div class="hover-text">
           HVAC Service Business
         </div>
       </a>
       <a href="#" class="mt-2">
-        <img src="assets/images/industryslider3.svg" class="d-block w-100" alt="...">
+        <img src="assets/images/industryslider3.svg" class="d-block w-100">
         <div class="hover-text">
           CCTV Service Business
         </div>
       </a>
       <a href="#" class="mt-2">
-        <img src="assets/images/industryslider1.svg" class="d-block w-100" alt="..." />
+        <img src="assets/images/industryslider1.svg" class="d-block w-100" />
         <div class="hover-text">
           Lift & Elevators Service Business
         </div>
       </a>
       <a href="#" class="mt-2">
-        <img src="assets/images/industryslider2.svg" class="d-block w-100" alt="...">
+        <img src="assets/images/industryslider2.svg" class="d-block w-100">
         <div class="hover-text">
           HVAC Service Business
         </div>
       </a>
       <a href="#" class="mt-2">
-        <img src="assets/images/industryslider3.svg" class="d-block w-100" alt="...">
+        <img src="assets/images/industryslider3.svg" class="d-block w-100">
         <div class="hover-text">
           CCTV Service Business
         </div>
@@ -253,95 +251,81 @@ include_once 'header.php';
 </section>
 <!----------Transformative Results----------->
 <section class="margin-btm" data-aos="fade-up">
-  <div class="container">
-    <div class="block-lightorange rounded-0 p-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="white-black-border p-2">
-              <div class="d-flex gap-2 align-items-center justify-content-center">
-              <img src="assets/images/androidicon.svg" class="leading-redcheck-img" alt="...">
-              <div class="d-flex-column">
-                <p class="landing-small-grey-txt">PlayStore</p>
-                <p class="title-medium">Rated 4.7/5 (4192)</p>
-              </div>
-              </div>
+  <div class="main-Wrapper">
+    <div class="sect-rating-review">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 my-3">
+          <div class="social-rating-grid p-2">
+            <img src="assets/images/androidicon.svg">
+            <div class="d-flex-column">
+              <p>PlayStore</p>
+              <h6>Rated 4.7/5 (4192)</h6>
             </div>
           </div>
-          <div class="col-md-4">
-          <div class="white-black-border p-2">
-              <div class="d-flex gap-2 align-items-center justify-content-center">
-              <img src="assets/images/App-Store.svg" class="leading-redcheck-img" alt="...">
-              <div class="d-flex-column">
-                <p class="landing-small-grey-txt">App Store</p>
-                <p class="title-medium">Rated 4.7/5 (4192)</p>
-              </div>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 my-3">
+          <div class="social-rating-grid p-2">
+            <img src="assets/images/App-Store.svg">
+            <div class="d-flex-column">
+              <p>App Store</p>
+              <h6>Rated 4.7/5 (4192)</h6>
             </div>
           </div>
-          <div class="col-md-4">
-          <div class="white-black-border p-2">
-              <div class="d-flex gap-2 align-items-center justify-content-center">
-              <img src="assets/images/google-icon.svg" class="leading-redcheck-img" alt="...">
-              <div class="d-flex-column">
-                <p class="landing-small-grey-txt">Google Reviews</p>
-                <p class="title-medium">Rated 4.7/5 (4192)</p>
-              </div>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 my-3">
+          <div class="social-rating-grid p-2">
+            <img src="assets/images/google-icon.svg">
+            <div class="d-flex-column">
+              <p>Google Reviews</p>
+              <h6>Rated 4.7/5 (4192)</h6>
             </div>
           </div>
         </div>
       </div>
-      <div class="container mt-4">
-        <div class="row">
-        <div class="col-md-4">
-          <div class="white-black-border p-4 text-center">
-          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
-          <h1 class="title">300k +</h1>
-          <p class="title-sm-mont">Total Learners</p>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-6 my-3">
+          <div class="social-grid-block text-center">
+            <img src="assets/images/rating-review-icon-1.svg">
+            <h2 class="title-bold">300k +</h2>
+            <p class="title-sm-mont">Total Learners</p>
           </div>
         </div>
-        <div class="col-md-4">
-        <div class="white-black-border p-4 text-center">
-          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
-          <h1 class="title">300k +</h1>
-          <p class="title-sm-mont">Total Learners</p>
+        <div class="col-md-4 col-sm-6 col-6 my-3">
+          <div class="social-grid-block text-center">
+            <img src="assets/images/rating-review-icon-1.svg">
+            <h2 class="title-bold">300k +</h2>
+            <p class="title-sm-mont">Total Learners</p>
           </div>
         </div>
-        <div class="col-md-4">
-        <div class="white-black-border p-4 text-center">
-          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
-          <h1 class="title">300k +</h1>
-          <p class="title-sm-mont">Total Learners</p>
+        <div class="col-md-4 col-sm-6 col-6 my-3">
+          <div class="social-grid-block text-center">
+            <img src="assets/images/rating-review-icon-1.svg">
+            <h2 class="title-bold">300k +</h2>
+            <p class="title-sm-mont">Total Learners</p>
           </div>
         </div>
-        </div>
-      </div>  
-      <div class="container mt-4">
-        <div class="row">
-        <div class="col-md-4">
-          <div class="white-black-border p-4 text-center">
-          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
-          <h1 class="title">300k +</h1>
-          <p class="title-sm-mont">Total Learners</p>
+        <div class="col-md-4 col-sm-6 col-6 my-3">
+          <div class="social-grid-block text-center">
+            <img src="assets/images/rating-review-icon-1.svg">
+            <h2 class="title-bold">300k +</h2>
+            <p class="title-sm-mont">Total Learners</p>
           </div>
         </div>
-        <div class="col-md-4">
-        <div class="white-black-border p-4 text-center">
-          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
-          <h1 class="title">300k +</h1>
-          <p class="title-sm-mont">Total Learners</p>
+        <div class="col-md-4 col-sm-6 col-6 my-3">
+          <div class="social-grid-block text-center">
+            <img src="assets/images/rating-review-icon-2.svg">
+            <h2 class="title-bold">300k +</h2>
+            <p class="title-sm-mont">Total Learners</p>
           </div>
         </div>
-        <div class="col-md-4">
-        <div class="white-black-border p-4 text-center">
-          <img src="assets/images/learner-icon1.svg" class="leading-sm-img" alt="...">
-          <h1 class="title">300k +</h1>
-          <p class="title-sm-mont">Total Learners</p>
+        <div class="col-md-4 col-sm-6 col-6 my-3">
+          <div class="social-grid-block text-center">
+            <img src="assets/images/rating-review-icon-1.svg">
+            <h2 class="title-bold">300k +</h2>
+            <p class="title-sm-mont">Total Learners</p>
           </div>
         </div>
-        </div>
-      </div> 
+      </div>
     </div>
   </div>
 </section>
@@ -556,7 +540,7 @@ include_once 'header.php';
             <img src="assets/images/njclogo.svg" class="partner-img">
         </div>
     </div>
-    <div class="owl-carousel owl-theme mt-5"  id="TrustedCompaniesCarousel2">
+    <div class="owl-carousel owl-theme mt-4" id="TrustedCompaniesCarousel2">
         <div class="item">
             <img src="assets/images/gopienterprises.svg" class="partner-img">
         </div>
@@ -646,10 +630,12 @@ include_once 'header.php';
 </section> -->
 <!----------get demo----------->
 <section class="sect-demo mt-10 pb-3" data-aos="fade-up">
-  <div class="block-lightorange text-center">
-    <h4 class="title-semibold pt-4">"Unlock Efficiency: Schedule Your FieldWeb FSM Demo Today!"</h4>
-    <p class="card-name pt-2">"Experience the future of field service management. </p>
-    <p class="card-name">Book your tailored FieldWeb FSM demo now. Elevate your business today!"</p>
+  <div class="block-lightorange text-center py-5">
+    <h4 class="title-semibold">"Unlock Efficiency: Schedule Your FieldWeb FSM Demo Today!"</h4>
+    <div class="sect-demo-desc">
+      <p>"Experience the future of field service management. </p>
+      <p>Book your tailored FieldWeb FSM demo now. Elevate your business today!"</p>
+    </div>
     <div class="sect-demo-email">
       <input type="text" class="form-control" placeholder="Enter Your Email" aria-label="MobileNumber">
       <button type="submit" class="btn-getstarted-blk">Get Started</button>

@@ -31,7 +31,7 @@
                 <ul class="me-2">
                     <li><a href="tel:+919315228028">+91 93152 28028</a></li>
                     <li>|</li>
-                    <li><a href="#" class="d-flex">Sign in <span class="ms-2"><img src="assets/images/signin.svg" class="signin-size" /></span> </a></li>
+                    <li><a href="#" class="d-flex">Sign in <span class="ms-2"><img src="assets/images/signin-icon-black.svg" class="signin-size" /></span> </a></li>
                 </ul>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -62,11 +62,43 @@
                 <div class="navbar-buttons">
                     <a href="pricing.php" class="btn-outline-black">Explore Pricing</a>
                     <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                    <button class="navbar-toggler" type="button">
+                    <button class="navbar-toggler" type="button" onclick="openNav()">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
+                <div id="mySidenav" class="sidenav">
+                    <div class="sidenav-menu">
+                        <div class="sidenav-tophead">
+                            <a href="index.php" class="navbar-brand mob-fwlogo" href="#"><img src="assets/images/fw-favicon.svg" /></a>
+                            <div class="d-flex gap-2 align-items-center">
+                                <a href="#" class="d-flex">Sign in <span class="ms-2"><img src="assets/images/signin-icon-white.svg" class="signin-size" /></span> </a>
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="industries.php">Industries</a></li>
+                            <li><a href="features.php">Feature</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
+                        </ul>
+                        <div class="px-3">
+                            <h6 class="mt-3">GET IN TOUCH:</h6>
+                            <div class="getintouch">
+                                <a href="tel:+919315228028"><b>+91 93152 28028</b></a>
+                                <a href="mailto: info@fieldweb.co.in" class="getintouch-email">info@fieldweb.co.in</a>
+                            </div>
 
+                            <h6 class="mt-3">Available On</h6>
+                            <ul class="sidebar-links">
+                                <li><a href="https://www.apple.com/in/app-store/" target="_blank"><img src="assets/images/appstorelogo.svg" /></a></li>
+                                <li><a href="https://play.google.com/store/games?device=windows&utm_source=apac_med&hl=en-IN&utm_medium=hasem&utm_content=Jun1223&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Jun1223-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700076784774234_creativeid_480977734961_device_c&gclid=EAIaIQobChMI9YLJ8aS5gQMVGiRgCh24HwCGEAAYASAAEgJTufD_BwE&gclsrc=aw.ds" target="_blank"><img src="assets/images/googlestore.svg" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="page-backdrop"></div>
+                </div>
             </nav>
         </div>
     </header>

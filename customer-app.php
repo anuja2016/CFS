@@ -25,15 +25,63 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="main-Wrapper margin-btm" data-aos="fade-up">
-    <div class="margin-btm text-center w-75 m-auto">
-        <h3 class="title-md-montsbold">How do quotes work in FieldWeb?</h3>
-        <p>With these quoting features, Jobber helps you save time, win more work, and offer the professional and convenient experience that your customers expect.</p>
+<section class="quotesin-fw margin-btm" data-aos="fade-up">
+    <div class="main-Wrapper">
+        <div class="text-center w-75 m-auto">
+            <h3 class="title-semibold">How do quotes work in FieldWeb?</h3>
+            <p>With these quoting features, Jobber helps you save time, win more work, and offer the professional and convenient experience that your customers expect.</p>
+        </div>
     </div>
 </section>
 <section class="customerapp-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
-        <ul class="nav nav-pills justify-content-center margin-btm">
+        <ul class="d-flex gap-4 justify-content-center">
+            <li>
+                <a class="ref-link active" href="#tb-BrandCustomization"><img src="assets/images/Brand-Customization-icon.svg"> Branding and Customization</a>
+            </li>
+            <li>
+                <a class="ref-link" href="#tb-CustomerEngagement"><img src="assets/images/Customer-Engagement-icon.svg"> Customer Engagement</a>
+            </li>
+            <li>
+                <a class="ref-link" href="#tb-ServiceBooking"><img src="assets/images/Service-Booking-icon.svg"> Service Booking</a>
+            </li>
+            <li>
+                <a class="ref-link" href="#tb-WebContent"><img src="assets/images/Web-Content-icon.svg"> Web Content</a>
+            </li>
+        </ul>
+        <div class="mt-5" id="tb-BrandCustomization" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="title-sm-red mb-2">Branding and Customization</p>
+                    <h2 class="title-mont-semibold">Make customer-friendly quotes in less time</h2>
+                    <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
+                    <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    <div class="mt-3">
+                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="mt-5" id="tb-CustomerEngagement" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="title-sm-red mb-2">Customer Engagement</p>
+                        <h2 class="title-mont-semibold">Make customer-friendly quotes in less time</h2>
+                        <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
+                        <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                        <div class="mt-3">
+                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- <ul class="nav nav-pills justify-content-center margin-btm">
             <div class="d-flex gap-4">
                 <li class="nav-item">
                     <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tb-BrandCustomization"><img src="assets/images/Brand-Customization-icon.svg"> Branding and Customization</a>
@@ -114,7 +162,7 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <section class="main-Wrapper margin-btm" data-aos="fade-up">
@@ -181,7 +229,7 @@ include_once 'header.php';
         <div class="custapp-slider mt-6">
             <div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="custapp-content">
                             <h2 class="title-mont-semibold">Good Time Service</h2>
                             <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
@@ -191,14 +239,14 @@ include_once 'header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <img src="assets/images/customer-testimonial-1.svg" class="img-fluid">
                     </div>
                 </div>
             </div>
             <div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="custapp-content">
                             <h2 class="title-mont-semibold">Oscar Plus Elevator</h2>
                             <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
@@ -208,14 +256,14 @@ include_once 'header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <img src="assets/images/customer-testimonial-2.svg" class="img-fluid">
                     </div>
                 </div>
             </div>
             <div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="custapp-content">
                             <h2 class="title-mont-semibold">Shayona Service</h2>
                             <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
@@ -225,14 +273,14 @@ include_once 'header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <img src="assets/images/customer-testimonial-3.svg" class="img-fluid">
                     </div>
                 </div>
             </div>
             <div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="custapp-content">
                             <h2 class="title-mont-semibold">Good Time Service</h2>
                             <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
@@ -242,14 +290,14 @@ include_once 'header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <img src="assets/images/customer-testimonial-1.svg" class="img-fluid">
                     </div>
                 </div>
             </div>
             <div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="custapp-content">
                             <h2 class="title-mont-semibold">Oscar Plus Elevator</h2>
                             <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
@@ -259,7 +307,7 @@ include_once 'header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <img src="assets/images/customer-testimonial-2.svg" class="img-fluid">
                     </div>
                 </div>

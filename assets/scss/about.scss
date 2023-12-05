@@ -1,110 +1,89 @@
-
-.white-block{
+.white-block {
     padding: 15px;
     border-radius: 8px;
     background-color: #FFFFFF;
 }
-.leader-desk-grid{
+
+.leader-desk-grid {
     width: 75%;
     margin: 0 auto;
-    .card{
+
+    .card {
         border-radius: 10px;
         border: 0;
-        &:hover{
+
+        &:hover {
             box-shadow: 3px 3px 10px #ddd;
             cursor: default;
         }
     }
-    img{
-        width:80px;
-        height:80px;
+
+    img {
+        width: 80px;
+        height: 80px;
     }
-    .leader-name{
-        color:#000000;
+
+    .leader-name {
+        color: #000000;
         font-family: "Montserrat-SemiBold";
         font-size: 18px;
         letter-spacing: normal;
         margin-bottom: 5px;
     }
-    .leader-desc{
+
+    .leader-desc {
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
-    .flex-start{
+
+    .flex-start {
         align-items: flex-start;
     }
-    a{
-        &:hover{
+
+    a {
+        &:hover {
             filter: opacity(0.5);
         }
-        .icon-img{
-            width:20px;
-            height:20px;
+
+        .icon-img {
+            width: 20px;
+            height: 20px;
         }
     }
 }
-.heading{
-    // img{
-    //     height:200px;
-    // }
-    .info-circle-img{
-        height:15px;
-        width:15px;
+
+.heading {
+    .info-circle-img {
+        height: 15px;
+        width: 15px;
     }
+
     .tooltip-inner {
-       
-        background-color: grey!important;
-      
+        background-color: grey !important;
     }
+
     .tooltip .tooltip-arrow {
-        
         display: none;
-       
     }
-    
 }
 
-
-.wcu-img{
-    position: relative;
-    .white-square-box{
-        position: absolute;
-        z-index: 1;
-        top: 35px;
-        right: 40px;
-        height: 360px;
-        background: #fff;
-        background-size: 100%;
-        display: block;
-        width: 400px;
-        border-radius: 30px;
+.sect-wcu{
+    .block-lightorange{
+        padding: 2rem;
     }
-    &::before{
-        content: "";
-        position: absolute;
-        z-index: 2;
-        top: 35px;
-        // right: 40px;
-        height: 360px;
-        background: url('../images/whychoose_us.png');
-        background-size: 100%;
-        display: block;
-        width: 550px;
-        background-repeat: no-repeat;
-        background-position: bottom;
+}
+.wcu-img {
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 570px;
+        max-height: 514px;
+        object-fit: contain;
     }
-    &::after{
-        content: "";
-        background: url('../images/red-border.svg');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        position: absolute;
-        width: 186px;
-        height: 430px;
-        right: 0px;
-        z-index: 0;
-    }
+}
+.sect-leaderdesk {
+    background-color: #FFF2F4;
+    padding: 3rem 0;
 }

@@ -35,7 +35,7 @@ include_once 'header.php';
     <div class="main-Wrapper mt-9">
         <div class="block-lightorange mt-6">
             <div class="row justify-content-center">
-                <div class="col-md-3 text-end">
+                <div class="col-lg-4 col-md-4 text-end">
                     <div class="mb-4">
                         <img src="assets/images/grey-ellipse.svg" class="Afeatures-icon">
                         <h6>Secure data</h6>
@@ -55,10 +55,10 @@ include_once 'header.php';
                         <p>the printing and type setting indus ideas</p>
                     </div>
                 </div>
-                <div class="col-md-3 text-center">
+                <div class="col-lg-4 col-md-4 text-center">
                     <img src="assets/images/mobile-app-dashboard.svg" class="Afeatures-app-img">
                 </div>
-                <div class="col-md-3 text-start">
+                <div class="col-lg-4 col-md-4 text-start">
                     <div class="mb-4">
                         <img src="assets/images/grey-ellipse.svg" class="Afeatures-icon">
                         <h6>Live chat</h6>
@@ -84,9 +84,9 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="margin-btm" data-aos="fade-up">
+<section class="margin-btm sect-aboutapp" data-aos="fade-up">
     <div class="main-Wrapper">
-        <div class="row">
+        <div class="row justify-content-between">
             <div class="col-md-5">
                 <div class="card-request-landing">
                     <div class="card">
@@ -132,14 +132,14 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-            <div class="offset-md-1 col-md-5">
+            <div class="col-md-5">
                 <h2 class="title mb-3">Some awesome words <span>About App.</span></h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and. Lorem ipsum dolor sit amet.</p>
                 <div class="row mt-3">
-                    <div class="col-md-5 mt-2">
+                    <div class="col-lg-6 col-md-12 col-sm-6 mt-2">
                         <div class="block-white-wshadow">
                             <div class="d-flex gap-2 align-items-center">
-                                <img src="assets/images/download-icon-red.svg" class="leading-xs-img">
+                                <img src="assets/images/download-icon-red.svg" class="icon-80">
                                 <div class="d-flex-column">
                                     <h3 class="mb-0"><span class="count">3600</span>M+</h3>
                                     <p>Download</p>
@@ -147,10 +147,10 @@ include_once 'header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 mt-2">
+                    <div class="col-lg-6 col-md-12 col-sm-6 mt-2">
                         <div class="block-white-wshadow">
                             <div class="d-flex gap-2 align-items-center">
-                                <img src="assets/images/followers-icon-red.svg" class="leading-xs-img">
+                                <img src="assets/images/followers-icon-red.svg" class="icon-80">
                                 <div class="d-flex-column">
                                     <h3 class="mb-0"><span class="count">10</span>M+</h3>
                                     <p>Followers</p>
@@ -160,10 +160,10 @@ include_once 'header.php';
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <div class="col-md-5 mt-2">
+                    <div class="col-lg-6 col-md-12 col-sm-6 mt-2">
                         <div class="block-white-wshadow">
                             <div class="d-flex gap-2 align-items-center">
-                                <img src="assets/images/chat-icon-red.svg" class="leading-xs-img">
+                                <img src="assets/images/chat-icon-red.svg" class="icon-80">
                                 <div class="d-flex-column">
                                     <h3 class="mb-0"><span class="count">5180</span>+</h3>
                                     <p>Reviews</p>
@@ -171,10 +171,10 @@ include_once 'header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 mt-2">
+                    <div class="col-lg-6 col-md-12 col-sm-6 mt-2">
                         <div class="block-white-wshadow">
                             <div class="d-flex gap-2 align-items-center">
-                                <img src="assets/images/earth-icon-red.svg" class="leading-xs-img">
+                                <img src="assets/images/earth-icon-red.svg" class="icon-80">
                                 <div class="d-flex-column">
                                     <h3 class="mb-0"><span class="count">5</span>+</h3>
                                     <p>Countries</p>
@@ -363,7 +363,7 @@ include_once 'header.php';
 </section>
 <section class="margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
-        <div class="block-darkgrey sect-companies p-5">
+        <div class="block-darkgrey sect-companies">
             <h2><span> 3500+ companies </span> using our application</h2>
             <div class="mt-5">
                 <div class="row justify-content-center text-center">
@@ -412,8 +412,8 @@ include_once 'header.php';
             <span class="price-discount">50% off</span>
         </div>
         <div class="row mt-4 sect-landing-pricing">
-            <div class="col-md-4">
-                <div class="landing-pricing-plan">
+            <div class="col-md-4 col-sm-6">
+                <div class="landing-pricing-plan margin-sm-btm">
                     <div class="text-center margin-sm-btm">
                         <img src="assets/images/standard-icon.svg" class="lp-icon">
                         <h6>Standard</h6>
@@ -443,7 +443,7 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
                 <div class="landing-pricing-plan default-pricing-plan margin-sm-btm">
                     <div class="text-center margin-sm-btm">
                         <img src="assets/images/unlimitedicon.svg" class="lp-icon">
@@ -474,8 +474,8 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="landing-pricing-plan">
+            <div class="col-md-4 col-sm-6">
+                <div class="landing-pricing-plan margin-sm-btm">
                     <div class="text-center margin-sm-btm">
                         <img src="assets/images/premium-icon.svg" class="lp-icon">
                         <h6>Premium</h6>
@@ -507,7 +507,7 @@ include_once 'header.php';
             </div>
         </div>
     </div>
-    <div class="text-center">
+    <div class="text-center mt-4">
         <p>Not sure what to choose ? <a href="contact.php" class="link-red">contact us</a> for custom packages</p>
     </div>
 </section>
@@ -528,7 +528,7 @@ include_once 'header.php';
     <div class="text_list_section row_am download_section aos-init aos-animate" data-aos="fade-in" data-aos-duration="1500">
         <div class="center_screen">
             <div class="img">
-                <img src="assets/images/download-mobile.svg" alt="image" class="fw-app-img">
+                <img src="assets/images/download-mobile.svg" alt="image">
             </div>
             <ul class="store-links2 mt-4">
                 <li><a href="https://www.apple.com/in/app-store/" target="_blank"><img src="assets/images/appstorelogo.svg"></a></li>

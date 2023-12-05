@@ -3,59 +3,65 @@ include_once 'header.php';
 ?>
 <section class="margin-btm block-landing-grey mt-116">
     <div class="main-Wrapper pt-5">
-        <div class="row">
-            <div class="col-md-5">
+        <div class="row justify-content-between">
+            <div class="col-md-6">
                 <h1 class="pt-4 pb-2">Stop Wondering Start <span class="drawn-underline">Growing</span></h1>
                 <p class="leading-sm-txt mt-4">FieldWeb is a field force management software suite that digitizes your field sales & service operations.</p>
                 <div class="d-flex gap-3 mt-4 mb-3">
                     <a href="#" type="button" class="btn-red rounded-3">Get Free Trial</a>
                     <a href="#" type="button" class="red-border-btn">Request Callback</a>
                 </div>
-                <div class="d-flex mt-4 mb-3">
-                    <div class="border-right-grey p-2 text-center">
-                        <img src="assets/images/google-icon.svg" class="leading-xs-img">
-                        <div class="d-flex align-items-center justify-content-center mt-2">
-                            <p class="leading-sm-txt">4.7</p>
-                            <div class="star-landing-rating ms-2">
-                                <ul>
-                                    <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                    <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                    <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                    <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                    <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                </ul>
+                <div class="row mt-4 mb-3">
+                    <div class="col-lg-4 col-md-6 col-sm-4">
+                        <div class="border-right-grey p-2 text-center">
+                            <img src="assets/images/google-icon.svg" class="leading-xs-img">
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <p class="leading-sm-txt">4.7</p>
+                                <div class="star-landing-rating ms-2">
+                                    <ul>
+                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="border-right-grey p-2 text-center">
-                        <img src="assets/images/play-store-icon.svg" class="leading-xs-img">
-                        <div class="d-flex align-items-center justify-content-center mt-2">
-                            <p class="leading-sm-txt">4.7</p>
-                            <div class="star-landing-rating px-2">
-                                <ul>
-                                    <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                </ul>
+                    <div class="col-lg-4 col-md-6 col-sm-4">
+                        <div class="border-right-grey p-2 text-center">
+                            <img src="assets/images/play-store-icon.svg" class="leading-xs-img">
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <p class="leading-sm-txt">4.7</p>
+                                <div class="star-landing-rating px-2">
+                                    <ul>
+                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                    </ul>
+                                </div>
+                                <div class="vr"></div>
+                                <p class="leading-sm-txt px-2">1k+Reviews</p>
                             </div>
-                            <div class="vr"></div>
-                            <p class="leading-sm-txt px-2">1k+Reviews</p>
                         </div>
                     </div>
-                    <div class="p-2 text-center">
-                        <img src="assets/images/app-store-icon.svg" class="leading-xs-img">
-                        <div class="d-flex align-items-center justify-content-center mt-2">
-                            <p class="leading-sm-txt">4.7</p>
-                            <div class="star-landing-rating px-2">
-                                <ul>
-                                    <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                </ul>
+                    <div class="col-lg-4 col-md-6 col-sm-4">
+                        <div class="p-2 text-center">
+                            <img src="assets/images/app-store-icon.svg" class="leading-xs-img">
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <p class="leading-sm-txt">4.7</p>
+                                <div class="star-landing-rating px-2">
+                                    <ul>
+                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                    </ul>
+                                </div>
+                                <div class="vr"></div>
+                                <p class="leading-sm-txt px-2">1k+Reviews</p>
                             </div>
-                            <div class="vr"></div>
-                            <p class="leading-sm-txt px-2">1k+Reviews</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="offset-md-1 col-md-5">
+            <div class="col-md-5">
                 <img src="assets/images/landingpage3-background.svg" class="fw-banner-img">
             </div>
         </div>
@@ -90,21 +96,21 @@ include_once 'header.php';
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="d-flex gap-3">
-                        <img src="assets/images/productivity.svg">
+                        <img src="assets/images/productivity.svg" class="icon-80">
                         <div class="d-flex-column">
                             <h4 class="title-semibold">Increased productivity</h4>
                             <p class="title-sm-mont">Premium includes full access to Freepik and Flaticon libraries, so you can find anything you need fast.</p>
                         </div>
                     </div>
                     <div class="d-flex gap-3 pt-5">
-                        <img src="assets/images/crown.svg">
+                        <img src="assets/images/crown.svg" class="icon-80">
                         <div class="d-flex-column">
                             <h4 class="title-semibold">More downloads</h4>
                             <p class="title-sm-mont">Premium includes full access to Freepik and Flaticon libraries, so you can find anything you need fast.</p>
                         </div>
                     </div>
                     <div class="d-flex gap-3 pt-5">
-                        <img src="assets/images/star.svg">
+                        <img src="assets/images/star.svg" class="icon-80">
                         <div class="d-flex-column">
                             <h4 class="title-semibold">Added benefits</h4>
                             <p class="title-sm-mont">Premium includes full access to Freepik and Flaticon libraries, so you can find anything you need fast.</p>
@@ -249,19 +255,19 @@ include_once 'header.php';
                     <p>Monitoring & Tracking your employees on the field can directly impact your bottom line. Use Unolo to make informed decisions & scale your business. Just follow these 3 simple steps to automate your field force.</p>
 
                     <div class="row mt-3">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
                             <img src="assets/images/start.svg" class="icon-80">
                             <h6>1. Start FREE Trial</h6>
                             <p>Click on the below button to create your free account.</p>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
                             <img src="assets/images/addmanaging.svg" class="icon-80">
                             <h6>2. Add Executives</h6>
                             <p>Add your field employees in your FieldWeb Account.</p>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
                             <img src="assets/images/startmanaging.svg" class="icon-80">
                             <h6>3. Start Managing</h6>
                             <p>Start tracking and managing your field staff.</p>
@@ -309,7 +315,7 @@ include_once 'header.php';
             <div class="talk-about-service">
                 <img src="assets/images/quote-start2.svg" class="leading-redcheck-img">
                 <p class="landing-sm-grey-txt pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                <div class="d-flex align-items-center gap-2 mt-3">
+                <div class="d-flex align-items-center gap-3 mt-3">
                     <img src="assets/images/image2.svg" />
                     <div class="d-flex-column">
                         <h6>Prasad Raju Kalindi</h6>
@@ -320,7 +326,7 @@ include_once 'header.php';
             <div class="talk-about-service">
                 <img src="assets/images/quote-start2.svg" class="leading-redcheck-img">
                 <p class="landing-sm-grey-txt pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                <div class="d-flex  align-items-center gap-2 mt-3">
+                <div class="d-flex  align-items-center gap-3 mt-3">
                     <img src="assets/images/image3.svg" />
                     <div class="d-flex-column">
                         <h6>Mohit Sapra</h6>
@@ -331,7 +337,7 @@ include_once 'header.php';
             <div class="talk-about-service">
                 <img src="assets/images/quote-start2.svg" class="leading-redcheck-img">
                 <p class="landing-sm-grey-txt pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                <div class="d-flex  align-items-center gap-2 mt-3">
+                <div class="d-flex  align-items-center gap-3 mt-3">
                     <img src="assets/images/image2.svg" />
                     <div class="d-flex-column">
                         <h6>Prasad Raju Kalindi</h6>
@@ -342,7 +348,7 @@ include_once 'header.php';
             <div class="talk-about-service">
                 <img src="assets/images/quote-start2.svg" class="leading-redcheck-img">
                 <p class="landing-sm-grey-txt pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                <div class="d-flex  align-items-center gap-2 mt-3">
+                <div class="d-flex  align-items-center gap-3 mt-3">
                     <img src="assets/images/image3.svg" />
                     <div class="d-flex-column">
                         <h6>Mohit Sapra</h6>
@@ -353,35 +359,33 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="customerapp-tabs margin-btm mt-8" data-aos="fade-up">
+<section class="fieldforce-tabs margin-btm mt-8" data-aos="fade-up">
     <div class="text-center">
         <p class="light-grey-sbtxt mb-2">Field Force Automation Features For All Industries</p>
         <h3 class="title-bold">Looking for a better way to manage your field force?</h3>
     </div>
     <div class="main-Wrapper mt-5">
-        <ul class="nav nav-pills justify-content-center margin-btm">
-            <div class="d-flex gap-4">
-                <li class="nav-item">
-                    <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tb-BrandCustomization"><img src="assets/images/fieldsales-icon.svg"> Field Sales</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-CustomerEngagement"><img src="assets/images/field-operation-icon.svg"> Field Operations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-ServiceBooking"><img src="assets/images/agritech-icon.svg"> Agri-Tech</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-WebContent"><img src="assets/images/finance-icon.svg"> Finance</a>
-                </li>
-            </div>
+        <ul class="nav nav-pills justify-content-center margin-btm d-flex gap-4">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tb-BrandCustomization"><img src="assets/images/fieldsales-icon.svg"> Field Sales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-CustomerEngagement"><img src="assets/images/field-operation-icon.svg"> Field Operations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-ServiceBooking"><img src="assets/images/agritech-icon.svg"> Agri-Tech</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-WebContent"><img src="assets/images/finance-icon.svg"> Finance</a>
+            </li>
         </ul>
         <div class="tab-content mt-5">
             <div class="tab-pane fade show active" id="tb-BrandCustomization">
-                <div class="row align-items-center">
+                <div class="row align-items-center justify-content-between">
                     <div class="col-md-5">
                         <img src="assets/images/field-operation-grp-img.svg" class="img-fluid">
                     </div>
-                    <div class="col-md-6 offset-1">
+                    <div class="col-md-6">
                         <h5 class="title-bold mb-3">Field Sales</h5>
                         <p class="landing-sm-grey-txt mb-3">Say goodbye to inefficient field operations & service management with Unolo's all-in-one solution. Save time, resources, and effort with Unolo.</p>
                         <div class="pricing-landing-foot margin-sm-btm">

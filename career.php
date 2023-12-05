@@ -47,7 +47,7 @@ include_once 'header.php';
             <div class="tab-content mt-7">
                 <div class="tab-pane fade show active" id="tb-All">
                     <div class="row">
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon1.svg">
@@ -56,7 +56,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon2.svg">
@@ -65,7 +65,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon3.svg">
@@ -74,7 +74,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon4.svg">
@@ -83,7 +83,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon5.svg">
@@ -92,7 +92,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon6.svg">
@@ -111,7 +111,7 @@ include_once 'header.php';
                 </div>
                 <div class="tab-pane fade" id="tb-Coding">
                     <div class="row">
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon4.svg">
@@ -120,7 +120,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon5.svg">
@@ -129,7 +129,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon6.svg">
@@ -142,7 +142,7 @@ include_once 'header.php';
                 </div>
                 <div class="tab-pane fade" id="tb-Database">
                     <div class="row">
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon2.svg">
@@ -151,7 +151,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon3.svg">
@@ -160,7 +160,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon4.svg">
@@ -173,7 +173,7 @@ include_once 'header.php';
                 </div>
                 <div class="tab-pane fade" id="tb-Management">
                     <div class="row">
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon2.svg">
@@ -182,7 +182,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon4.svg">
@@ -191,7 +191,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon1.svg">
@@ -204,7 +204,7 @@ include_once 'header.php';
                 </div>
                 <div class="tab-pane fade" id="tb-Marketing">
                     <div class="row">
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon5.svg">
@@ -213,7 +213,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon1.svg">
@@ -222,7 +222,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon3.svg">
@@ -235,7 +235,7 @@ include_once 'header.php';
                 </div>
                 <div class="tab-pane fade" id="tb-Writtng">
                     <div class="row">
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon2.svg">
@@ -244,7 +244,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon4.svg">
@@ -253,7 +253,7 @@ include_once 'header.php';
                                 <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5">
+                        <div class="col-md-4 col-sm-6 mb-5">
                             <div class="jobs-grid">
                                 <span><img src="assets/images/clock-icon.svg">Week 4</span>
                                 <img src="assets/images/jobs/jobs-icon6.svg">

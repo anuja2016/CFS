@@ -6,9 +6,14 @@
         border-radius: 15px;
         height: 100%;
         border: 0;
+        padding: 30px;
+
         &:hover {
             .services-icon {
-                transform: scale(1.1);
+                // transform: scale(1.1);
+                cursor: pointer;
+                -webkit-transform: rotateY(190deg);
+                transform: rotateY(190deg);
             }
 
             .arrow-img {
@@ -65,7 +70,7 @@
         border-radius: 10px;
         box-shadow: 0px 0px 10px #ddd;
         margin-top: -120px;
-        border:0;
+        border: 0;
     }
 }
 
@@ -91,8 +96,9 @@
         font-weight: 600;
     }
 }
+
 .card {
-    &.sub-content{
-        border:0;
+    &.sub-content {
+        border: 0;
     }
 }
