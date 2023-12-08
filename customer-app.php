@@ -35,25 +35,27 @@ include_once 'header.php';
 </section>
 <section class="customerapp-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
-        <ul class="d-flex gap-4 justify-content-center">
-            <li>
-                <a class="ref-link active" href="#tb-BrandCustomization"><img src="assets/images/Brand-Customization-icon.svg"> Branding and Customization</a>
-            </li>
-            <li>
-                <a class="ref-link" href="#tb-CustomerEngagement"><img src="assets/images/Customer-Engagement-icon.svg"> Customer Engagement</a>
-            </li>
-            <li>
-                <a class="ref-link" href="#tb-ServiceBooking"><img src="assets/images/Service-Booking-icon.svg"> Service Booking</a>
-            </li>
-            <li>
-                <a class="ref-link" href="#tb-WebContent"><img src="assets/images/Web-Content-icon.svg"> Web Content</a>
-            </li>
-        </ul>
-        <div class="mt-5" id="tb-BrandCustomization" data-aos="fade-up">
-            <div class="row">
+        <div class="margin-btm">
+            <ul class="d-flex gap-4 justify-content-center">
+                <li>
+                    <a id="btn-BrandCustomization" class="ref-link active"><img src="assets/images/Brand-Customization-icon.svg"> Branding and Customization</a>
+                </li>
+                <li>
+                    <a id="btn-CustomerEngagement" class="ref-link"><img src="assets/images/Customer-Engagement-icon.svg"> Customer Engagement</a>
+                </li>
+                <li>
+                    <a id="btn-ServiceBooking" class="ref-link"><img src="assets/images/Service-Booking-icon.svg"> Service Booking</a>
+                </li>
+                <li>
+                    <a id="btn-WebContent" class="ref-link"><img src="assets/images/Web-Content-icon.svg"> Web Content</a>
+                </li>
+            </ul>
+        </div>
+        <div class="margin-btm" id="tb-BrandCustomization" data-aos="fade-up">
+            <div class="row align-items-center">
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Branding and Customization</p>
-                    <h2 class="title-mont-semibold">Make customer-friendly quotes in less time</h2>
+                    <h2 class="title-bold">Make customer-friendly quotes in less time</h2>
                     <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
                     <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
                     <div class="mt-3">
@@ -65,22 +67,54 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="mt-5" id="tb-CustomerEngagement" data-aos="fade-up">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
-                    </div>
-                    <div class="col-md-6">
-                        <p class="title-sm-red mb-2">Customer Engagement</p>
-                        <h2 class="title-mont-semibold">Make customer-friendly quotes in less time</h2>
-                        <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
-                        <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
-                        <div class="mt-3">
-                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                        </div>
+        <div class="margin-btm" id="tb-CustomerEngagement" data-aos="fade-up">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p class="title-sm-red mb-2">Customer Engagement</p>
+                    <h2 class="title-bold">Make customer-friendly quotes in less time</h2>
+                    <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
+                    <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    <div class="mt-3">
+                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="margin-btm" id="tb-ServiceBooking">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="title-sm-red mb-2">Service Booking</p>
+                    <h2 class="title-bold">Make customer-friendly quotes in less time</h2>
+                    <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
+                    <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    <div class="mt-3">
+                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="margin-btm" id="tb-WebContent">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p class="title-sm-red mb-2">Web Content</p>
+                    <h2 class="title-bold">Make customer-friendly quotes in less time</h2>
+                    <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
+                    <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    <div class="mt-3">
+                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- <ul class="nav nav-pills justify-content-center margin-btm">
             <div class="d-flex gap-4">
                 <li class="nav-item">

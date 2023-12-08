@@ -25,7 +25,7 @@ body {
 }
 
 .fixed-top {
-    background-color: #FFFFFF;
+    // background-color: #FFFFFF;
 }
 
 .main-Wrapper {
@@ -39,7 +39,6 @@ body {
 .site-header {
     max-width: 1400px;
     margin: 0 auto;
-    background-color: transparent;
     justify-content: space-between;
 
     .header-top {
@@ -63,7 +62,7 @@ body {
     .carousel-item {
         img {
             width: 100%;
-            height: 600px;
+            height: 722px;
             object-fit: cover;
         }
     }
@@ -342,7 +341,7 @@ body {
 
 
 .main-carousel {
-    margin-top: 122px;
+    // margin-top: 122px;
 
     .carousel-caption {
         h1 {
@@ -839,6 +838,7 @@ body {
 
     .homeservice-desc {
         line-height: 40px;
+        text-align: justify;
     }
 }
 
@@ -923,6 +923,7 @@ body {
 
             p {
                 cursor: default;
+                text-align: justify;
             }
 
             img {
@@ -1210,6 +1211,7 @@ body {
         // margin: -100px 3rem 2rem;
         width: 1400px;
         margin: -100px auto 0 auto;
+        padding: 4rem;
 
         .sect-demo-email {
             display: flex;
@@ -1262,7 +1264,8 @@ body {
 
     h2 {
         font-family: "Montserrat-Bold";
-        line-height: 40px;
+        line-height: 55px;
+        font-size: 40px;
 
         .drawn-underline {
             background-position: center 45px;
@@ -1586,7 +1589,7 @@ body {
         position: absolute;
         top: 45%;
         transform: translate(0, -50%);
-        max-width: 55%;
+        max-width: 50%;
         z-index: 5;
         text-align: left;
         // padding: 0 2rem;
@@ -1778,6 +1781,98 @@ body {
             }
         }
     }
+
+    .sect-jobs{
+        ul {
+            padding-left: 0;
+            list-style: none;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+        }
+        .ref-link {
+            background-color: rgb(255 255 255);
+            color: #000000;
+            border-radius: 0;
+            border: 2px solid #ddd;
+            text-wrap: nowrap;
+            padding: 0.5rem;
+            display: block;
+    
+            &:hover {
+                background-color: #c22032;
+                box-shadow: 3px 3px 10px #dedede;
+                border: 2px solid #c22032;
+                color: #FFFFFF;
+            }
+            &.active {
+                background-color: #c22032;
+                box-shadow: 3px 3px 10px #dedede;
+                border: 2px solid #c22032;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.custom-tabs {
+    ul {
+        list-style: none;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .ref-link {
+        background-color: rgb(255 255 255);
+        color: #000000;
+        border-radius: 0;
+        border: 2px solid #ddd;
+        text-wrap: nowrap;
+        padding: 0.5rem;
+        display: block;
+
+        &:hover {
+            background-color: #c22032;
+            box-shadow: 3px 3px 10px #dedede;
+            border: 2px solid #c22032;
+            color: #FFFFFF;
+        }
+        &.active {
+            background-color: #c22032;
+            box-shadow: 3px 3px 10px #dedede;
+            border: 2px solid #c22032;
+            color: #FFFFFF;
+        }
+    }
+}
+.features-tabs{
+    ul {
+        list-style: none;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .ref-link {
+        background-color: #c22032;
+        color: #FFFFFF;
+        border-radius: 0;
+        border: 2px solid #c22032;
+        text-wrap: nowrap;
+        padding: 0.5rem;
+        display: block;
+
+        &:hover {
+            background-color: #ae1d2d;
+            box-shadow: 3px 3px 10px #dedede;
+            border: 2px solid #ae1d2d;
+            color: #FFFFFF;
+        }
+        &.active {
+            background-color: #c22032;
+            box-shadow: 3px 3px 10px #dedede;
+            border: 2px solid #c22032;
+            color: #FFFFFF;
+        }
+    }
 }
 
 #btnScrollTop {
@@ -1818,7 +1913,8 @@ body {
     img {
         width: 42px;
         height: 42px;
-        &:hover{
+
+        &:hover {
             filter: drop-shadow(2px 4px 6px #ddd);
         }
     }

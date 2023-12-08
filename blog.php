@@ -34,7 +34,7 @@ include_once 'header.php';
         </div>
         <div class="blog-slider mt-8">
             <div>
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
                         <img src="assets/images/blog/blog-1.svg" class="img-fluid">
                     </div>
@@ -52,7 +52,7 @@ include_once 'header.php';
                 </div>
             </div>
             <div>
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
                         <img src="assets/images/blog/blog-2.svg" class="img-fluid">
                     </div>
@@ -70,7 +70,7 @@ include_once 'header.php';
                 </div>
             </div>
             <div>
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
                         <img src="assets/images/blog/blog-3.svg" class="img-fluid">
                     </div>
@@ -88,7 +88,7 @@ include_once 'header.php';
                 </div>
             </div>
             <div>
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
                         <img src="assets/images/blog/blog-4.svg" class="img-fluid">
                     </div>
@@ -106,7 +106,7 @@ include_once 'header.php';
                 </div>
             </div>
             <div>
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
                         <img src="assets/images/blog/blog-5.svg" class="img-fluid">
                     </div>
@@ -137,20 +137,40 @@ include_once 'header.php';
                 </select>
             </div>
             <ul>
-                <li><button type="button" class="btn-light active">Commercial</button></li>
-                <li><button type="button" class="btn-light">Business Tips</button></li>
-                <li><button type="button" class="btn-light">Residental</button></li>
-                <li><button type="button" class="btn-light">Technical Tips</button></li>
-                <li><button type="button" class="btn-light">Management</button></li>
-                <li><button type="button" class="btn-light">Operations</button></li>
+                <li><button type="button" class="filter-button btn-light active" data-filter="all">Commercial</button></li>
+                <li><button type="button" class="filter-button btn-light" data-filter="BusinessTips">Business Tips</button></li>
+                <li><button type="button" class="filter-button btn-light" data-filter="Residental">Residental</button></li>
+                <li><button type="button" class="filter-button btn-light" data-filter="TechnicalTips">Technical Tips</button></li>
+                <li><button type="button" class="filter-button btn-light" data-filter="Management">Management</button></li>
+                <li><button type="button" class="filter-button btn-light" data-filter="Operations">Operations</button></li>
             </ul>
+            <!-- <ul class="d-flex gap-4 justify-content-center mb-5">
+                <li>
+                    <a class="filter-button ref-link active" data-filter="all">ALL (20)</a>
+                </li>
+                <li>
+                    <a class="filter-button ref-link" data-filter="Coding">Coding</a>
+                </li>
+                <li>
+                    <a class="filter-button ref-link" data-filter="Database">Database</a>
+                </li>
+                <li>
+                    <a class="filter-button ref-link" data-filter="Management">Management</a>
+                </li>
+                <li>
+                    <a class="filter-button ref-link" data-filter="Marketing">Marketing</a>
+                </li>
+                <li>
+                    <a class="filter-button ref-link" data-filter="Writtng">Writtng</a>
+                </li>
+            </ul> -->
         </div>
     </div>
 </section>
 <section class="margin-btm" data-aos="fade-up">
     <div class="main-Wrapper blog-cards">
         <div class="row">
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4 filter Residental">
                 <div class="card">
                     <img src="assets/images/blog/blog-6.svg" class="img-fluid card-img-top">
                     <div class="card-body">
@@ -164,7 +184,7 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4 filter Residental">
                 <div class="card">
                     <img src="assets/images/blog/blog-7.svg" class="img-fluid card-img-top">
                     <div class="card-body">
@@ -178,7 +198,7 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-4 filter BusinessTips">
                 <div class="card">
                     <img src="assets/images/blog/blog-8.svg" class="img-fluid card-img-top">
                     <div class="card-body">
@@ -192,7 +212,49 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-4 filter BusinessTips">
+                <div class="card">
+                    <img src="assets/images/blog/blog-9.svg" class="img-fluid card-img-top">
+                    <div class="card-body">
+                        <p class="title-sm-red mb-2">HVAC Business</p>
+                        <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
+                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <a href="blog-details.php">
+                            <span>Learn More</span>
+                            <img src="assets/images/arrowright-red.svg" class="arrow-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 filter Operations">
+                <div class="card">
+                    <img src="assets/images/blog/blog-7.svg" class="img-fluid card-img-top">
+                    <div class="card-body">
+                        <p class="title-sm-red mb-2">HVAC Business</p>
+                        <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
+                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <a href="blog-details.php">
+                            <span>Learn More</span>
+                            <img src="assets/images/arrowright-red.svg" class="arrow-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 filter TechnicalTips">
+                <div class="card">
+                    <img src="assets/images/blog/blog-8.svg" class="img-fluid card-img-top">
+                    <div class="card-body">
+                        <p class="title-sm-red mb-2">HVAC Business</p>
+                        <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
+                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <a href="blog-details.php">
+                            <span>Learn More</span>
+                            <img src="assets/images/arrowright-red.svg" class="arrow-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 filter Management">
                 <div class="card">
                     <img src="assets/images/blog/blog-9.svg" class="img-fluid card-img-top">
                     <div class="card-body">

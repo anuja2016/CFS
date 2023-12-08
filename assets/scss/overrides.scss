@@ -8,7 +8,7 @@
         padding-bottom: 1.25rem;
         color: #fff;
         text-align: left;
-        top: 50%;
+        top: 55%;
         transform: translate(0, -50%);
         max-width: 50%;
     }
@@ -83,6 +83,8 @@
 #accordionservice {
     .accordion-button {
         color: #FFFFFF;
+        font-size: 1.3rem;
+        padding: 20px 40px;
 
         img {
             width: 40px;
@@ -142,7 +144,7 @@
         }
     }
     .navbar-toggler-icon{
-        background-image: url('../images/navbar-toggler-icon.svg');
+        background-image: url('../images/navbar-toggler-icon-white.svg');
         width: 29px;
         height: 19px;
     }

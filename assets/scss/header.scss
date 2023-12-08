@@ -1,7 +1,4 @@
 // Header
-.site-header{
-    background-color: #FFFFFF;
-}
 .navbar-brand{
     img{
         height: 70px;
@@ -49,22 +46,21 @@
         li {
             display: inline-block;
             font-family: "Montserrat-Medium";
-            color: #000;
+            color: #fff;
         }
 
         a {
             text-decoration: none;
             font-family: "Montserrat-Medium";
-            color:#000;
+            color:#fff;
         }
     }
-
-
 }
 
 .signin-size {
     height: 15px;
     width: 15px;
+    filter: invert(1);
 }
 
 
@@ -74,7 +70,7 @@
     .navbar-light {
         .navbar-nav {
             .nav-link {
-                color: #000;
+                color: #fff;
             }
         }
     }
@@ -89,9 +85,15 @@
 
     .navbar-light {
         .navbar-nav {
-            .nav-link.active, .nav-link:hover{
-                color: #C22032;
-                border-bottom: 2px solid #C22032;
+            .nav-link{
+                &.active{
+                    color: #C22032;
+                    border-bottom: 2px solid #C22032;
+                }
+                &:hover{
+                    color: #C22032;
+                    border-bottom: 2px solid #C22032;
+                }
             }
             .show {
                 >.nav-link {
@@ -117,4 +119,42 @@
 .navbar-menu-title {
     font-size: 16px;
     color: #000;
+}
+
+.fixed-top {
+    &.sticky{
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #eee;
+        .header-top {
+            ul {
+                li {
+                    color: #000;
+                }
+        
+                a {
+                    color:#000;
+                }
+            }
+        }
+        .signin-size {
+            height: 15px;
+            width: 15px;
+            filter: none;
+        }
+        .site-header {
+            .navbar-light {
+                .navbar-nav {
+                    .nav-link {
+                        color: #000;
+                    }
+                }
+            }
+            .navbar-toggler-icon{
+                background-image: url('../images/navbar-toggler-icon.svg');
+            }
+        }
+        .btn-outline-black{
+            border: 1px solid #000;
+        }
+    }
 }

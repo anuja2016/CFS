@@ -64,7 +64,7 @@ include_once 'header.php';
     </div>
     <div class="margin-btm">
         <div class="row">
-            <div class="col-md-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <div class="accordion accordion-flush" id="accordionservice">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="service-headingOne">
@@ -184,7 +184,7 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <div class="card sub-content">
                     <img src="assets/images/job-schedules-bg2.svg" class="img-fluid">
                     <div class="card-body text-center">

@@ -18,10 +18,6 @@ body h6 {
   font-size: 20px;
 }
 
-.fixed-top {
-  background-color: #FFFFFF;
-}
-
 .main-Wrapper {
   max-width: 1400px;
   width: 100%;
@@ -33,7 +29,6 @@ body h6 {
 .site-header {
   max-width: 1400px;
   margin: 0 auto;
-  background-color: transparent;
   justify-content: space-between;
 }
 .site-header .header-top {
@@ -54,7 +49,7 @@ body h6 {
 
 .main-carousel .carousel-item img {
   width: 100%;
-  height: 600px;
+  height: 722px;
   object-fit: cover;
 }
 
@@ -320,9 +315,6 @@ body h6 {
   flex-direction: column;
 }
 
-.main-carousel {
-  margin-top: 122px;
-}
 .main-carousel .carousel-caption h1 {
   font-family: "Montserrat-Bold";
   font-size: 55px;
@@ -730,6 +722,7 @@ body h6 {
 }
 .sect-homeservice .homeservice-desc {
   line-height: 40px;
+  text-align: justify;
 }
 
 .industries-slider .slick-arrow {
@@ -800,6 +793,7 @@ body h6 {
 }
 .feature-section .row .col-md-3 p {
   cursor: default;
+  text-align: justify;
 }
 .feature-section .row .col-md-3 img {
   width: 90px;
@@ -1043,6 +1037,7 @@ body h6 {
 .sect-demo .block-lightorange {
   width: 1400px;
   margin: -100px auto 0 auto;
+  padding: 4rem;
 }
 .sect-demo .block-lightorange .sect-demo-email {
   display: flex;
@@ -1085,7 +1080,8 @@ body h6 {
 }
 .sect-demo h2 {
   font-family: "Montserrat-Bold";
-  line-height: 40px;
+  line-height: 55px;
+  font-size: 40px;
 }
 .sect-demo h2 .drawn-underline {
   background-position: center 45px;
@@ -1356,7 +1352,7 @@ body h6 {
   position: absolute;
   top: 45%;
   transform: translate(0, -50%);
-  max-width: 55%;
+  max-width: 50%;
   z-index: 5;
   text-align: left;
   right: auto;
@@ -1507,6 +1503,87 @@ body h6 {
   text-wrap: nowrap;
 }
 .custom-tabs .nav-pills .nav-link:hover {
+  background-color: #c22032;
+  box-shadow: 3px 3px 10px #dedede;
+  border: 2px solid #c22032;
+  color: #FFFFFF;
+}
+.custom-tabs .sect-jobs ul {
+  padding-left: 0;
+  list-style: none;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.custom-tabs .sect-jobs .ref-link {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border-radius: 0;
+  border: 2px solid #ddd;
+  text-wrap: nowrap;
+  padding: 0.5rem;
+  display: block;
+}
+.custom-tabs .sect-jobs .ref-link:hover {
+  background-color: #c22032;
+  box-shadow: 3px 3px 10px #dedede;
+  border: 2px solid #c22032;
+  color: #FFFFFF;
+}
+.custom-tabs .sect-jobs .ref-link.active {
+  background-color: #c22032;
+  box-shadow: 3px 3px 10px #dedede;
+  border: 2px solid #c22032;
+  color: #FFFFFF;
+}
+
+.custom-tabs ul {
+  list-style: none;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.custom-tabs .ref-link {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border-radius: 0;
+  border: 2px solid #ddd;
+  text-wrap: nowrap;
+  padding: 0.5rem;
+  display: block;
+}
+.custom-tabs .ref-link:hover {
+  background-color: #c22032;
+  box-shadow: 3px 3px 10px #dedede;
+  border: 2px solid #c22032;
+  color: #FFFFFF;
+}
+.custom-tabs .ref-link.active {
+  background-color: #c22032;
+  box-shadow: 3px 3px 10px #dedede;
+  border: 2px solid #c22032;
+  color: #FFFFFF;
+}
+
+.features-tabs ul {
+  list-style: none;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.features-tabs .ref-link {
+  background-color: #c22032;
+  color: #FFFFFF;
+  border-radius: 0;
+  border: 2px solid #c22032;
+  text-wrap: nowrap;
+  padding: 0.5rem;
+  display: block;
+}
+.features-tabs .ref-link:hover {
+  background-color: #ae1d2d;
+  box-shadow: 3px 3px 10px #dedede;
+  border: 2px solid #ae1d2d;
+  color: #FFFFFF;
+}
+.features-tabs .ref-link.active {
   background-color: #c22032;
   box-shadow: 3px 3px 10px #dedede;
   border: 2px solid #c22032;
@@ -1948,10 +2025,6 @@ body h6 {
   font-family: "Roboto-Bold";
   src: url("./../fonts/Roboto/Roboto-Bold.ttf");
 }
-.site-header {
-  background-color: #FFFFFF;
-}
-
 .navbar-brand img {
   height: 70px;
 }
@@ -1999,21 +2072,22 @@ body h6 {
 .header-top ul li {
   display: inline-block;
   font-family: "Montserrat-Medium";
-  color: #000;
+  color: #fff;
 }
 .header-top ul a {
   text-decoration: none;
   font-family: "Montserrat-Medium";
-  color: #000;
+  color: #fff;
 }
 
 .signin-size {
   height: 15px;
   width: 15px;
+  filter: invert(1);
 }
 
 .site-header .navbar-light .navbar-nav .nav-link {
-  color: #000;
+  color: #fff;
 }
 .site-header .navbar {
   padding-top: 0;
@@ -2021,7 +2095,11 @@ body h6 {
 .site-header .nav-link {
   padding: 0.4rem 1rem;
 }
-.site-header .navbar-light .navbar-nav .nav-link.active, .site-header .navbar-light .navbar-nav .nav-link:hover {
+.site-header .navbar-light .navbar-nav .nav-link.active {
+  color: #C22032;
+  border-bottom: 2px solid #C22032;
+}
+.site-header .navbar-light .navbar-nav .nav-link:hover {
   color: #C22032;
   border-bottom: 2px solid #C22032;
 }
@@ -2044,6 +2122,31 @@ body h6 {
 .navbar-menu-title {
   font-size: 16px;
   color: #000;
+}
+
+.fixed-top.sticky {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #eee;
+}
+.fixed-top.sticky .header-top ul li {
+  color: #000;
+}
+.fixed-top.sticky .header-top ul a {
+  color: #000;
+}
+.fixed-top.sticky .signin-size {
+  height: 15px;
+  width: 15px;
+  filter: none;
+}
+.fixed-top.sticky .site-header .navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+.fixed-top.sticky .site-header .navbar-toggler-icon {
+  background-image: url("../images/navbar-toggler-icon.svg");
+}
+.fixed-top.sticky .btn-outline-black {
+  border: 1px solid #000;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -2110,6 +2213,20 @@ body h6 {
   .block-landing-grey {
     height: auto !important;
   }
+  .main-Wrapper {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .site-header {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .sect-demo .block-lightorange {
+    max-width: 1140px;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -2139,6 +2256,12 @@ body h6 {
   .star-landing-rating ul li {
     padding: 0 0px;
   }
+  .customerapp-tabs ul.justify-content-center {
+    justify-content: unset !important;
+  }
+  .features-tabs ul.justify-content-center {
+    justify-content: unset !important;
+  }
 }
 @media (max-width: 991.5px) {
   .sect-transresults h3 {
@@ -2153,9 +2276,6 @@ body h6 {
   }
   .mt-116 {
     margin-top: 80px !important;
-  }
-  .main-carousel {
-    margin-top: 80px;
   }
   .showcase-app-block h3 {
     font-size: 30px !important;
@@ -2439,6 +2559,21 @@ body h6 {
   .singleplatform-landing-app-block .row .col-md-6:first-child {
     margin-bottom: 2rem;
   }
+  .custom-tabs .row .col-md-6:first-child {
+    margin-bottom: 2rem;
+  }
+  .customerapp-tabs .row .col-md-6:first-child {
+    margin-bottom: 2rem;
+  }
+  .custapp-slider .row .col-md-4 {
+    margin-bottom: 2rem;
+  }
+  .sect-jobquote .w-75 {
+    width: 100% !important;
+  }
+  .sect-rating-review .w-75 {
+    width: 100% !important;
+  }
 }
 @media only screen and (max-width: 680px) {
   .learnmore-block-outer .learnmore-block {
@@ -2582,9 +2717,6 @@ body h6 {
   .mt-116 {
     margin-top: 60px !important;
   }
-  .main-carousel {
-    margin-top: 60px;
-  }
 }
 @media only screen and (max-width: 380px) {
   .main-carousel .carousel-caption h1 {
@@ -2672,7 +2804,7 @@ a:hover {
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: left;
-  top: 50%;
+  top: 55%;
   transform: translate(0, -50%);
   max-width: 50%;
 }
@@ -2726,6 +2858,8 @@ a:hover {
 
 #accordionservice .accordion-button {
   color: #FFFFFF;
+  font-size: 1.3rem;
+  padding: 20px 40px;
 }
 #accordionservice .accordion-button img {
   width: 40px;
@@ -2777,7 +2911,7 @@ a:hover {
   box-shadow: none;
 }
 .site-header .navbar-toggler-icon {
-  background-image: url("../images/navbar-toggler-icon.svg");
+  background-image: url("../images/navbar-toggler-icon-white.svg");
   width: 29px;
   height: 19px;
 }
@@ -3290,7 +3424,7 @@ footer .footlogo {
   padding: 20px;
 }
 .sect-services h5 {
-  font-family: "Poppins-semibold";
+  font-family: "Montserrat-SemiBold";
 }
 
 .sect-demo .card {
@@ -3319,10 +3453,24 @@ footer .footlogo {
 #accordionfaq .accordion-button {
   font-family: "Montserrat-Medium";
   font-weight: 600;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+#accordionfaq .accordion-body {
+  padding: 2rem;
 }
 
 .card.sub-content {
   border: 0;
+}
+
+#accordionservice .accordion-item {
+  margin-bottom: 1rem;
+}
+
+#IndustryCarousel .carousel-item .col-md-3 {
+  flex: 0 0 auto;
+  width: 30%;
 }
 
 .sub-tab .nav-pills .nav-link.active,
@@ -3642,18 +3790,10 @@ select.form-control {
   padding: 3rem 0;
 }
 
-.customerapp-tabs .nav-pills .nav-link.active,
-.customerapp-tabs .nav-pills .show > .nav-link {
-  background-color: #c22032;
-  color: #ffffff;
-  border: 2px solid #c22032;
-}
-.customerapp-tabs .nav-pills .nav-link.active img,
-.customerapp-tabs .nav-pills .show > .nav-link img {
-  filter: invert(50%) brightness(200%);
-}
 .customerapp-tabs ul {
   list-style: none;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 .customerapp-tabs .ref-link {
   color: #000000;
@@ -3661,6 +3801,7 @@ select.form-control {
   border: 2px solid #ddd;
   padding: 0.5rem;
   display: block;
+  text-wrap: nowrap;
 }
 .customerapp-tabs .ref-link:hover {
   color: #ffffff;
@@ -3669,6 +3810,15 @@ select.form-control {
   border: 2px solid #c22032;
 }
 .customerapp-tabs .ref-link:hover img {
+  filter: invert(50%) brightness(200%);
+}
+.customerapp-tabs .ref-link.active {
+  background-color: #c22032;
+  box-shadow: 3px 3px 10px #dedede;
+  border: 2px solid #c22032;
+  color: #FFFFFF;
+}
+.customerapp-tabs .ref-link.active img {
   filter: invert(50%) brightness(200%);
 }
 .customerapp-tabs .ref-link img {

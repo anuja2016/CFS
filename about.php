@@ -7,10 +7,10 @@ include_once 'header.php';
 </section>
 <section class="main-Wrapper sect-about margin-btm" data-aos="fade-up">
     <div class="row flex-row-reverse justify-content-between">
-        <div class="col-md-5" data-aos="fade-left">
+        <div class="col-md-5" data-aos="fade-up">
             <img src="assets/images/about-fieldweb.png" class="img-fluid" alt="...">
         </div>
-        <div class="col-md-6" data-aos="fade-right">
+        <div class="col-md-6" data-aos="fade-up">
             <h3 class="title-bold mb-3">About FieldWeb</h3>
             <p class="mb-3">FieldWeb is a field service management (FSM) application for small businesses that helps business owners to track and manage their field business operations easily and securely.</p>
             <p class="mb-3">FieldWeb comes up with a large set of features like Real-Time Task Scheduling, AMC management, CRM, Asset management etc.</p>
@@ -22,11 +22,11 @@ include_once 'header.php';
     <div class="main-Wrapper block-lightorange rounded-0">
         <div class="row flex-row-reverse">
             <div class="col-md-6">
-                <div class="wcu-img" data-aos="fade-left">
+                <div class="wcu-img" data-aos="fade-up">
                     <img src="assets/images/Why-Choose-us.svg">
                 </div>
             </div>
-            <div class="col-md-6" data-aos="fade-right">
+            <div class="col-md-6" data-aos="fade-up">
                 <p>CHOOSE</p>
                 <h2 class="title">Why Choose us</h2>
                 <p class="mt-2">HVAC business software is a comprehensive tool that helps streamline your operations, from scheduling</p>
@@ -196,12 +196,12 @@ include_once 'header.php';
     <h2 class="title-semibold"> Over 200000+ Field Service Businesses in 50+ </h2>
     <h2 class="title-semibold">industries trust FieldWeb</h2>
     <div class="row align-items-center">
-        <div class="col-md-6 pb-3" data-aos="fade-right">
+        <div class="col-md-6 pb-3">
             <p class="title-md">IN 40 YEARS OF EXPERIENCE</p>
             <h4 class="title pt-2">Trusted By </h4>
             <h3 class="red-title-bold drawn-underline"><span class="count">40000</span>+ Users</h3>
         </div>
-        <div class="col-md-6" data-aos="fade-left">
+        <div class="col-md-6">
             <img src="assets/images/idea.svg" alt="..." class="img-fluid">
         </div>
     </div>
