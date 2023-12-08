@@ -61,7 +61,7 @@
     }
 
     h5 {
-        font-family: "Poppins-semibold";
+        font-family: 'Montserrat-SemiBold';
     }
 }
 
@@ -94,11 +94,31 @@
     .accordion-button {
         font-family: 'Montserrat-Medium';
         font-weight: 600;
+        padding: 2rem;
+        font-size: 1.2rem;
+    }
+    .accordion-body{
+        padding: 2rem;
     }
 }
 
 .card {
     &.sub-content {
         border: 0;
+    }
+}
+
+#accordionservice {
+    .accordion-item {
+        margin-bottom: 1rem;
+    }
+}
+
+#IndustryCarousel {
+    .carousel-item {
+        .col-md-3 {
+            flex: 0 0 auto;
+            width: 30%;
+        }
     }
 }

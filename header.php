@@ -34,8 +34,8 @@
                     <li><a href="#" class="d-flex">Sign in <span class="ms-2"><img src="assets/images/signin-icon-black.svg" class="signin-size" /></span> </a></li>
                 </ul>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                <a href="index.php" class="navbar-brand dsk-fwlogo" href="#"><img src="assets/images/logo.svg" /></a>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="index.php" class="navbar-brand dsk-fwlogo" href="#"><img src="assets/images/FW-Logo-white.svg" /></a>
                 <a href="index.php" class="navbar-brand mob-fwlogo" href="#"><img src="assets/images/fw-favicon.svg" /></a>
                 <div class="collapse navbar-collapse justify-content-end">
                     <ul class="navbar-nav mb-2 mb-lg-0">

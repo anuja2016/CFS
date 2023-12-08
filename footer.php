@@ -53,7 +53,7 @@
 
       <div class="col-md-4 col-sm-6 col-12">
         <div class="desk-contactdetails">
-          <img class="footlogo" src="assets/images/footer-logo.svg" />
+          <img class="footlogo" src="assets/images/FW-Logo-white.svg" />
           <div>
             <div class="getintouch">
               <p>GET IN TOUCH:</p>
@@ -106,6 +106,42 @@
 <!--scripts--->
 <script type="text/javascript" src="assets/js/jquery-3.7.1.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+<!---menu active---->
+<script type="text/javascript">
+  $(document).ready(function() {
+    // header main menu
+    $(".site-header .navbar-light .navbar-nav .nav-link").click(function() {
+      $('.site-header .navbar-light .navbar-nav .nav-link').removeClass('active');
+      $(this).addClass('active');
+    }).each(function() {
+      var link = $(this);
+      if (link.get(0).href === location.href) {
+        $('.site-header .navbar-light .navbar-nav .nav-link').removeClass('active');
+        link.addClass("active");
+        return false;
+      } else {
+        $('.site-header .navbar-light .navbar-nav .nav-link').removeClass('active');
+      }
+    });
+
+    // filter menu
+    $(".sect-jobs ul li a").click(function() {
+      $('.sect-jobs ul li a').removeClass('active');
+      $(this).addClass('active');
+    });
+  });
+
+
+  // var header = document.getElementsByClassName("navbar-nav");
+  // var btns = header.getElementsByClassName("nav-link");
+  // for (var i = 0; i < btns.length; i++) {
+  //   btns[i].addEventListener("click", function() {
+  //     var current = document.getElementsByClassName("active");
+  //     current[0].className = current[0].className.replace(" active", "");
+  //     this.className += " active";
+  //   });
+  // }
+</script>
 <script type="text/javascript" src="assets/js/aos.js"></script>
 <script type="text/javascript" src="assets/js/slick.min.js"></script>
 <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
@@ -479,20 +515,7 @@
   
   
 </script>
-<!---menu active---->
-<script type="text/javascript">
-  $(document).ready(function() {
-    // $('.site-header .navbar-nav li a').click(function() {
-    //   alert("67588888888889");
-    //   $('.site-header .navbar-nav li a').removeClass('active');
-    //   $(this).addClass('active');
-    // });
-    $(".site-header .navbar-nav li a").on('click', function() {
-      $('.site-header .navbar-nav li a').removeClass('active');
-      $(this).addClass('active');
-    });
-  });
-</script>
+
 <script>
   function openNav() {
     document.getElementById("mySidenav").style.width = "280px";
@@ -505,4 +528,115 @@
     // document.body.style.backgroundColor = "white";
     document.getElementById("page-backdrop").style.display = "none";
   }
+</script>
+<script>
+  // features details links
+  $('#btn-frontoffice').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-frontoffice').offset().top - headerheight
+    }, 'slow');
+  });
+  $('#btn-fieldoperation').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-fieldoperation').offset().top - headerheight
+    }, 'slow');
+  });
+  $('#btn-customerexperience').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-customerexperience').offset().top - headerheight
+    }, 'slow');
+  });
+
+
+
+  // features details links
+  $('#btn-createquote').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-createquote').offset().top - headerheight
+    }, 'slow');
+  });
+  $('#btn-send-slatc').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-send-slatc').offset().top - headerheight
+    }, 'slow');
+  });
+  $('#btn-quoteapproval').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-quoteapproval').offset().top - headerheight
+    }, 'slow');
+  });
+  $('#btn-quotestatus').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-quotestatus').offset().top - headerheight
+    }, 'slow');
+  });
+  $('#btn-createjob').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-createjob').offset().top - headerheight
+    }, 'slow');
+  });
+
+
+  // customer app links
+  $('#btn-BrandCustomization').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-BrandCustomization').offset().top - headerheight
+    }, 'slow');
+  });
+  $('#btn-CustomerEngagement').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-CustomerEngagement').offset().top - headerheight
+    }, 'slow');
+  });
+  $('#btn-ServiceBooking').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-ServiceBooking').offset().top - headerheight
+    }, 'slow');
+  });
+  $('#btn-WebContent').click(function() {
+    var headerheight = parseInt($(".fixed-top").height() + 20);
+    $('html, body').animate({
+      scrollTop: $('#tb-WebContent').offset().top - headerheight
+    }, 'slow');
+  });
+</script>
+
+
+<!----Filter gallery--->
+<script>
+  $(document).ready(function() {
+    $(".filter-button").click(function() {
+      var value = $(this).attr('data-filter');
+      if (value == "all") {
+        $('.filter').show();
+      } else {
+        $(".filter").not('.' + value).hide();
+        $('.filter').filter('.' + value).show();
+      }
+    });
+  });
+</script>
+
+<!----sticky header--->
+<script>
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 1) {
+      $('header').addClass("sticky");
+      $(".dsk-fwlogo img").attr("src","assets/images/FW-Logo.svg");
+    } else {
+      $('header').removeClass("sticky");
+      $(".dsk-fwlogo img").attr("src","assets/images/FW-Logo-white.svg");
+    }
+  });
 </script>

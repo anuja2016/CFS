@@ -3,16 +3,6 @@
     padding: 3rem 0;
 }
 .customerapp-tabs {
-    .nav-pills .nav-link.active,
-    .nav-pills .show>.nav-link {
-        background-color: #c22032;
-        color: #ffffff;
-        border: 2px solid #c22032;
-
-        img {
-            filter: invert(50%) brightness(200%);
-        }
-    }
 
     // .nav-pills {
     //     .nav-link {
@@ -37,8 +27,10 @@
     //         }
     //     }
     // }
-    ul{
+    ul {
         list-style: none;
+        flex-wrap: nowrap;
+        overflow-x: auto;
     }
     .ref-link {
         color: #000000;
@@ -46,6 +38,7 @@
         border: 2px solid #ddd;
         padding: 0.5rem;
         display: block;
+        text-wrap: nowrap;
 
         &:hover {
             color: #ffffff;
@@ -53,6 +46,15 @@
             box-shadow: 3px 3px 10px #dedede;
             border: 2px solid #c22032;
 
+            img {
+                filter: invert(50%) brightness(200%);
+            }
+        }
+        &.active {
+            background-color: #c22032;
+            box-shadow: 3px 3px 10px #dedede;
+            border: 2px solid #c22032;
+            color: #FFFFFF;
             img {
                 filter: invert(50%) brightness(200%);
             }

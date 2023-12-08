@@ -282,7 +282,7 @@ include_once 'header.php';
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row w-75 m-auto">
         <div class="col-md-4 col-sm-6 col-6 my-3">
           <div class="social-grid-block text-center">
             <img src="assets/images/rating-review-icon-1.svg">

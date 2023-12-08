@@ -84,7 +84,22 @@
     .block-landing-grey {
         height: auto!important;
     }
-    
+    .main-Wrapper {
+        max-width: 1140px;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .site-header {
+        max-width: 1140px;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .sect-demo .block-lightorange {
+        max-width: 1140px;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -135,6 +150,20 @@
             }
         }
     }
+    .customerapp-tabs {
+        ul {
+            &.justify-content-center{
+                justify-content: unset!important;
+            }
+        }
+    }
+    .features-tabs {
+        ul {
+            &.justify-content-center{
+                justify-content: unset!important;
+            }
+        }
+    }
 }
 
 @media (max-width: 991.5px) {
@@ -153,9 +182,9 @@
     .mt-116 {
         margin-top: 80px !important;
     }
-    .main-carousel {
-        margin-top: 80px;
-    }
+    // .main-carousel {
+    //     margin-top: 80px;
+    // }
     .showcase-app-block {
         h3 {
             font-size: 30px!important;
@@ -675,6 +704,41 @@
             }
         }
     }
+    .custom-tabs{
+        .row{
+            .col-md-6{
+                &:first-child{
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+    .customerapp-tabs{
+        .row{
+            .col-md-6{
+                &:first-child{
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+    .custapp-slider{
+        .row{
+            .col-md-4{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .sect-jobquote{
+        .w-75 {
+            width: 100%!important;
+        }
+    }
+    .sect-rating-review {
+        .w-75{
+            width: 100%!important;
+        }
+    }
 }
 
 @media only screen and (max-width: 680px) {
@@ -913,9 +977,9 @@
     .mt-116 {
         margin-top: 60px !important;
     }
-    .main-carousel {
-        margin-top: 60px;
-    }
+    // .main-carousel {
+    //     margin-top: 60px;
+    // }
 }
 
 @media only screen and (max-width: 380px) {

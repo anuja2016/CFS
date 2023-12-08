@@ -49,105 +49,103 @@ include_once 'header.php';
 </section>
 <section class="custom-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
-        <ul class="nav nav-pills justify-content-center mb-3">
-            <div class="d-flex gap-4">
-                <li class="nav-item">
-                    <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tb-createquote">Create Quote</a>
+        <div class="margin-btm">
+            <ul class="d-flex gap-4 justify-content-center">
+                <li>
+                    <a id="btn-createquote" class="ref-link active">Create Quote</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-send-slatc">Send SLA and T&C</a>
+                <li>
+                    <a id="btn-send-slatc" class="ref-link">Send SLA and T&C</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-quoteapproval">Quote Approvals</a>
+                <li>
+                    <a id="btn-quoteapproval" class="ref-link">Quote Approvals</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-quotestatus">Quote Statuses</a>
+                <li>
+                    <a id="btn-quotestatus" class="ref-link">Quote Statuses</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-createjob">Create Jobs</a>
+                <li>
+                    <a id="btn-createjob" class="ref-link">Create Jobs</a>
                 </li>
-            </div>
-        </ul>
-        <div class="tab-content margin-btm mt-5">
-            <div class="tab-pane fade show active" id="tb-createquote">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="title-sm-red mb-2">Create Quote</p>
-                        <h2 class="title-mont-semibold">Craft Quick and Customer - Friendly Quotes Effortlessly with FieldWeb</h2>
-                        <p class="mb-3">Effortlessly Craft Winning Quotes with FieldWeb's Advanced Quotation Feature.</p>
-                        <p class="mb-3">Empower your business with easy-to-use tools for accurate and professional quoting, enhancing your client relationships and boosting success.</p>
-                        <p class="mb-3">Add multiple services and items with their quantity and price and make your quotation easily understandable to your customers.</p>
-                        <div class="mt-3 text-left">
-                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                        </div>
+            </ul>
+        </div>
+        <div class="margin-btm" id="tb-createquote">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="title-sm-red mb-2">Create Quote</p>
+                    <h2 class="title-bold">Craft Quick and Customer - Friendly Quotes Effortlessly with FieldWeb</h2>
+                    <p class="mb-3">Effortlessly Craft Winning Quotes with FieldWeb's Advanced Quotation Feature.</p>
+                    <p class="mb-3">Empower your business with easy-to-use tools for accurate and professional quoting, enhancing your client relationships and boosting success.</p>
+                    <p class="mb-3">Add multiple services and items with their quantity and price and make your quotation easily understandable to your customers.</p>
+                    <div class="mt-3 text-left">
+                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
-                    <div class="col-md-6">
-                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="margin-btm" id="tb-send-slatc">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p class="title-sm-red mb-2">Send SLA and T&C</p>
+                    <h2 class="title-bold">Enhance Quoting Precision: Send SLA and T&C's Effortlessly with FieldWeb</h2>
+                    <p class="mb-3">FieldWeb lets you bolster clarity and adherence by attaching Service Level Agreements and Terms & Conditions directly to your quotes. </p>
+                    <p class="mb-3">Elevate client communication with comprehensive, transparent quotations, fostering trust and ensuring compliance for smoother interactions and successful partnerships.</p>
+                    <div class="mt-3 text-left">
+                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="tb-send-slatc">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+        </div>
+        <div class="margin-btm" id="tb-quoteapproval">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="title-sm-red mb-2">Quote Approvals</p>
+                    <h2 class="title-bold">Streamline Customer Approvals</h2>
+                    <p class="mb-3">FieldWeb empowers clients to conveniently give their nod to quotes through the dedicated customer app. </p>
+                    <p class="mb-3">Enhance engagement and simplify the process, making it easier than ever for customers to approve quotes on the go, fostering efficient communication and swift decision-making</p>
+                    <div class="mt-3 text-left">
+                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
-                    <div class="col-md-6">
-                        <p class="title-sm-red mb-2">Send SLA and T&C</p>
-                        <h2 class="title-mont-semibold">Enhance Quoting Precision: Send SLA and T&C's Effortlessly with FieldWeb</h2>
-                        <p class="mb-3">FieldWeb lets you bolster clarity and adherence by attaching Service Level Agreements and Terms & Conditions directly to your quotes. </p>
-                        <p class="mb-3">Elevate client communication with comprehensive, transparent quotations, fostering trust and ensuring compliance for smoother interactions and successful partnerships.</p>
-                        <div class="mt-3 text-left">
-                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                        </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="margin-btm" id="tb-quotestatus">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p class="title-sm-red mb-2">Quote Statuses</p>
+                    <h2 class="title-bold">Effortlessly Manage Quote Statuses</h2>
+                    <p class="mb-3">FieldWeb offers intuitive control over varied quote statuses, providing a comprehensive view of converted quotes and those requiring follow-up. </p>
+                    <p class="mb-3">This functionality ensures a streamlined workflow, empowering businesses to efficiently track the progress of quotes and take informed actions for enhanced customer engagement and business growth.</p>
+                    <div class="mt-3 text-left">
+                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="tb-quoteapproval">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="title-sm-red mb-2">Quote Approvals</p>
-                        <h2 class="title-mont-semibold">Streamline Customer Approvals</h2>
-                        <p class="mb-3">FieldWeb empowers clients to conveniently give their nod to quotes through the dedicated customer app. </p>
-                        <p class="mb-3">Enhance engagement and simplify the process, making it easier than ever for customers to approve quotes on the go, fostering efficient communication and swift decision-making</p>
-                        <div class="mt-3 text-left">
-                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+        </div>
+        <div class="margin-btm" id="tb-createjob">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="title-sm-red mb-2">Create Jobs</p>
+                    <h2 class="title-bold">Effortless Job Creation from Approved Quotes with FieldWeb's Streamlined Workflow</h2>
+                    <p class="mb-3">With FieldWeb, approved quotes transform into tasks instantly.</p>
+                    <p class="mb-3">Effortlessly convert quotes to actionable jobs, optimizing efficiency and eliminating manual steps. Elevate your workflow with streamlined task creation directly from approved quotes, ensuring swift and accurate project initiation.</p>
+                    <div class="mt-3 text-left">
+                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane fade" id="tb-quotestatus">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
-                    </div>
-                    <div class="col-md-6">
-                        <p class="title-sm-red mb-2">Quote Statuses</p>
-                        <h2 class="title-mont-semibold">Effortlessly Manage Quote Statuses</h2>
-                        <p class="mb-3">FieldWeb offers intuitive control over varied quote statuses, providing a comprehensive view of converted quotes and those requiring follow-up. </p>
-                        <p class="mb-3">This functionality ensures a streamlined workflow, empowering businesses to efficiently track the progress of quotes and take informed actions for enhanced customer engagement and business growth.</p>
-                        <div class="mt-3 text-left">
-                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="tb-createjob">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="title-sm-red mb-2">Create Jobs</p>
-                        <h2 class="title-mont-semibold">Effortless Job Creation from Approved Quotes with FieldWeb's Streamlined Workflow</h2>
-                        <p class="mb-3">With FieldWeb, approved quotes transform into tasks instantly.</p>
-                        <p class="mb-3">Effortlessly convert quotes to actionable jobs, optimizing efficiency and eliminating manual steps. Elevate your workflow with streamlined task creation directly from approved quotes, ensuring swift and accurate project initiation.</p>
-                        <div class="mt-3 text-left">
-                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
-                    </div>
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -287,46 +285,46 @@ include_once 'header.php';
         <div class="text-center margin-btm">
             <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
         </div>
-        <div class="owl-carousel owl-theme" id="TrustedCompaniesCarousel" >
-        <div class="item">
-            <img src="assets/images/gopienterprises.svg" class="partner-img">
+        <div class="owl-carousel owl-theme" id="TrustedCompaniesCarousel">
+            <div class="item">
+                <img src="assets/images/gopienterprises.svg" class="partner-img">
+            </div>
+            <div class="item">
+                <img src="assets/images/nextgenlogo.svg" class="partner-img">
+            </div>
+            <div class="item">
+                <img src="assets/images/njclogo.svg" class="partner-img">
+            </div>
+            <div class="item">
+                <img src="assets/images/gopienterprises.svg" class="partner-img">
+            </div>
+            <div class="item">
+                <img src="assets/images/nextgenlogo.svg" class="partner-img">
+            </div>
+            <div class="item">
+                <img src="assets/images/njclogo.svg" class="partner-img">
+            </div>
         </div>
-        <div class="item">
-            <img src="assets/images/nextgenlogo.svg" class="partner-img">
+        <div class="owl-carousel owl-theme mt-5" id="TrustedCompaniesCarousel2">
+            <div class="item">
+                <img src="assets/images/gopienterprises.svg" class="partner-img">
+            </div>
+            <div class="item">
+                <img src="assets/images/nextgenlogo.svg" class="partner-img">
+            </div>
+            <div class="item">
+                <img src="assets/images/njclogo.svg" class="partner-img">
+            </div>
+            <div class="item">
+                <img src="assets/images/gopienterprises.svg" class="partner-img">
+            </div>
+            <div class="item">
+                <img src="assets/images/nextgenlogo.svg" class="partner-img">
+            </div>
+            <div class="item">
+                <img src="assets/images/njclogo.svg" class="partner-img">
+            </div>
         </div>
-        <div class="item">
-            <img src="assets/images/njclogo.svg" class="partner-img">
-        </div>
-        <div class="item">
-            <img src="assets/images/gopienterprises.svg" class="partner-img">
-        </div>
-        <div class="item">
-            <img src="assets/images/nextgenlogo.svg" class="partner-img">
-        </div>
-        <div class="item">
-            <img src="assets/images/njclogo.svg" class="partner-img">
-        </div>
-    </div>
-    <div class="owl-carousel owl-theme mt-5" id="TrustedCompaniesCarousel2">
-        <div class="item">
-            <img src="assets/images/gopienterprises.svg" class="partner-img">
-        </div>
-        <div class="item">
-            <img src="assets/images/nextgenlogo.svg" class="partner-img">
-        </div>
-        <div class="item">
-            <img src="assets/images/njclogo.svg" class="partner-img">
-        </div>
-        <div class="item">
-            <img src="assets/images/gopienterprises.svg" class="partner-img">
-        </div>
-        <div class="item">
-            <img src="assets/images/nextgenlogo.svg" class="partner-img">
-        </div>
-        <div class="item">
-            <img src="assets/images/njclogo.svg" class="partner-img">
-        </div>
-    </div>
 </section>
 <!----------get demo----------->
 <section class="sect-demo mt-20 pb-3" data-aos="fade-up">
