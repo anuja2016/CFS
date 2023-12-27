@@ -639,3 +639,35 @@
     }
   });
 </script>
+
+<!----industry details custom tabs--->
+<script>
+  $("#ScheduleJobTabContent").hide();
+  $("#CompleteJobTabContent").hide();
+  $("#InvoiceTabContent").hide();
+  
+  $("#QuoteaTabs li a").click(function() {
+    $("#ScheduleJobTabContent").hide();
+    $("#CompleteJobTabContent").hide();
+    $("#InvoiceTabContent").hide();
+    $("#QuoteTabContent").show();
+  });
+  $("#ScheduleJobTabs li a").click(function() {
+    $("#QuoteTabContent").hide();
+    $("#CompleteJobTabContent").hide();
+    $("#InvoiceTabContent").hide();
+    $("#ScheduleJobTabContent").show();
+  });
+  $("#CompleteJobTabs li a").click(function() {
+    $("#QuoteTabContent").hide();
+    $("#ScheduleJobTabContent").hide();
+    $("#InvoiceTabContent").hide();
+    $("#CompleteJobTabContent").show();
+  });
+  $("#InvoiceTabs li a").click(function() {
+    $("#QuoteTabContent").hide();
+    $("#ScheduleJobTabContent").hide();
+    $("#CompleteJobTabContent").hide();
+    $("#InvoiceTabContent").show();
+  });
+</script>

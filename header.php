@@ -239,6 +239,7 @@
                         </div>
                         <div class="mb-3">
                             <select class="form-select">
+                                <option>Services</option>
                                 <option>Business Whatsapp</option>
                                 <option>DND</option>
                                 <option>White label customer app</option>

@@ -19,7 +19,86 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="sect-transresults margin-btm">
+<section class="margin-btm" data-aos="fade-up">
+    <div class="main-Wrapper">
+        <div class="sect-rating-review">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 my-3">
+                    <div class="social-rating-grid p-2">
+                        <img src="assets/images/androidicon.svg">
+                        <div class="d-flex-column">
+                            <p>PlayStore</p>
+                            <h6>Rated 4.7/5 (4192)</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 my-3">
+                    <div class="social-rating-grid p-2">
+                        <img src="assets/images/App-Store.svg">
+                        <div class="d-flex-column">
+                            <p>App Store</p>
+                            <h6>Rated 4.7/5 (4192)</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 my-3">
+                    <div class="social-rating-grid p-2">
+                        <img src="assets/images/google-icon.svg">
+                        <div class="d-flex-column">
+                            <p>Google Reviews</p>
+                            <h6>Rated 4.7/5 (4192)</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row w-75 m-auto">
+                <div class="col-md-4 col-sm-6 col-6 my-3">
+                    <div class="social-grid-block text-center">
+                        <img src="assets/images/rating-review-icon-1.svg">
+                        <h2 class="title-bold">300k +</h2>
+                        <p class="title-sm-mont">Total Learners</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6 my-3">
+                    <div class="social-grid-block text-center">
+                        <img src="assets/images/rating-review-icon-1.svg">
+                        <h2 class="title-bold">300k +</h2>
+                        <p class="title-sm-mont">Total Learners</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6 my-3">
+                    <div class="social-grid-block text-center">
+                        <img src="assets/images/rating-review-icon-1.svg">
+                        <h2 class="title-bold">300k +</h2>
+                        <p class="title-sm-mont">Total Learners</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6 my-3">
+                    <div class="social-grid-block text-center">
+                        <img src="assets/images/rating-review-icon-1.svg">
+                        <h2 class="title-bold">300k +</h2>
+                        <p class="title-sm-mont">Total Learners</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6 my-3">
+                    <div class="social-grid-block text-center">
+                        <img src="assets/images/rating-review-icon-2.svg">
+                        <h2 class="title-bold">300k +</h2>
+                        <p class="title-sm-mont">Total Learners</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6 my-3">
+                    <div class="social-grid-block text-center">
+                        <img src="assets/images/rating-review-icon-1.svg">
+                        <h2 class="title-bold">300k +</h2>
+                        <p class="title-sm-mont">Total Learners</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section class="sect-transresults margin-btm">
     <div class="container">
         <div class="row">
             <div class="col-md-5">
@@ -79,21 +158,21 @@ include_once 'header.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <section class="custom-tabs margin-btm">
     <div class="container">
         <div class="margin-btm features-tabs">
-            <ul class="d-flex gap-4 justify-content-center">
-                <li>
+            <div class="row justify-content-center">
+                <div class="col-md-3 mb-3">
                     <a id="btn-frontoffice" class="ref-link">Front Office</a>
-                </li>
-                <li>
+                </div>
+                <div class="col-md-3 mb-3">
                     <a id="btn-fieldoperation" class="ref-link">Field Operation</a>
-                </li>
-                <li>
+                </div>
+                <div class="col-md-3">
                     <a id="btn-customerexperience" class="ref-link">Customer Experience</a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
         <div class="margin-btm" id="tb-frontoffice">
             <div class="mt-5">
@@ -102,27 +181,25 @@ include_once 'header.php';
                     <p class="pt-4">OPTIMIZE YOUR OFFICE TEAM'S PERFORMANCE WITH TOOLS DESIGNED FOR SEAMLESS BOOKING, COMMUNICATION, AND COORDINATION.</p>
                 </div>
                 <div class="sub-tab">
-                    <ul class="nav nav-pills justify-content-center mb-3">
-                        <div class="d-flex gap-4 mt-5">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tb-quotation">Quotation</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-scheduling">Scheduling</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-completejob">Complete Job</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-invoice">Invoice</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-membership">Memberships</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-leadmanagement">Lead Management</a>
-                            </li>
-                        </div>
+                    <ul class="nav nav-pills justify-content-between mb-3 d-flex gap-4 mt-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tb-quotation">Quotation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-scheduling">Scheduling</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-completejob">Complete Job</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-invoice">Invoice</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-membership">Memberships</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-leadmanagement">Lead Management</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="sub-content">
@@ -132,32 +209,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">QUOTATION</h3>
-                                        <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
-                                        <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
+                                            <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_Quotation_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Quotation_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Quotation_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Quotation_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Quotation_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Quotation_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -166,11 +257,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">QUOTATION</p>
-                                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_Quotation_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Quotation_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Quotation_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Quotation_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Quotation_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Quotation_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -182,32 +322,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">SCHEDULING</h3>
-                                        <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
-                                        <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
+                                            <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_Scheduling_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Scheduling_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Scheduling_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Scheduling_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Scheduling_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Scheduling_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -216,11 +370,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">SCHEDULING</p>
-                                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_Scheduling_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Scheduling_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Scheduling_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Scheduling_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Scheduling_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Scheduling_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -232,32 +435,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">COMPLETE JOB</h3>
-                                        <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
-                                        <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
+                                            <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_Completejob_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Completejob_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Completejob_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Completejob_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Completejob_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Completejob_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -266,11 +483,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">COMPLETE JOB</p>
-                                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_Completejob_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Completejob_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Completejob_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Completejob_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Completejob_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Completejob_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -282,32 +548,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">INVOICE</h3>
-                                        <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
-                                        <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
+                                            <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_Invoice_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Invoice_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Invoice_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Invoice_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Invoice_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Invoice_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -316,11 +596,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">INVOICE</p>
-                                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_Invoice_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Invoice_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Invoice_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Invoice_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Invoice_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Invoice_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -332,32 +661,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">MEMBERSHIPS</h3>
-                                        <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
-                                        <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
+                                            <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_Membership_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Membership_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Membership_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Membership_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Membership_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Membership_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -366,11 +709,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">MEMBERSHIPS</p>
-                                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_Membership_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Membership_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Membership_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Membership_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Membership_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Membership_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -382,32 +774,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">LEAD MANAGEMENT</h3>
-                                        <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
-                                        <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
+                                            <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_LeadMgmt_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_LeadMgmt_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_LeadMgmt_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_LeadMgmt_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_LeadMgmt_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_LeadMgmt_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -416,11 +822,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">LEAD MANAGEMENT</p>
-                                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_LeadMgmt_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_LeadMgmt_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_LeadMgmt_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_LeadMgmt_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_LeadMgmt_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_LeadMgmt_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -438,27 +893,25 @@ include_once 'header.php';
                     <p class="pt-4">Arm your field team with the tools they need to boost revenue and efficiency at every job they.</p>
                 </div>
                 <div class="sub-tab">
-                    <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
-                        <div class="d-flex gap-4 mt-5">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#tb-mobileapp">Mobile App</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-estimates">Estimates</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-pricebook">Pricebook</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-equipment">Equipment</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-forms">Forms</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-timesheets">Timesheets</a>
-                            </li>
-                        </div>
+                    <ul class="nav nav-pills justify-content-between mb-3 d-flex gap-4 mt-5" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#tb-mobileapp">Mobile App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-estimates">Estimates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-pricebook">Pricebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-equipment">Equipment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-forms">Forms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-timesheets">Timesheets</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="sub-content">
@@ -468,32 +921,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">MOBILE APP</h3>
-                                        <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
-                                        <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                            <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_MobileApp_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_MobileApp_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_MobileApp_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_MobileApp_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_MobileApp_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_MobileApp_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -502,11 +969,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/job-schedules-bg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">MOBILE APP</p>
-                                                <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_MobileApp_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_MobileApp_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_MobileApp_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_MobileApp_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_MobileApp_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_MobileApp_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -518,32 +1034,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-md-montbold">ESTIMATES</p>
-                                        <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
-                                        <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                            <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_Estimates_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Estimates_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Estimates_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Estimates_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Estimates_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Estimates_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -552,11 +1082,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/job-schedules-bg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">ESTIMATES</p>
-                                                <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_Estimates_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Estimates_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Estimates_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Estimates_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Estimates_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Estimates_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -568,32 +1147,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">PRICEBOOK</h3>
-                                        <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
-                                        <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                            <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_Pricebook_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Pricebook_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Pricebook_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Pricebook_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Pricebook_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Pricebook_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -602,11 +1195,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">PRICEBOOK</p>
-                                                <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_Pricebook_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Pricebook_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Pricebook_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Pricebook_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Pricebook_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Pricebook_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -618,32 +1260,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">EQUIPMENT</h3>
-                                        <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
-                                        <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                            <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_Equipment_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Equipment_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Equipment_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Equipment_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Equipment_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Equipment_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -652,11 +1308,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">EQUIPMENT</p>
-                                                <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_Equipment_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Equipment_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Equipment_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Equipment_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Equipment_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Equipment_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -668,32 +1373,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">FORMS</h3>
-                                        <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
-                                        <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
+                                            <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_Forms_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Forms_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Forms_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Forms_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Forms_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Forms_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -702,11 +1421,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">FORMS</p>
-                                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_Forms_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Forms_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Forms_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Forms_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Forms_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Forms_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -718,32 +1486,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">TIMESHEETS</h3>
-                                        <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
-                                        <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
+                                            <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#FO_Timesheets_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Timesheets_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Timesheets_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Timesheets_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Timesheets_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#FO_Timesheets_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -752,11 +1534,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">TIMESHEETS</p>
-                                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="FO_Timesheets_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Timesheets_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Timesheets_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Timesheets_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Timesheets_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="FO_Timesheets_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -774,27 +1605,25 @@ include_once 'header.php';
                     <p class="pt-4">Offer customers a modern, five-star experience designed to help you capture more business with greater ease.</p>
                 </div>
                 <div class="sub-tab">
-                    <ul class="nav nav-pills justify-content-center mb-3">
-                        <div class="d-flex gap-4 mt-5">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#tb-cmobileapp">Mobile App</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-cestimates">Estimates</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-cpricebook">Pricebook</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-cequipment">Equipment</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-cforms">Forms</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-ctimesheets">Timesheets</a>
-                            </li>
-                        </div>
+                    <ul class="nav nav-pills justify-content-between mb-3 d-flex gap-4 mt-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#tb-cmobileapp">Mobile App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-cestimates">Estimates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-cpricebook">Pricebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-cequipment">Equipment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-cforms">Forms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tb-ctimesheets">Timesheets</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="sub-content">
@@ -804,32 +1633,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">MOBILE APP</h3>
-                                        <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
-                                        <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                            <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#CE_MobileApp_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_MobileApp_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_MobileApp_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_MobileApp_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_MobileApp_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_MobileApp_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -838,11 +1681,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">MOBILE APP</p>
-                                                <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="CE_MobileApp_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_MobileApp_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_MobileApp_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_MobileApp_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_MobileApp_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_MobileApp_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -854,32 +1746,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-md-montbold">ESTIMATES</p>
-                                        <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
-                                        <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                            <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#CE_Estimates_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Estimates_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Estimates_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Estimates_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Estimates_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Estimates_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -888,11 +1794,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">ESTIMATES</p>
-                                                <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="CE_Estimates_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Estimates_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Estimates_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Estimates_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Estimates_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Estimates_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -904,32 +1859,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">PRICEBOOK</h3>
-                                        <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
-                                        <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                            <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#CE_Pricebook_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Pricebook_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Pricebook_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Pricebook_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Pricebook_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Pricebook_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -938,11 +1907,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">PRICEBOOK</p>
-                                                <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="CE_Pricebook_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Pricebook_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Pricebook_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Pricebook_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Pricebook_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Pricebook_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -954,32 +1972,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">EQUIPMENT</h3>
-                                        <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
-                                        <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                            <p class="pt-2">Quotes are professionally designed and interactive, allowing customers to add on services and approve the updated total. And they’re a breeze to create as well, with Jobber helping you set the perfect price every time.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#CE_Equipment_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Equipment_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Equipment_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Equipment_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Equipment_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Equipment_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -988,11 +2020,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">EQUIPMENT</p>
-                                                <p class="pt-2">When you send quotes through Jobber, new leads experience the quality of service they can expect from your business first-hand.</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="CE_Equipment_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Equipment_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Equipment_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Equipment_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Equipment_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Equipment_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1004,32 +2085,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">FORMS</h3>
-                                        <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
-                                        <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
+                                            <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#CE_Forms_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Forms_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Forms_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Forms_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Forms_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Forms_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -1038,11 +2133,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">FORMS</p>
-                                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="CE_Forms_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Forms_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Forms_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Forms_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Forms_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Forms_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1054,32 +2198,46 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">TIMESHEETS</h3>
-                                        <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
-                                        <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
-                                        <ul class="f-list w-50">
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Quote</p>
+                                        <div class="text-justify">
+                                            <p class="pt-2">FieldWeb's Quotation feature streamlines your front office operations, enabling you to create, manage, and track quotations seamlessly. Generate accurate estimates for services and products, and effortlessly share them with clients for their approval. </p>
+                                            <p class="pt-2">With FieldWeb, you can monitor the status of each quotation and ensure a smooth and efficient process from inquiry to final approval.</p>
+                                        </div>
+                                        <ul class="f-list w-50 nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#CE_Timesheets_tab1">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Quote</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Add Multiple Services and Items</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Timesheets_tab2">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Add Multiple Services and Items</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Attach SLA and T&C’s</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Timesheets_tab3">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Attach SLA and T&C’s</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Approvals</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Timesheets_tab4">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Approvals</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Quote Statuses</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Timesheets_tab5">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Quote Statuses</p>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src="assets/images/arrowrightblack.svg" />
-                                                <p class="title-sm">Create Jobs</p>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#CE_Timesheets_tab6">
+                                                    <img src="assets/images/arrowrightblack.svg" />
+                                                    <p class="title-sm">Create Jobs</p>
+                                                </a>
                                             </li>
                                         </ul>
                                         <div class="mt-4 text-left">
@@ -1088,11 +2246,60 @@ include_once 'header.php';
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="card">
-                                            <img src="assets/images/invoicepaidimg.svg" class="card-img-top" alt="...">
-                                            <div class="card-body text-center">
-                                                <p class="title-xls">TIMESHEETS</p>
-                                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="CE_Timesheets_tab1">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Quote</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Timesheets_tab2">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Add Multiple Services and Items</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Timesheets_tab3">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Attach SLA and T&C’s</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Timesheets_tab4">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Approvals</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Timesheets_tab5">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Quote Statuses</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="CE_Timesheets_tab6">
+                                                <div class="card">
+                                                    <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body text-center">
+                                                        <p class="title-xls">Create Jobs</p>
+                                                        <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1235,12 +2442,12 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-4" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <p class="subtitle">LEADING All -IN ONE SOFTWARE</p>
-                <h2 class="black-xl-title pt-2">Book your <span class="drawn-underline">Personalized Demo</span> to learn more</h2>
+                <h2 class="black-xl-title mt-3 mb-4">Book your <span class="drawn-underline">Personalized</span> Demo to learn more</h2>
                 <p class="subtext">Explore why 1000 + service professional trust FieldWeb to run their business.</p>
             </div>
             <div class="col-md-5 ms-auto">
@@ -1282,7 +2489,7 @@ include_once 'header.php';
 
                         </div>
                         <div class="text-center mb-3">
-                            <a href="thankyou.php" type="button" class="btn-red">SUBMIT</a>
+                            <button type="button" class="btn-red">SUBMIT</button>
                         </div>
                     </div>
                 </div>

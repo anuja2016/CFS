@@ -502,7 +502,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="sect-demo mt-20 pb-4" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-5" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">

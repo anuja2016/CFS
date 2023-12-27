@@ -50,9 +50,9 @@ include_once 'header.php';
 <section class="custom-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-center">
+            <ul class="d-flex gap-4 justify-content-between">
                 <li>
-                    <a id="btn-createquote" class="ref-link active">Create Quote</a>
+                    <a id="btn-createquote" class="ref-link">Create Quote</a>
                 </li>
                 <li>
                     <a id="btn-send-slatc" class="ref-link">Send SLA and T&C</a>
@@ -73,10 +73,12 @@ include_once 'header.php';
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Create Quote</p>
                     <h2 class="title-bold">Craft Quick and Customer - Friendly Quotes Effortlessly with FieldWeb</h2>
-                    <p class="mb-3">Effortlessly Craft Winning Quotes with FieldWeb's Advanced Quotation Feature.</p>
-                    <p class="mb-3">Empower your business with easy-to-use tools for accurate and professional quoting, enhancing your client relationships and boosting success.</p>
-                    <p class="mb-3">Add multiple services and items with their quantity and price and make your quotation easily understandable to your customers.</p>
-                    <div class="mt-3 text-left">
+                    <div class="text-justify">
+                        <p class="mb-4">Effortlessly Craft Winning Quotes with FieldWeb's Advanced Quotation Feature.</p>
+                        <p class="mb-4">Empower your business with easy-to-use tools for accurate and professional quoting, enhancing your client relationships and boosting success.</p>
+                        <p class="mb-4">Add multiple services and items with their quantity and price and make your quotation easily understandable to your customers.</p>
+                    </div>
+                    <div class="mt-4 text-left">
                         <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>
@@ -93,9 +95,11 @@ include_once 'header.php';
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Send SLA and T&C</p>
                     <h2 class="title-bold">Enhance Quoting Precision: Send SLA and T&C's Effortlessly with FieldWeb</h2>
-                    <p class="mb-3">FieldWeb lets you bolster clarity and adherence by attaching Service Level Agreements and Terms & Conditions directly to your quotes. </p>
-                    <p class="mb-3">Elevate client communication with comprehensive, transparent quotations, fostering trust and ensuring compliance for smoother interactions and successful partnerships.</p>
-                    <div class="mt-3 text-left">
+                    <div class="text-justify">
+                        <p class="mb-4">FieldWeb lets you bolster clarity and adherence by attaching Service Level Agreements and Terms & Conditions directly to your quotes. </p>
+                        <p class="mb-4">Elevate client communication with comprehensive, transparent quotations, fostering trust and ensuring compliance for smoother interactions and successful partnerships.</p>
+                    </div>
+                    <div class="mt-4 text-left">
                         <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>
@@ -106,9 +110,11 @@ include_once 'header.php';
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Quote Approvals</p>
                     <h2 class="title-bold">Streamline Customer Approvals</h2>
-                    <p class="mb-3">FieldWeb empowers clients to conveniently give their nod to quotes through the dedicated customer app. </p>
-                    <p class="mb-3">Enhance engagement and simplify the process, making it easier than ever for customers to approve quotes on the go, fostering efficient communication and swift decision-making</p>
-                    <div class="mt-3 text-left">
+                    <div class="text-justify">
+                        <p class="mb-4">FieldWeb empowers clients to conveniently give their nod to quotes through the dedicated customer app. </p>
+                        <p class="mb-4">Enhance engagement and simplify the process, making it easier than ever for customers to approve quotes on the go, fostering efficient communication and swift decision-making</p>
+                    </div>
+                    <div class="mt-4 text-left">
                         <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>
@@ -125,9 +131,11 @@ include_once 'header.php';
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Quote Statuses</p>
                     <h2 class="title-bold">Effortlessly Manage Quote Statuses</h2>
-                    <p class="mb-3">FieldWeb offers intuitive control over varied quote statuses, providing a comprehensive view of converted quotes and those requiring follow-up. </p>
-                    <p class="mb-3">This functionality ensures a streamlined workflow, empowering businesses to efficiently track the progress of quotes and take informed actions for enhanced customer engagement and business growth.</p>
-                    <div class="mt-3 text-left">
+                    <div class="text-justify">
+                        <p class="mb-4">FieldWeb offers intuitive control over varied quote statuses, providing a comprehensive view of converted quotes and those requiring follow-up. </p>
+                        <p class="mb-4">This functionality ensures a streamlined workflow, empowering businesses to efficiently track the progress of quotes and take informed actions for enhanced customer engagement and business growth.</p>
+                    </div>
+                    <div class="mt-4 text-left">
                         <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>
@@ -138,9 +146,11 @@ include_once 'header.php';
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Create Jobs</p>
                     <h2 class="title-bold">Effortless Job Creation from Approved Quotes with FieldWeb's Streamlined Workflow</h2>
-                    <p class="mb-3">With FieldWeb, approved quotes transform into tasks instantly.</p>
-                    <p class="mb-3">Effortlessly convert quotes to actionable jobs, optimizing efficiency and eliminating manual steps. Elevate your workflow with streamlined task creation directly from approved quotes, ensuring swift and accurate project initiation.</p>
-                    <div class="mt-3 text-left">
+                    <div class="text-justify">
+                        <p class="mb-4">With FieldWeb, approved quotes transform into tasks instantly.</p>
+                        <p class="mb-4">Effortlessly convert quotes to actionable jobs, optimizing efficiency and eliminating manual steps. Elevate your workflow with streamlined task creation directly from approved quotes, ensuring swift and accurate project initiation.</p>
+                    </div>
+                    <div class="mt-4 text-left">
                         <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
                 </div>
@@ -152,7 +162,7 @@ include_once 'header.php';
     </div>
 </section>
 <section class="main-Wrapper margin-btm" data-aos="fade-up">
-    <div class="sect-jobquote">
+    <div class="sect-jobquote text-justify">
         <h2 class="title text-center">What is job quoting software?</h2>
         <p class="mt-3 mb-4">Quote management software is a digital tool designed to streamline and enhance the process of creating, managing, and tracking quotations for products or services offered by a business. This software simplifies and automates what was once a time-consuming and manual task, enabling businesses to provide accurate quotes more efficiently and effectively.</p>
         <ul>
@@ -169,7 +179,7 @@ include_once 'header.php';
         <div class="col-md-6">
             <div class="quote-grey-block p-4 m-mb-5">
                 <h5 class="block-red text-center">For your Business:</h5>
-                <ul class="text-left title-sm-para">
+                <ul class="text-justify title-sm-para">
                     <li class="pt-3">Spend less time creating quotes and chasing down approval</li>
                     <li class="pt-3">Win bigger jobs by offering consumer financing and add-ons in your quote</li>
                     <li class="pt-3">Improve your win rate by 16% by sending quotes via text message</li>
@@ -179,7 +189,7 @@ include_once 'header.php';
         <div class="col-md-6">
             <div class="quote-grey-block p-4">
                 <h5 class="block-red text-center">For your Customer:</h5>
-                <ul class="text-left title-sm-para">
+                <ul class="text-justify title-sm-para">
                     <li class="pt-3">Spend less time creating quotes and chasing down approval</li>
                     <li class="pt-3">Win bigger jobs by offering consumer financing and add-ons in your quote</li>
                     <li class="pt-3">Improve your win rate by 16% by sending quotes via text message</li>
@@ -327,12 +337,12 @@ include_once 'header.php';
         </div>
 </section>
 <!----------get demo----------->
-<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-5" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <p class="subtitle">LEADING All -IN ONE SOFTWARE</p>
-                <h2 class="black-xl-title pt-2">Book your <span class="drawn-underline">Personalized Demo</span> to learn more</h2>
+                <h2 class="black-xl-title mt-3 mb-4">Book your <span class="drawn-underline">Personalized</span> Demo to learn more</h2>
                 <p class="subtext">Explore why 1000 + service professional trust FieldWeb to run their business.</p>
             </div>
             <div class="col-md-5 ms-auto">
@@ -373,7 +383,7 @@ include_once 'header.php';
                             </div>
 
                         </div>
-                        <div class="text-center margin-btm">
+                        <div class="text-center mb-3">
                             <button type="button" class="btn-red">SUBMIT</button>
                         </div>
                     </div>

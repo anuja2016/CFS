@@ -4,7 +4,7 @@ include_once 'header.php';
 
 <section>
     <div class="landing-app-block margin-btm text-center mt-116">
-        <div class="main-Wrapper pt-5">
+        <div class="main-Wrapper pt-15">
             <p class="landing-white-title">We Bring Emotions to Your Life</p>
             <p class="landing-white-para">Feugiat primis ligula risus auctor laoreet augue egestas mauris
                 viverra tortor in iaculis suscipit

@@ -22,7 +22,7 @@ include_once 'header.php';
     </div>
     <div class="sect-jobs mt-5">
         <div class="main-Wrapper">
-            <ul class="d-flex gap-4 justify-content-center mb-5">
+            <ul class="d-flex gap-4 justify-content-between mb-5">
                 <li>
                     <a class="filter-button ref-link active" data-filter="all">ALL (20)</a>
                 </li>
@@ -39,16 +39,16 @@ include_once 'header.php';
                     <a class="filter-button ref-link" data-filter="Marketing">Marketing</a>
                 </li>
                 <li>
-                    <a class="filter-button ref-link" data-filter="Writtng">Writtng</a>
+                    <a class="filter-button ref-link" data-filter="Writtng">Writting</a>
                 </li>
             </ul>
-            <div class="row">
+            <div class="row w-90 m-auto">
                 <div class="col-md-4 col-sm-6 mb-5 filter Coding">
                     <div class="jobs-grid">
                         <span><img src="assets/images/clock-icon.svg">Week 4</span>
                         <img src="assets/images/jobs/jobs-icon4.svg">
                         <h4>Advanced Security</h4>
-                        <p>Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
+                        <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
                         <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ include_once 'header.php';
                         <span><img src="assets/images/clock-icon.svg">Week 4</span>
                         <img src="assets/images/jobs/jobs-icon5.svg">
                         <h4>Advanced Security</h4>
-                        <p>Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
+                        <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
                         <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ include_once 'header.php';
                         <span><img src="assets/images/clock-icon.svg">Week 4</span>
                         <img src="assets/images/jobs/jobs-icon6.svg">
                         <h4>Advanced Security</h4>
-                        <p>Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
+                        <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
                         <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ include_once 'header.php';
                         <span><img src="assets/images/clock-icon.svg">Week 4</span>
                         <img src="assets/images/jobs/jobs-icon1.svg">
                         <h4>Advanced Security</h4>
-                        <p>Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
+                        <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
                         <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ include_once 'header.php';
                         <span><img src="assets/images/clock-icon.svg">Week 4</span>
                         <img src="assets/images/jobs/jobs-icon2.svg">
                         <h4>Advanced Security</h4>
-                        <p>Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
+                        <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
                         <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ include_once 'header.php';
                         <span><img src="assets/images/clock-icon.svg">Week 4</span>
                         <img src="assets/images/jobs/jobs-icon3.svg">
                         <h4>Advanced Security</h4>
-                        <p>Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
+                        <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
                         <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ include_once 'header.php';
                         <span><img src="assets/images/clock-icon.svg">Week 4</span>
                         <img src="assets/images/jobs/jobs-icon4.svg">
                         <h4>Advanced Security</h4>
-                        <p>Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
+                        <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
                         <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ include_once 'header.php';
                         <span><img src="assets/images/clock-icon.svg">Week 4</span>
                         <img src="assets/images/jobs/jobs-icon5.svg">
                         <h4>Advanced Security</h4>
-                        <p>Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
+                        <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
                         <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ include_once 'header.php';
                         <span><img src="assets/images/clock-icon.svg">Week 4</span>
                         <img src="assets/images/jobs/jobs-icon6.svg">
                         <h4>Advanced Security</h4>
-                        <p>Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
+                        <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
                         <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
                     </div>
                 </div>

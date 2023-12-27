@@ -1,7 +1,8 @@
-.quotesin-fw{
+.quotesin-fw {
     background-color: #FFEDED;
     padding: 3rem 0;
 }
+
 .customerapp-tabs {
 
     // .nav-pills {
@@ -31,14 +32,18 @@
         list-style: none;
         flex-wrap: nowrap;
         overflow-x: auto;
+        padding-left: 0;
     }
+
     .ref-link {
         color: #000000;
         border-radius: 6px;
         border: 2px solid #ddd;
-        padding: 0.5rem;
-        display: block;
+        padding: 0.7rem 2rem;
+        display: flex;
         text-wrap: nowrap;
+        gap: 10px;
+        align-items: center;
 
         &:hover {
             color: #ffffff;
@@ -50,11 +55,13 @@
                 filter: invert(50%) brightness(200%);
             }
         }
+
         &.active {
             background-color: #c22032;
             box-shadow: 3px 3px 10px #dedede;
             border: 2px solid #c22032;
             color: #FFFFFF;
+
             img {
                 filter: invert(50%) brightness(200%);
             }

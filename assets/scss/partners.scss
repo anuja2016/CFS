@@ -17,26 +17,43 @@
 }
 
 .sect-deal-partner {
-    h5 {
-        color: #000000;
-        font-family: "Montserrat-Bold";
-        font-size: 1.2rem;
-        letter-spacing: normal;
-        cursor: default;
-    }
+    .row {
+        .col-md-4 {
+            img {
+                width: 100px;
+                height: 100px;
+                margin-bottom: 10px;
+                transition-duration: 0.6s;
+                -webkit-transition-property: transform;
+                transition-property: transform;
+                -webkit-transition-timing-function: ease-out;
+                transition-timing-function: ease-out;
+            }
 
-    img {
-        height: 100px;
-        width: 100px;
-        margin-bottom: 10px;
-    }
-
-    p {
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        cursor: default;
+            &:hover {
+                img {
+                    // -webkit-transform: scale(1.1);
+                    // transform: scale(1.1);
+                    -webkit-transform: rotateY(190deg);
+                    transform: rotateY(190deg);
+                }
+            }
+            h5 {
+                color: #000000;
+                font-family: "Montserrat-Bold";
+                font-size: 1.2rem;
+                letter-spacing: normal;
+                cursor: default;
+            }
+        
+            p {
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                cursor: default;
+            }
+        }
     }
 }
 
@@ -92,12 +109,15 @@
                     &:first-child {
                         background-color: #212120;
                         color: #fff;
-                        .d-flex{
-                            align-items:center;
+
+                        .d-flex {
+                            align-items: center;
                         }
+
                         img {
                             margin-right: 5px;
                         }
+
                         border-right: 4px solid #fff;
                     }
 
@@ -211,6 +231,7 @@
     background-repeat: no-repeat;
     background-position: bottom;
 }
-.txt-yellow{
-    color: #EED814!important;
+
+.txt-yellow {
+    color: #EED814 !important;
 }

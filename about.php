@@ -12,9 +12,11 @@ include_once 'header.php';
         </div>
         <div class="col-md-6" data-aos="fade-up">
             <h3 class="title-bold mb-3">About FieldWeb</h3>
-            <p class="mb-3">FieldWeb is a field service management (FSM) application for small businesses that helps business owners to track and manage their field business operations easily and securely.</p>
-            <p class="mb-3">FieldWeb comes up with a large set of features like Real-Time Task Scheduling, AMC management, CRM, Asset management etc.</p>
-            <p>Today, FieldWeb is becoming a household name. Business Owners and fieldworkers use the app extensively while creating 1000's tasks every day. The high engagement has resulted in more than 25% of revenue growth, a 27% decrease in customer churn rate and a 32% increase in workers' productivity.</p>
+            <div class="text-justify">
+                <p class="mb-3">FieldWeb is a field service management (FSM) application for small businesses that helps business owners to track and manage their field business operations easily and securely.</p>
+                <p class="mb-3">FieldWeb comes up with a large set of features like Real-Time Task Scheduling, AMC management, CRM, Asset management etc.</p>
+                <p>Today, FieldWeb is becoming a household name. Business Owners and fieldworkers use the app extensively while creating 1000's tasks every day. The high engagement has resulted in more than 25% of revenue growth, a 27% decrease in customer churn rate and a 32% increase in workers' productivity.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -207,7 +209,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="sect-demo mt-10 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-10 pb-5" data-aos="fade-up">
     <div class="block-lightorange text-center py-5">
         <h4 class="title-semibold">"Unlock Efficiency: Schedule Your FieldWeb FSM Demo Today!"</h4>
         <div class="sect-demo-desc">

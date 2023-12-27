@@ -4,6 +4,10 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 50px 20px;
+    .row>*{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 }
 
 .jobs-grid {

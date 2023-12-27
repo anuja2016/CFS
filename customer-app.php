@@ -36,9 +36,9 @@ include_once 'header.php';
 <section class="customerapp-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-center">
+            <ul class="d-flex gap-4 justify-content-between">
                 <li>
-                    <a id="btn-BrandCustomization" class="ref-link active"><img src="assets/images/Brand-Customization-icon.svg"> Branding and Customization</a>
+                    <a id="btn-BrandCustomization" class="ref-link"><img src="assets/images/Brand-Customization-icon.svg"> Branding and Customization</a>
                 </li>
                 <li>
                     <a id="btn-CustomerEngagement" class="ref-link"><img src="assets/images/Customer-Engagement-icon.svg"> Customer Engagement</a>
@@ -56,8 +56,10 @@ include_once 'header.php';
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Branding and Customization</p>
                     <h2 class="title-bold">Make customer-friendly quotes in less time</h2>
-                    <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
-                    <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    <div class="text-justify">
+                        <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
+                        <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    </div>
                     <div class="mt-3">
                         <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
@@ -75,8 +77,10 @@ include_once 'header.php';
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Customer Engagement</p>
                     <h2 class="title-bold">Make customer-friendly quotes in less time</h2>
-                    <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
-                    <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    <div class="text-justify">
+                        <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
+                        <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    </div>
                     <div class="mt-3">
                         <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
@@ -88,8 +92,10 @@ include_once 'header.php';
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Service Booking</p>
                     <h2 class="title-bold">Make customer-friendly quotes in less time</h2>
-                    <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
-                    <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    <div class="text-justify">
+                        <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
+                        <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    </div>
                     <div class="mt-3">
                         <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
@@ -107,8 +113,10 @@ include_once 'header.php';
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Web Content</p>
                     <h2 class="title-bold">Make customer-friendly quotes in less time</h2>
-                    <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
-                    <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    <div class="text-justify">
+                        <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
+                        <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
+                    </div>
                     <div class="mt-3">
                         <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
                     </div>
@@ -213,7 +221,7 @@ include_once 'header.php';
         <div class="col-md-6">
             <div class="quote-grey-block p-4">
                 <h5 class="block-red text-center">For your Business:</h5>
-                <ul class="text-left title-sm-para">
+                <ul class="text-justify">
                     <li class="pt-3">Spend less time creating quotes and chasing down approval</li>
                     <li class="pt-3">Win bigger jobs by offering consumer financing and add-ons in your quote</li>
                     <li class="pt-3">Improve your win rate by 16% by sending quotes via text message</li>
@@ -223,7 +231,7 @@ include_once 'header.php';
         <div class="col-md-6">
             <div class="quote-grey-block p-4">
                 <h5 class="block-red text-center">For your Customer:</h5>
-                <ul class="text-left title-sm-para">
+                <ul class="text-justify">
                     <li class="pt-3">Spend less time creating quotes and chasing down approval</li>
                     <li class="pt-3">Win bigger jobs by offering consumer financing and add-ons in your quote</li>
                     <li class="pt-3">Improve your win rate by 16% by sending quotes via text message</li>
@@ -300,8 +308,10 @@ include_once 'header.php';
                     <div class="col-md-4">
                         <div class="custapp-content">
                             <h2 class="title-mont-semibold">Shayona Service</h2>
-                            <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
-                            <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
+                            <div class="text-justify">
+                                <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
+                                <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
+                            </div>
                             <div class="mt-4">
                                 <button type="button" class="btn-red">Good Time Service App</button>
                             </div>
@@ -317,8 +327,10 @@ include_once 'header.php';
                     <div class="col-md-4">
                         <div class="custapp-content">
                             <h2 class="title-mont-semibold">Good Time Service</h2>
-                            <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
-                            <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
+                            <div class="text-justify">
+                                <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
+                                <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
+                            </div>
                             <div class="mt-4">
                                 <button type="button" class="btn-red">Good Time Service App</button>
                             </div>
@@ -334,8 +346,10 @@ include_once 'header.php';
                     <div class="col-md-4">
                         <div class="custapp-content">
                             <h2 class="title-mont-semibold">Oscar Plus Elevator</h2>
-                            <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
-                            <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
+                            <div class="text-justify">
+                                <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
+                                <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
+                            </div>
                             <div class="mt-4">
                                 <button type="button" class="btn-red">Good Time Service App</button>
                             </div>
@@ -368,7 +382,7 @@ include_once 'header.php';
                         <div class="col-md-8">
                             <div class="custf-content">
                                 <h4>“Jobber allows me to focus on the business.”</h4>
-                                <p>There’s less resending of estimates or invoices, or customers wondering who is coming to their house and when. It’s also reduced missed appointments with automated reminders.</p>
+                                <p class="text-justify">There’s less resending of estimates or invoices, or customers wondering who is coming to their house and when. It’s also reduced missed appointments with automated reminders.</p>
                             </div>
                         </div>
                     </div>
@@ -387,7 +401,7 @@ include_once 'header.php';
                         <div class="col-md-8">
                             <div class="custf-content">
                                 <h4>“Jobber allows me to focus on the business.”</h4>
-                                <p>There’s less resending of estimates or invoices, or customers wondering who is coming to their house and when. It’s also reduced missed appointments with automated reminders.</p>
+                                <p class="text-justify">There’s less resending of estimates or invoices, or customers wondering who is coming to their house and when. It’s also reduced missed appointments with automated reminders.</p>
                             </div>
                         </div>
                     </div>

@@ -51,7 +51,7 @@ include_once 'header.php';
                             <div class="prod-user margin-btm">
                                 <img src="assets/images/user-icon.svg">
                                 <span>1 User</span>
-                                <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="1 User">
+                                <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
                             </div>
                         </div>
                         <div class="pricing-plan-foot">
@@ -203,7 +203,7 @@ include_once 'header.php';
             </div>
         </div>
         <div class="mt-5 text-left">
-            <a href="contact.php" class="btn-red arrowBtn u-button has-hover m-auto" tabindex="-1">
+            <a data-bs-toggle="modal" data-bs-target="#mdl_contactsales" class="btn-red arrowBtn u-button has-hover m-auto">
                 <span class="u-button-arrow"></span>
                 <span>Contact Sales</span>
             </a>
@@ -510,12 +510,12 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-4" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <p class="subtitle">LEADING All -IN ONE SOFTWARE</p>
-                <h2 class="black-xl-title pt-2">Book your <span class="drawn-underline">Personalized Demo</span> to learn more</h2>
+                <h2 class="black-xl-title mt-3 mb-4">Book your <span class="drawn-underline">Personalized</span> Demo to learn more</h2>
                 <p class="subtext">Explore why 1000 + service professional trust FieldWeb to run their business.</p>
             </div>
             <div class="col-md-5 ms-auto">

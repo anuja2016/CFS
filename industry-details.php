@@ -38,17 +38,19 @@ include_once 'header.php';
                 <img src="assets/images/quotation-bg.svg" class="img-fluid">
             </div>
             <div class="col-md-6">
-                <p class="mb-3">In the fast-paced world of HVAC services, efficiency and accuracy are paramount. FieldWeb offers comprehensive HVAC business software that revolutionizes the way you manage your operations.</p>
-                <p class="mb-3"><b>Effortless Management:</b> Our HVAC business software streamlines every aspect of your operations. From scheduling appointments and dispatching technicians to tracking inventory and generating invoice..</p>
-                <p class="mb-3"><b>Real-time Updates:</b> Stay in the loop with real-time updates. Receive instant notifications when new jobs are booked, enabling you to assign tasks promptly & technicians can access job details.</p>
-                <p class="mb-3"><b>Enhanced Customer Engagement:</b> Our HVAC software allows clients to book appointments online, view service history, and access quotes. </p>
-                <p><b>Key Benefits:</b></p>
-                <ul class="mt-3 ps-3">
-                    <li><b>Efficient Scheduling:</b> Optimize technician schedules for faster response times.</li>
-                    <li><b>Inventory Management:</b> Track and manage inventory effortlessly.</li>
-                    <li><b>Accurate Invoicing:</b> Generate professional invoices with accurate pricing.</li>
-                    <li><b>Real-time Communication:</b> Stay connected with clients and field staff instantly.</li>
-                </ul>
+                <div class="text-justify">
+                    <p class="mb-3">In the fast-paced world of HVAC services, efficiency and accuracy are paramount. FieldWeb offers comprehensive HVAC business software that revolutionizes the way you manage your operations.</p>
+                    <p class="mb-3"><b>Effortless Management:</b> Our HVAC business software streamlines every aspect of your operations. From scheduling appointments and dispatching technicians to tracking inventory and generating invoice..</p>
+                    <p class="mb-3"><b>Real-time Updates:</b> Stay in the loop with real-time updates. Receive instant notifications when new jobs are booked, enabling you to assign tasks promptly & technicians can access job details.</p>
+                    <p class="mb-3"><b>Enhanced Customer Engagement:</b> Our HVAC software allows clients to book appointments online, view service history, and access quotes. </p>
+                    <p><b>Key Benefits:</b></p>
+                    <ul class="mt-3 ps-3">
+                        <li><b>Efficient Scheduling:</b> Optimize technician schedules for faster response times.</li>
+                        <li><b>Inventory Management:</b> Track and manage inventory effortlessly.</li>
+                        <li><b>Accurate Invoicing:</b> Generate professional invoices with accurate pricing.</li>
+                        <li><b>Real-time Communication:</b> Stay connected with clients and field staff instantly.</li>
+                    </ul>
+                </div>
                 <div class="mt-3 text-left">
                     <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Start Free Trial</button>
                 </div>
@@ -74,22 +76,30 @@ include_once 'header.php';
                         </h2>
                         <div id="service-collapseOne" class="accordion-collapse collapse" aria-labelledby="service-headingOne" data-bs-parent="#accordionservice">
                             <div class="accordion-body">
-                                <ul class="f-list">
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Add multiple services and items</p>
+                                <ul class="f-list nav nav-tabs" id="QuoteaTabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-bs-toggle="tab" href="#Quotes_tab1">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Add multiple services and items</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Share Quote & take follow-ups</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#Quotes_tab2">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Share Quote & take follow-ups</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Change Quote Status</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#Quotes_tab3">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Change Quote Status</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Quote Approvals</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#Quotes_tab4">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Quote Approvals</p>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -103,22 +113,30 @@ include_once 'header.php';
                         </h2>
                         <div id="service-collapseTwo" class="accordion-collapse collapse" aria-labelledby="service-headingTwo" data-bs-parent="#accordionservice">
                             <div class="accordion-body">
-                                <ul class="f-list">
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Assign jobs</p>
+                                <ul class="f-list nav nav-tabs" id="ScheduleJobTabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#ScheduleJob_tab1">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Assign jobs</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Map and route optimization</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#ScheduleJob_tab2">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Map and route optimization</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Real - Time Updates</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#ScheduleJob_tab3">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Real - Time Updates</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Job Reminders</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#ScheduleJob_tab4">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Job Reminders</p>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -132,22 +150,30 @@ include_once 'header.php';
                         </h2>
                         <div id="service-collapseThree" class="accordion-collapse collapse" aria-labelledby="service-headingThree" data-bs-parent="#accordionservice">
                             <div class="accordion-body">
-                                <ul class="f-list">
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Job Notification</p>
+                                <ul class="f-list nav nav-tabs" id="CompleteJobTabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#CompleteJob_tab1">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Job Notification</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Job Detailing</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#CompleteJob_tab2">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Job Detailing</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Job Images</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#CompleteJob_tab3">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Job Images</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Completion Report</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#CompleteJob_tab4">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Completion Report</p>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -161,22 +187,30 @@ include_once 'header.php';
                         </h2>
                         <div id="service-collapseFour" class="accordion-collapse collapse" aria-labelledby="service-headingFour" data-bs-parent="#accordionservice">
                             <div class="accordion-body">
-                                <ul class="f-list">
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Generate Invoice</p>
+                                <ul class="f-list nav nav-tabs" id="InvoiceTabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#Invoice_tab1">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Generate Invoice</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Invoice Statuses</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#Invoice_tab2">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Invoice Statuses</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Payment Followup</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#Invoice_tab3">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Payment Followup</p>
+                                        </a>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/arrowrightblack.svg" />
-                                        <p class="title-sm">Record Payment</p>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#Invoice_tab4">
+                                            <img src="assets/images/arrowrightblack.svg" />
+                                            <p>Record Payment</p>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -185,11 +219,156 @@ include_once 'header.php';
                 </div>
             </div>
             <div class="col-md-8">
-                <div class="card sub-content">
-                    <img src="assets/images/job-schedules-bg2.svg" class="img-fluid">
-                    <div class="card-body text-center">
-                        <p class="title-xls">HVAC Scheduling Software</p>
-                        <p class="pt-2">Efficient HVAC scheduling is essential for smooth operations. Our HVAC Scheduling Software simplifies appointment management, technician dispatch, and ensures timely service, enhancing your business's performance.</p>
+                <div class="tab-content" id="QuoteTabContent">
+                    <div class="tab-pane active" id="Quotes_tab1">
+                        <div class="card">
+                            <img src="assets/images/quotes-bg1.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">HVAC Scheduling Software</p>
+                                <p class="pt-2">Efficient HVAC scheduling is essential for smooth operations. Our HVAC Scheduling Software simplifies appointment management, technician dispatch, and ensures timely service, enhancing your business's performance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="Quotes_tab2">
+                        <div class="card">
+                            <img src="assets/images/quotes-bg2.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Add Multiple Services and Items</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="Quotes_tab3">
+                        <div class="card">
+                            <img src="assets/images/quotes-bg3.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Attach SLA and T&C’s</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="Quotes_tab4">
+                        <div class="card">
+                            <img src="assets/images/quotes-bg4.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Quote Approvals</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="ScheduleJobTabContent">
+                    <div class="tab-pane active" id="ScheduleJob_tab1">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Assign jobs</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="ScheduleJob_tab2">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Map and route optimization</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="ScheduleJob_tab3">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Real - Time Updates</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="ScheduleJob_tab4">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Job Reminders</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="CompleteJobTabContent">
+                    <div class="tab-pane active" id="CompleteJob_tab1">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Job Notification</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="CompleteJob_tab2">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Job Detailing</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="CompleteJob_tab3">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Job Images</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="CompleteJob_tab4">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Completion Report</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="InvoiceTabContent">
+                    <div class="tab-pane active" id="Invoice_tab1">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Generate Invoice</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="Invoice_tab2">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Invoice Statuses</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="Invoice_tab3">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Payment Followup</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="Invoice_tab4">
+                        <div class="card">
+                            <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                            <div class="card-body text-center">
+                                <p class="title-xls">Record Payment</p>
+                                <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -369,47 +548,65 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="mt-8 margin-btm" data-aos="fade-up">
-    <div class="main-Wrapper">
-        <div class="text-center mt-5 mb-5">
-            <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
+<section class="main-Wrapper margin-btm" data-aos="fade-up">
+    <div class="text-center margin-sm-btm">
+        <h2 class="title-semibold">Big & Small Business Trusted Us<h2>
+    </div>
+    <div class="owl-carousel owl-theme" id="TrustedCompaniesCarousel">
+        <div class="item">
+            <img src="assets/images/gopienterprises.svg" class="partner-img">
         </div>
-        <div class="trusted-companies mt-5">
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
+        <div class="item">
+            <img src="assets/images/nextgenlogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/njclogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/gopienterprises.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/nextgenlogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/njclogo.svg" class="partner-img">
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme mt-4" id="TrustedCompaniesCarousel2">
+        <div class="item">
+            <img src="assets/images/gopienterprises.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/nextgenlogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/njclogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/gopienterprises.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/nextgenlogo.svg" class="partner-img">
+        </div>
+        <div class="item">
+            <img src="assets/images/njclogo.svg" class="partner-img">
         </div>
     </div>
 </section>
 <!----------get demo----------->
-<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-5" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <p class="subtitle">LEADING All -IN ONE SOFTWARE</p>
-                <h2 class="black-xl-title pt-2">Book your <span class="drawn-underline">Personalized Demo</span> to learn more</h2>
+                <h2 class="black-xl-title mt-3 mb-4">Book your <span class="drawn-underline">Personalized</span> Demo to learn more</h2>
                 <p class="subtext">Explore why 1000 + service professional trust FieldWeb to run their business.</p>
             </div>
             <div class="col-md-5 ms-auto">
                 <div class="card">
                     <div class="card-body">
                         <div class="modal-header">
-                            <h6 class="title-poppins-bold">Request a personalized demo</h6>
+                            <h6 class="title-poppins-sbold">Request a personalized demo</h6>
                             <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close" class="pointer-cursor" />
                         </div>
                         <div class="row mb-3 mt-3">

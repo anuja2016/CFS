@@ -14,6 +14,7 @@
                 cursor: pointer;
                 -webkit-transform: rotateY(190deg);
                 transform: rotateY(190deg);
+                filter: brightness(0);
             }
 
             .arrow-img {
@@ -99,6 +100,7 @@
     }
     .accordion-body{
         padding: 2rem;
+        text-align: justify;
     }
 }
 

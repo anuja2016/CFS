@@ -41,7 +41,7 @@ include_once 'header.php';
                     <div class="col-md-6">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h2 class="title-mont-semibold">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <div class="mt-3 text-left">
                             <a href="blog-details.php" class="btn-red arrowBtn u-button has-hover mt-4">
                                 <span class="u-button-arrow"></span>
@@ -59,7 +59,7 @@ include_once 'header.php';
                     <div class="col-md-6">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h2 class="title-mont-semibold">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <div class="mt-3 text-left">
                             <a href="blog-details.php" class="btn-red arrowBtn u-button has-hover mt-4">
                                 <span class="u-button-arrow"></span>
@@ -77,7 +77,7 @@ include_once 'header.php';
                     <div class="col-md-6">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h2 class="title-mont-semibold">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <div class="mt-3 text-left">
                             <a href="blog-details.php" class="btn-red arrowBtn u-button has-hover mt-4">
                                 <span class="u-button-arrow"></span>
@@ -95,7 +95,7 @@ include_once 'header.php';
                     <div class="col-md-6">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h2 class="title-mont-semibold">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <div class="mt-3 text-left">
                             <a href="blog-details.php" class="btn-red arrowBtn u-button has-hover mt-4">
                                 <span class="u-button-arrow"></span>
@@ -113,7 +113,7 @@ include_once 'header.php';
                     <div class="col-md-6">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h2 class="title-mont-semibold">Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h2>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <div class="mt-3 text-left">
                             <a href="blog-details.php" class="btn-red arrowBtn u-button has-hover mt-4">
                                 <span class="u-button-arrow"></span>
@@ -176,7 +176,7 @@ include_once 'header.php';
                     <div class="card-body">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <a href="blog-details.php">
                             <span>Learn More</span>
                             <img src="assets/images/arrowright-red.svg" class="arrow-img">
@@ -190,7 +190,7 @@ include_once 'header.php';
                     <div class="card-body">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <a href="blog-details.php">
                             <span>Learn More</span>
                             <img src="assets/images/arrowright-red.svg" class="arrow-img">
@@ -204,7 +204,7 @@ include_once 'header.php';
                     <div class="card-body">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <a href="blog-details.php">
                             <span>Learn More</span>
                             <img src="assets/images/arrowright-red.svg" class="arrow-img">
@@ -218,7 +218,7 @@ include_once 'header.php';
                     <div class="card-body">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <a href="blog-details.php">
                             <span>Learn More</span>
                             <img src="assets/images/arrowright-red.svg" class="arrow-img">
@@ -232,7 +232,7 @@ include_once 'header.php';
                     <div class="card-body">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <a href="blog-details.php">
                             <span>Learn More</span>
                             <img src="assets/images/arrowright-red.svg" class="arrow-img">
@@ -246,7 +246,7 @@ include_once 'header.php';
                     <div class="card-body">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <a href="blog-details.php">
                             <span>Learn More</span>
                             <img src="assets/images/arrowright-red.svg" class="arrow-img">
@@ -260,7 +260,7 @@ include_once 'header.php';
                     <div class="card-body">
                         <p class="title-sm-red mb-2">HVAC Business</p>
                         <h3>Top 5 Benefits of Implementing Field Service Management Software for HVAC Businesses</h3>
-                        <p>Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
+                        <p class="text-justify">Proper management of field service operations is crucial for HVAC businesses to thrive in a competitive market. In today's digital age, Field Service Management (FSM) software has emerged as a game-changer for streamlining processes, enhancing productivity, and improving customer satisfaction.</p>
                         <a href="blog-details.php">
                             <span>Learn More</span>
                             <img src="assets/images/arrowright-red.svg" class="arrow-img">
@@ -281,12 +281,12 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="sect-demo mt-20 pb-3" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-5" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <p class="subtitle">LEADING All -IN ONE SOFTWARE</p>
-                <h2 class="black-xl-title pt-2">Book your <span class="drawn-underline">Personalized Demo</span> to learn more</h2>
+                <h2 class="black-xl-title mt-3 mb-4">Book your <span class="drawn-underline">Personalized</span> Demo to learn more</h2>
                 <p class="subtext">Explore why 1000 + service professional trust FieldWeb to run their business.</p>
             </div>
             <div class="col-md-5 ms-auto">
