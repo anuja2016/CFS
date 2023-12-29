@@ -11,6 +11,7 @@
     <link href="assets/css/aos.css" rel="stylesheet">
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/css/simplePagination.css" rel="stylesheet">
     <!--meta tags-->
     <meta name="title" content="Best Field Service Management | FSM Software - FieldWeb" />
     <meta property="og:title" content="Best Field Service Management | FSM Software - FieldWeb" />
@@ -110,8 +111,8 @@
                 <div id="gd-form">
                     <div class="modal-header">
                         <img src="assets/images/redfieldweblogo.svg">
-                        <h6 class="modal-title">Request a personalized demo</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h6 class="modal-title">Request a personalized demo</h6>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <form>
@@ -161,8 +162,11 @@
                             </div>
                         </form>
                     </div>
-                    <div class="text-center mb-3">
-                        <a href="thankyou.php" class="btn-red">SUBMIT</a>
+                    <div class="text-center mb-4">
+                        <a href="thankyou.php" class="btn-red arrowBtn u-button has-hover m-auto">
+                            <span class="u-button-arrow"></span>
+                            <span>SUBMIT</span>
+                        </a>
                     </div>
                 </div>
                 <div id="gd-industries" style="display: none;">
@@ -223,8 +227,8 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h6 class="modal-title">Contact to Sales</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h6 class="modal-title">Contact to Sales</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="form">
@@ -238,12 +242,31 @@
                             <input type="number" class="form-control" placeholder="Contact Number*">
                         </div>
                         <div class="mb-3">
-                            <select class="form-select">
-                                <option>Services</option>
-                                <option>Business Whatsapp</option>
-                                <option>DND</option>
-                                <option>White label customer app</option>
-                            </select>
+                            <div class="dropdown Multiselect_Dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="multiSelectDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Select Services
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="multiSelectDropdown">
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" value="Business Whatsapp">
+                                            Business Whatsapp
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" value="DND">
+                                            DND
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" value="White label Customer App">
+                                            White label Customer App
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -254,6 +277,48 @@
         </div>
     </div>
 
+    <!-- Modal popup for Pricing form -->
+    <div class="modal fade" id="mdl_pricingform" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Pricing Form</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="No. of Users*">
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control">
+                                <option>Choose Plan</option>
+                                <option>Base Plan (₹300 per month)</option>
+                                <option>Advance Plan (₹400 per month)</option>
+                                <option>Premium Plan (₹500 per month)</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control">
+                                <option>Time Period</option>
+                                <option>6 Months</option>
+                                <option>12 Months</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="Total amount (incl. GST)">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mb-3 mt-4">
+                    <a class="btn-red arrowBtn u-button has-hover m-auto">
+                        <span class="u-button-arrow"></span>
+                        <span>Pay</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 

@@ -690,6 +690,7 @@ body h6 {
 .btn-red.arrowBtn span {
   border-left: 1px solid #FFFFFF;
   padding: 8px 25px;
+  color: #FFFFFF;
 }
 
 .u-button-arrow::before {
@@ -1984,6 +1985,33 @@ body h6 {
   width: 90% !important;
 }
 
+.btn-red-primary {
+  background-color: #C22032;
+  border: none;
+  color: #FFFFFF;
+  padding: 8px 15px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.btn-red-primary::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #353535;
+  transition: 0.6s all;
+  z-index: -1;
+}
+.btn-red-primary:hover {
+  color: #FFFFFF;
+}
+.btn-red-primary:hover::before {
+  width: 110%;
+}
+
 @font-face {
   font-family: "Poppins-light";
   src: url("./../fonts/Poppins/Poppins-Light.ttf");
@@ -2249,9 +2277,6 @@ body h6 {
   .site-header .navbar-nav {
     gap: 17px;
     grid-gap: 17px;
-  }
-  .block-landing-grey {
-    height: auto !important;
   }
   .main-Wrapper {
     max-width: 1140px;
@@ -2617,6 +2642,29 @@ body h6 {
   .sect-demo .block-lightorange {
     padding: 1.5rem;
   }
+  .block-landing-grey {
+    height: auto !important;
+  }
+  .sect-lead-generation {
+    height: auto !important;
+  }
+  .landing-app-block {
+    height: 100vh !important;
+  }
+  .block-landing-grey .content {
+    position: relative !important;
+    top: unset !important;
+    transform: none !important;
+    left: auto !important;
+    right: auto !important;
+  }
+  .sect-lead-generation .content {
+    position: relative !important;
+    top: unset !important;
+    transform: none !important;
+    left: auto !important;
+    right: auto !important;
+  }
 }
 @media only screen and (max-width: 680px) {
   .learnmore-block-outer .learnmore-block {
@@ -2961,8 +3009,8 @@ a:hover {
 }
 
 #accordionfaq .accordion-button:not(.collapsed) {
-  color: #c22032;
-  background-color: #ffeef0;
+  color: #ffffff;
+  background-color: #C22032;
   box-shadow: none;
 }
 #accordionfaq .accordion-button:focus {
@@ -3420,6 +3468,10 @@ footer .footlogo {
 
 .sect-services {
   margin-top: -50px;
+}
+.sect-services .col-md-3 {
+  flex: 0 0 auto;
+  width: 30%;
 }
 .sect-services .card {
   box-shadow: 0 0 10px 5px rgba(206, 207, 254, 0.25);
@@ -4527,6 +4579,20 @@ select.form-control {
 
 .landing-app-block {
   background-color: #000000;
+  padding: 40px 0;
+  height: 870px;
+  position: relative;
+}
+.landing-app-block .content {
+  position: absolute;
+  top: 55%;
+  transform: translate(0, -50%);
+  max-width: 1400px;
+  z-index: 5;
+  text-align: left;
+  left: 5%;
+  right: 5%;
+  margin: 0 auto;
 }
 .landing-app-block .landing-white-title {
   color: #FFFFFF;
@@ -4579,6 +4645,23 @@ select.form-control {
   margin-top: 10px;
 }
 
+.sect-lead-generation {
+  background-color: #F3F3F3;
+  padding: 40px 0;
+  height: 716px;
+  position: relative;
+}
+.sect-lead-generation .content {
+  position: absolute;
+  top: 55%;
+  transform: translate(0, -50%);
+  max-width: 1400px;
+  z-index: 5;
+  text-align: left;
+  left: 5%;
+  right: 5%;
+  margin: 0 auto;
+}
 .sect-lead-generation label {
   color: #000000;
   font-size: 0.875rem;
@@ -5281,7 +5364,19 @@ select.form-control {
 .block-landing-grey {
   background-color: #F3F3F3;
   padding: 40px 0;
-  height: 600px;
+  height: 716px;
+  position: relative;
+}
+.block-landing-grey .content {
+  position: absolute;
+  top: 55%;
+  transform: translate(0, -50%);
+  max-width: 1400px;
+  z-index: 5;
+  text-align: left;
+  left: 5%;
+  right: 5%;
+  margin: 0 auto;
 }
 .block-landing-grey h1 {
   font-family: "Montserrat-bold";
@@ -5560,6 +5655,25 @@ select.form-control {
 
 .custf-details {
   padding: 20px;
+}
+
+.Multiselect_Dropdown .btn {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #dee2e6;
+  border-radius: 0;
+}
+.Multiselect_Dropdown .btn::after {
+  position: absolute;
+  right: 10px;
+  top: 45%;
+}
+.Multiselect_Dropdown .dropdown-menu {
+  width: 100%;
+  border-radius: 0;
+}
+.Multiselect_Dropdown .dropdown-menu li {
+  padding: 3px 10px;
 }
 
 .sect-jobs {

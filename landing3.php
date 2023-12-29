@@ -3,66 +3,68 @@ include_once 'header.php';
 ?>
 <section class="margin-btm block-landing-grey mt-116">
     <div class="main-Wrapper pt-5">
-        <div class="row justify-content-between">
-            <div class="col-md-6">
-                <h1 class="pt-4 pb-2">Stop Wondering Start <span class="drawn-underline">Growing</span></h1>
-                <p class="leading-sm-txt mt-4">FieldWeb is a field force management software suite that digitizes your field sales & service operations.</p>
-                <div class="d-flex gap-3 mt-4 mb-3">
-                    <a href="#" type="button" class="btn-red rounded-3">Get Free Trial</a>
-                    <a href="#" type="button" class="red-border-btn">Request Callback</a>
+        <div class="content">
+            <div class="row justify-content-between">
+                <div class="col-md-6">
+                    <h1 class="pt-4 pb-2">Stop Wondering Start <span class="drawn-underline">Growing</span></h1>
+                    <p class="leading-sm-txt mt-4">FieldWeb is a field force management software suite that digitizes your field sales & service operations.</p>
+                    <div class="d-flex gap-3 mt-4 mb-3">
+                        <a href="#" type="button" class="btn-red rounded-3">Get Free Trial</a>
+                        <a href="#" type="button" class="red-border-btn">Request Callback</a>
+                    </div>
+                    <div class="row mt-4 mb-3">
+                        <div class="col-lg-4 col-md-6 col-sm-4">
+                            <div class="border-right-grey p-2 text-center">
+                                <img src="assets/images/google-icon.svg" class="leading-xs-img">
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <p class="leading-sm-txt">4.7</p>
+                                    <div class="star-landing-rating ms-2">
+                                        <ul>
+                                            <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                            <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                            <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                            <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                            <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4">
+                            <div class="border-right-grey p-2 text-center">
+                                <img src="assets/images/play-store-icon.svg" class="leading-xs-img">
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <p class="leading-sm-txt">4.7</p>
+                                    <div class="star-landing-rating px-2">
+                                        <ul>
+                                            <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="vr"></div>
+                                    <p class="leading-sm-txt px-2">1k+Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-4">
+                            <div class="p-2 text-center">
+                                <img src="assets/images/app-store-icon.svg" class="leading-xs-img">
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <p class="leading-sm-txt">4.7</p>
+                                    <div class="star-landing-rating px-2">
+                                        <ul>
+                                            <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="vr"></div>
+                                    <p class="leading-sm-txt px-2">1k+Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row mt-4 mb-3">
-                    <div class="col-lg-4 col-md-6 col-sm-4">
-                        <div class="border-right-grey p-2 text-center">
-                            <img src="assets/images/google-icon.svg" class="leading-xs-img">
-                            <div class="d-flex align-items-center justify-content-center mt-2">
-                                <p class="leading-sm-txt">4.7</p>
-                                <div class="star-landing-rating ms-2">
-                                    <ul>
-                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-4">
-                        <div class="border-right-grey p-2 text-center">
-                            <img src="assets/images/play-store-icon.svg" class="leading-xs-img">
-                            <div class="d-flex align-items-center justify-content-center mt-2">
-                                <p class="leading-sm-txt">4.7</p>
-                                <div class="star-landing-rating px-2">
-                                    <ul>
-                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                    </ul>
-                                </div>
-                                <div class="vr"></div>
-                                <p class="leading-sm-txt px-2">1k+Reviews</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-4">
-                        <div class="p-2 text-center">
-                            <img src="assets/images/app-store-icon.svg" class="leading-xs-img">
-                            <div class="d-flex align-items-center justify-content-center mt-2">
-                                <p class="leading-sm-txt">4.7</p>
-                                <div class="star-landing-rating px-2">
-                                    <ul>
-                                        <li class="full-star"><img src="assets/images/yellowstar.svg"></li>
-                                    </ul>
-                                </div>
-                                <div class="vr"></div>
-                                <p class="leading-sm-txt px-2">1k+Reviews</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-5">
+                    <img src="assets/images/landingpage3-background.svg" class="fw-banner-img">
                 </div>
-            </div>
-            <div class="col-md-5">
-                <img src="assets/images/landingpage3-background.svg" class="fw-banner-img">
             </div>
         </div>
     </div>

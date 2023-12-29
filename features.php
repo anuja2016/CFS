@@ -251,8 +251,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -364,8 +367,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -477,8 +483,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -590,8 +599,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -703,8 +715,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -816,8 +831,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -963,8 +981,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1076,8 +1097,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1189,8 +1213,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1302,8 +1329,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1415,8 +1445,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1528,8 +1561,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1675,8 +1711,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1788,8 +1827,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1901,8 +1943,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -2014,8 +2059,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -2127,8 +2175,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -2240,8 +2291,11 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="mt-4 text-left">
-                                            <a href="features-details.php" role="button" class="btn-red">Learn More</a>
+                                        <div class="d-flex mt-4 text-left">
+                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
+                                                <span class="u-button-arrow"></span>
+                                                <span>Learn More</span>
+                                            </a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -2442,7 +2496,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="sect-demo mt-20 pb-4" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-5" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -2488,8 +2542,11 @@ include_once 'header.php';
                             </div>
 
                         </div>
-                        <div class="text-center mb-3">
-                            <button type="button" class="btn-red">SUBMIT</button>
+                        <div class="text-center mb-3 mt-4">
+                            <a class="btn-red arrowBtn u-button has-hover m-auto">
+                                <span class="u-button-arrow"></span>
+                                <span>SUBMIT</span>
+                            </a>
                         </div>
                     </div>
                 </div>

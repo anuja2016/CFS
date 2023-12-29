@@ -51,8 +51,11 @@ include_once 'header.php';
                         <li><b>Real-time Communication:</b> Stay connected with clients and field staff instantly.</li>
                     </ul>
                 </div>
-                <div class="mt-3 text-left">
-                    <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Start Free Trial</button>
+                <div class="text-left mb-3 mt-4">
+                    <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover">
+                        <span class="u-button-arrow"></span>
+                        <span>Start Free Trial</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -638,10 +641,12 @@ include_once 'header.php';
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                        <div class="text-center mb-3">
-                            <button type="button" class="btn-red">SUBMIT</button>
+                        <div class="text-center mb-3 mt-4">
+                            <a class="btn-red arrowBtn u-button has-hover m-auto">
+                                <span class="u-button-arrow"></span>
+                                <span>SUBMIT</span>
+                            </a>
                         </div>
                     </div>
                 </div>

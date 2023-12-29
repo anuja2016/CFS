@@ -60,8 +60,11 @@ include_once 'header.php';
                         <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
                         <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
                     </div>
-                    <div class="mt-3">
-                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    <div class="mb-3 mt-4">
+                        <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover">
+                            <span class="u-button-arrow"></span>
+                            <span>Get Demo</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -81,8 +84,11 @@ include_once 'header.php';
                         <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
                         <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
                     </div>
-                    <div class="mt-3">
-                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    <div class="mb-3 mt-4">
+                        <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover">
+                            <span class="u-button-arrow"></span>
+                            <span>Get Demo</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -96,8 +102,11 @@ include_once 'header.php';
                         <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
                         <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
                     </div>
-                    <div class="mt-3">
-                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    <div class="mb-3 mt-4">
+                        <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover">
+                            <span class="u-button-arrow"></span>
+                            <span>Get Demo</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -117,94 +126,15 @@ include_once 'header.php';
                         <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
                         <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
                     </div>
-                    <div class="mt-3">
-                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    <div class="mb-3 mt-4">
+                        <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover">
+                            <span class="u-button-arrow"></span>
+                            <span>Get Demo</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <ul class="nav nav-pills justify-content-center margin-btm">
-            <div class="d-flex gap-4">
-                <li class="nav-item">
-                    <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tb-BrandCustomization"><img src="assets/images/Brand-Customization-icon.svg"> Branding and Customization</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-CustomerEngagement"><img src="assets/images/Customer-Engagement-icon.svg"> Customer Engagement</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-ServiceBooking"><img src="assets/images/Service-Booking-icon.svg"> Service Booking</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tb-WebContent"><img src="assets/images/Web-Content-icon.svg"> Web Content</a>
-                </li>
-            </div>
-        </ul>
-        <div class="tab-content mt-5">
-            <div class="tab-pane fade show active" id="tb-BrandCustomization">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="title-sm-red mb-2">Branding and Customization</p>
-                        <h2 class="title-mont-semibold">Make customer-friendly quotes in less time</h2>
-                        <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
-                        <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
-                        <div class="mt-3">
-                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="tb-CustomerEngagement">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
-                    </div>
-                    <div class="col-md-6">
-                        <p class="title-sm-red mb-2">Customer Engagement</p>
-                        <h2 class="title-mont-semibold">Make customer-friendly quotes in less time</h2>
-                        <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
-                        <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
-                        <div class="mt-3">
-                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="tb-ServiceBooking">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="title-sm-red mb-2">Service Booking</p>
-                        <h2 class="title-mont-semibold">Make customer-friendly quotes in less time</h2>
-                        <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
-                        <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
-                        <div class="mt-3">
-                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="tb-WebContent">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
-                    </div>
-                    <div class="col-md-6">
-                        <p class="title-sm-red mb-2">Web Content</p>
-                        <h2 class="title-mont-semibold">Make customer-friendly quotes in less time</h2>
-                        <p class="mb-3">Create and send a professional-looking quote before you’ve even left the customer’s property.</p>
-                        <p class="mb-3">Your quotes will clearly display the details of the work along with images of your products and services—or photos taken at the on-site assessment.</p>
-                        <div class="mt-3">
-                            <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </div>
 </section>
 <section class="main-Wrapper margin-btm" data-aos="fade-up">
@@ -276,8 +206,11 @@ include_once 'header.php';
                             <h2 class="title-mont-semibold">Good Time Service</h2>
                             <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
                             <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
-                            <div class="mt-4">
-                                <button type="button" class="btn-red">Good Time Service App</button>
+                            <div class="mb-3 mt-4">
+                                <a class="btn-red arrowBtn u-button has-hover">
+                                    <span class="u-button-arrow"></span>
+                                    <span>Good Time Service App</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -293,8 +226,11 @@ include_once 'header.php';
                             <h2 class="title-mont-semibold">Oscar Plus Elevator</h2>
                             <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
                             <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
-                            <div class="mt-4">
-                                <button type="button" class="btn-red">Good Time Service App</button>
+                            <div class="mb-3 mt-4">
+                                <a class="btn-red arrowBtn u-button has-hover">
+                                    <span class="u-button-arrow"></span>
+                                    <span>Good Time Service App</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -312,8 +248,11 @@ include_once 'header.php';
                                 <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
                                 <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
                             </div>
-                            <div class="mt-4">
-                                <button type="button" class="btn-red">Good Time Service App</button>
+                            <div class="mb-3 mt-4">
+                                <a class="btn-red arrowBtn u-button has-hover">
+                                    <span class="u-button-arrow"></span>
+                                    <span>Good Time Service App</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -331,8 +270,11 @@ include_once 'header.php';
                                 <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
                                 <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
                             </div>
-                            <div class="mt-4">
-                                <button type="button" class="btn-red">Good Time Service App</button>
+                            <div class="mb-3 mt-4">
+                                <a class="btn-red arrowBtn u-button has-hover">
+                                    <span class="u-button-arrow"></span>
+                                    <span>Good Time Service App</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -350,8 +292,11 @@ include_once 'header.php';
                                 <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
                                 <p><b>Good Time Service</b> Improve your win rate by 16% by sending quotes via text message</p>
                             </div>
-                            <div class="mt-4">
-                                <button type="button" class="btn-red">Good Time Service App</button>
+                            <div class="mb-3 mt-4">
+                                <a class="btn-red arrowBtn u-button has-hover">
+                                    <span class="u-button-arrow"></span>
+                                    <span>Good Time Service App</span>
+                                </a>
                             </div>
                         </div>
                     </div>

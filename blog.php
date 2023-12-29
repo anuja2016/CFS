@@ -327,8 +327,11 @@ include_once 'header.php';
                             </div>
 
                         </div>
-                        <div class="text-center mb-3">
-                            <button type="button" class="btn-red">SUBMIT</button>
+                        <div class="text-center mb-3 mt-4">
+                            <a class="btn-red arrowBtn u-button has-hover m-auto">
+                                <span class="u-button-arrow"></span>
+                                <span>SUBMIT</span>
+                            </a>
                         </div>
                     </div>
                 </div>

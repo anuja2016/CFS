@@ -49,7 +49,10 @@ include_once 'header.php';
                         <img src="assets/images/jobs/jobs-icon4.svg">
                         <h4>Advanced Security</h4>
                         <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
-                        <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
+                        <a class="btn-red arrowBtn u-button has-hover mt-4 w-100">
+                            <span class="u-button-arrow"></span>
+                            <span>Apply Now</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-5 filter Coding">
@@ -58,7 +61,10 @@ include_once 'header.php';
                         <img src="assets/images/jobs/jobs-icon5.svg">
                         <h4>Advanced Security</h4>
                         <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
-                        <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
+                        <a class="btn-red arrowBtn u-button has-hover mt-4 w-100">
+                            <span class="u-button-arrow"></span>
+                            <span>Apply Now</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-5 filter Coding">
@@ -67,7 +73,10 @@ include_once 'header.php';
                         <img src="assets/images/jobs/jobs-icon6.svg">
                         <h4>Advanced Security</h4>
                         <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
-                        <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
+                        <a class="btn-red arrowBtn u-button has-hover mt-4 w-100">
+                            <span class="u-button-arrow"></span>
+                            <span>Apply Now</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-5 filter Database">
@@ -76,7 +85,10 @@ include_once 'header.php';
                         <img src="assets/images/jobs/jobs-icon1.svg">
                         <h4>Advanced Security</h4>
                         <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
-                        <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
+                        <a class="btn-red arrowBtn u-button has-hover mt-4 w-100">
+                            <span class="u-button-arrow"></span>
+                            <span>Apply Now</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-5 filter Management">
@@ -85,7 +97,10 @@ include_once 'header.php';
                         <img src="assets/images/jobs/jobs-icon2.svg">
                         <h4>Advanced Security</h4>
                         <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
-                        <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
+                        <a class="btn-red arrowBtn u-button has-hover mt-4 w-100">
+                            <span class="u-button-arrow"></span>
+                            <span>Apply Now</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-5 filter Marketing">
@@ -94,7 +109,10 @@ include_once 'header.php';
                         <img src="assets/images/jobs/jobs-icon3.svg">
                         <h4>Advanced Security</h4>
                         <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
-                        <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
+                        <a class="btn-red arrowBtn u-button has-hover mt-4 w-100">
+                            <span class="u-button-arrow"></span>
+                            <span>Apply Now</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-5 filter Marketing">
@@ -103,7 +121,10 @@ include_once 'header.php';
                         <img src="assets/images/jobs/jobs-icon4.svg">
                         <h4>Advanced Security</h4>
                         <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
-                        <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
+                        <a class="btn-red arrowBtn u-button has-hover mt-4 w-100">
+                            <span class="u-button-arrow"></span>
+                            <span>Apply Now</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-5 filter Writtng">
@@ -112,7 +133,10 @@ include_once 'header.php';
                         <img src="assets/images/jobs/jobs-icon5.svg">
                         <h4>Advanced Security</h4>
                         <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
-                        <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
+                        <a class="btn-red arrowBtn u-button has-hover mt-4 w-100">
+                            <span class="u-button-arrow"></span>
+                            <span>Apply Now</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-5 filter Writtng">
@@ -121,7 +145,11 @@ include_once 'header.php';
                         <img src="assets/images/jobs/jobs-icon6.svg">
                         <h4>Advanced Security</h4>
                         <p class="text-justify">Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
-                        <button type="submit" class="btn-red w-100 rounded">Apply Now</button>
+                        <!-- <button type="submit" class="btn-red w-100 rounded">Apply Now</button> -->
+                        <a class="btn-red arrowBtn u-button has-hover mt-4 w-100">
+                            <span class="u-button-arrow"></span>
+                            <span>Apply Now</span>
+                        </a>
                     </div>
                 </div>
             </div>

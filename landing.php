@@ -2,19 +2,21 @@
 include_once 'header.php';
 ?>
 
-<section>
-    <div class="landing-app-block margin-btm text-center mt-116">
-        <div class="main-Wrapper pt-15">
-            <p class="landing-white-title">We Bring Emotions to Your Life</p>
-            <p class="landing-white-para">Feugiat primis ligula risus auctor laoreet augue egestas mauris
-                viverra tortor in iaculis suscipit
-            </p>
+<section class="landing-app-block margin-btm text-center mt-116">
+    <div class="main-Wrapper">
+        <div class="content text-center">
+            <div>
+                <p class="landing-white-title">We Bring Emotions to Your Life</p>
+                <p class="landing-white-para">Feugiat primis ligula risus auctor laoreet augue egestas mauris
+                    viverra tortor in iaculis suscipit
+                </p>
+            </div>
+            <ul class="store-links mt-3 mb-3">
+                <li><a href="https://www.apple.com/in/app-store/" target="_blank"><img src="assets/images/appstorelogo.svg"></a></li>
+                <li><a href="https://play.google.com/store/games?device=windows&amp;utm_source=apac_med&amp;hl=en-IN&amp;utm_medium=hasem&amp;utm_content=Jun1223&amp;utm_campaign=Evergreen&amp;pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Jun1223-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700076784774234_creativeid_480977734961_device_c&amp;gclid=EAIaIQobChMI9YLJ8aS5gQMVGiRgCh24HwCGEAAYASAAEgJTufD_BwE&amp;gclsrc=aw.ds" target="_blank"><img src="assets/images/googlestore.svg"></a></li>
+            </ul>
+            <img src="assets/images/landing-bg.svg" class="img-fluid">
         </div>
-        <ul class="store-links mt-3 mb-3">
-            <li><a href="https://www.apple.com/in/app-store/" target="_blank"><img src="assets/images/appstorelogo.svg"></a></li>
-            <li><a href="https://play.google.com/store/games?device=windows&amp;utm_source=apac_med&amp;hl=en-IN&amp;utm_medium=hasem&amp;utm_content=Jun1223&amp;utm_campaign=Evergreen&amp;pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Jun1223-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700076784774234_creativeid_480977734961_device_c&amp;gclid=EAIaIQobChMI9YLJ8aS5gQMVGiRgCh24HwCGEAAYASAAEgJTufD_BwE&amp;gclsrc=aw.ds" target="_blank"><img src="assets/images/googlestore.svg"></a></li>
-        </ul>
-        <img src="assets/images/landing-bg.svg" class="img-fluid">
     </div>
 </section>
 <section class="main-Wrapper margin-btm">
@@ -61,8 +63,8 @@ include_once 'header.php';
 </section>
 <section class="main-Wrapper margin-btm">
     <div class="sect-streamline">
-        <div class="row">
-            <div class="col-md-7" data-aos="fade-right" data-aos-duration="1500">
+        <div class="row align-items-center">
+            <div class="col-md-7" data-aos="fade-up" data-aos-duration="1500">
                 <h2 class="title-mont-semibold">Streamline Your Business Operations</h2>
                 <p>Say goodbye to juggling multiple platforms. Our all-in-one Field Service Management solution.</p>
                 <div class="row mt-3">
@@ -94,7 +96,7 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-md-5" data-aos="fade-left" data-aos-duration="1500">
+            <div class="col-md-5" data-aos="fade-up" data-aos-duration="1500">
                 <div class="card">
                     <div class="card-body">
                         <div class="modal-header">
@@ -145,14 +147,14 @@ include_once 'header.php';
         <div class="row">
             <div class="col-md-6">
                 <p class="title-mont-semibold">Streamline Your Business Operations</p>
-                <p class="subtext-mont pt-2">Say goodbye to juggling multiple platforms. Our all-in-one Field
+                <p class="homeservice-desc mt-3 mb-4">Say goodbye to juggling multiple platforms. Our all-in-one Field
                     Service Management solution centralizes everything you need to efficiently run your Field
                     service business in one convenient location, accessible wherever you are.
                 </p>
-                <p class="subtext-mont pt-2">Say goodbye to juggling multiple platforms. Our all-in-one Field
+                <p class="homeservice-desc mb-4">Say goodbye to juggling multiple platforms. Our all-in-one Field
                     Service Management solution.
                     Say goodbye to juggling multiple platforms. Our all-in-one</p>
-                <div class="mt-3 mb-3">
+                <div class="mt-4 mb-3">
                     <a href="#" type="button" class="btn-bright-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">GET DEMO</a>
                 </div>
             </div>
@@ -258,10 +260,10 @@ include_once 'header.php';
     </div>
     <div class="main-Wrapper">
         <div class="row justify-content-center">
-            <div class="col-md-4 col-sm-6" data-aos="fade-right" data-aos-duration="1500">
+            <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
                 <img src="assets/images/landing/oscar-plus-elevator.svg" class="img-fluid" />
             </div>
-            <div class="col-md-5 col-sm-6" data-aos="fade-left" data-aos-duration="1500">
+            <div class="col-md-5 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
                 <div class="mt-3 mb-4">
                     <h4>Stunning landing</h4>
                     <h4>page for your App</h4>
@@ -476,7 +478,7 @@ include_once 'header.php';
         <div class="main-Wrapper">
             <div class="content">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-md-5 col-sm-6" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="col-md-5 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
                         <h3>Showcase your App with AppSet</h3>
                         <div>
                             <p>Feugiat eros, ac tincidunt ligula massa in faucibus orci</p>
@@ -488,7 +490,7 @@ include_once 'header.php';
                         </div>
                         <label>*Requires iOS 7.0 or higher</label>
                     </div>
-                    <div class="col-md-4 col-sm-6" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
                         <img src="assets/images/mobilepair.svg" class="mobile-app-img">
                     </div>
                 </div>

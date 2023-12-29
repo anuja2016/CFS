@@ -78,7 +78,12 @@ include_once 'header.php';
                     <div class="blog-wh-box margin-btm">
                         <h4 class="mb-3">Advice delivered to your inbox</h4>
                         <input type="text" placeholder="Enter email address" class="form-control">
-                        <button type="submit" class="btn-red w-100 mt-3">Subscribe</button>
+                        <div class="mb-3 mt-4">
+                            <a class="btn-red arrowBtn u-button has-hover w-100">
+                                <span class="u-button-arrow"></span>
+                                <span>Subscribe</span>
+                            </a>
+                        </div>
                     </div>
                     <div class="blog-wh-box">
                         <h4 class="mb-3">Over 7,500 contractors use FieldWeb for their businesses.</h4>
@@ -87,7 +92,12 @@ include_once 'header.php';
                             <li><img src="assets/images/check-red.svg">Lower cost through automation</li>
                             <li><img src="assets/images/check-red.svg">Run your business from anywhere</li>
                         </ul>
-                        <button type="submit" class="btn-red w-100 mt-3" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                        <div class="mb-3 mt-4">
+                            <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover w-100">
+                                <span class="u-button-arrow"></span>
+                                <span>Get Demo</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

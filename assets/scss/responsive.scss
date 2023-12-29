@@ -81,9 +81,9 @@
         gap: 17px;
         grid-gap: 17px;
     }
-    .block-landing-grey {
-        height: auto!important;
-    }
+    // .block-landing-grey {
+    //     height: auto!important;
+    // }
     .main-Wrapper {
         max-width: 1140px;
         width: 100%;
@@ -746,6 +746,33 @@
     .sect-demo {
         .block-lightorange {
             padding: 1.5rem;
+        }
+    }
+    .block-landing-grey {
+        height: auto!important;
+    }
+    .sect-lead-generation {
+        height: auto!important;
+    }
+    .landing-app-block {
+        height: 100vh!important;
+    }
+    .block-landing-grey {
+        .content {
+            position: relative!important;
+            top: unset!important;
+            transform: none!important;
+            left: auto!important;
+            right: auto!important;
+        }
+    }
+    .sect-lead-generation {
+        .content {
+            position: relative!important;
+            top: unset!important;
+            transform: none!important;
+            left: auto!important;
+            right: auto!important;
         }
     }
 }

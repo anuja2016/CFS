@@ -106,6 +106,7 @@
 <!--scripts--->
 <script type="text/javascript" src="assets/js/jquery-3.7.1.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+
 <!---menu active---->
 <script type="text/javascript">
   $(document).ready(function() {
@@ -632,10 +633,10 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 1) {
       $('header').addClass("sticky");
-      $(".dsk-fwlogo img").attr("src","assets/images/FW-Logo.svg");
+      $(".dsk-fwlogo img").attr("src", "assets/images/FW-Logo.svg");
     } else {
       $('header').removeClass("sticky");
-      $(".dsk-fwlogo img").attr("src","assets/images/FW-Logo-white.svg");
+      $(".dsk-fwlogo img").attr("src", "assets/images/FW-Logo-white.svg");
     }
   });
 </script>
@@ -645,7 +646,7 @@
   $("#ScheduleJobTabContent").hide();
   $("#CompleteJobTabContent").hide();
   $("#InvoiceTabContent").hide();
-  
+
   $("#QuoteaTabs li a").click(function() {
     $("#ScheduleJobTabContent").hide();
     $("#CompleteJobTabContent").hide();
@@ -670,4 +671,49 @@
     $("#CompleteJobTabContent").hide();
     $("#InvoiceTabContent").show();
   });
+</script>
+
+<!----custom multi select dropdown--->
+<script>
+  const dropdownButton =
+    document.getElementById('multiSelectDropdown');
+  const dropdownMenu =
+    document.querySelector('.dropdown-menu');
+  let mySelectedItems = [];
+
+  function handleCB(event) {
+    const checkbox = event.target;
+    if (checkbox.checked) {
+      mySelectedItems.push(checkbox.value);
+    } else {
+      mySelectedItems =
+        mySelectedItems.filter((item) => item !== checkbox.value);
+    }
+
+    dropdownButton.innerText = mySelectedItems.length > 0 ?
+      mySelectedItems.join(', ') : 'Select Services';
+  }
+
+  dropdownMenu.addEventListener('change', handleCB);
+</script>
+
+<script type="text/javascript" src="assets/js/jquery.simplePagination.js"></script>
+<script>
+  var items = $(".sect-services .row .col-md-3");
+    var numItems = items.length;
+    var perPage = 9;
+
+    items.slice(perPage).hide();
+
+    $('#pagination-container').pagination({
+        items: numItems,
+        itemsOnPage: perPage,
+        prevText: "Prev",
+        nextText: "Next",
+        onPageClick: function (pageNumber) {
+            var showFrom = perPage * (pageNumber - 1);
+            var showTo = showFrom + perPage;
+            items.hide().slice(showFrom, showTo).show();
+        }
+    });
 </script>

@@ -46,7 +46,7 @@ include_once 'header.php';
                             <h2><small>₹</small>300<small>/user/month</small></h2>
                             <p>Save ₹150/user/month</p>
                             <div class="p-3">
-                                <button type="submit" class="btn-red w-100 rounded">Buy Now</button>
+                                <button type="submit" class="btn-red w-100 rounded" data-bs-toggle="modal" data-bs-target="#mdl_pricingform">Buy Now</button>
                             </div>
                             <div class="prod-user margin-btm">
                                 <img src="assets/images/user-icon.svg">
@@ -82,7 +82,7 @@ include_once 'header.php';
                             <h2><small>₹</small>400<small>/user/month</small></h2>
                             <p>Save ₹150/user/month</p>
                             <div class="p-3">
-                                <button type="submit" class="btn-red w-100 rounded">Buy Now</button>
+                                <button type="submit" class="btn-red w-100 rounded" data-bs-toggle="modal" data-bs-target="#mdl_pricingform">Buy Now</button>
                             </div>
                             <div class="prod-user margin-btm">
                                 <img src="assets/images/user-icon.svg">
@@ -117,7 +117,7 @@ include_once 'header.php';
                             <h2><small>₹</small>500<small>/user/month</small></h2>
                             <p>Save ₹150/user/month</p>
                             <div class="p-3">
-                                <button type="submit" class="btn-red w-100 rounded">Buy Now</button>
+                                <button type="submit" class="btn-red w-100 rounded" data-bs-toggle="modal" data-bs-target="#mdl_pricingform">Buy Now</button>
                             </div>
                             <div class="prod-user margin-btm">
                                 <img src="assets/images/user-icon.svg">
@@ -344,75 +344,8 @@ include_once 'header.php';
                 <img src="assets/images/njclogo.svg" class="partner-img">
             </div>
         </div>
-        <!-- <marquee scrollamount="20" behavior=scroll direction="right" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();" onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
-        <div class="d-flex flex-row align-items-center">
-            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="p-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-        </div>
-    </marquee>
-    <marquee scrollamount="20" behavior=scroll direction="left" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop();" onmouseout="this.setAttribute('scrollamount', 20, 0);this.start();">
-        <div class="d-flex flex-row align-items-center mt-0">
-            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/njclogo.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/gopienterprises.svg" class="partner-img"></div>
-            <div class="py-0 px-2"><img src="assets/images/nextgenlogo.svg" class="partner-img"></div>
-        </div>
-    </marquee> -->
     </div>
 </section>
-<!-- <section class="mt-8 margin-btm" data-aos="fade-up">
-    <div class="main-Wrapper">
-        <div class="text-center margin-btm">
-            <h2 class="title-semibold">Over 10,000+ Customer Worldwide<h2>
-        </div>
-        <div class="trusted-companies mt-5">
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-            <div>
-                <img src="assets/images/trustlogo.svg" />
-            </div>
-        </div>
-    </div>
-</section> -->
 <section class="mt-8 margin-btm" data-aos="fade-up">
     <div class="wrapper-head">
         <p class="title-red">OUR POWERFUL FEATURES</p>
@@ -510,7 +443,7 @@ include_once 'header.php';
     </div>
 </section>
 <!----------get demo----------->
-<section class="sect-demo mt-20 pb-4" data-aos="fade-up">
+<section class="sect-demo mt-20 pb-5" data-aos="fade-up">
     <div class="block-lightorange">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -554,10 +487,12 @@ include_once 'header.php';
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                        <div class="text-center mb-3">
-                            <button type="button" class="btn-red">SUBMIT</button>
+                        <div class="text-center mb-3 mt-4">
+                            <a class="btn-red arrowBtn u-button has-hover m-auto">
+                                <span class="u-button-arrow"></span>
+                                <span>SUBMIT</span>
+                            </a>
                         </div>
                     </div>
                 </div>

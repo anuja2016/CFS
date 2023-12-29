@@ -52,8 +52,14 @@ include_once 'header.php';
                     <p>Through the Deel Marketplace, partners have the opportunity to offer their own products and services to Deel customers</p>
                 </div>
             </div>
-            <div class="text-center mb-4">
+            <!-- <div class="text-center mb-4">
                 <button type="button" class="btn-red-rounded">Contact Us</button>
+            </div> -->
+            <div class="text-center mb-3 mt-4">
+                <a class="btn-red arrowBtn u-button has-hover m-auto">
+                    <span class="u-button-arrow"></span>
+                    <span>Contact Us</span>
+                </a>
             </div>
         </div>
     </div>
@@ -424,8 +430,14 @@ include_once 'header.php';
             <p>We can discuss all available partner options and get to know your</p>
             <p>business and client needs better.</p>
         </div>
-        <div class="text-center">
+        <!-- <div class="text-center">
             <button type="button" class="btn-red-rounded">Become a partner</button>
+        </div> -->
+        <div class="text-center mb-3 mt-4">
+            <a class="btn-red arrowBtn u-button has-hover m-auto">
+                <span class="u-button-arrow"></span>
+                <span>Become a partner</span>
+            </a>
         </div>
     </div>
 </section>

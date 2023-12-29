@@ -78,8 +78,11 @@ include_once 'header.php';
                         <p class="mb-4">Empower your business with easy-to-use tools for accurate and professional quoting, enhancing your client relationships and boosting success.</p>
                         <p class="mb-4">Add multiple services and items with their quantity and price and make your quotation easily understandable to your customers.</p>
                     </div>
-                    <div class="mt-4 text-left">
-                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    <div class="mb-3 mt-4">
+                        <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover">
+                            <span class="u-button-arrow"></span>
+                            <span>Get Demo</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -99,8 +102,11 @@ include_once 'header.php';
                         <p class="mb-4">FieldWeb lets you bolster clarity and adherence by attaching Service Level Agreements and Terms & Conditions directly to your quotes. </p>
                         <p class="mb-4">Elevate client communication with comprehensive, transparent quotations, fostering trust and ensuring compliance for smoother interactions and successful partnerships.</p>
                     </div>
-                    <div class="mt-4 text-left">
-                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    <div class="mb-3 mt-4">
+                        <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover">
+                            <span class="u-button-arrow"></span>
+                            <span>Get Demo</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -114,8 +120,11 @@ include_once 'header.php';
                         <p class="mb-4">FieldWeb empowers clients to conveniently give their nod to quotes through the dedicated customer app. </p>
                         <p class="mb-4">Enhance engagement and simplify the process, making it easier than ever for customers to approve quotes on the go, fostering efficient communication and swift decision-making</p>
                     </div>
-                    <div class="mt-4 text-left">
-                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    <div class="mb-3 mt-4">
+                        <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover">
+                            <span class="u-button-arrow"></span>
+                            <span>Get Demo</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -135,8 +144,11 @@ include_once 'header.php';
                         <p class="mb-4">FieldWeb offers intuitive control over varied quote statuses, providing a comprehensive view of converted quotes and those requiring follow-up. </p>
                         <p class="mb-4">This functionality ensures a streamlined workflow, empowering businesses to efficiently track the progress of quotes and take informed actions for enhanced customer engagement and business growth.</p>
                     </div>
-                    <div class="mt-4 text-left">
-                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    <div class="mb-3 mt-4">
+                        <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover">
+                            <span class="u-button-arrow"></span>
+                            <span>Get Demo</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -150,8 +162,11 @@ include_once 'header.php';
                         <p class="mb-4">With FieldWeb, approved quotes transform into tasks instantly.</p>
                         <p class="mb-4">Effortlessly convert quotes to actionable jobs, optimizing efficiency and eliminating manual steps. Elevate your workflow with streamlined task creation directly from approved quotes, ensuring swift and accurate project initiation.</p>
                     </div>
-                    <div class="mt-4 text-left">
-                        <button type="button" class="btn-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</button>
+                    <div class="mb-3 mt-4">
+                        <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover">
+                            <span class="u-button-arrow"></span>
+                            <span>Get Demo</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -383,8 +398,11 @@ include_once 'header.php';
                             </div>
 
                         </div>
-                        <div class="text-center mb-3">
-                            <button type="button" class="btn-red">SUBMIT</button>
+                        <div class="text-center mb-3 mt-4">
+                            <a class="btn-red arrowBtn u-button has-hover m-auto">
+                                <span class="u-button-arrow"></span>
+                                <span>SUBMIT</span>
+                            </a>
                         </div>
                     </div>
                 </div>
