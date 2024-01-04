@@ -197,14 +197,40 @@ include_once 'header.php';
 <section class="text-center pt-5 margin-btm main-Wrapper" data-aos="fade-up">
     <h2 class="title-semibold"> Over 200000+ Field Service Businesses in 50+ </h2>
     <h2 class="title-semibold">industries trust FieldWeb</h2>
-    <div class="row align-items-center">
+    <div class="row align-items-center mt-5">
         <div class="col-md-6 pb-3">
             <p class="title-md">IN 40 YEARS OF EXPERIENCE</p>
             <h4 class="title pt-2">Trusted By </h4>
             <h3 class="red-title-bold drawn-underline"><span class="count">40000</span>+ Users</h3>
         </div>
         <div class="col-md-6">
-            <img src="assets/images/idea.svg" alt="..." class="img-fluid">
+            <!-- <img src="assets/images/idea.svg" class="img-fluid"> -->
+
+            <div class="sect_trustedbrands">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/capeterra-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/customer support logo-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/EASENOF USE-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/FUNCTIONALITY-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/get up logo-01-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/leader summer-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/product advise logo-01.svg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

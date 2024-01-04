@@ -107,3 +107,17 @@
         }
     }
 }
+.features-slider{
+    &.slick-slider{
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+        display: none;
+    }
+}
+.single-slider{
+    &.slick-slider{
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+        display: none;
+    }
+}

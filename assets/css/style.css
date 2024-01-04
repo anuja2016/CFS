@@ -780,6 +780,9 @@ body h6 {
   width: 70px;
   height: 70px;
 }
+.home-service-item p {
+  word-break: break-all;
+}
 
 .feature-section .row .col-md-3 {
   cursor: default;
@@ -832,14 +835,14 @@ body h6 {
   font-family: "Montserrat-Bold";
 }
 
-.sect-oneapp .row .col-md-3 {
+.sect-oneapp .row .col-lg-3 {
   cursor: default;
   margin-bottom: 20px;
 }
-.sect-oneapp .row .col-md-3 p {
+.sect-oneapp .row .col-lg-3 p {
   cursor: default;
 }
-.sect-oneapp .row .col-md-3 img {
+.sect-oneapp .row .col-lg-3 img {
   width: 80px;
   height: 80px;
   transition-duration: 0.3s;
@@ -848,7 +851,7 @@ body h6 {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.sect-oneapp .row .col-md-3:hover img {
+.sect-oneapp .row .col-lg-3:hover img {
   -webkit-transform: scale(1.1) rotate(10deg);
   transform: scale(1.1) rotate(10deg);
 }
@@ -1323,7 +1326,7 @@ body h6 {
   display: block;
 }
 .f-list.nav-tabs {
-  --bs-nav-tabs-border-width:unset;
+  --bs-nav-tabs-border-width: unset;
 }
 .f-list.nav-tabs .nav-link {
   color: #000;
@@ -1569,6 +1572,9 @@ body h6 {
   flex-wrap: nowrap;
   overflow-x: auto;
   padding-left: 0;
+}
+.custom-tabs ul.slick-dots {
+  overflow-y: hidden;
 }
 .custom-tabs .ref-link {
   background-color: #F3F3F3;
@@ -2012,6 +2018,40 @@ body h6 {
   width: 110%;
 }
 
+.custom-tabs .f-list {
+  display: block;
+}
+
+.tabsect-footbuttons {
+  justify-content: flex-start;
+}
+
+.sect_trustedbrands {
+  align-items: center;
+  justify-content: center;
+}
+.sect_trustedbrands .row {
+  justify-content: center;
+}
+.sect_trustedbrands img {
+  transition-duration: 0.6s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.sect_trustedbrands img:hover {
+  transform: scale(1.1);
+}
+
+.desk-homebanner {
+  display: block;
+}
+
+.mob-homebanner {
+  display: none;
+}
+
 @font-face {
   font-family: "Poppins-light";
   src: url("./../fonts/Poppins/Poppins-Light.ttf");
@@ -2292,6 +2332,9 @@ body h6 {
     max-width: 1140px;
     width: 100%;
   }
+  .custom-tabs .f-list.w-50 {
+    width: 100% !important;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -2328,6 +2371,12 @@ body h6 {
     justify-content: unset !important;
   }
 }
+@media (min-width: 991.5px) {
+  .sect-services .col-lg-3 {
+    flex: 0 0 auto;
+    width: 30%;
+  }
+}
 @media (max-width: 991.5px) {
   .sect-transresults h3 {
     font-size: 30px;
@@ -2348,6 +2397,12 @@ body h6 {
   .showcase-block-outer .showcase-block {
     padding: 35px 0px 100px;
     background-size: 50%;
+  }
+}
+@media (min-width: 768px) {
+  footer .col-md-2 {
+    flex: 0 0 auto;
+    width: 18.7%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -2665,6 +2720,62 @@ body h6 {
     left: auto !important;
     right: auto !important;
   }
+  .accordion .accordion-body .f-list {
+    display: none;
+  }
+  .sect_IDAccordian .row .col-md-8 {
+    display: none;
+  }
+  .single-slider.slick-slider {
+    display: block !important;
+  }
+  .tabsect-footbuttons {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #tb-frontoffice .row .col-md-6:last-child {
+    display: none;
+  }
+  #tb-fieldoperation .row .col-md-6:last-child {
+    display: none;
+  }
+  #tb-customerexperience .row .col-md-6:last-child {
+    display: none;
+  }
+  .custom-tabs .f-list {
+    display: none;
+  }
+  .features-slider.slick-slider {
+    display: block !important;
+  }
+  .custom-tabs .tab-content h3.title-md-montbold {
+    text-align: center;
+  }
+  .single-slider.slick-slider {
+    margin-bottom: 2rem !important;
+    margin-top: 0rem !important;
+  }
+  .sect_trustedbrands {
+    margin-top: 2rem;
+  }
+  .main-carousel .carousel-caption {
+    bottom: 0 !important;
+    top: auto !important;
+    transform: translate(0, -15%) !important;
+  }
+  .main-carousel .carousel-caption .sect-getservice {
+    flex-direction: column;
+  }
+  .main-carousel .carousel-caption .sect-getservice .input-group .form-control {
+    padding: 12px 20px;
+  }
+  .desk-homebanner {
+    display: none;
+  }
+  .mob-homebanner {
+    display: block;
+  }
 }
 @media only screen and (max-width: 680px) {
   .learnmore-block-outer .learnmore-block {
@@ -2672,13 +2783,15 @@ body h6 {
     background-size: 320px;
   }
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 590px) {
   .dsk-fwlogo {
     display: none;
   }
   .mob-fwlogo {
     display: block;
   }
+}
+@media only screen and (max-width: 580px) {
   .home-service-item img {
     width: 50px;
     height: 50px;
@@ -2709,6 +2822,9 @@ body h6 {
   }
   .showcase-app-block .content .col-md-5 .d-flex {
     justify-content: center;
+  }
+  .main-carousel .carousel-caption .sect-getservice.w-75 {
+    width: 100% !important;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -3189,6 +3305,7 @@ footer .getintouch p.git-telno a {
   text-decoration: none !important;
 }
 footer .footlogo {
+  max-width: 100%;
   height: 65px;
 }
 
@@ -3469,10 +3586,6 @@ footer .footlogo {
 .sect-services {
   margin-top: -50px;
 }
-.sect-services .col-md-3 {
-  flex: 0 0 auto;
-  width: 30%;
-}
 .sect-services .card {
   box-shadow: 0 0 10px 5px rgba(206, 207, 254, 0.25);
   border-radius: 15px;
@@ -3657,6 +3770,18 @@ footer .footlogo {
 .sect-jobquote ul li img {
   width: 20px;
   height: 20px;
+}
+
+.features-slider.slick-slider {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  display: none;
+}
+
+.single-slider.slick-slider {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  display: none;
 }
 
 .cft-card {

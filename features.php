@@ -205,7 +205,7 @@ include_once 'header.php';
                 <div class="sub-content">
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="tb-quotation">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">QUOTATION</h3>
@@ -251,11 +251,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -321,7 +362,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-scheduling">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">SCHEDULING</h3>
@@ -367,6 +408,50 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="d-flex mt-4 text-left">
                                             <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
                                                 <span class="u-button-arrow"></span>
@@ -437,7 +522,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-completejob">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">COMPLETE JOB</h3>
@@ -483,11 +568,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -553,7 +679,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-invoice">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">INVOICE</h3>
@@ -599,11 +725,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -669,7 +836,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-membership">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">MEMBERSHIPS</h3>
@@ -715,11 +882,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -785,7 +993,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-leadmanagement">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">LEAD MANAGEMENT</h3>
@@ -831,11 +1039,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -906,8 +1155,8 @@ include_once 'header.php';
         </div>
         <div class="margin-btm" id="tb-fieldoperation">
             <div class="mt-5">
-                <div class="text-center">
-                    <h2 class="title drawn-underline">Field Operation</h2>
+                <div class="wrapper-head text-center">
+                    <h2 class="title">Field Operation</h2>
                     <p class="pt-4">Arm your field team with the tools they need to boost revenue and efficiency at every job they.</p>
                 </div>
                 <div class="sub-tab">
@@ -935,7 +1184,7 @@ include_once 'header.php';
                 <div class="sub-content">
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="tb-mobileapp">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">MOBILE APP</h3>
@@ -981,11 +1230,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1051,7 +1341,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-estimates">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-md-montbold">ESTIMATES</p>
@@ -1097,11 +1387,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1167,7 +1498,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-pricebook">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">PRICEBOOK</h3>
@@ -1213,11 +1544,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1283,7 +1655,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-equipment">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">EQUIPMENT</h3>
@@ -1329,11 +1701,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1399,7 +1812,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-forms">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">FORMS</h3>
@@ -1445,11 +1858,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1515,7 +1969,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-timesheets">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">TIMESHEETS</h3>
@@ -1561,11 +2015,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1636,8 +2131,8 @@ include_once 'header.php';
         </div>
         <div class="margin-btm" id="tb-customerexperience">
             <div class="mt-5">
-                <div class="text-center">
-                    <h2 class="title drawn-underline">Customer Experience</h2>
+                <div class="wrapper-head text-center">
+                    <h2 class="title">Customer Experience</h2>
                     <p class="pt-4">Offer customers a modern, five-star experience designed to help you capture more business with greater ease.</p>
                 </div>
                 <div class="sub-tab">
@@ -1665,7 +2160,7 @@ include_once 'header.php';
                 <div class="sub-content">
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="tb-cmobileapp">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">MOBILE APP</h3>
@@ -1711,11 +2206,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1781,7 +2317,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-cestimates">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="title-md-montbold">ESTIMATES</p>
@@ -1827,11 +2363,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -1897,7 +2474,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-cpricebook">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">PRICEBOOK</h3>
@@ -1943,11 +2520,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -2013,7 +2631,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-cequipment">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">EQUIPMENT</h3>
@@ -2059,11 +2677,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -2129,7 +2788,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-cforms">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">FORMS</h3>
@@ -2175,11 +2834,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>
@@ -2245,7 +2945,7 @@ include_once 'header.php';
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tb-ctimesheets">
-                            <div class="pt-3 tab-anchor">
+                            <div class="pt-3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3 class="title-md-montbold">TIMESHEETS</h3>
@@ -2291,11 +2991,52 @@ include_once 'header.php';
                                                 </a>
                                             </li>
                                         </ul>
-                                        <div class="d-flex mt-4 text-left">
-                                            <a href="features-details.php" class="btn-red arrowBtn u-button has-hover">
-                                                <span class="u-button-arrow"></span>
-                                                <span>Learn More</span>
-                                            </a>
+                                        <div class="features-slider">
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Quote</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/schedulingimg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Add Multiple Services and Items</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Attach SLA and T&C’s</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Approvals</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Quote Statuses</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img src="assets/images/quotation-bg.svg" class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="title-xls">Create Jobs</p>
+                                                    <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4 tabsect-footbuttons">
+                                            <a href="features-details.php" class="btn-red">Learn More</a>
                                             <a class="btn-grey ms-2" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo</a>
                                         </div>
                                     </div>

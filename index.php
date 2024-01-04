@@ -5,7 +5,8 @@ include_once 'header.php';
 <div class="carousel slide carousel-fade main-carousel margin-btm" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/images/slider1.svg" class="img-fluid" alt="slider1" />
+      <img src="assets/images/home-banner/CCTV.jpg" class="img-fluid desk-homebanner" alt="CCTV" />
+      <img src="assets/images/home-banner/mob-banner-1.jpg" class="img-fluid mob-homebanner" alt="CCTV" />
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
           <h1>One <span>Platform</span></h1>
@@ -28,7 +29,7 @@ include_once 'header.php';
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/slider2.svg" class="img-fluid" alt="slider2">
+      <img src="assets/images/home-banner/computer it.jpg" class="img-fluid" alt="Computer IT">
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
           <h1>One <span>Platform</span></h1>
@@ -51,7 +52,122 @@ include_once 'header.php';
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/slider3.svg" class="img-fluid" alt="slider3">
+      <img src="assets/images/home-banner/geyser repair.jpg" class="img-fluid" alt="Geyser Repair">
+      <div class="main-Wrapper">
+        <div class="carousel-caption d-md-block">
+          <h1>One <span>Platform</span></h1>
+          <h1>For All Field Service</h1>
+          <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
+          <div class="sect-getservice w-75">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1">
+                <select class="form-control">
+                  <option>India</option>
+                  <option>Albania</option>
+                  <option>Algeria</option>
+                </select>
+              </span>
+              <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+            </div>
+            <button type="submit" class="btn-getstarted">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/home-banner/hvac.jpg" class="img-fluid" alt="hvac">
+      <div class="main-Wrapper">
+        <div class="carousel-caption d-md-block">
+          <h1>One <span>Platform</span></h1>
+          <h1>For All Field Service</h1>
+          <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
+          <div class="sect-getservice w-75">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1">
+                <select class="form-control">
+                  <option>India</option>
+                  <option>Albania</option>
+                  <option>Algeria</option>
+                </select>
+              </span>
+              <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+            </div>
+            <button type="submit" class="btn-getstarted">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/home-banner/lift.jpg" class="img-fluid" alt="Lift">
+      <div class="main-Wrapper">
+        <div class="carousel-caption d-md-block">
+          <h1>One <span>Platform</span></h1>
+          <h1>For All Field Service</h1>
+          <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
+          <div class="sect-getservice w-75">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1">
+                <select class="form-control">
+                  <option>India</option>
+                  <option>Albania</option>
+                  <option>Algeria</option>
+                </select>
+              </span>
+              <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+            </div>
+            <button type="submit" class="btn-getstarted">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/home-banner/pest control.jpg" class="img-fluid" alt="Pest Control">
+      <div class="main-Wrapper">
+        <div class="carousel-caption d-md-block">
+          <h1>One <span>Platform</span></h1>
+          <h1>For All Field Service</h1>
+          <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
+          <div class="sect-getservice w-75">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1">
+                <select class="form-control">
+                  <option>India</option>
+                  <option>Albania</option>
+                  <option>Algeria</option>
+                </select>
+              </span>
+              <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+            </div>
+            <button type="submit" class="btn-getstarted">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/home-banner/plumbing.jpg" class="img-fluid" alt="plumbing">
+      <div class="main-Wrapper">
+        <div class="carousel-caption d-md-block">
+          <h1>One <span>Platform</span></h1>
+          <h1>For All Field Service</h1>
+          <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
+          <div class="sect-getservice w-75">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1">
+                <select class="form-control">
+                  <option>India</option>
+                  <option>Albania</option>
+                  <option>Algeria</option>
+                </select>
+              </span>
+              <input type="text" class="form-control" placeholder="Enter Your mobile number " aria-label="MobileNumber">
+            </div>
+            <button type="submit" class="btn-getstarted">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/home-banner/ro.jpg" class="img-fluid" alt="RO">
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
           <h1>One <span>Platform</span></h1>
@@ -125,61 +241,61 @@ include_once 'header.php';
         <div class="row mb-5">
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
-              <img src="assets/images/job_scheduling.svg" />
+              <img src="assets/images/services/job_scheduling.svg" />
               <p>Job Scheduling & Dispatching</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
-              <img src="assets/images/quotation_invoice.svg" />
+              <img src="assets/images/services/quotation_invoice.svg" />
               <p>Quotation/Invoice</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
-              <img src="assets/images/inventory_management.svg" />
+              <img src="assets/images/services/inventory_management.svg" />
               <p>Inventory Management</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
-              <img src="assets/images/asset_management.svg" />
+              <img src="assets/images/services/asset_management.svg" />
               <p>Asset Management</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
-              <img src="assets/images/customer_app.svg" />
+              <img src="assets/images/services/customer_app.svg" />
               <p>Customer App</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
-              <img src="assets/images/amc_management.svg" />
+              <img src="assets/images/services/amc_management.svg" />
               <p>AMC Management</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
-              <img src="assets/images/realtime_tracking.svg" />
+              <img src="assets/images/services/realtime_tracking.svg" />
               <p>Real Time Tracking</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
-              <img src="assets/images/job_report.svg" />
+              <img src="assets/images/services/job_report.svg" />
               <p>Job Report</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
-              <img src="assets/images/lead_management.svg" />
+              <img src="assets/images/services/lead_management.svg" />
               <p>Lead Management</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
-              <img src="assets/images/service_management.svg" />
+              <img src="assets/images/services/service_management.svg" />
               <p>Service Management</p>
             </div>
           </div>
@@ -288,42 +404,42 @@ include_once 'header.php';
       <div class="row w-75 m-auto">
         <div class="col-md-4 col-sm-6 col-6 my-3">
           <div class="social-grid-block text-center">
-            <img src="assets/images/rating-review-icon-1.svg">
+            <img src="assets/images/growth/Average-Increase-in-Monthly-Revenue.png">
             <h2 class="title-bold">300k +</h2>
             <p class="title-sm-mont">Total Learners</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-6 my-3">
           <div class="social-grid-block text-center">
-            <img src="assets/images/rating-review-icon-1.svg">
+            <img src="assets/images/growth/Field-Service-experts.png">
             <h2 class="title-bold">300k +</h2>
             <p class="title-sm-mont">Total Learners</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-6 my-3">
           <div class="social-grid-block text-center">
-            <img src="assets/images/rating-review-icon-1.svg">
+            <img src="assets/images/growth/Field-Service-Industries.png">
             <h2 class="title-bold">300k +</h2>
             <p class="title-sm-mont">Total Learners</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-6 my-3">
           <div class="social-grid-block text-center">
-            <img src="assets/images/rating-review-icon-1.svg">
+            <img src="assets/images/growth/hours-per-week.png">
             <h2 class="title-bold">300k +</h2>
             <p class="title-sm-mont">Total Learners</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-6 my-3">
           <div class="social-grid-block text-center">
-            <img src="assets/images/rating-review-icon-2.svg">
+            <img src="assets/images/growth/households.png">
             <h2 class="title-bold">300k +</h2>
             <p class="title-sm-mont">Total Learners</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-6 my-3">
           <div class="social-grid-block text-center">
-            <img src="assets/images/rating-review-icon-1.svg">
+            <img src="assets/images/growth/no-of-Customers increase.png">
             <h2 class="title-bold">300k +</h2>
             <p class="title-sm-mont">Total Learners</p>
           </div>
@@ -332,58 +448,6 @@ include_once 'header.php';
     </div>
   </div>
 </section>
-<!-- <section class="block-grey sect-transresults margin-btm" data-aos="fade-up">
-  <div class="main-Wrapper">
-    <div class="row">
-      <div class="col-md-5">
-        <img src="assets/images/country-map.jpg" class="img-fluid" />
-      </div>
-      <div class="col-md-7">
-        <h2>Transformative Results with FieldWeb FSM</h3>
-          <p class="pt-2 subtext-mont">FieldWeb makes running a service business easier, with quoting,
-            scheduling, invoicing, report and payments in one place.</p>
-          <div class="row mt-3">
-            <div class="col-md-5 col-6 mt-2">
-              <div class="block-darkgrey p-2">
-                <h3><span class="count">200000</span>+</h3>
-                <p>Field Service experts trust FieldWeb</p>
-              </div>
-            </div>
-            <div class="col-md-5 col-6 mt-2">
-              <div class="block-darkgrey p-2">
-                <h3><span class="count">50</span>+</h3>
-                <p>Field Service Industries served us</p>
-              </div>
-            </div>
-            <div class="col-md-5 col-6 mt-2">
-              <div class="block-darkgrey p-2">
-                <h3><span class="count">5</span> Million + </h3>
-                <p>households have been served by FieldWeb-powered businesses</p>
-              </div>
-            </div>
-            <div class="col-md-5 col-6 mt-2">
-              <div class="block-darkgrey p-2">
-                <h3><span class="count">14</span></h3>
-                <p>hours per week saved using FieldWeb, on average</p>
-              </div>
-            </div>
-            <div class="col-md-5 col-6 mt-2">
-              <div class="block-darkgrey p-2">
-                <h3><span class="count">27</span>%</h3>
-                <p>Average Increase in Monthly Revenue using FieldWeb</p>
-              </div>
-            </div>
-            <div class="col-md-5 col-6 mt-2">
-              <div class="block-darkgrey p-2">
-                <h3><span class="count">35</span>%</h3>
-                <p>no. of Customers increase By using FieldWeb</p>
-              </div>
-            </div>
-          </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 <!----------One App To Replace----------->
 <section class="main-Wrapper sect-oneapp margin-btm" data-aos="fade-up">
   <div class="text-center margin-sm-btm">
@@ -394,73 +458,73 @@ include_once 'header.php';
     <div class="row text-center mt-5">
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/manualjob_allocation.svg" />
+          <img src="assets/images/features/manualjob_allocation.svg" />
           <p>Manual Job Allocation</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/sheets.svg" />
+          <img src="assets/images/features/sheets.svg" />
           <p>Sheets</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/documents.svg" />
+          <img src="assets/images/features/documents.svg" />
           <p>Documents</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/chats.svg" />
+          <img src="assets/images/features/chats.svg" />
           <p>Chats</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/ledger_book.svg" />
+          <img src="assets/images/features/ledger_book.svg" />
           <p>Ledger Book</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/expense_bill.svg" />
+          <img src="assets/images/features/expense_bill.svg" />
           <p>Expense Bills</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/attendance_register.svg" />
+          <img src="assets/images/features/attendance_register.svg" />
           <p>Attendance Register</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/gps.svg" />
+          <img src="assets/images/features/gps.svg" />
           <p>GPS</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/tools_checklist.svg" />
+          <img src="assets/images/features/tools_checklist.svg" />
           <p>Tools Checklist</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/asset_counting.svg" />
+          <img src="assets/images/features/asset_counting.svg" />
           <p>Asset Counting</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/calls.svg" />
+          <img src="assets/images/features/calls.svg" />
           <p>Calls</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
         <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/amc_markup.svg" />
+          <img src="assets/images/features/amc_markup.svg" />
           <p>AMC Markup</p>
         </div>
       </div>

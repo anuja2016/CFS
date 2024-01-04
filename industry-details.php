@@ -67,7 +67,7 @@ include_once 'header.php';
         <h2 class="title">Making HVAC service run smoothly for your business</h2>
         <p class="mt-5">Running an HVAC business can be tough. From scheduling jobs to dispatching technicians, disorganization can lead to inefficiency. That's where FieldWeb's HVAC software comes in. It simplifies everything – create estimates, installations, repairs, job tracking and on the job reports – all in one place.</p>
     </div>
-    <div class="margin-btm">
+    <div class="margin-btm sect_IDAccordian">
         <div class="row">
             <div class="col-md-4 mb-3">
                 <div class="accordion accordion-flush" id="accordionservice">
@@ -105,6 +105,36 @@ include_once 'header.php';
                                         </a>
                                     </li>
                                 </ul>
+                                <div class="single-slider">
+                                    <div class="card">
+                                        <img src="assets/images/quotes-bg1.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Add multiple services and items</p>
+                                            <p class="pt-2">Efficient HVAC scheduling is essential for smooth operations. Our HVAC Scheduling Software simplifies appointment management, technician dispatch, and ensures timely service, enhancing your business's performance.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotes-bg2.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Share Quote & take follow-ups</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotes-bg3.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Change Quote Status</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotes-bg4.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Quote Approvals</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -142,6 +172,36 @@ include_once 'header.php';
                                         </a>
                                     </li>
                                 </ul>
+                                <div class="single-slider">
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Assign jobs</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Map and route optimization</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Real - Time Updates</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Job Reminders</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -179,6 +239,36 @@ include_once 'header.php';
                                         </a>
                                     </li>
                                 </ul>
+                                <div class="single-slider">
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Job Notification</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Job Detailing</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Job Images</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Completion Report</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -216,6 +306,36 @@ include_once 'header.php';
                                         </a>
                                     </li>
                                 </ul>
+                                <div class="single-slider">
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Generate Invoice</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Invoice Statuses</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Payment Followup</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                                        <div class="card-body text-center">
+                                            <p class="title-xls">Record Payment</p>
+                                            <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -227,7 +347,7 @@ include_once 'header.php';
                         <div class="card">
                             <img src="assets/images/quotes-bg1.svg" class="img-fluid">
                             <div class="card-body text-center">
-                                <p class="title-xls">HVAC Scheduling Software</p>
+                                <p class="title-xls">Add multiple services and items</p>
                                 <p class="pt-2">Efficient HVAC scheduling is essential for smooth operations. Our HVAC Scheduling Software simplifies appointment management, technician dispatch, and ensures timely service, enhancing your business's performance.</p>
                             </div>
                         </div>
@@ -236,7 +356,7 @@ include_once 'header.php';
                         <div class="card">
                             <img src="assets/images/quotes-bg2.svg" class="img-fluid">
                             <div class="card-body text-center">
-                                <p class="title-xls">Add Multiple Services and Items</p>
+                                <p class="title-xls">Share Quote & take follow-ups</p>
                                 <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
                             </div>
                         </div>
@@ -245,7 +365,7 @@ include_once 'header.php';
                         <div class="card">
                             <img src="assets/images/quotes-bg3.svg" class="img-fluid">
                             <div class="card-body text-center">
-                                <p class="title-xls">Attach SLA and T&C’s</p>
+                                <p class="title-xls">Change Quote Status</p>
                                 <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
                             </div>
                         </div>

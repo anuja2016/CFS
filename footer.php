@@ -51,7 +51,7 @@
         </ul>
       </div>
 
-      <div class="col-md-4 col-sm-6 col-12">
+      <div class="col-md-3 col-sm-6 col-12 ms-auto">
         <div class="desk-contactdetails">
           <img class="footlogo" src="assets/images/FW-Logo-white.svg" />
           <div>
@@ -424,6 +424,24 @@
     slidesToScroll: 1,
     dots: true
   });
+
+  $('.single-slider').slick({
+    arrows: false,
+    infinite: true,
+    autoplay: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+  });
+</script>
+
+<!--slick slider initialize when used in accordian--->
+<script>
+  $(document).on("show.bs.collapse", ".collapse", function(e) {
+    if ($(this).is(e.target)) {
+      $(".single-slider").slick("refresh");
+    }
+  });
 </script>
 
 <!--counter--->
@@ -699,21 +717,21 @@
 
 <script type="text/javascript" src="assets/js/jquery.simplePagination.js"></script>
 <script>
-  var items = $(".sect-services .row .col-md-3");
-    var numItems = items.length;
-    var perPage = 9;
+  var items = $(".sect-services .row .col-lg-3");
+  var numItems = items.length;
+  var perPage = 9;
 
-    items.slice(perPage).hide();
+  items.slice(perPage).hide();
 
-    $('#pagination-container').pagination({
-        items: numItems,
-        itemsOnPage: perPage,
-        prevText: "Prev",
-        nextText: "Next",
-        onPageClick: function (pageNumber) {
-            var showFrom = perPage * (pageNumber - 1);
-            var showTo = showFrom + perPage;
-            items.hide().slice(showFrom, showTo).show();
-        }
-    });
+  $('#pagination-container').pagination({
+    items: numItems,
+    itemsOnPage: perPage,
+    prevText: "Prev",
+    nextText: "Next",
+    onPageClick: function(pageNumber) {
+      var showFrom = perPage * (pageNumber - 1);
+      var showTo = showFrom + perPage;
+      items.hide().slice(showFrom, showTo).show();
+    }
+  });
 </script>
