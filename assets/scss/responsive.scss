@@ -182,6 +182,11 @@
             }
         }
     }
+    .main-carousel {
+        .carousel-caption {
+            max-width: 60%!important;
+        }
+    }
 }
 
 @media (min-width: 991.5px) {
@@ -496,7 +501,7 @@
             width: 100%;
             height: 100vh;
             object-fit: cover;
-            object-position: center;
+            object-position: top;
         }
     }
 

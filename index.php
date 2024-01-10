@@ -206,6 +206,13 @@ include_once 'header.php';
     </div>
     <div class="row m-4">
       <div class="col-md-3 col-sm-6 text-center">
+        <div style="background-color: #e2e5e7;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    background-size: 40px 100%;
+    background-repeat: no-repeat;
+    background-position: left -40px top 0;
+    -webkit-animation: shine 1s ease infinite;
+    animation: shine 1s ease infinite;"></div>
         <img src="assets/images/create_quote.svg" />
         <h5 class="mt-2 mb-2">Create Quotes</h5>
         <p class="pt-1">Generate accurate quotes instantly, tailored to client needs. Simplify the quoting
