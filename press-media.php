@@ -4,7 +4,10 @@ include_once 'header.php';
 
 <section>
     <div class="banner-block-center mt-116 margin-btm">
-        <div class="block-img"><img src="assets/images/press-media-bg.svg"></div>
+        <div class="block-img">
+            <img src="assets/images/banners/press-media-banner.svg" class="img-fluid desk-homebanner" alt="press-media-banner">
+            <img src="assets/images/banners/press-media-banner-mob.jpg" class="img-fluid mob-homebanner" alt="press-media-banner" />
+        </div>
         <div class="content text-center">
             <h1>Press & Media</h1>
             <p>Journalists and analysts can contact us directly at info@fieldweb.co.in</p>

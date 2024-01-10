@@ -5,7 +5,8 @@ include_once 'header.php';
 <section>
     <div class="banner-block-lft mt-116">
         <div class="block-img">
-            <img src="assets/images/pricing-bg.svg">
+            <img src="assets/images/banners/pricing-banner.svg" class="img-fluid desk-homebanner" alt="pricing-banner">
+            <img src="assets/images/banners/pricing-banner-mob.jpg" class="img-fluid mob-homebanner" alt="pricing-banner" />
             <div class="overlay"></div>
         </div>
         <div class="main-Wrapper">
@@ -20,7 +21,7 @@ include_once 'header.php';
     </div>
 </section>
 <section class="margin-btm" data-aos="fade-up">
-    <div class="d-flex gap-4 justify-content-center mt-5 mb-5">
+    <div class="main-Wrapper sect_currency mt-5 mb-5">
         <span>Save Up To Rs.1000/user/month <img src="assets/images/arrow-rightblack-bold.svg"> </span>
         <div class="form-check form-switch custom-switch">
             <span>INR</span>
@@ -211,93 +212,93 @@ include_once 'header.php';
     </div>
 </section>
 <!----------One App To Replace----------->
-<section class="main-Wrapper sect-oneapp" data-aos="fade-up">
-    <div class="text-center margin-btm">
-        <h2 class="title">One App To Replace Them All</h2>
-        <p class="title-sm-red">All your work in one place :</p>
-    </div>
-    <div class="grid-list mb-3">
-        <div class="row text-center mt-5">
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/manualjob_allocation.svg" />
-                    <p>Manual Job Allocation</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/sheets.svg" />
-                    <p>Sheets</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/documents.svg" />
-                    <p>Documents</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/chats.svg" />
-                    <p>Chats</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/ledger_book.svg" />
-                    <p>Ledger Book</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/expense_bill.svg" />
-                    <p>Expense Bills</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/attendance_register.svg" />
-                    <p>Attendance Register</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/gps.svg" />
-                    <p>GPS</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/tools_checklist.svg" />
-                    <p>Tools Checklist</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/asset_counting.svg" />
-                    <p>Asset Counting</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/calls.svg" />
-                    <p>Calls</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6">
-                <div class="d-flex align-items-center text-start gap-3">
-                    <img src="assets/images/amc_markup.svg" />
-                    <p>AMC Markup</p>
-                </div>
-            </div>
+<section class="main-Wrapper sect-oneapp margin-btm" data-aos="fade-up">
+  <div class="text-center margin-sm-btm">
+    <h2 class="title">One App To Replace Them All</h2>
+    <p class="title-sm-red">All your work in one place :</p>
+  </div>
+  <div class="grid-list margin-btm">
+    <div class="row text-center mt-5">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/manualjob_allocation.svg" />
+          <p>Manual Job Allocation</p>
         </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/sheets.svg" />
+          <p>Sheets</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/documents.svg" />
+          <p>Documents</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/chats.svg" />
+          <p>Chats</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/ledger_book.svg" />
+          <p>Ledger Book</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/expense_bill.svg" />
+          <p>Expense Bills</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/attendance_register.svg" />
+          <p>Attendance Register</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/gps.svg" />
+          <p>GPS</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/tools_checklist.svg" />
+          <p>Tools Checklist</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/asset_counting.svg" />
+          <p>Asset Counting</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/calls.svg" />
+          <p>Calls</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+        <div class="d-flex align-items-center text-start gap-3">
+          <img src="assets/images/features/amc_markup.svg" />
+          <p>AMC Markup</p>
+        </div>
+      </div>
     </div>
-    <div class="btn-center-flex mb-5">
-        <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover mt-4">
-            <span class="u-button-arrow"></span>
-            <span>Book a Slot</span>
-        </a>
-    </div>
+  </div>
+  <div class="btn-center-flex">
+    <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover mt-4">
+      <span class="u-button-arrow"></span>
+      <span>Book a Slot</span>
+    </a>
+  </div>
 </section>
 <section class="mt-8 margin-btm" data-aos="fade-up">
     <div class="container">
@@ -428,7 +429,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="text-center margin-btm" data-aos="fade-up">
+<section class="text-center mt-10 margin-btm" data-aos="fade-up">
     <div class="main-Wrapper sect-trustedby">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -437,7 +438,31 @@ include_once 'header.php';
                 <h3 class="red-title-bold drawn-underline"><span class="count">10000</span>+ Users</h3>
             </div>
             <div class="col-md-6">
-                <img src="assets/images/idea.svg" alt="..." class="img-fluid">
+            <div class="sect_trustedbrands">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/capeterra-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/customer support logo-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/EASENOF USE-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/FUNCTIONALITY-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/get up logo-01-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/leader summer-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/product advise logo-01.svg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
     </div>

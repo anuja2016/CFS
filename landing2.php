@@ -415,7 +415,7 @@ include_once 'header.php';
         </div>
         <div class="row mt-4 sect-landing-pricing">
             <div class="col-md-4 col-sm-6">
-                <div class="landing-pricing-plan margin-sm-btm">
+                <div class="landing-pricing-plan">
                     <div class="text-center margin-sm-btm">
                         <img src="assets/images/standard-icon.svg" class="lp-icon">
                         <h6>Standard</h6>
@@ -446,7 +446,7 @@ include_once 'header.php';
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
-                <div class="landing-pricing-plan default-pricing-plan margin-sm-btm">
+                <div class="landing-pricing-plan default-pricing-plan">
                     <div class="text-center margin-sm-btm">
                         <img src="assets/images/unlimitedicon.svg" class="lp-icon">
                         <h6>Unlimited</h6>
@@ -477,7 +477,7 @@ include_once 'header.php';
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
-                <div class="landing-pricing-plan margin-sm-btm">
+                <div class="landing-pricing-plan">
                     <div class="text-center margin-sm-btm">
                         <img src="assets/images/premium-icon.svg" class="lp-icon">
                         <h6>Premium</h6>

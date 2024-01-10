@@ -4,7 +4,10 @@ include_once 'header.php';
 
 <section>
     <div class="banner-block-lft mt-116 mb-5">
-        <div class="block-img"><img src="assets/images/partner-bg.svg"></div>
+        <div class="block-img">
+            <img src="assets/images/banners/partner-banner.svg" class="img-fluid desk-homebanner" alt="partner-banner" />
+            <img src="assets/images/banners/partner-banner-mob.jpg" class="img-fluid mob-homebanner" alt="partner-banner" />
+        </div>
         <div class="main-Wrapper">
             <div class="content">
                 <h1>Grow on a global scale as a Deel Partner</h1>

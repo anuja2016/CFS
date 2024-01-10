@@ -159,65 +159,65 @@ include_once 'header.php';
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="row">
+                <div class="row mb-5">
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="home-service-item">
-                            <img src="assets/images/job_scheduling.svg" />
-                            <p class="title-md">Scheduling & Dispatching</p>
+                            <img src="assets/images/services/job_scheduling.svg" />
+                            <p>Job Scheduling & Dispatching</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="home-service-item">
-                            <img src="assets/images/quotation_invoice.svg" />
-                            <p class="title-md">Quotation/Invoice</p>
+                            <img src="assets/images/services/quotation_invoice.svg" />
+                            <p>Quotation/Invoice</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="home-service-item">
-                            <img src="assets/images/inventory_management.svg" />
-                            <p class="title-md">Inventory Management</p>
+                            <img src="assets/images/services/inventory_management.svg" />
+                            <p>Inventory Management</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="home-service-item">
-                            <img src="assets/images/asset_management.svg" />
-                            <p class="title-md">Asset Management</p>
+                            <img src="assets/images/services/asset_management.svg" />
+                            <p>Asset Management</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="home-service-item">
-                            <img src="assets/images/customer_app.svg" />
-                            <p class="title-md">Customer App</p>
+                            <img src="assets/images/services/customer_app.svg" />
+                            <p>Customer App</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="home-service-item">
-                            <img src="assets/images/amc_management.svg" />
-                            <p class="title-md">AMC Management</p>
+                            <img src="assets/images/services/amc_management.svg" />
+                            <p>AMC Management</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="home-service-item">
-                            <img src="assets/images/realtime_tracking.svg" />
-                            <p class="title-md">Real Time Tracking</p>
+                            <img src="assets/images/services/realtime_tracking.svg" />
+                            <p>Real Time Tracking</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="home-service-item">
-                            <img src="assets/images/job_report.svg" />
-                            <p class="title-md">Job Report</p>
+                            <img src="assets/images/services/job_report.svg" />
+                            <p>Job Report</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="home-service-item">
-                            <img src="assets/images/lead_management.svg" />
-                            <p class="title-md">Lead Management</p>
+                            <img src="assets/images/services/lead_management.svg" />
+                            <p>Lead Management</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="home-service-item">
-                            <img src="assets/images/service_management.svg" />
-                            <p class="title-md">Service Management</p>
+                            <img src="assets/images/services/service_management.svg" />
+                            <p>Service Management</p>
                         </div>
                     </div>
                 </div>

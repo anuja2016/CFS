@@ -3,12 +3,13 @@ include_once 'header.php';
 ?>
 
 <section class="about-banner-block margin-btm mt-116">
-    <img src="assets/images/aboutbackground.svg" class="img-fluid" alt="...">
+    <img src="assets/images/banners/about-banner.svg" class="img-fluid desk-homebanner" alt="about-banner" />
+    <img src="assets/images/banners/about-banner-mob.jpg" class="img-fluid mob-homebanner" alt="about-banner" />
 </section>
 <section class="main-Wrapper sect-about margin-btm" data-aos="fade-up">
     <div class="row flex-row-reverse justify-content-between">
         <div class="col-md-5" data-aos="fade-up">
-            <img src="assets/images/about-fieldweb.png" class="img-fluid" alt="...">
+            <img src="assets/images/about-fieldweb.png" class="img-fluid">
         </div>
         <div class="col-md-6" data-aos="fade-up">
             <h3 class="title-bold mb-3">About FieldWeb</h3>
@@ -115,7 +116,7 @@ include_once 'header.php';
     </div>
 </section>
 
-<section class="sect-leaderdesk pt-5 pb-5" data-aos="fade-up">
+<section class="sect-leaderdesk pt-5 pb-5 margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="text-center margin-sm-btm">
             <h2 class="title-semibold"> From Leader's Desk</h2>
@@ -125,7 +126,7 @@ include_once 'header.php';
                 <div class="col-md-6 mt-2 mb-2">
                     <div class="card p-3">
                         <div class="d-flex gap-3 align-items-start">
-                            <img src="assets/images/leaderimg1.svg" alt="...">
+                            <img src="assets/images/leaderimg1.svg">
                             <div class="d-flex-column flex-start">
                                 <h4 class="leader-name">Amit Dhawan</h4>
                                 <p class="pb-1">Amit Dhawan</p>
@@ -142,7 +143,7 @@ include_once 'header.php';
                 <div class="col-md-6 mt-2 mb-2">
                     <div class="card p-3">
                         <div class="d-flex gap-3 align-items-start">
-                            <img src="assets/images/leaderimg2.svg" alt="...">
+                            <img src="assets/images/leaderimg2.svg">
                             <div class="d-flex-column flex-start">
                                 <h4 class="leader-name">Sandeep Singh</h4>
                                 <p class="pb-1">Amit Dhawan</p>
@@ -159,7 +160,7 @@ include_once 'header.php';
                 <div class="col-md-6 mt-2 mb-2">
                     <div class="card p-3">
                         <div class="d-flex gap-3 align-items-start">
-                            <img src="assets/images/leaderimg3.svg" alt="...">
+                            <img src="assets/images/leaderimg3.svg">
                             <div class="d-flex-column flex-start">
                                 <h4 class="leader-name">Shashank Tewari</h4>
                                 <p class="pb-1">Amit Dhawan</p>
@@ -176,7 +177,7 @@ include_once 'header.php';
                 <div class="col-md-6 mt-2 mb-2">
                     <div class="card p-3">
                         <div class="d-flex gap-3 align-items-start">
-                            <img src="assets/images/leaderimg4.svg" alt="...">
+                            <img src="assets/images/leaderimg4.svg">
                             <div class="d-flex-column flex-start">
                                 <h4 class="leader-name">Sahil Bhatia</h4>
                                 <p class="pb-1">Amit Dhawan</p>
@@ -194,7 +195,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="text-center pt-5 margin-btm main-Wrapper" data-aos="fade-up">
+<section class="text-center margin-btm main-Wrapper" data-aos="fade-up">
     <h2 class="title-semibold"> Over 200000+ Field Service Businesses in 50+ </h2>
     <h2 class="title-semibold">industries trust FieldWeb</h2>
     <div class="row align-items-center mt-5">
@@ -205,7 +206,6 @@ include_once 'header.php';
         </div>
         <div class="col-md-6">
             <!-- <img src="assets/images/idea.svg" class="img-fluid"> -->
-
             <div class="sect_trustedbrands">
                 <div class="row">
                     <div class="col-md-3 col-sm-4 col-4">

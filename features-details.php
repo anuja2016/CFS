@@ -3,7 +3,8 @@ include_once 'header.php';
 ?>
 <section class="banner-block-lft mt-116 margin-btm">
     <div class="block-img">
-        <img src="assets/images/features-banner2.svg">
+        <img src="assets/images/banners/features-banner2.svg" class="img-fluid desk-homebanner" alt="features-banner">
+        <img src="assets/images/banners/features-banner2-mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <div class="overlay"></div>
     </div>
     <div class="main-Wrapper">
@@ -218,7 +219,7 @@ include_once 'header.php';
         <div class="learnmore-block">
             <p>BOOK YOUR FREE DEMO</p>
             <h3>Learn more about <span>FieldWeb</span></h3>
-            <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
+            <button type="submit" class="btn-getdemo-wh" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
         </div>
     </div>
 </section>

@@ -4,7 +4,10 @@ include_once 'header.php';
 
 <section class="margin-btm">
     <div class="banner-block-rht mt-116">
-        <div class="block-img"><img src="assets/images/contact_us_bg.svg"></div>
+        <div class="block-img">
+            <img src="assets/images/banners/contact-banner.svg" class="img-fluid desk-homebanner" alt="features-banner">
+            <img src="assets/images/banners/contact-banner-mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
+        </div>
         <div class="main-Wrapper d-flex justify-content-end">
             <div class="content text-center">
                 <h1>Built exclusively for the trade</h1>
@@ -132,7 +135,7 @@ include_once 'header.php';
         <div class="learnmore-block">
             <p>BOOK YOUR FREE DEMO</p>
             <h3>Learn more about <span>FieldWeb</span></h3>
-            <button type="submit" class="btn-getdemo-wh">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
+            <button type="submit" class="btn-getdemo-wh" data-bs-toggle="modal" data-bs-target="#getdemoModal">Get Demo <img src="assets/images/arrowrightblack.svg" /></button>
         </div>
     </div>
 </section>

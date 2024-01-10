@@ -4,7 +4,8 @@ include_once 'header.php';
 
 <section class="banner-block mt-116 margin-btm">
     <div class="block-img">
-        <img src="assets/images/features-bg.svg">
+        <img src="assets/images/banners/features-banner.svg" class="img-fluid desk-homebanner" alt="features-banner">
+        <img src="assets/images/banners/features-banner-mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <div class="overlay"></div>
     </div>
     <div class="main-Wrapper d-flex justify-content-end">
@@ -54,42 +55,42 @@ include_once 'header.php';
             <div class="row w-75 m-auto">
                 <div class="col-md-4 col-sm-6 col-6 my-3">
                     <div class="social-grid-block text-center">
-                        <img src="assets/images/rating-review-icon-1.svg">
+                        <img src="assets/images/growth/Average-Increase-in-Monthly-Revenue.png">
                         <h2 class="title-bold">300k +</h2>
                         <p class="title-sm-mont">Total Learners</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-6 my-3">
                     <div class="social-grid-block text-center">
-                        <img src="assets/images/rating-review-icon-1.svg">
+                        <img src="assets/images/growth/Field-Service-experts.png">
                         <h2 class="title-bold">300k +</h2>
                         <p class="title-sm-mont">Total Learners</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-6 my-3">
                     <div class="social-grid-block text-center">
-                        <img src="assets/images/rating-review-icon-1.svg">
+                        <img src="assets/images/growth/Field-Service-Industries.png">
                         <h2 class="title-bold">300k +</h2>
                         <p class="title-sm-mont">Total Learners</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-6 my-3">
                     <div class="social-grid-block text-center">
-                        <img src="assets/images/rating-review-icon-1.svg">
+                        <img src="assets/images/growth/hours-per-week.png">
                         <h2 class="title-bold">300k +</h2>
                         <p class="title-sm-mont">Total Learners</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-6 my-3">
                     <div class="social-grid-block text-center">
-                        <img src="assets/images/rating-review-icon-2.svg">
+                        <img src="assets/images/growth/households.png">
                         <h2 class="title-bold">300k +</h2>
                         <p class="title-sm-mont">Total Learners</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-6 my-3">
                     <div class="social-grid-block text-center">
-                        <img src="assets/images/rating-review-icon-1.svg">
+                        <img src="assets/images/growth/no-of-Customers increase.png">
                         <h2 class="title-bold">300k +</h2>
                         <p class="title-sm-mont">Total Learners</p>
                     </div>

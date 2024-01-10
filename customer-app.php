@@ -3,7 +3,10 @@ include_once 'header.php';
 ?>
 <section>
     <div class="banner-block-lft mt-116 margin-btm">
-        <div class="block-img"><img src="assets/images/customer-app-bg.svg"></div>
+        <div class="block-img">
+            <img src="assets/images/banners/customer-app-banner.svg" class="img-fluid desk-homebanner" alt="customer-app-banner" />
+            <img src="assets/images/banners/customer-app-banner-mob.jpg" class="img-fluid mob-homebanner" alt="customer-app-banner" />
+        </div>
         <div class="main-Wrapper">
             <div class="content">
                 <h1>A convenient online client portal that keeps work moving forward</h1>

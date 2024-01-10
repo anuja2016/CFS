@@ -6,7 +6,7 @@ include_once 'header.php';
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="assets/images/home-banner/CCTV.jpg" class="img-fluid desk-homebanner" alt="CCTV" />
-      <img src="assets/images/home-banner/mob-banner-1.jpg" class="img-fluid mob-homebanner" alt="CCTV" />
+      <img src="assets/images/home-banner/mobile-banners/cctv.jpg" class="img-fluid mob-homebanner" alt="CCTV" />
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
           <h1>One <span>Platform</span></h1>
@@ -29,7 +29,8 @@ include_once 'header.php';
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/home-banner/computer it.jpg" class="img-fluid" alt="Computer IT">
+      <img src="assets/images/home-banner/computer-it.jpg" class="img-fluid desk-homebanner" alt="Computer IT">
+      <img src="assets/images/home-banner/mobile-banners/computer-it.jpg" class="img-fluid mob-homebanner" alt="Computer IT" />
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
           <h1>One <span>Platform</span></h1>
@@ -52,7 +53,8 @@ include_once 'header.php';
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/home-banner/geyser repair.jpg" class="img-fluid" alt="Geyser Repair">
+      <img src="assets/images/home-banner/geyser-repair.jpg" class="img-fluid desk-homebanner" alt="Geyser Repair">
+      <img src="assets/images/home-banner/mobile-banners/geyser-repair.jpg" class="img-fluid mob-homebanner" alt="Geyser Repair" />
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
           <h1>One <span>Platform</span></h1>
@@ -75,7 +77,8 @@ include_once 'header.php';
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/home-banner/hvac.jpg" class="img-fluid" alt="hvac">
+      <img src="assets/images/home-banner/hvac.jpg" class="img-fluid desk-homebanner" alt="hvac">
+      <img src="assets/images/home-banner/mobile-banners/hvac.jpg" class="img-fluid mob-homebanner" alt="hvac" />
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
           <h1>One <span>Platform</span></h1>
@@ -98,7 +101,8 @@ include_once 'header.php';
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/home-banner/lift.jpg" class="img-fluid" alt="Lift">
+      <img src="assets/images/home-banner/lift.jpg" class="img-fluid desk-homebanner" alt="Lift">
+      <img src="assets/images/home-banner/mobile-banners/lift.jpg" class="img-fluid mob-homebanner" alt="lift" />
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
           <h1>One <span>Platform</span></h1>
@@ -121,7 +125,8 @@ include_once 'header.php';
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/home-banner/pest control.jpg" class="img-fluid" alt="Pest Control">
+      <img src="assets/images/home-banner/pest-control.jpg" class="img-fluid desk-homebanner" alt="Pest Control">
+      <img src="assets/images/home-banner/mobile-banners/pest-control.jpg" class="img-fluid mob-homebanner" alt="Pest Control" />
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
           <h1>One <span>Platform</span></h1>
@@ -144,7 +149,8 @@ include_once 'header.php';
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/home-banner/plumbing.jpg" class="img-fluid" alt="plumbing">
+      <img src="assets/images/home-banner/plumbing.jpg" class="img-fluid desk-homebanner" alt="Plumbing">
+      <img src="assets/images/home-banner/mobile-banners/plumbing.jpg" class="img-fluid mob-homebanner" alt="Plumbing" />
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
           <h1>One <span>Platform</span></h1>
@@ -167,7 +173,8 @@ include_once 'header.php';
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/home-banner/ro.jpg" class="img-fluid" alt="RO">
+      <img src="assets/images/home-banner/ro.jpg" class="img-fluid desk-homebanner" alt="RO">
+      <img src="assets/images/home-banner/mobile-banners/ro.jpg" class="img-fluid mob-homebanner" alt="RO" />
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
           <h1>One <span>Platform</span></h1>

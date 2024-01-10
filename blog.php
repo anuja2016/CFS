@@ -4,7 +4,8 @@ include_once 'header.php';
 
 <section class="banner-block-rht mt-116 margin-btm">
     <div class="block-img">
-        <img src="assets/images/blog-bg.svg">
+        <img src="assets/images/banners/blog-banner.svg" class="img-fluid desk-homebanner" alt="blog-banner">
+        <img src="assets/images/banners/blog-banner-mob.jpg" class="img-fluid mob-homebanner" alt="blog-banner" />
         <div class="overlay"></div>
     </div>
     <div class="main-Wrapper d-flex justify-content-end">

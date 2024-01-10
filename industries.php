@@ -3,7 +3,10 @@ include_once 'header.php';
 ?>
 <section>
     <div class="banner-block mt-116">
-        <div class="block-img"><img src="assets/images/industry_banner.svg"></div>
+        <div class="block-img">
+            <img src="assets/images/banners/industry-banner.svg" class="img-fluid desk-homebanner" alt="industry-banner" />
+            <img src="assets/images/banners/industry-banner-mob.jpg" class="img-fluid mob-homebanner" alt="industry-banner" />
+        </div>
         <div class="main-Wrapper d-flex justify-content-end">
             <div class="content">
                 <h1>Built exclusively for the trade</h1>
@@ -456,7 +459,7 @@ include_once 'header.php';
     </div>
 </section>
 
-<section class="main-Wrapper text-center margin-btm" data-aos="fade-up">
+<section class="main-Wrapper mt-10 text-center margin-btm" data-aos="fade-up">
     <div class="row align-items-center">
         <div class="col-md-6 pb-3">
             <p class="title-md">IN 40 YEARS OF EXPERIENCE</p>
@@ -464,7 +467,32 @@ include_once 'header.php';
             <h3 class="red-title-bold drawn-underline"><span class="count">40000</span> + Users</h3>
         </div>
         <div class="col-md-6">
-            <img src="assets/images/idea.svg" alt="..." class="img-fluid">
+            <!-- <img src="assets/images/idea.svg" alt="..." class="img-fluid"> -->
+            <div class="sect_trustedbrands">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/capeterra-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/customer support logo-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/EASENOF USE-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/FUNCTIONALITY-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/get up logo-01-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/leader summer-01.svg" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                        <img src="assets/images/trusted-icons/product advise logo-01.svg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
