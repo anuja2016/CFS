@@ -62,10 +62,16 @@
     }
 }
 
+
 .signin-size {
     height: 15px;
     width: 15px;
     filter: invert(1);
+}
+.sidenav{
+    .signin-size {
+        filter: none;
+    }
 }
 
 

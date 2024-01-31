@@ -144,20 +144,7 @@ include_once 'header.php';
 </section>
 <section class="sect-homeservice margin-btm" data-aos="fade-up">
     <div class="main-Wrapper margin-btm">
-        <div class="row">
-            <div class="col-md-6">
-                <p class="title-mont-semibold">Streamline Your Business Operations</p>
-                <p class="homeservice-desc mt-3 mb-4">Say goodbye to juggling multiple platforms. Our all-in-one Field
-                    Service Management solution centralizes everything you need to efficiently run your Field
-                    service business in one convenient location, accessible wherever you are.
-                </p>
-                <p class="homeservice-desc mb-4">Say goodbye to juggling multiple platforms. Our all-in-one Field
-                    Service Management solution.
-                    Say goodbye to juggling multiple platforms. Our all-in-one</p>
-                <div class="mt-4 mb-3">
-                    <a href="#" type="button" class="btn-bright-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">GET DEMO</a>
-                </div>
-            </div>
+        <div class="row justify-content-between flex-row-reverse">
             <div class="col-md-6">
                 <div class="row mb-5">
                     <div class="col-md-6 col-sm-6 col-6">
@@ -220,6 +207,19 @@ include_once 'header.php';
                             <p>Service Management</p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <p class="title-mont-semibold">Streamline Your Business Operations</p>
+                <p class="homeservice-desc mt-3 mb-4">Say goodbye to juggling multiple platforms. Our all-in-one Field
+                    Service Management solution centralizes everything you need to efficiently run your Field
+                    service business in one convenient location, accessible wherever you are.
+                </p>
+                <p class="homeservice-desc mb-4">Say goodbye to juggling multiple platforms. Our all-in-one Field
+                    Service Management solution.
+                    Say goodbye to juggling multiple platforms. Our all-in-one</p>
+                <div class="mt-4 mb-3">
+                    <a href="#" type="button" class="btn-bright-red" data-bs-toggle="modal" data-bs-target="#getdemoModal">GET DEMO</a>
                 </div>
             </div>
         </div>

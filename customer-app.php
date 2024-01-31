@@ -55,7 +55,10 @@ include_once 'header.php';
             </ul>
         </div>
         <div class="margin-btm" id="tb-BrandCustomization" data-aos="fade-up">
-            <div class="row align-items-center">
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Branding and Customization</p>
                     <h2 class="title-bold">Make customer-friendly quotes in less time</h2>
@@ -69,9 +72,6 @@ include_once 'header.php';
                             <span>Get Demo</span>
                         </a>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -97,7 +97,10 @@ include_once 'header.php';
             </div>
         </div>
         <div class="margin-btm" id="tb-ServiceBooking">
-            <div class="row align-items-center">
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Service Booking</p>
                     <h2 class="title-bold">Make customer-friendly quotes in less time</h2>
@@ -111,9 +114,6 @@ include_once 'header.php';
                             <span>Get Demo</span>
                         </a>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -149,7 +149,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="main-Wrapper margin-btm" data-aos="fade-up">
+<section class="Sect-BusinessCustomer main-Wrapper margin-btm" data-aos="fade-up">
     <div class="row">
         <div class="col-md-6">
             <div class="quote-grey-block p-4">
@@ -195,7 +195,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section class="margin-btm me-5 ms-5" data-aos="fade-up">
+<section class="margin-btm sect-custapp-testimonial" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="text-center">
             <h2 class="title">Customer App Testimonial</h2>

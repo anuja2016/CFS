@@ -5,7 +5,7 @@ include_once 'header.php';
     <div class="block-img">
         <img src="assets/images/banners/features-banner2.svg" class="img-fluid desk-homebanner" alt="features-banner">
         <img src="assets/images/banners/features-banner2-mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
-        <div class="overlay"></div>
+        <!-- <div class="overlay"></div> -->
     </div>
     <div class="main-Wrapper">
         <div class="content">
@@ -33,22 +33,22 @@ include_once 'header.php';
     </div>
     <div class="job-list mt-4">
         <ul>
-            <li>Quote</li>
-            <li>Schedule</li>
-            <li>Dispatch</li>
-            <li>Complete Job</li>
-            <li>Invoice</li>
-            <li>Report</li>
+            <li><a href="#">Quote</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Dispatch</a></li>
+            <li><a href="#">Complete Job</a></li>
+            <li><a href="#">Invoice</a></li>
+            <li><a href="#">Report</a></li>
         </ul>
     </div>
 </section>
 <section class="block-grey-md margin-btm" data-aos="fade-up">
-    <div class="text-center">
+    <div class="text-center main-Wrapper">
         <h3 class="title-md-montbold mb-3">How do quotes work in FieldWeb?</h3>
         <p>With these quoting features, Jobber helps you save time, win more work, and offer the professional and convenient experience that your customers expect.</p>
     </div>
 </section>
-<section class="custom-tabs margin-btm" data-aos="fade-up">
+<section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
             <ul class="d-flex gap-4 justify-content-between">
@@ -70,7 +70,10 @@ include_once 'header.php';
             </ul>
         </div>
         <div class="margin-btm" id="tb-createquote">
-            <div class="row align-items-center">
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Create Quote</p>
                     <h2 class="title-bold">Craft Quick and Customer - Friendly Quotes Effortlessly with FieldWeb</h2>
@@ -85,9 +88,6 @@ include_once 'header.php';
                             <span>Get Demo</span>
                         </a>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -113,7 +113,10 @@ include_once 'header.php';
             </div>
         </div>
         <div class="margin-btm" id="tb-quoteapproval">
-            <div class="row align-items-center">
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Quote Approvals</p>
                     <h2 class="title-bold">Streamline Customer Approvals</h2>
@@ -127,9 +130,6 @@ include_once 'header.php';
                             <span>Get Demo</span>
                         </a>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -155,7 +155,10 @@ include_once 'header.php';
             </div>
         </div>
         <div class="margin-btm" id="tb-createjob">
-            <div class="row align-items-center">
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-6">
+                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
+                </div>
                 <div class="col-md-6">
                     <p class="title-sm-red mb-2">Create Jobs</p>
                     <h2 class="title-bold">Effortless Job Creation from Approved Quotes with FieldWeb's Streamlined Workflow</h2>
@@ -169,9 +172,6 @@ include_once 'header.php';
                             <span>Get Demo</span>
                         </a>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/images/quotation-bg.svg" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -366,7 +366,6 @@ include_once 'header.php';
                     <div class="card-body">
                         <div class="modal-header">
                             <h6 class="title-poppins-sbold">Request a personalized demo</h6>
-                            <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close" class="pointer-cursor" />
                         </div>
                         <div class="row mb-3 mt-3">
                             <div class="col-md-12">

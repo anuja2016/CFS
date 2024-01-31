@@ -4,9 +4,12 @@ include_once 'header.php';
 
 <section class="margin-btm">
     <div class="banner-block-rht mt-116">
-        <div class="block-img"><img src="assets/images/blog-bg2.svg"></div>
+        <div class="block-img">
+            <img src="assets/images/banners/blog-banner2.svg" class="img-fluid desk-homebanner" alt="blog-banner">
+            <img src="assets/images/banners/blog-banner-mob.jpg" class="img-fluid mob-homebanner" alt="blog-banner" />
+        </div>
         <div class="main-Wrapper d-flex justify-content-end">
-            <div class="content text-center">
+            <div class="content">
                 <h1>FieldWeb Blog.</h1>
                 <p>Get the knowledge and inspiration you need to run your home and commercial service business better.</p>
                 <div class="sect-getservice">

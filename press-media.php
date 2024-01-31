@@ -162,7 +162,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="mt-3">
+        <!-- <div class="mt-3">
             <ul class="pagination justify-content-center">
                 <li class="page-item"><a class="page-link" href="#">Previous</a></li>
                 <li class="page-item active"><a class="page-link" href="#">1</a></li>
@@ -170,7 +170,9 @@ include_once 'header.php';
                 <li class="page-item"><a class="page-link" href="#">3</a></li>
                 <li class="page-item"><a class="page-link" href="#">Next</a></li>
             </ul>
-        </div>
+        </div> -->
+        <!----------custom pagination----------->
+        <div id="pm-cards-pagination" class="mt-3"></div>
     </div>
 </section>
 <!----------get demo----------->
@@ -187,7 +189,6 @@ include_once 'header.php';
                     <div class="card-body">
                         <div class="modal-header">
                             <h6 class="title-poppins-sbold">Request a personalized demo</h6>
-                            <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close" class="pointer-cursor" />
                         </div>
                         <div class="row mb-3 mt-3">
                             <div class="col-md-12">

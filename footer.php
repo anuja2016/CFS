@@ -435,12 +435,18 @@
   });
 </script>
 
-<!--slick slider initialize when used in accordian--->
+<!--single slider initialize when used in accordian--->
 <script>
   $(document).on("show.bs.collapse", ".collapse", function(e) {
     if ($(this).is(e.target)) {
       $(".single-slider").slick("refresh");
     }
+  });
+</script>
+<!--features slider initialize when used in tabs--->
+<script>
+  $('.custom-tabs .nav-pills .nav-item').click(function() {
+    $(".features-slider").slick("refresh");
   });
 </script>
 
@@ -648,7 +654,16 @@
 
 <!----sticky header--->
 <script>
-  $(window).scroll(function() {
+  $(document).ready(function() {
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 1) {
+        $('header').addClass("sticky");
+        $(".dsk-fwlogo img").attr("src", "assets/images/FW-Logo.svg");
+      } else {
+        $('header').removeClass("sticky");
+        $(".dsk-fwlogo img").attr("src", "assets/images/FW-Logo-white.svg");
+      }
+    });
     if ($(this).scrollTop() > 1) {
       $('header').addClass("sticky");
       $(".dsk-fwlogo img").attr("src", "assets/images/FW-Logo.svg");
@@ -715,6 +730,7 @@
   dropdownMenu.addEventListener('change', handleCB);
 </script>
 
+<!----custom pagination--->
 <script type="text/javascript" src="assets/js/jquery.simplePagination.js"></script>
 <script>
   var items = $(".sect-services .row .col-lg-3");
@@ -733,5 +749,117 @@
       var showTo = showFrom + perPage;
       items.hide().slice(showFrom, showTo).show();
     }
+  });
+</script>
+<script>
+  var bitems = $(".blog-cards .row .col-md-6");
+  var bnumItems = bitems.length;
+  var bperPage = 6;
+
+  bitems.slice(bperPage).hide();
+
+  $('#blog-cards-pagination').pagination({
+    items: bnumItems,
+    itemsOnPage: bperPage,
+    prevText: "Prev",
+    nextText: "Next",
+    onPageClick: function(pageNumber) {
+      var bshowFrom = bperPage * (pageNumber - 1);
+      var bshowTo = bshowFrom + bperPage;
+      bitems.hide().slice(bshowFrom, bshowTo).show();
+    }
+  });
+</script>
+<script>
+  var pmitems = $(".pmnews-list .row .col-md-5");
+  var pmnumItems = pmitems.length;
+  var pmperPage = 6;
+
+  pmitems.slice(pmperPage).hide();
+
+  $('#pm-cards-pagination').pagination({
+    items: pmnumItems,
+    itemsOnPage: pmperPage,
+    prevText: "Prev",
+    nextText: "Next",
+    onPageClick: function(pageNumber) {
+      var pmshowFrom = pmperPage * (pageNumber - 1);
+      var pmshowTo = pmshowFrom + pmperPage;
+      pmitems.hide().slice(pmshowFrom, pmshowTo).show();
+    }
+  });
+</script>
+<!----pricing currency switch--->
+<script>
+  $(".usd-pricing").hide();
+  $('#SwitchCurrency').change(function() {
+    if (this.checked) {
+      $(".inr-pricing").hide();
+      $(".usd-pricing").show();
+      $("#SavePricePM").text("$20");
+    } else {
+      $(".inr-pricing").show();
+      $(".usd-pricing").hide();
+      $("#SavePricePM").text("Rs.1000");
+    }
+  });
+</script>
+<!----pricing currency switch--->
+<script>
+  $(document).ready(function() {
+    $(".sect-rdosMembership .form-check #rdoStellar").click(function() {
+      if ($("#rdoStellar").prop("checked")) {
+        $(".sect_benefits .table thead tr th:nth-child(2)").css("display", "table-cell");
+        $(".sect_benefits .table thead tr th:nth-child(2)").css("border-right", "none");
+        $(".sect_benefits .table thead tr th:nth-child(3)").css("display", "none");
+        $(".sect_benefits .table thead tr th:nth-child(4)").css("display", "none");
+
+        $(".sect_benefits .table tbody tr td:nth-child(2)").css("display", "table-cell");
+        $(".sect_benefits .table tbody tr td:nth-child(2)").css("border-right", "none");
+        $(".sect_benefits .table tbody tr td:nth-child(3)").css("display", "none");
+        $(".sect_benefits .table tbody tr td:nth-child(4)").css("display", "none");
+
+        $(".sect_benefits .table tfoot tr td:nth-child(2)").css("display", "table-cell");
+        $(".sect_benefits .table tfoot tr td:nth-child(2)").css("border-right", "none");
+        $(".sect_benefits .table tfoot tr td:nth-child(3)").css("display", "none");
+        $(".sect_benefits .table tfoot tr td:nth-child(4)").css("display", "none");
+      } 
+    });
+    $(".sect-rdosMembership .form-check #rdoEthereum").click(function() {
+      if ($("#rdoEthereum").prop("checked")) {
+        $(".sect_benefits .table thead tr th:nth-child(3)").css("display", "table-cell");
+        $(".sect_benefits .table thead tr th:nth-child(3)").css("border-right", "none");
+        $(".sect_benefits .table thead tr th:nth-child(2)").css("display", "none");
+        $(".sect_benefits .table thead tr th:nth-child(4)").css("display", "none");
+        
+        $(".sect_benefits .table tbody tr td:nth-child(3)").css("display", "table-cell");
+        $(".sect_benefits .table tbody tr td:nth-child(3)").css("border-right", "none");
+        $(".sect_benefits .table tbody tr td:nth-child(2)").css("display", "none");
+        $(".sect_benefits .table tbody tr td:nth-child(4)").css("display", "none");
+
+        $(".sect_benefits .table tfoot tr td:nth-child(3)").css("display", "table-cell");
+        $(".sect_benefits .table tfoot tr td:nth-child(3)").css("border-right", "none");
+        $(".sect_benefits .table tfoot tr td:nth-child(2)").css("display", "none");
+        $(".sect_benefits .table tfoot tr td:nth-child(4)").css("display", "none");
+      } 
+    });
+    $(".sect-rdosMembership .form-check #rdoBitcoin").click(function() {
+      if ($("#rdoBitcoin").prop("checked")) {
+        $(".sect_benefits .table thead tr th:nth-child(4)").css("display", "table-cell");
+        $(".sect_benefits .table thead tr th:nth-child(4)").css("border-right", "none");
+        $(".sect_benefits .table thead tr th:nth-child(2)").css("display", "none");
+        $(".sect_benefits .table thead tr th:nth-child(3)").css("display", "none");
+
+        $(".sect_benefits .table tbody tr td:nth-child(4)").css("display", "table-cell");
+        $(".sect_benefits .table tbody tr td:nth-child(4)").css("border-right", "none");
+        $(".sect_benefits .table tbody tr td:nth-child(2)").css("display", "none");
+        $(".sect_benefits .table tbody tr td:nth-child(3)").css("display", "none");
+
+        $(".sect_benefits .table tfoot tr td:nth-child(4)").css("display", "table-cell");
+        $(".sect_benefits .table tfoot tr td:nth-child(4)").css("border-right", "none");
+        $(".sect_benefits .table tfoot tr td:nth-child(2)").css("display", "none");
+        $(".sect_benefits .table tfoot tr td:nth-child(3)").css("display", "none");
+      }
+    });
   });
 </script>

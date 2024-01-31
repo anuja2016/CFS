@@ -6,7 +6,6 @@ include_once 'header.php';
     <div class="block-img">
         <img src="assets/images/banners/features-banner.svg" class="img-fluid desk-homebanner" alt="features-banner">
         <img src="assets/images/banners/features-banner-mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
-        <div class="overlay"></div>
     </div>
     <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
@@ -3251,7 +3250,6 @@ include_once 'header.php';
                     <div class="card-body">
                         <div class="modal-header">
                             <h6 class="title-poppins-sbold">Request a personalized demo</h6>
-                            <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close" class="pointer-cursor" />
                         </div>
                         <div class="row mb-3 mt-3">
                             <div class="col-md-12">

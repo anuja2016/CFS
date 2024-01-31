@@ -7,20 +7,20 @@ include_once 'header.php';
             <div class="row align-items-center">
                 <div class="col-md-7">
                     <label>Add any text you like here.</label>
-                    <h1 class="mt-3">Lead generation <span>mobile app landing page</span></h2>
-                        <p class="mt-3">Lorem Ipsum is simply dummy text of the printing indus orem Ipsum has been the industrys.</p>
-                        <div class="mt-4 mb-4">
-                            <img src="assets/images/landing-img1.svg" class="leading-img">
-                            <img src="assets/images/landing-img2.svg" class="leading-minus-margin leading-img">
-                            <img src="assets/images/landing-img3.svg" class="leading-minus-margin leading-img">
-                            <img src="assets/images/landing-img4.svg" class="leading-minus-margin leading-img">
-                        </div>
-                        <h5 class="mb-3">100k+ Active users</h5>
-                        <p>The best application to manage yourcustomer worldwide</p>
-                        <div class="d-flex gap-1 mt-4 mb-3">
-                            <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="assets/images/appstorelogo.svg" /></a>
-                            <a href="https://play.google.com/store/games?device=windows&utm_source=apac_med&hl=en-IN&utm_medium=hasem&utm_content=Jun1223&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Jun1223-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700076784774234_creativeid_480977734961_device_c&gclid=EAIaIQobChMI9YLJ8aS5gQMVGiRgCh24HwCGEAAYASAAEgJTufD_BwE&gclsrc=aw.ds" target="_blank"><img src="assets/images/googlestore.svg" /></a>
-                        </div>
+                    <h1 class="mt-3">Lead generation <span>mobile app landing page</span></h1>
+                    <p class="mt-3">Lorem Ipsum is simply dummy text of the printing indus orem Ipsum has been the industrys.</p>
+                    <div class="mt-4 mb-4">
+                        <img src="assets/images/landing-img1.svg" class="leading-img">
+                        <img src="assets/images/landing-img2.svg" class="leading-minus-margin leading-img">
+                        <img src="assets/images/landing-img3.svg" class="leading-minus-margin leading-img">
+                        <img src="assets/images/landing-img4.svg" class="leading-minus-margin leading-img">
+                    </div>
+                    <h5 class="mb-3">100k+ Active users</h5>
+                    <p>The best application to manage yourcustomer worldwide</p>
+                    <div class="d-flex gap-1 mt-4 mb-3">
+                        <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="assets/images/appstorelogo.svg" /></a>
+                        <a href="https://play.google.com/store/games?device=windows&utm_source=apac_med&hl=en-IN&utm_medium=hasem&utm_content=Jun1223&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Jun1223-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700076784774234_creativeid_480977734961_device_c&gclid=EAIaIQobChMI9YLJ8aS5gQMVGiRgCh24HwCGEAAYASAAEgJTufD_BwE&gclsrc=aw.ds" target="_blank"><img src="assets/images/googlestore.svg" /></a>
+                    </div>
                 </div>
                 <div class="col-md-5 text-end">
                     <img src="assets/images/mobile-app-header-bg.svg" class="lead-gen-img">

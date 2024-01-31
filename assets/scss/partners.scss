@@ -235,3 +235,15 @@
 .txt-yellow {
     color: #EED814 !important;
 }
+.sect-rdosMembership{
+    display: none;
+}
+.options-rdosMembership{
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    padding-left: 5px;
+    flex-wrap: wrap;
+}

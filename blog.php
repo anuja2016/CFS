@@ -6,10 +6,9 @@ include_once 'header.php';
     <div class="block-img">
         <img src="assets/images/banners/blog-banner.svg" class="img-fluid desk-homebanner" alt="blog-banner">
         <img src="assets/images/banners/blog-banner-mob.jpg" class="img-fluid mob-homebanner" alt="blog-banner" />
-        <div class="overlay"></div>
     </div>
     <div class="main-Wrapper d-flex justify-content-end">
-        <div class="content text-center">
+        <div class="content">
             <h1>FieldWeb Blog.</h1>
             <p>Get the knowledge and inspiration you need to run your home and commercial service business better.</p>
             <div class="sect-getservice">
@@ -270,7 +269,10 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="mt-5">
+        <!----------custom pagination----------->
+        <div id="blog-cards-pagination" class="mt-3"></div>
+
+        <!-- <div class="mt-5">
             <ul class="pagination justify-content-center">
                 <li class="page-item"><a class="page-link" href="#">Previous</a></li>
                 <li class="page-item active"><a class="page-link" href="#">1</a></li>
@@ -278,7 +280,7 @@ include_once 'header.php';
                 <li class="page-item"><a class="page-link" href="#">3</a></li>
                 <li class="page-item"><a class="page-link" href="#">Next</a></li>
             </ul>
-        </div>
+        </div> -->
     </div>
 </section>
 <!----------get demo----------->
@@ -295,7 +297,6 @@ include_once 'header.php';
                     <div class="card-body">
                         <div class="modal-header">
                             <h6 class="title-poppins-sbold">Request a personalized demo</h6>
-                            <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close" class="pointer-cursor" />
                         </div>
                         <div class="row mb-3 mt-3">
                             <div class="col-md-12">

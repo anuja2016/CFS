@@ -69,6 +69,22 @@ include_once 'header.php';
 </section>
 <section class="main-Wrapper mt-5">
     <div class="sect_benefits table-responsive">
+        <div class="sect-rdosMembership">
+            <div class="options-rdosMembership">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="rdoStellar" name="rdoMembership" value="Stellar" checked>Stellar
+                    <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="rdoEthereum" name="rdoMembership" value="Ethereum">Ethereum
+                    <label class="form-check-label" for="radio2"></label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="rdoBitcoin" name="rdoMembership" value="Bitcoin">Bitcoin
+                    <label class="form-check-label" for="radio2"></label>
+                </div>
+            </div>
+        </div>
         <table class="table">
             <thead>
                 <tr>

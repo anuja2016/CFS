@@ -7,7 +7,6 @@ include_once 'header.php';
         <div class="block-img">
             <img src="assets/images/banners/pricing-banner.svg" class="img-fluid desk-homebanner" alt="pricing-banner">
             <img src="assets/images/banners/pricing-banner-mob.jpg" class="img-fluid mob-homebanner" alt="pricing-banner" />
-            <div class="overlay"></div>
         </div>
         <div class="main-Wrapper">
             <div class="content">
@@ -22,18 +21,34 @@ include_once 'header.php';
 </section>
 <section class="margin-btm" data-aos="fade-up">
     <div class="main-Wrapper sect_currency mt-5 mb-5">
-        <span>Save Up To Rs.1000/user/month <img src="assets/images/arrow-rightblack-bold.svg"> </span>
+        <span>Save Up To <span id="SavePricePM">Rs.1000</span>/user/month <img src="assets/images/arrow-rightblack-bold.svg"> </span>
         <div class="form-check form-switch custom-switch">
             <span>INR</span>
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <input class="form-check-input" type="checkbox" role="switch" id="SwitchCurrency">
             <span>USD</span>
         </div>
     </div>
-    <div class="sect-pricing">
+    <div class="sect-pricing inr-pricing">
         <div class="main-Wrapper">
             <div class="row margin-btm">
                 <div class="col-md-4">
-                    <div class="pricing-plan mb-4">
+                    <div class="pricing-plan-mob" data-bs-toggle="collapse" data-bs-target="#BasePricing">
+                        <div class="sect-lft-pricing-plan">
+                            <h3>Base</h3>
+                            <div class="prod-user">
+                                <img src="assets/images/user-icon.svg">
+                                <span>1 User</span>
+                                <img src="assets/images/question-mark-red.svg" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="1 User" data-bs-original-title="1 - 5 User">
+                            </div>
+                        </div>
+                        <div class="sect-rgt-pricing-plan">
+                            <div class="pp-collapsearrow">
+                                <img src="assets/images/chevron-down-icon-wh.svg">
+                            </div>
+                            <h2><small>₹</small>300<small>/user/month</small></h2>
+                        </div>
+                    </div>
+                    <div class="pricing-plan mb-4 collapse" id="BasePricing">
                         <div class="pricing-plan-head">
                             <h3>Base</h3>
                             <p>Centralize your operations: quoting, scheduling, invoicing, all in one place.</p>
@@ -68,7 +83,26 @@ include_once 'header.php';
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="pricing-plan popular-plan mb-4">
+                    <div class="popular-pricing-plan-mob" data-bs-toggle="collapse" data-bs-target="#AdvancedPricing">
+                        <span class="ppm-lbl-most-popular">Most Popular</span>
+                        <div class="pricing-plan-mob">
+                            <div class="sect-lft-pricing-plan">
+                                <h3>Advanced</h3>
+                                <div class="prod-user">
+                                    <img src="assets/images/user-icon.svg">
+                                    <span>1 - 5 User</span>
+                                    <img src="assets/images/question-mark-red.svg" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="1 - 5 User" data-bs-original-title="1 - 5 User">
+                                </div>
+                            </div>
+                            <div class="sect-rgt-pricing-plan">
+                                <div class="pp-collapsearrow">
+                                    <img src="assets/images/chevron-down-icon-wh.svg">
+                                </div>
+                                <h2><small>₹</small>400<small>/user/month</small></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing-plan popular-plan mb-4 collapse" id="AdvancedPricing">
                         <div class="pricing-plan-head">
                             <span>Most Popular</span>
                             <h3>Advanced</h3>
@@ -104,7 +138,23 @@ include_once 'header.php';
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="pricing-plan mb-4">
+                    <div class="pricing-plan-mob" data-bs-toggle="collapse" data-bs-target="#PremiumPricing">
+                        <div class="sect-lft-pricing-plan">
+                            <h3>Premium</h3>
+                            <div class="prod-user">
+                                <img src="assets/images/user-icon.svg">
+                                <span>1 - 15 User</span>
+                                <img src="assets/images/question-mark-red.svg" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="1 - 15 User" data-bs-original-title="1 - 5 User">
+                            </div>
+                        </div>
+                        <div class="sect-rgt-pricing-plan">
+                            <div class="pp-collapsearrow">
+                                <img src="assets/images/chevron-down-icon-wh.svg">
+                            </div>
+                            <h2><small>₹</small>500<small>/user/month</small></h2>
+                        </div>
+                    </div>
+                    <div class="pricing-plan mb-4 collapse" id="PremiumPricing">
                         <div class="pricing-plan-head">
                             <h3>Premium</h3>
                             <p>Scale your business with powerful service automation tools.</p>
@@ -117,6 +167,169 @@ include_once 'header.php';
                             </ul>
                             <h2><small>₹</small>500<small>/user/month</small></h2>
                             <p>Save ₹150/user/month</p>
+                            <div class="p-3">
+                                <button type="submit" class="btn-red w-100 rounded" data-bs-toggle="modal" data-bs-target="#mdl_pricingform">Buy Now</button>
+                            </div>
+                            <div class="prod-user margin-btm">
+                                <img src="assets/images/user-icon.svg">
+                                <span>1 - 15 User</span>
+                                <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="1 - 15 User">
+                            </div>
+                        </div>
+                        <div class="pricing-plan-foot">
+                            <p>Everything in Connect, plus:</p>
+                            <ul>
+                                <li><img src="assets/images/check-white.svg">Quote add-ons and images</li>
+                                <li><img src="assets/images/check-white.svg">Job costing</li>
+                                <li><img src="assets/images/check-white.svg">Automated quote follow-ups</li>
+                                <li><img src="assets/images/check-white.svg">Two way text messaging</li>
+                                <li><img src="assets/images/check-white.svg">Tag and manage leads</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sect-pricing usd-pricing">
+        <div class="main-Wrapper">
+            <div class="row margin-btm">
+                <div class="col-md-4">
+                    <div class="pricing-plan-mob" data-bs-toggle="collapse" data-bs-target="#USDBasePricing">
+                        <div class="sect-lft-pricing-plan">
+                            <h3>Base</h3>
+                            <div class="prod-user">
+                                <img src="assets/images/user-icon.svg">
+                                <span>1 User</span>
+                                <img src="assets/images/question-mark-red.svg" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="1 User" data-bs-original-title="1 - 5 User">
+                            </div>
+                        </div>
+                        <div class="sect-rgt-pricing-plan">
+                            <div class="pp-collapsearrow">
+                                <img src="assets/images/chevron-down-icon-wh.svg">
+                            </div>
+                            <h2><small>$</small>8<small>/user/month</small></h2>
+                        </div>
+                    </div>
+                    <div class="pricing-plan mb-4 collapse" id="USDBasePricing">
+                        <div class="pricing-plan-head">
+                            <h3>Base</h3>
+                            <p>Centralize your operations: quoting, scheduling, invoicing, all in one place.</p>
+                        </div>
+                        <div class="pricing-plan-body">
+                            <ul>
+                                <li>Tasks - 50/month</li>
+                                <li>Customer Data No. - 100</li>
+                                <li>Live Support - NA</li>
+                            </ul>
+                            <h2><small>$</small>8<small>/user/month</small></h2>
+                            <p>Save $10/user/month</p>
+                            <div class="p-3">
+                                <button type="submit" class="btn-red w-100 rounded" data-bs-toggle="modal" data-bs-target="#mdl_pricingform">Buy Now</button>
+                            </div>
+                            <div class="prod-user margin-btm">
+                                <img src="assets/images/user-icon.svg">
+                                <span>1 User</span>
+                                <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+                            </div>
+                        </div>
+                        <div class="pricing-plan-foot">
+                            <p>Core includes:</p>
+                            <ul>
+                                <li><img src="assets/images/check-white.svg">Schedule and manage jobs</li>
+                                <li><img src="assets/images/check-white.svg">Send quotes and invoices</li>
+                                <li><img src="assets/images/check-white.svg">Online request form</li>
+                                <li><img src="assets/images/check-white.svg">24/7 client self-serve hub</li>
+                                <li><img src="assets/images/check-white.svg">Digital payments as low as 2.7% +30c</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="popular-pricing-plan-mob" data-bs-toggle="collapse" data-bs-target="#USDAdvancedPricing">
+                        <span class="ppm-lbl-most-popular">Most Popular</span>
+                        <div class="pricing-plan-mob">
+                            <div class="sect-lft-pricing-plan">
+                                <h3>Advanced</h3>
+                                <div class="prod-user">
+                                    <img src="assets/images/user-icon.svg">
+                                    <span>1 - 5 User</span>
+                                    <img src="assets/images/question-mark-red.svg" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="1 - 5 User" data-bs-original-title="1 - 5 User">
+                                </div>
+                            </div>
+                            <div class="sect-rgt-pricing-plan">
+                                <div class="pp-collapsearrow">
+                                    <img src="assets/images/chevron-down-icon-wh.svg">
+                                </div>
+                                <h2><small>$</small>10<small>/user/month</small></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing-plan popular-plan mb-4 collapse" id="USDAdvancedPricing">
+                        <div class="pricing-plan-head">
+                            <span>Most Popular</span>
+                            <h3>Advanced</h3>
+                            <p>Forge smooth workflows for team synergy and client satisfaction.</p>
+                        </div>
+                        <div class="pricing-plan-body">
+                            <ul>
+                                <li>Tasks - 50/month</li>
+                                <li>Customer Data No. - 100</li>
+                                <li>Live Support - NA</li>
+                            </ul>
+                            <h2><small>$</small>10<small>/user/month</small></h2>
+                            <p>Save $15/user/month</p>
+                            <div class="p-3">
+                                <button type="submit" class="btn-red w-100 rounded" data-bs-toggle="modal" data-bs-target="#mdl_pricingform">Buy Now</button>
+                            </div>
+                            <div class="prod-user margin-btm">
+                                <img src="assets/images/user-icon.svg">
+                                <span>1 - 5 User</span>
+                                <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="1 - 5 User">
+                            </div>
+                        </div>
+                        <div class="pricing-plan-foot">
+                            <p>Everything in Connect, plus:</p>
+                            <ul>
+                                <li><img src="assets/images/check-white.svg">Automated reminders</li>
+                                <li><img src="assets/images/check-white.svg">Automatic payments</li>
+                                <li><img src="assets/images/check-white.svg">QuickBooks Online</li>
+                                <li><img src="assets/images/check-white.svg">sync Online booking</li>
+                                <li><img src="assets/images/check-white.svg">Zapier Integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-plan-mob" data-bs-toggle="collapse" data-bs-target="#USDPremiumPricing">
+                        <div class="sect-lft-pricing-plan">
+                            <h3>Premium</h3>
+                            <div class="prod-user">
+                                <img src="assets/images/user-icon.svg">
+                                <span>1 - 15 User</span>
+                                <img src="assets/images/question-mark-red.svg" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="1 - 15 User" data-bs-original-title="1 - 5 User">
+                            </div>
+                        </div>
+                        <div class="sect-rgt-pricing-plan">
+                            <div class="pp-collapsearrow">
+                                <img src="assets/images/chevron-down-icon-wh.svg">
+                            </div>
+                            <h2><small>$</small>12<small>/user/month</small></h2>
+                        </div>
+                    </div>
+                    <div class="pricing-plan mb-4 collapse" id="USDPremiumPricing">
+                        <div class="pricing-plan-head">
+                            <h3>Premium</h3>
+                            <p>Scale your business with powerful service automation tools.</p>
+                        </div>
+                        <div class="pricing-plan-body">
+                            <ul>
+                                <li>Tasks - 50/month</li>
+                                <li>Customer Data No. - 100</li>
+                                <li>Live Support - NA</li>
+                            </ul>
+                            <h2><small>$</small>12<small>/user/month</small></h2>
+                            <p>Save $25/user/month</p>
                             <div class="p-3">
                                 <button type="submit" class="btn-red w-100 rounded" data-bs-toggle="modal" data-bs-target="#mdl_pricingform">Buy Now</button>
                             </div>
@@ -213,92 +426,92 @@ include_once 'header.php';
 </section>
 <!----------One App To Replace----------->
 <section class="main-Wrapper sect-oneapp margin-btm" data-aos="fade-up">
-  <div class="text-center margin-sm-btm">
-    <h2 class="title">One App To Replace Them All</h2>
-    <p class="title-sm-red">All your work in one place :</p>
-  </div>
-  <div class="grid-list margin-btm">
-    <div class="row text-center mt-5">
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/manualjob_allocation.svg" />
-          <p>Manual Job Allocation</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/sheets.svg" />
-          <p>Sheets</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/documents.svg" />
-          <p>Documents</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/chats.svg" />
-          <p>Chats</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/ledger_book.svg" />
-          <p>Ledger Book</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/expense_bill.svg" />
-          <p>Expense Bills</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/attendance_register.svg" />
-          <p>Attendance Register</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/gps.svg" />
-          <p>GPS</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/tools_checklist.svg" />
-          <p>Tools Checklist</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/asset_counting.svg" />
-          <p>Asset Counting</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/calls.svg" />
-          <p>Calls</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-        <div class="d-flex align-items-center text-start gap-3">
-          <img src="assets/images/features/amc_markup.svg" />
-          <p>AMC Markup</p>
-        </div>
-      </div>
+    <div class="text-center margin-sm-btm">
+        <h2 class="title">One App To Replace Them All</h2>
+        <p class="title-sm-red">All your work in one place :</p>
     </div>
-  </div>
-  <div class="btn-center-flex">
-    <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover mt-4">
-      <span class="u-button-arrow"></span>
-      <span>Book a Slot</span>
-    </a>
-  </div>
+    <div class="grid-list margin-btm">
+        <div class="row text-center mt-5">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/manualjob_allocation.svg" />
+                    <p>Manual Job Allocation</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/sheets.svg" />
+                    <p>Sheets</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/documents.svg" />
+                    <p>Documents</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/chats.svg" />
+                    <p>Chats</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/ledger_book.svg" />
+                    <p>Ledger Book</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/expense_bill.svg" />
+                    <p>Expense Bills</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/attendance_register.svg" />
+                    <p>Attendance Register</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/gps.svg" />
+                    <p>GPS</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/tools_checklist.svg" />
+                    <p>Tools Checklist</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/asset_counting.svg" />
+                    <p>Asset Counting</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/calls.svg" />
+                    <p>Calls</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="d-flex align-items-center text-start gap-3">
+                    <img src="assets/images/features/amc_markup.svg" />
+                    <p>AMC Markup</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="btn-center-flex">
+        <a data-bs-toggle="modal" data-bs-target="#getdemoModal" class="btn-red arrowBtn u-button has-hover mt-4">
+            <span class="u-button-arrow"></span>
+            <span>Book a Slot</span>
+        </a>
+    </div>
 </section>
 <section class="mt-8 margin-btm" data-aos="fade-up">
     <div class="container">
@@ -438,31 +651,31 @@ include_once 'header.php';
                 <h3 class="red-title-bold drawn-underline"><span class="count">10000</span>+ Users</h3>
             </div>
             <div class="col-md-6">
-            <div class="sect_trustedbrands">
-                <div class="row">
-                    <div class="col-md-3 col-sm-4 col-4">
-                        <img src="assets/images/trusted-icons/capeterra-01.svg" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-4">
-                        <img src="assets/images/trusted-icons/customer support logo-01.svg" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-4">
-                        <img src="assets/images/trusted-icons/EASENOF USE-01.svg" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-4">
-                        <img src="assets/images/trusted-icons/FUNCTIONALITY-01.svg" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-4">
-                        <img src="assets/images/trusted-icons/get up logo-01-01.svg" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-4">
-                        <img src="assets/images/trusted-icons/leader summer-01.svg" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-4">
-                        <img src="assets/images/trusted-icons/product advise logo-01.svg" class="img-fluid">
+                <div class="sect_trustedbrands">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-4 col-4">
+                            <img src="assets/images/trusted-icons/capeterra-01.svg" class="img-fluid">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-4">
+                            <img src="assets/images/trusted-icons/customer support logo-01.svg" class="img-fluid">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-4">
+                            <img src="assets/images/trusted-icons/EASENOF USE-01.svg" class="img-fluid">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-4">
+                            <img src="assets/images/trusted-icons/FUNCTIONALITY-01.svg" class="img-fluid">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-4">
+                            <img src="assets/images/trusted-icons/get up logo-01-01.svg" class="img-fluid">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-4">
+                            <img src="assets/images/trusted-icons/leader summer-01.svg" class="img-fluid">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-4">
+                            <img src="assets/images/trusted-icons/product advise logo-01.svg" class="img-fluid">
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>
@@ -481,7 +694,6 @@ include_once 'header.php';
                     <div class="card-body">
                         <div class="modal-header">
                             <h6 class="title-poppins-sbold">Request a personalized demo</h6>
-                            <img src="assets/images/greycross.svg" data-bs-dismiss="modal" aria-label="Close" class="pointer-cursor" />
                         </div>
                         <div class="row mb-3 mt-3">
                             <div class="col-md-12">

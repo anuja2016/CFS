@@ -12,7 +12,7 @@ include_once 'header.php';
           <h1>One <span>Platform</span></h1>
           <h1>For All Field Service</h1>
           <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
-          <div class="sect-getservice w-75">
+          <div class="sect-getservice">
             <div class="input-group">
               <span class="input-group-text" id="basic-addon1">
                 <select class="form-control">
@@ -36,7 +36,7 @@ include_once 'header.php';
           <h1>One <span>Platform</span></h1>
           <h1>For All Field Service</h1>
           <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
-          <div class="sect-getservice w-75">
+          <div class="sect-getservice">
             <div class="input-group">
               <span class="input-group-text" id="basic-addon1">
                 <select class="form-control">
@@ -60,7 +60,7 @@ include_once 'header.php';
           <h1>One <span>Platform</span></h1>
           <h1>For All Field Service</h1>
           <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
-          <div class="sect-getservice w-75">
+          <div class="sect-getservice">
             <div class="input-group">
               <span class="input-group-text" id="basic-addon1">
                 <select class="form-control">
@@ -84,7 +84,7 @@ include_once 'header.php';
           <h1>One <span>Platform</span></h1>
           <h1>For All Field Service</h1>
           <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
-          <div class="sect-getservice w-75">
+          <div class="sect-getservice">
             <div class="input-group">
               <span class="input-group-text" id="basic-addon1">
                 <select class="form-control">
@@ -108,7 +108,7 @@ include_once 'header.php';
           <h1>One <span>Platform</span></h1>
           <h1>For All Field Service</h1>
           <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
-          <div class="sect-getservice w-75">
+          <div class="sect-getservice">
             <div class="input-group">
               <span class="input-group-text" id="basic-addon1">
                 <select class="form-control">
@@ -132,7 +132,7 @@ include_once 'header.php';
           <h1>One <span>Platform</span></h1>
           <h1>For All Field Service</h1>
           <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
-          <div class="sect-getservice w-75">
+          <div class="sect-getservice">
             <div class="input-group">
               <span class="input-group-text" id="basic-addon1">
                 <select class="form-control">
@@ -156,7 +156,7 @@ include_once 'header.php';
           <h1>One <span>Platform</span></h1>
           <h1>For All Field Service</h1>
           <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
-          <div class="sect-getservice w-75">
+          <div class="sect-getservice">
             <div class="input-group">
               <span class="input-group-text" id="basic-addon1">
                 <select class="form-control">
@@ -180,7 +180,7 @@ include_once 'header.php';
           <h1>One <span>Platform</span></h1>
           <h1>For All Field Service</h1>
           <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
-          <div class="sect-getservice w-75">
+          <div class="sect-getservice">
             <div class="input-group">
               <span class="input-group-text" id="basic-addon1">
                 <select class="form-control">
@@ -198,6 +198,10 @@ include_once 'header.php';
     </div>
   </div>
 </div>
+
+<select class="selectpicker countrypicker" data-flag="true" ></select>
+<!-- <select id="DDLCountry" class="selectpicker countrypicker" data-flag="true" ></select> -->
+
 <section class="feature-section margin-btm" data-aos="fade-up">
   <div class="main-Wrapper">
     <div class="wrapper-head text-center margin-btm">
@@ -206,13 +210,6 @@ include_once 'header.php';
     </div>
     <div class="row m-4">
       <div class="col-md-3 col-sm-6 text-center">
-        <div style="background-color: #e2e5e7;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
-    background-size: 40px 100%;
-    background-repeat: no-repeat;
-    background-position: left -40px top 0;
-    -webkit-animation: shine 1s ease infinite;
-    animation: shine 1s ease infinite;"></div>
         <img src="assets/images/create_quote.svg" />
         <h5 class="mt-2 mb-2">Create Quotes</h5>
         <p class="pt-1">Generate accurate quotes instantly, tailored to client needs. Simplify the quoting
@@ -262,7 +259,7 @@ include_once 'header.php';
           <div class="col-md-6 col-sm-6 col-6">
             <div class="home-service-item">
               <img src="assets/images/services/quotation_invoice.svg" />
-              <p>Quotation/Invoice</p>
+              <p>Quotation or Invoice</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-6">

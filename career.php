@@ -13,7 +13,7 @@ include_once 'header.php';
                 <h1>Grow on a global scale as a Deel Partner</h1>
                 <p>FieldWeb is complex and time-consuming. Deel Partners empower their clients to make global hiring more accessible than ever</p>
                 <div class="pt-4">
-                    <button type="submit" class="btn-getstarted" data-bs-toggle="modal" data-bs-target="#getdemoModal">Become a Deel Partner</button>
+                    <button type="submit" class="btn-getstarted" data-bs-toggle="modal" data-bs-target="#getdemoModal">Contact Us</button>
                 </div>
             </div>
         </div>

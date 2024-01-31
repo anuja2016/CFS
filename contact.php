@@ -9,7 +9,7 @@ include_once 'header.php';
             <img src="assets/images/banners/contact-banner-mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         </div>
         <div class="main-Wrapper d-flex justify-content-end">
-            <div class="content text-center">
+            <div class="content">
                 <h1>Built exclusively for the trade</h1>
                 <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
                 <div class="sect-getservice">
@@ -45,6 +45,66 @@ include_once 'header.php';
             </div>
             <div class="col-md-6">
                 <video muted="" loop="" playsinline="" preload="auto" controls src="assets/videos/contact-us.mp4" width="100%"></video>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------get in touch----------->
+<section class="main-Wrapper mt-10 margin-btm" data-aos="fade-up">
+    <div class="">
+        <div class="row">
+            <div class="col-md-6 sect-map">
+                <!-- <img src="assets/images/address-map.svg" class="img-fluid" /> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.184250226005!2d77.05414127425028!3d28.443861692625653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18f20aad9c31%3A0x95f505543d1f0bc5!2sFieldWeb%20%7C%20FSM%20%7C%20Field%20Service%20Management%20Software!5e0!3m2!1sen!2sin!4v1697523649449!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-6">
+                <div class="sect-wboxs">
+                    <h2 class="title-poppins-sbold">Get In Touch</h2>
+                    <div class="mt-3">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Name*</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Company Name*</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Phone Number*</label>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Email*</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Demo Date</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea rows="4" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="mb-3 mt-4">
+                        <a class="btn-red arrowBtn u-button has-hover">
+                            <span class="u-button-arrow"></span>
+                            <span>SUBMIT</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -139,10 +199,10 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<section data-aos="fade-up">
-    <div class="container">
+<section class="margin-btm" data-aos="fade-up">
+    <div class="main-Wrapper">
         <div class="text-center mt-10 margin-btm">
-            <h2 class="title-semibold">Over 10,000+ Customer Worldwide<h2>
+            <h2 class="title-semibold">Over 10,000+ Customer Worldwide</h2>
         </div>
         <div class="owl-carousel owl-theme" id="TrustedCompaniesCarousel">
             <div class="item">
@@ -186,66 +246,7 @@ include_once 'header.php';
         </div>
     </div>
 </section>
-<!----------get in touch----------->
-<section class="main-Wrapper mt-10 margin-btm" data-aos="fade-up">
-    <div class="">
-        <div class="row">
-            <div class="col-md-6 sect-map">
-                <!-- <img src="assets/images/address-map.svg" class="img-fluid" /> -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.184250226005!2d77.05414127425028!3d28.443861692625653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18f20aad9c31%3A0x95f505543d1f0bc5!2sFieldWeb%20%7C%20FSM%20%7C%20Field%20Service%20Management%20Software!5e0!3m2!1sen!2sin!4v1697523649449!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="col-md-6">
-                <div class="sect-wboxs">
-                    <h2 class="title-poppins-sbold">Get In Touch</h2>
-                    <div class="mt-3">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label class="form-label">Name*</label>
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label class="form-label">Company Name*</label>
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label class="form-label">Phone Number*</label>
-                                    <input type="number" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label class="form-label">Email*</label>
-                                    <input type="email" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Demo Date</label>
-                            <input type="date" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Message</label>
-                            <textarea rows="4" class="form-control"></textarea>
-                        </div>
-                    </div>
-                    <div class="mb-3 mt-4">
-                        <a class="btn-red arrowBtn u-button has-hover">
-                            <span class="u-button-arrow"></span>
-                            <span>SUBMIT</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 
 

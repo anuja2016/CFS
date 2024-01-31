@@ -12,6 +12,10 @@
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
     <link href="assets/css/simplePagination.css" rel="stylesheet">
+
+    <link href="assets/css/bootstrap-select.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-select-country.min.css" rel="stylesheet">
+    <link href="assets/css/select2.min.css" rel="stylesheet">
     <!--meta tags-->
     <meta name="title" content="Best Field Service Management | FSM Software - FieldWeb" />
     <meta property="og:title" content="Best Field Service Management | FSM Software - FieldWeb" />
@@ -83,6 +87,10 @@
                             <li><a href="features.php">Feature</a></li>
                             <li><a href="blog.php">Blog</a></li>
                             <li><a href="contact.php">Contact Us</a></li>
+                            <li><a href="customer-app.php">Customer App</a></li>
+                            <li><a href="press-media.php">Press & Media</a></li>
+                            <li><a href="partners.php">Partners</a></li>
+                            <li><a href="career.php">Careers</a></li>
                         </ul>
                         <div class="px-3">
                             <h6 class="mt-3">GET IN TOUCH:</h6>
