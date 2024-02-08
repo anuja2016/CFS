@@ -419,7 +419,7 @@ body h6 {
   transform: translate(0, -50%);
   max-width: 40%;
   z-index: 5;
-  text-align: right;
+  text-align: left;
   left: auto;
   right: auto;
   margin: 0 auto;
@@ -439,7 +439,7 @@ body h6 {
   font-size: 20px;
 }
 .banner-block .content .search-industry {
-  margin: 25px 0 0 auto;
+  margin: 25px auto 0 0;
 }
 .banner-block .content .search-industry input {
   border-right: 0;
@@ -1399,7 +1399,7 @@ body h6 {
   transform: translate(0, -50%);
   max-width: 40%;
   z-index: 5;
-  text-align: right;
+  text-align: left;
   right: auto;
   left: auto;
   margin: 0 auto;
@@ -1424,7 +1424,7 @@ body h6 {
 .banner-block-rht .content .sect-getservice {
   display: flex;
   gap: 20px;
-  margin: 20px 0 0 auto;
+  margin: 20px auto 0 0;
   max-width: 90%;
 }
 .banner-block-rht .content .sect-getservice .input-group .input-group-text {
@@ -2069,6 +2069,10 @@ body h6 {
 
 .mob-homebanner {
   display: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: invert(1);
 }
 
 @font-face {
@@ -6356,6 +6360,30 @@ select.form-control {
   background-position: center;
   background-repeat: no-repeat;
   padding: 50px 20px;
+}
+
+.Sect-Keyword {
+  background-image: url("../images/keyword-watermark.svg"), url("../images/keyword-watermark2.svg"), url("../images/keyword-watermark.svg");
+  background-size: 30%;
+  background-position: 100% 0%, 0% center, 100% bottom;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+.Sect-Keyword-title {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+.Sect-Keyword-title .title {
+  color: #ffffff;
+}
+
+.block-lightorange .accordion-item {
+  background-color: unset;
+}
+.block-lightorange .accordion-item .accordion-button {
+  background-color: unset;
 }
 
 /*# sourceMappingURL=style.css.map */

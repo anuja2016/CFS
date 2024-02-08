@@ -38,6 +38,7 @@
           <li><a href="press-media.php">Press & Media</a></li>
           <li><a href="customer-app.php">Customer App</a></li>
           <li><a href="blog.php">Blogs</a></li>
+          <li><a href="keyword.php">Keyword</a></li>
         </ul>
       </div>
       <div class="col-md-2 col-sm-4 col-6">
@@ -101,7 +102,6 @@
 </footer>
 <button class="btnChatbot" title="Go to Chatbot"><img src="assets/images/chatbot-icon.svg" /></button>
 <button onclick="topFunction()" id="btnScrollTop" title="Go to top"><img src="assets/images/arrow-top-white.svg" /></button>
-
 
 <!--scripts--->
 <script type="text/javascript" src="assets/js/jquery-3.7.1.min.js"></script>

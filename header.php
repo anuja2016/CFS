@@ -13,9 +13,6 @@
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
     <link href="assets/css/simplePagination.css" rel="stylesheet">
 
-    <link href="assets/css/bootstrap-select.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-select-country.min.css" rel="stylesheet">
-    <link href="assets/css/select2.min.css" rel="stylesheet">
     <!--meta tags-->
     <meta name="title" content="Best Field Service Management | FSM Software - FieldWeb" />
     <meta property="og:title" content="Best Field Service Management | FSM Software - FieldWeb" />
