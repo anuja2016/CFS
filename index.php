@@ -198,7 +198,6 @@ include_once 'header.php';
     </div>
   </div>
 </div>
-<select class="selectpicker countrypicker" data-live-search="true" data-default="United States" data-flag="true"></select>
 <section class="feature-section margin-btm" data-aos="fade-up">
   <div class="main-Wrapper">
     <div class="wrapper-head text-center margin-btm">
