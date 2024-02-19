@@ -14,9 +14,10 @@ include_once 'header.php';
         <div class="col-md-6" data-aos="fade-up">
             <h3 class="title-bold mb-3">About FieldWeb</h3>
             <div class="text-justify">
-                <p class="mb-3">FieldWeb is a field service management (FSM) application for small businesses that helps business owners to track and manage their field business operations easily and securely.</p>
-                <p class="mb-3">FieldWeb comes up with a large set of features like Real-Time Task Scheduling, AMC management, CRM, Asset management etc.</p>
-                <p>Today, FieldWeb is becoming a household name. Business Owners and fieldworkers use the app extensively while creating 1000's tasks every day. The high engagement has resulted in more than 25% of revenue growth, a 27% decrease in customer churn rate and a 32% increase in workers' productivity.</p>
+                <p class="mb-3">FieldWeb, a product of Corefield Technologies, is at the forefront of field service management. Established in December 2016 and led by Mr. Amit Dhawan, Founder, and Director at Corefield Technologies, we've rapidly become one of India's fastest-growing SaaS companies.</p>
+                <p class="mb-3">Our impact speaks volumes. With over 1000 customers spanning 70+ industries, we're India's leading SMB business management app. FieldWeb empowers micro, small, and medium business owners to effortlessly track and manage operations. Offering Real-Time Task Scheduling, AMC Management, Customer Enquiry Management, Income & Expense Management, Passbook Management, and more, we've revolutionized business processes.</p>
+                <p class="mb-3">Our users have reclaimed millions in income and expenses, significantly boosting India's SMB sector. We've achieved an annual revenue growth of over 25%, reduced customer churn by 27%, increased fieldworker productivity by 32%, and saved users around 21 hours weekly.</p>
+                <p class="mb-3">FieldWeb delivers higher productivity and streamlined operations through an intuitive web and mobile app interface. Join us in shaping the future of field service management.</p>
             </div>
         </div>
     </div>
@@ -32,14 +33,14 @@ include_once 'header.php';
             <div class="col-md-6" data-aos="fade-up">
                 <p>CHOOSE</p>
                 <h2 class="title">Why Choose us</h2>
-                <p class="mt-2">HVAC business software is a comprehensive tool that helps streamline your operations, from scheduling</p>
+                <p class="mt-2">At FieldWeb, we're not just a service provider; we're your partner in success. With a proven track record of empowering businesses across industries, here's why you should choose us:</p>
                 <div class="d-flex align-items-center gap-4 mt-3">
                     <div class="white-block">
                         <img src="assets/images/meeticon.svg" />
                     </div>
                     <div class="d-flex-column">
-                        <h4 class="subtitle-montb">Meet new customers</h4>
-                        <p class="mt-2">HVAC business software is a comprehensive tool that helps streamline your operations, </p>
+                        <h4 class="subtitle-montb">Dedication to Your Growth</h4>
+                        <p>We are committed to your success. FieldWeb, backed by Corefield Technologies, combines innovation with a deep understanding of your business needs to help you thrive.</p>
                     </div>
                 </div>
                 <div class="d-flex align-items-center gap-4 mt-3">
@@ -47,8 +48,8 @@ include_once 'header.php';
                         <img src="assets/images/growicon.svg" />
                     </div>
                     <div class="d-flex-column">
-                        <h4 class="subtitle-montb">Grow your revenue</h4>
-                        <p class="mt-2">HVAC business software is a comprehensive tool that helps streamline your operations, </p>
+                        <h4 class="subtitle-montb">Comprehensive Solutions</h4>
+                        <p>From real-time task scheduling to income & expense management, our platform offers a wide array of features designed to streamline your operations. FieldWeb is your one-stop solution for all your field service management needs.</p>
                     </div>
                 </div>
                 <div class="d-flex align-items-center gap-4 mt-3">
@@ -56,8 +57,8 @@ include_once 'header.php';
                         <img src="assets/images/growicon.svg" />
                     </div>
                     <div class="d-flex-column">
-                        <h4 class="subtitle-montb">Build your online reputation</h4>
-                        <p class="mt-2">HVAC business software is a comprehensive tool that helps streamline your operations, </p>
+                        <h4 class="subtitle-montb">Measurable Impact</h4>
+                        <p>We don't just promise results; we deliver them. Our users have witnessed significant growth in revenue, reduced churn rates, increased productivity, and substantial time savings. When you choose FieldWeb, you choose tangible, measurable improvements for your business.</p>
                     </div>
                 </div>
             </div>
@@ -66,7 +67,7 @@ include_once 'header.php';
 </section>
 <section class="main-Wrapper margin-btm" data-aos="fade-up">
     <div class="text-center margin-sm-btm">
-        <h2 class="title">Heading</h2>
+        <h2 class="title">Seed of Growth</h2>
     </div>
     <div class="heading">
         <div class="row text-center align-items-end">
@@ -81,12 +82,12 @@ include_once 'header.php';
                 <img src="assets/images/seed2img.svg" alt="Roots of Beginnings" class="img-fluid">
                 <p class="black-sm-title mt-3">Roots of Beginnings</p>
                 <div class="d-flex align-items-center justify-content-center mb-3">
-                    <p>(2017-18) <img src="assets/images/infoicon.svg" alt="Roots of Beginnings (2017-18)" aria-hidden="true" data-bs-toggle="tooltip" data-bs-placement="bottom" title="The first green shoot emerged as an MVP, laying the roots of FieldWeb, a humble beginning." class="info-circle-img" /></p>
+                    <p>(2017-18) <img src="assets/images/infoicon.svg" alt="Roots of Beginnings (2017-18)" aria-hidden="true" data-bs-toggle="tooltip" data-bs-placement="bottom" title=" The first green shoot emerged as an MVP, laying the roots of FieldWeb, a humble beginning." class="info-circle-img" /></p>
                 </div>
             </div>
             <div class="col-md-2 col-sm-4">
                 <img src="assets/images/seed3img.svg" alt="Branching Out" class="img-fluid">
-                <p class="black-sm-title mt-3">Branching Out</p>
+                <p class="black-sm-title mt-3">Branching Out </p>
                 <div class="d-flex align-items-center justify-content-center mb-3">
                     <p>(2018-19) <img src="assets/images/infoicon.svg" alt="Like branches reaching for the sky, FieldWeb embraced 10+ industries, spreading its digital canopy." aria-hidden="true" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Like branches reaching for the sky, FieldWeb embraced 10+ industries, spreading its digital canopy." class="info-circle-img" /></p>
                 </div>
@@ -100,7 +101,7 @@ include_once 'header.php';
             </div>
             <div class="col-md-2 col-sm-4">
                 <img src="assets/images/seed5img.svg" alt="Spreading Global Canopy" class="img-fluid">
-                <p class="black-sm-title mt-3">Spreading Global Canopy</p>
+                <p class="black-sm-title mt-3">Spreading Global Canopy </p>
                 <div class="d-flex align-items-center justify-content-center mb-3">
                     <p>(2021-23) <img src="assets/images/infoicon.svg" alt="From 50+ industries and 20+ nations, like a sturdy tree, FieldWeb's canopy now shelters over 10,000 businesses." aria-hidden="true" data-bs-toggle="tooltip" data-bs-placement="bottom" title="From 50+ industries and 20+ nations, like a sturdy tree, FieldWeb's canopy now shelters over 10,000 businesses." class="info-circle-img" /></p>
                 </div>
@@ -129,8 +130,8 @@ include_once 'header.php';
                             <img src="assets/images/leaderimg1.svg">
                             <div class="d-flex-column flex-start">
                                 <h4 class="leader-name">Amit Dhawan</h4>
-                                <p class="pb-1">Amit Dhawan</p>
-                                <p class="leader-desc">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+                                <p class="pb-1">Founder & CEO</p>
+                                <p class="leader-desc"> Amit Dhawan is the visionary founder and driving force behind FieldWeb. With a passion for innovation and a commitment to empowering businesses, Amit has led FieldWeb's journey from inception to becoming one of India's fastest-growing SaaS companies.</p>
                                 <div class="d-flex gap-2 pt-4">
                                     <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
                                     <a href="https://twitter.com/"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>
@@ -146,8 +147,8 @@ include_once 'header.php';
                             <img src="assets/images/leaderimg2.svg">
                             <div class="d-flex-column flex-start">
                                 <h4 class="leader-name">Sandeep Singh</h4>
-                                <p class="pb-1">Amit Dhawan</p>
-                                <p class="leader-desc">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+                                <p class="pb-1">CBO and Co-Founder</p>
+                                <p class="leader-desc">Sandeep Singh, a co-founder of FieldWeb, brings extensive business acumen to the team. His strategic insights and leadership have played a pivotal role in FieldWeb's rapid growth, establishing it as a key player in the field service management industry.</p>
                                 <div class="d-flex gap-2 pt-4">
                                     <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
                                     <a href="https://twitter.com/" target="_blank"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>
@@ -163,8 +164,8 @@ include_once 'header.php';
                             <img src="assets/images/leaderimg3.svg">
                             <div class="d-flex-column flex-start">
                                 <h4 class="leader-name">Shashank Tewari</h4>
-                                <p class="pb-1">Amit Dhawan</p>
-                                <p class="leader-desc">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+                                <p class="pb-1">Head of Growth</p>
+                                <p class="leader-desc">Shashank Tiwari is the driving force behind FieldWeb's remarkable growth journey. Shashank's visionary leadership laid the foundation for FieldWeb's marketing presence across diverse platforms, establishing it as a prominent name in the field service management industry. His ability to identify opportunities and drive expansion has been instrumental in FieldWeb's success, as it continues to empower businesses worldwide.</p>
                                 <div class="d-flex gap-2 pt-4">
                                     <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
                                     <a href="https://twitter.com/" target="_blank"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>
@@ -180,8 +181,8 @@ include_once 'header.php';
                             <img src="assets/images/leaderimg4.svg">
                             <div class="d-flex-column flex-start">
                                 <h4 class="leader-name">Sahil Bhatia</h4>
-                                <p class="pb-1">Amit Dhawan</p>
-                                <p class="leader-desc">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+                                <p class="pb-1">Sales Manager</p>
+                                <p class="leader-desc">Sahil Bhatia is at the forefront of FieldWeb's customer engagement. His expertise in sales and client relationships ensures that FieldWeb's solutions meet the evolving needs of businesses and foster lasting partnerships.</p>
                                 <div class="d-flex gap-2 pt-4">
                                     <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebookblackicon.svg" class="icon-img"></a>
                                     <a href="https://twitter.com/" target="_blank"><img src="assets/images/twitterblackicon.svg" class="icon-img"></a>

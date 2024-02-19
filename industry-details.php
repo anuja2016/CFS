@@ -5,7 +5,7 @@ include_once 'header.php';
 <section class="margin-btm">
     <div class="banner-block-lft mt-116">
         <div class="block-img">
-            <img src="assets/images/banners/industry_banner2.svg" class="img-fluid desk-homebanner" alt="industry banner">
+            <img src="assets/images/banners/industry_banner_hvac2.jpg" class="img-fluid desk-homebanner" alt="industry banner">
             <img src="assets/images/banners/industry_banner2_mob.jpg" class="img-fluid mob-homebanner" alt="industry banner" />
         </div>
         <div class="main-Wrapper">

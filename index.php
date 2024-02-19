@@ -105,7 +105,7 @@ include_once 'header.php';
       <img src="assets/images/home-banner/mobile-banners/lift.jpg" class="img-fluid mob-homebanner" alt="lift" />
       <div class="main-Wrapper">
         <div class="carousel-caption d-md-block">
-          <h1>One <span>Platform</span></h1>
+         <h1>One <span>Platform</span></h1>
           <h1>For All Field Service</h1>
           <p>Welcome to FieldWeb: Streamline Your Field Service Management. A Powerful Solution for Service Businesses.</p>
           <div class="sect-getservice">
@@ -198,6 +198,10 @@ include_once 'header.php';
     </div>
   </div>
 </div>
+
+<select class="selectpicker countrypicker" data-flag="true" ></select>
+<!-- <select id="DDLCountry" class="selectpicker countrypicker" data-flag="true" ></select> -->
+
 <section class="feature-section margin-btm" data-aos="fade-up">
   <div class="main-Wrapper">
     <div class="wrapper-head text-center margin-btm">
@@ -214,15 +218,13 @@ include_once 'header.php';
       <div class="col-md-3 col-sm-6 text-center">
         <img src="assets/images/intelligent_service.svg" />
         <h5 class="mt-2 mb-2">Intelligent Scheduling</h5>
-        <p class="pt-1">Effortlessly Schedule task to your Field worker with respect to their work
-          speciality, allocated work
-          area, time availability and nearest location.</p>
+        <p class="pt-1">Effortlessly plan new and recurring jobs, optimize your calendar, streamline technician notifications, and manage every job detail with ease.</p>
+
       </div>
       <div class="col-md-3 col-sm-6 text-center">
         <img src="assets/images/smart_dispatching.svg" />
         <h5 class="mt-2 mb-2">Smart Dispatching</h5>
-        <p class="pt-1">Utilize cutting-edge technology to efficiently track your workforce, ensuring
-          automatic assignment of the most suitable technician to each job.
+        <p class="pt-1">Utilize cutting-edge technology to efficiently track your workforce, ensuring automatic assignment of the most suitable technician to each job.
         </p>
       </div>
       <div class="col-md-3 col-sm-6 text-center">
@@ -311,8 +313,8 @@ include_once 'header.php';
       <div class="col-md-5">
         <div class="">
           <h3 class="title-mont-semibold">Streamline Your Business Operations</h3>
-          <p class="homeservice-desc">Say goodbye to juggling multiple platforms. Our all-in-one Field Service Management solution centralizes everything you need to efficiently run your Field service business in one convenient location, accessible wherever you are. </p>
-          <p class="homeservice-desc">Field service business in one convenient location, accessible wherever you are. Say goodbye to juggling multiple platforms.</p>
+          <p class="homeservice-desc">Say goodbye to juggling multiple platforms. Our all-in-one solution centralizes everything you need to efficiently run your business in one convenient location, accessible wherever you are</p>
+         
           <a data-bs-toggle="modal" data-bs-target="#mdl_contactsales" class="btn-red arrowBtn u-button has-hover mt-4">
             <span class="u-button-arrow"></span>
             <span>Learn More</span>
@@ -330,37 +332,37 @@ include_once 'header.php';
       <h2 class="title">Served by FieldWeb</h2>
     </div>
     <div class="industries-slider">
-      <a href="#" class="mt-2">
+      <a href="industries/lift-escalator-service-software.php" class="mt-2">
         <img src="assets/images/industryslider1.svg" class="d-block w-100" />
         <div class="hover-text">
           Lift & Elevators Service Business
         </div>
       </a>
-      <a href="#" class="mt-2">
+      <a href="industries/hvac-service-software.php" class="mt-2">
         <img src="assets/images/industryslider2.svg" class="d-block w-100">
         <div class="hover-text">
           HVAC Service Business
         </div>
       </a>
-      <a href="#" class="mt-2">
+      <a href="industries/cctv-service-software.php" class="mt-2">
         <img src="assets/images/industryslider3.svg" class="d-block w-100">
         <div class="hover-text">
           CCTV Service Business
         </div>
       </a>
-      <a href="#" class="mt-2">
+      <a href="industries/lift-escalator-service-software.php" class="mt-2">
         <img src="assets/images/industryslider1.svg" class="d-block w-100" />
         <div class="hover-text">
           Lift & Elevators Service Business
         </div>
       </a>
-      <a href="#" class="mt-2">
+      <a href="industries/hvac-service-software.php" class="mt-2">
         <img src="assets/images/industryslider2.svg" class="d-block w-100">
         <div class="hover-text">
           HVAC Service Business
         </div>
       </a>
-      <a href="#" class="mt-2">
+      <a href="industries/cctv-service-software.php" class="mt-2">
         <img src="assets/images/industryslider3.svg" class="d-block w-100">
         <div class="hover-text">
           CCTV Service Business
@@ -385,7 +387,7 @@ include_once 'header.php';
             <img src="assets/images/androidicon.svg">
             <div class="d-flex-column">
               <p>PlayStore</p>
-              <h6>Rated 4.7/5 (4192)</h6>
+              <h6>Rated 4.1/5 (398)</h6>
             </div>
           </div>
         </div>
@@ -394,7 +396,7 @@ include_once 'header.php';
             <img src="assets/images/App-Store.svg">
             <div class="d-flex-column">
               <p>App Store</p>
-              <h6>Rated 4.7/5 (4192)</h6>
+              <h6>Rated 4.3/5 (203)</h6>
             </div>
           </div>
         </div>
@@ -403,7 +405,7 @@ include_once 'header.php';
             <img src="assets/images/google-icon.svg">
             <div class="d-flex-column">
               <p>Google Reviews</p>
-              <h6>Rated 4.7/5 (4192)</h6>
+              <h6>Rated 4.5/5 (419)</h6>
             </div>
           </div>
         </div>
@@ -413,14 +415,14 @@ include_once 'header.php';
           <div class="social-grid-block text-center">
             <img src="assets/images/growth/Average-Increase-in-Monthly-Revenue.png">
             <h2 class="title-bold">300k +</h2>
-            <p class="title-sm-mont">Total Learners</p>
+            <p class="title-sm-mont">Field Service Industries</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-6 my-3">
           <div class="social-grid-block text-center">
             <img src="assets/images/growth/Field-Service-experts.png">
             <h2 class="title-bold">300k +</h2>
-            <p class="title-sm-mont">Total Learners</p>
+            <p class="title-sm-mont">Field Service experts</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-6 my-3">
@@ -563,29 +565,13 @@ include_once 'header.php';
         <img src="assets/images/image2.svg" />
         <h5 class="ti-card-name"> Prasad Raju Kalindi</h5>
         <p class="ti-card-companyname"> ImageIndia</p>
-        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful
-          Support from Team. Thanks</p>
+        <p class="ti-card-subtext">Its friendly interface ensures a smooth journey, while smart features enhance functionality. 
       </div>
       <div class="ti-card">
         <img src="assets/images/image3.svg" />
         <h5 class="ti-card-name">Mohit Sapra</h5>
         <p class="ti-card-companyname">Splash RO systems</p>
-        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful
-          Support from Team. Thanks</p>
-      </div>
-      <div class="ti-card">
-        <img src="assets/images/image2.svg" />
-        <h5 class="ti-card-name"> Prasad Raju Kalindi</h5>
-        <p class="ti-card-companyname"> ImageIndia</p>
-        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful
-          Support from Team. Thanks</p>
-      </div>
-      <div class="ti-card">
-        <img src="assets/images/image3.svg" />
-        <h5 class="ti-card-name">Mohit Sapra</h5>
-        <p class="ti-card-companyname">Splash RO systems</p>
-        <p class="ti-card-subtext">FieldWeb is such a great app for track the technicians and their work. Wonderful
-          Support from Team. Thanks</p>
+        <p class="ti-card-subtext"> FieldWeb is very easy to use and is very simple and making time management more effective.</p>
       </div>
     </div>
   </div>

@@ -23,10 +23,10 @@ include_once 'header.php';
     <div class="main-Wrapper">
         <div class="row justify-content-between">
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/hvac-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/hvac.svg" class="services-icon" />
-                        <h5 class="mt-4 mb-3"> Roadside Assistance</h5>
+                        <h5 class="mt-4 mb-3"> HVAC</h5>
                         <p class="service-desc">"Enhance roadside assistance with FSM software. Seamlessly handle dispatch, appointments, and customer interactions for prompt support."</p>
                         <div class="d-flex-links gap-2 mt-4">
                             <p>HVAC Software </p>
@@ -36,7 +36,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/ro-water-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/ro_repair.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3"> RO Repair </h5>
@@ -49,7 +49,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/lift-escalator-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/lift_escalators.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3"> Lift & Escalators</h5>
@@ -62,7 +62,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/plumbing-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/plumbing.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3"> Plumbing</h5>
@@ -75,7 +75,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/cctv-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/cctv.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3"> CCTV </h5>
@@ -88,7 +88,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/pest-control-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/pest_control.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3"> Pest Control</h5>
@@ -101,7 +101,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/solar-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/solar_repair.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Solar Repair</h5>
@@ -114,7 +114,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/electrical-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/electrical.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Electrical</h5>
@@ -127,7 +127,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/home-appliance-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/home_appliance.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Home Appliance</h5>
@@ -140,7 +140,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/broadband-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/broadband_service.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Broadband Service</h5>
@@ -153,7 +153,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/computer-it-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/computer_it.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Computer & IT</h5>
@@ -166,7 +166,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/geyser-repair-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/geyser_repair.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Geyser Repair</h5>
@@ -179,7 +179,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/roadside-assistance-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/roadside_assistance.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3"> Roadside Assistance</h5>
@@ -192,7 +192,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/medical-equipment-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/medical_equipment.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Medical Equipment </h5>
@@ -205,7 +205,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/general-contracting-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/general_contracting.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3"> General Contracting</h5>
@@ -218,7 +218,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/home-clean-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/home_clean.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Home Clean</h5>
@@ -231,7 +231,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/painting-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/painting_service.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Painting Service</h5>
@@ -244,7 +244,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/handyman-repair-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/handyman_repair.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Handyman Repair</h5>
@@ -257,7 +257,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/carpet-cleaning-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/carpet_cleaning.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Carpet Cleaning</h5>
@@ -270,7 +270,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/pool-cleaning-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/pool_cleaning.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Pool Cleaning</h5>
@@ -283,7 +283,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/air-duct-cleaning-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/airduct_cleaning.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Air Duct Cleaning</h5>
@@ -296,7 +296,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/fireplace-chimney-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/fireplace_chimney.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">FirePlace & Chimney</h5>
@@ -309,7 +309,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/landscaping-lawn-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/landscaping_lawn.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">LandScaping & Lawn</h5>
@@ -322,7 +322,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/septictank-cleaning-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/septictank_cleaning.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Septic Tank Cleaning</h5>
@@ -335,7 +335,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/janitoral-cleaning-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/janitoral_cleaning.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Janitoral Cleaning</h5>
@@ -348,7 +348,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/roofing-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/roofing_service.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Roofing Service</h5>
@@ -361,7 +361,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/snow-removal-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/snow-removal.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Snow Removal</h5>
@@ -374,7 +374,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/window-cleaning-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/window_cleaning.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Window Cleaning </h5>
@@ -387,7 +387,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/garage-door_installation-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/garagedoor_installation.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Garage Door Installation</h5>
@@ -400,7 +400,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/locksmith-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/locksmith_service.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Locksmith Service</h5>
@@ -413,7 +413,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/irrigation-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/irrigation_service.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Irrigation Service</h5>
@@ -426,7 +426,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/audio-visual-repair-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/audiovisual_repair.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Audio Visual Repair</h5>
@@ -440,7 +440,7 @@ include_once 'header.php';
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-5">
-                <a href="industry-details.php" class="card">
+                <a href="industries/printer-repair-service-software.php" class="card">
                     <div class="card-body text-center">
                         <img src="assets/images/printer_repair.svg" class="services-icon" />
                         <h5 class="mt-4 mb-3">Printer Repair</h5>

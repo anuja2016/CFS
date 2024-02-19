@@ -4,30 +4,30 @@
       <div class="col-md-2 col-sm-4 col-6">
         <h4>Features</h4>
         <ul class="footer-menu">
-          <li><a href="#">Job Scheduling</a></li>
-          <li><a href="#">Task Scheduling</a></li>
-          <li><a href="#">AMC Management</a></li>
-          <li><a href="#">Real time Tracking</a></li>
-          <li><a href="#">Quotation / Invoice</a></li>
-          <li><a href="#">Asset Management</a></li>
-          <li><a href="#">Service Management</a></li>
-          <li><a href="#">Passbook Management</a></li>
-          <li><a href="#">Inventory Management</a></li>
+          <li><a href="features/scheduling.php">Job Scheduling</a></li>
+          <li><a href="features/lead-management.php">Lead Management</a></li>
+          <li><a href="features/amc-management.php">AMC Management</a></li>
+          <li><a href="features/technician-tracking.php">Real time Tracking</a></li>
+          <li><a href="features/quotation.php">Quotation / Invoice</a></li>
+          <li><a href="features/asset-management.php">Asset Management</a></li>
+          <li><a href="features/service-management.php">Service Management</a></li>
+          <li><a href="features/expense-management.php">Passbook Management</a></li>
+          <li><a href="features/inventory-management.php">Inventory Management</a></li>
           <li><a href="features.php">All Features<span class="ps-2"><img src="assets/images/whitearrow.svg" /></span></a></li>
         </ul>
       </div>
       <div class="col-md-2 col-sm-4 col-6">
         <h4>Industries</h4>
         <ul class="footer-menu">
-          <li><a href="#">HVAC </a></li>
-          <li><a href="#">Plumbing </a></li>
-          <li><a href="#">Garage door</a></li>
-          <li><a href="#">Electrical contractor </a></li>
-          <li><a href="#">Appliance Repair</a></li>
-          <li><a href="#">Carpet Cleaning</a></li>
-          <li><a href="#">Landscaping and lawa </a></li>
-          <li><a href="#">Pest Control </a></li>
-          <li><a href="#">Home Cleaning </a></li>
+          <li><a href="industries/hvac-service-software.php">HVAC </a></li>
+          <li><a href="industries/plumbing-service-software.php">Plumbing </a></li>
+          <li><a href="industries/garage-door_installation-service-software.php">Garage door</a></li>
+          <li><a href="industries/electrical-service-software.php">Electrical contractor </a></li>
+          <li><a href="industries/home-appliance-service-software.php">Appliance Repair</a></li>
+          <li><a href="industries/carpet-cleaning-service-software.php">Carpet Cleaning</a></li>
+          <li><a href="industries/landscaping-lawn-service-software.php">Landscaping and lawa </a></li>
+          <li><a href="industries/pest-control-service-software.php">Pest Control </a></li>
+          <li><a href="industries/home-clean-service-software.pho">Home Cleaning </a></li>
           <li><a href="industries.php">All Industries<span class="ps-2"><img src="assets/images/whitearrow.svg" /></span></a></li>
         </ul>
       </div>
@@ -38,7 +38,6 @@
           <li><a href="press-media.php">Press & Media</a></li>
           <li><a href="customer-app.php">Customer App</a></li>
           <li><a href="blog.php">Blogs</a></li>
-          <li><a href="keyword.php">Keyword</a></li>
         </ul>
       </div>
       <div class="col-md-2 col-sm-4 col-6">
@@ -102,6 +101,7 @@
 </footer>
 <button class="btnChatbot" title="Go to Chatbot"><img src="assets/images/chatbot-icon.svg" /></button>
 <button onclick="topFunction()" id="btnScrollTop" title="Go to top"><img src="assets/images/arrow-top-white.svg" /></button>
+
 
 <!--scripts--->
 <script type="text/javascript" src="assets/js/jquery-3.7.1.min.js"></script>

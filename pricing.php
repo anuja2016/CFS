@@ -10,8 +10,8 @@ include_once 'header.php';
         </div>
         <div class="main-Wrapper">
             <div class="content">
-                <h1>Get FieldWeb Demo for free now! Pick a plan later.</h1>
-                <p>Book your live demo now and access all FieldWeb features, no credit card required.</p>
+                <h1>Get FieldWeb demo for free now! Pick a plan later.</h1>
+                <p> Book your live demo now, and access all FieldWeb features, no credit card required.</p>
                 <div class="mt-4">
                     <button type="submit" class="btn-getstarted" data-bs-toggle="modal" data-bs-target="#getdemoModal">Start Free Demo Now!</button>
                 </div>
@@ -218,9 +218,9 @@ include_once 'header.php';
                         </div>
                         <div class="pricing-plan-body">
                             <ul>
-                                <li>Tasks - 50/month</li>
-                                <li>Customer Data No. - 100</li>
-                                <li>Live Support - NA</li>
+                                <li>Tasks-50/month</li>
+                                <li>Customer Data No.-100</li>
+                                <li>Support-NA</li>
                             </ul>
                             <h2><small>$</small>8<small>/user/month</small></h2>
                             <p>Save $10/user/month</p>
@@ -236,11 +236,10 @@ include_once 'header.php';
                         <div class="pricing-plan-foot">
                             <p>Core includes:</p>
                             <ul>
-                                <li><img src="assets/images/check-white.svg">Schedule and manage jobs</li>
-                                <li><img src="assets/images/check-white.svg">Send quotes and invoices</li>
-                                <li><img src="assets/images/check-white.svg">Online request form</li>
-                                <li><img src="assets/images/check-white.svg">24/7 client self-serve hub</li>
-                                <li><img src="assets/images/check-white.svg">Digital payments as low as 2.7% +30c</li>
+                                <li><img src="assets/images/check-white.svg">Job Scheduling & Dispatching</li>
+                                <li><img src="assets/images/check-white.svg">Dashboard & Insights</li>
+                                <li><img src="assets/images/check-white.svg">Attendance management</li>
+                                <li><img src="assets/images/check-white.svg">Location Tracking</li>
                             </ul>
                         </div>
                     </div>
@@ -273,9 +272,9 @@ include_once 'header.php';
                         </div>
                         <div class="pricing-plan-body">
                             <ul>
-                                <li>Tasks - 50/month</li>
-                                <li>Customer Data No. - 100</li>
-                                <li>Live Support - NA</li>
+                                <li>Tasks- 1000/Month</li>
+                                <li>Customer Data No.-1000</li>
+                                <li>Support-Live Chat</li>
                             </ul>
                             <h2><small>$</small>10<small>/user/month</small></h2>
                             <p>Save $15/user/month</p>
@@ -291,11 +290,12 @@ include_once 'header.php';
                         <div class="pricing-plan-foot">
                             <p>Everything in Connect, plus:</p>
                             <ul>
-                                <li><img src="assets/images/check-white.svg">Automated reminders</li>
-                                <li><img src="assets/images/check-white.svg">Automatic payments</li>
-                                <li><img src="assets/images/check-white.svg">QuickBooks Online</li>
-                                <li><img src="assets/images/check-white.svg">sync Online booking</li>
-                                <li><img src="assets/images/check-white.svg">Zapier Integration</li>
+                                <li><img src="assets/images/check-white.svg">Complaints Management</li>
+                                <li><img src="assets/images/check-white.svg">Customer Management</li>
+                                <li><img src="assets/images/check-white.svg">Expense Management</li>
+                                <li><img src="assets/images/check-white.svg">Job completion report</li>
+                                <li><img src="assets/images/check-white.svg">Distance Travelled</li>
+                                <li><img src="assets/images/check-white.svg">Path Travelled</li>
                             </ul>
                         </div>
                     </div>
@@ -324,9 +324,9 @@ include_once 'header.php';
                         </div>
                         <div class="pricing-plan-body">
                             <ul>
-                                <li>Tasks - 50/month</li>
-                                <li>Customer Data No. - 100</li>
-                                <li>Live Support - NA</li>
+                                <li>Tasks- Unlimited</li>
+                                <li>Customer Data No.-Unlimited</li>
+                                <li>Support-Dedicated Key Account Manager</li>
                             </ul>
                             <h2><small>$</small>12<small>/user/month</small></h2>
                             <p>Save $25/user/month</p>
@@ -342,11 +342,11 @@ include_once 'header.php';
                         <div class="pricing-plan-foot">
                             <p>Everything in Connect, plus:</p>
                             <ul>
-                                <li><img src="assets/images/check-white.svg">Quote add-ons and images</li>
-                                <li><img src="assets/images/check-white.svg">Job costing</li>
-                                <li><img src="assets/images/check-white.svg">Automated quote follow-ups</li>
-                                <li><img src="assets/images/check-white.svg">Two way text messaging</li>
-                                <li><img src="assets/images/check-white.svg">Tag and manage leads</li>
+                                <li><img src="assets/images/check-white.svg">AMC Management</li>
+                                <li><img src="assets/images/check-white.svg">Services Management</li>
+                                <li><img src="assets/images/check-white.svg">Leads Tracker</li>
+                                <li><img src="assets/images/check-white.svg">Inventory Management</li>
+                                <li><img src="assets/images/check-white.svg">Quotation/Invoice</li>
                             </ul>
                         </div>
                     </div>
@@ -570,72 +570,72 @@ include_once 'header.php';
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseOne" aria-expanded="false" aria-controls="faq-collapseOne">
-                        What is HVAC business software, and how can it benefit my HVAC company?
+                        What is the pricing structure for FieldWeb?
                     </button>
                 </h2>
                 <div id="faq-collapseOne" class="accordion-collapse collapse" aria-labelledby="faq-headingOne" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                        HVAC business software is a comprehensive tool that helps streamline your operations, from scheduling appointments to dispatching technicians and managing invoices. It boosts efficiency, reduces errors, and enhances customer satisfaction.
+                       FieldWeb offers flexible pricing options tailored to your business needs. Our pricing can vary based on factors such as the number of users, features required, and the size of your organization.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseTwo" aria-expanded="false" aria-controls="faq-collapseTwo">
-                        Is FieldWeb's HVAC software suitable for both small and large HVAC businesses?
+                        Is there a limit to the number of users I can add to FieldWeb?
                     </button>
                 </h2>
                 <div id="faq-collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq-headingTwo" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                        Absolutely, FieldWeb's HVAC software is designed to cater to businesses of all sizes. Whether you're a small local HVAC company or a larger enterprise, our software can be tailored to meet your needs.
+                    FieldWeb's pricing plans accommodate businesses of all sizes. We have plans designed for small businesses with a limited number of users, as well as plans that can scale to meet the needs of larger organizations. You can choose a plan that suits your user requirements.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseThree" aria-expanded="false" aria-controls="faq-collapseThree">
-                        Can I track the progress of HVAC jobs and technician assignments in real time?
+                        Are there any hidden fees or long-term contracts?
                     </button>
                 </h2>
                 <div id="faq-collapseThree" class="accordion-collapse collapse" aria-labelledby="faq-headingThree" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                        Yes, FieldWeb's HVAC software offers real-time updates on job progress and technician assignments. You can monitor task statuses, technician locations, and more, ensuring smooth communication and efficient faq delivery.
+                        No, there are no hidden fees with FieldWeb. We believe in transparency. Our pricing is straightforward, and you won't encounter unexpected charges. Additionally, we offer flexible billing options, including monthly and annual plans, without requiring long-term contracts.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseFour" aria-expanded="false" aria-controls="faq-collapseFour">
-                        Can I use FieldWeb's HVAC software to create professional and accurate estimates?
+                        Can I upgrade or downgrade my plan as my business grows?
                     </button>
                 </h2>
                 <div id="faq-collapseFour" class="accordion-collapse collapse" aria-labelledby="faq-headingFour" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                        Yes, our software includes features to help you create detailed and accurate estimates for your HVAC services. You can customize quotes based on services, materials, and labor, ensuring transparency and winning customer trust.
+                       Yes, you can upgrade or downgrade your FieldWeb plan at any time. We understand that your business needs may evolve, and our flexible plans allow you to adjust accordingly. You can seamlessly switch between plans to accommodate changes in your user count or feature requirements.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingFive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseFive" aria-expanded="false" aria-controls="faq-collapseFive">
-                        Does FieldWeb's HVAC software offer mobile accessibility for technicians in the field?
+                        Do you provide customer support with your pricing plans?
                     </button>
                 </h2>
                 <div id="faq-collapseFive" class="accordion-collapse collapse" aria-labelledby="faq-headingFive" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                        Absolutely, our software is designed to be accessible on mobile devices. Technicians can access job details, update statuses, and communicate with the office directly from their smartphones or tablets.
+                       Yes, customer support is an integral part of our pricing plans. We offer various support options, including email and phone support, to assist you in using FieldWeb effectively. Our team is dedicated to ensuring you get the most out of our software.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faq-headingSix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseSix" aria-expanded="false" aria-controls="faq-collapseSix">
-                        How does FieldWeb's HVAC software help in improving customer engagement and satisfaction?
+                        What are your billing options?
                     </button>
                 </h2>
                 <div id="faq-collapseSix" class="accordion-collapse collapse" aria-labelledby="faq-headingSix" data-bs-parent="#accordionfaq">
                     <div class="accordion-body">
-                        Our HVAC software allows clients to book appointments online, view service history, and access estimates easily. This transparency fosters trust, enhances communication, and ultimately leads to higher customer satisfaction.
+                        FieldWeb offers annual billing for all our pricing plans. We do not provide monthly billing options. This annual billing ensures that you have uninterrupted access to our platform throughout the year, allowing you to streamline your operations consistently.
                     </div>
                 </div>
             </div>
