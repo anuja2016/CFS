@@ -7,11 +7,10 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_scheduling_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
             <h1>Schedule customer complaints with scheduling management software</h1>
-            <p>FieldWeb accelerates job scheduling, minimizes booking errors, and optimizes route planning, ensuring seamless coordination between your field team and clients. With FieldWeb, efficiently manage field service tasks, enhance customer satisfaction, and boost productivity.
- </p>
+            <p>FieldWeb accelerates job scheduling, minimizes booking errors, and optimizes route planning, ensuring seamless coordination between your field team and clients. With FieldWeb, efficiently manage field service tasks, enhance customer satisfaction, and boost productivity.</p>
             <div class="sect-getservice">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">
@@ -52,28 +51,28 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Book Job</a>
+                    <a id="btn-BookJob" class="ref-link">Book Job</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Job Assignment</a>
+                    <a id="btn-JobAssignment" class="ref-link">Job Assignment</a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Job Statuses</a>
+                    <a id="btn-JobStatuses" class="ref-link">Job Statuses</a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Job Scheduling </a>
+                    <a id="btn-JobScheduling" class="ref-link">Job Scheduling </a>
                 </li>
                 <li>
-                    <a id="btn-createjob" class="ref-link">Job Reminders</a>
+                    <a id="btn-JobReminders" class="ref-link">Job Reminders</a>
                 </li>
                 <li>
-                    <a id="btn-createjob" class="ref-link">Map</a>
+                    <a id="btn-Map" class="ref-link">Map</a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-BookJob">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/book_job_online.jpg" class="img-fluid">
@@ -94,7 +93,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-JobAssignment">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/bulk_job_assignment.jpg" class="img-fluid">
@@ -115,7 +114,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-JobStatuses">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/job_status_at_a_glance.jpg" class="img-fluid">
@@ -136,7 +135,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-JobScheduling">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/smart_job_scheduling.jpg" class="img-fluid">
@@ -157,7 +156,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-createjob">
+        <div class="margin-btm" id="tb-JobReminders">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/job_reminders.jpg" class="img-fluid">
@@ -178,7 +177,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-Map">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/map_and_route_optimization.jpg" class="img-fluid">
@@ -208,8 +207,7 @@ include_once 'header.php';
         <ul>
             <li>Discover the FieldWeb Way of Scheduling:</li>
 
-            <li><img src="../assets/images/arrowrightblack.svg" class="img-fluid">Stay informed about online bookings or directly create appointments within your calendar
-</li>
+            <li><img src="../assets/images/arrowrightblack.svg" class="img-fluid">Stay informed about online bookings or directly create appointments within your calendar</li>
             <li><img src="../assets/images/arrowrightblack.svg" class="img-fluid">Effortlessly assess team availability and allocate tasks to the suitable members</li>
             <li><img src="../assets/images/arrowrightblack.svg" class="img-fluid">Simply click, drag, and realign appointments that require rescheduling</li>
             <li><img src="../assets/images/arrowrightblack.svg" class="img-fluid">Prioritize efficiency by automatically generating optimal driving routes before deploying your team</li>

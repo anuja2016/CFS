@@ -7,10 +7,10 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_customer_app_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
-            <h1>  Empower Your Customers with FieldWeb's Personalized and Feature-Rich Customer App</h1>
-            <p> Welcome to the FieldWeb Customer App, where empowerment meets convenience</p>
+            <h1>Empower Your Customers with FieldWeb's Personalized and Feature-Rich Customer App</h1>
+            <p>Welcome to the FieldWeb Customer App, where empowerment meets convenience</p>
             <div class="sect-getservice">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">
@@ -50,22 +50,22 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Branding and Customization</a>
+                    <a id="btn-BrandingCustomization" class="ref-link">Branding and Customization</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Customer Engagement </a>
+                    <a id="btn-CustomerEngagement" class="ref-link">Customer Engagement </a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Service Booking  </a>
+                    <a id="btn-ServiceBooking" class="ref-link">Service Booking  </a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Web Content</a>
+                    <a id="btn-WebContent" class="ref-link">Web Content</a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-BrandingCustomization">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/customer_app.png" class="img-fluid">
@@ -85,7 +85,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-CustomerEngagement">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/customer_profile.jpg" class="img-fluid">
@@ -105,7 +105,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-ServiceBooking">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/customer_app_visibility.jpg" class="img-fluid">
@@ -125,7 +125,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-WebContent">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/complaint_tracking.jpg" class="img-fluid">

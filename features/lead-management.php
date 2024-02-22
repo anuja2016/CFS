@@ -7,10 +7,10 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_lead_management_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
-            <h1>Manage all your business leads from a single dashboar</h1>
-            <p> Managing leads efficiently is vital for any business's growth. FieldWeb's Lead Management tools offer a robust platform to capture, nurture, and convert leads seamlessly. Whether it's tracking leads, managing follow-ups, or analyzing conversion rates, FieldWeb simplifies the process. </p>
+            <h1>Manage all your business leads from a single dashboard</h1>
+            <p>Managing leads efficiently is vital for any business's growth. FieldWeb's Lead Management tools offer a robust platform to capture, nurture, and convert leads seamlessly. Whether it's tracking leads, managing follow-ups, or analyzing conversion rates, FieldWeb simplifies the process. </p>
             <div class="sect-getservice">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">
@@ -51,23 +51,23 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Lead Capture</a>
+                    <a id="btn-LeadCapture" class="ref-link">Lead Capture</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Lead Assignment</a>
+                    <a id="btn-LeadAssignment" class="ref-link">Lead Assignment</a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Follow-Up Reminders</a>
+                    <a id="btn-FollowUpReminders" class="ref-link">Follow-Up Reminders</a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Lead Statuses </a>
+                    <a id="btn-LeadStatuses" class="ref-link">Lead Statuses </a>
                 </li>
                 
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-LeadCapture">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/lead_capture.jpg" class="img-fluid">
@@ -87,7 +87,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-LeadAssignment">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/lead_assignment.jpg" class="img-fluid">
@@ -108,7 +108,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-FollowUpReminders">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/follow_up_reminders.jpg" class="img-fluid">
@@ -129,7 +129,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-LeadStatuses">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/lead_status.jpg" class="img-fluid">

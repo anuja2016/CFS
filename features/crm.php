@@ -7,10 +7,10 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_crm_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
-            <h1> Streamline Customer Relations, Complaints, and Lead Management</h1>
-            <p> FieldWeb's CRM feature is your key to enhancing customer relationships and managing vital aspects of your busines</p>
+            <h1>Streamline Customer Relations, Complaints, and Lead Management</h1>
+            <p>FieldWeb's CRM feature is your key to enhancing customer relationships and managing vital aspects of your busines</p>
             <div class="sect-getservice">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">
@@ -50,22 +50,22 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Customer Database Management</a>
+                    <a id="btn-CustomerDatabaseManagement" class="ref-link">Customer Database Management</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Complaint Tracking</a>
+                    <a id="btn-ComplaintTracking" class="ref-link">Complaint Tracking</a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Lead Management </a>
+                    <a id="btn-LeadManagement" class="ref-link">Lead Management </a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Historical Insights</a>
+                    <a id="btn-HistoricalInsights" class="ref-link">Historical Insights</a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-CustomerDatabaseManagement">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/quotation-bg.svg" class="img-fluid">
@@ -85,7 +85,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-ComplaintTracking">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/complaint_management.jpg" class="img-fluid">
@@ -105,7 +105,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-LeadManagement">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/lead_assignment.jpg" class="img-fluid">
@@ -125,7 +125,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-HistoricalInsights">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/job_history.jpg" class="img-fluid">

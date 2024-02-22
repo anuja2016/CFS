@@ -7,7 +7,7 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_invoice_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
             <h1>Automatically Generate Invoices Upon Resolving Customer Complaints</h1>
             <p> FieldWeb simplifies your business operations by automatically generating invoices as soon as you resolve customer complaints. This streamlined process ensures that you never miss billing for the services provided. </p>
@@ -51,22 +51,22 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Invoice Quick Create</a>
+                    <a id="btn-InvoiceQuickCreate" class="ref-link">Invoice Quick Create</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Invoice Statuses</a>
+                    <a id="btn-InvoiceStatuses" class="ref-link">Invoice Statuses</a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Export Invoicing</a>
+                    <a id="btn-ExportInvoicing" class="ref-link">Export Invoicing</a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Share invoice</a>
+                    <a id="btn-ShareInvoice" class="ref-link">Share Invoice</a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-InvoiceQuickCreate">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/invoice_quick_create.jpg" class="img-fluid">
@@ -86,7 +86,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-InvoiceStatuses">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/invoice_statuses.jpg" class="img-fluid">
@@ -106,7 +106,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-ExportInvoicing">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/export_invoice.jpg" class="img-fluid">
@@ -127,7 +127,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-ShareInvoice">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/share_invoice.jpg" class="img-fluid">

@@ -7,7 +7,7 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_service_management_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
             <h1> Service Portfolio Management with FieldWeb</h1>
             <p> FieldWeb's Service Management feature empowers business owners to curate and showcase their array of services effortlessly.</p>
@@ -50,22 +50,22 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Catalog Management</a>
+                    <a id="btn-CatalogManagement" class="ref-link">Catalog Management</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Customer App Integration </a>
+                    <a id="btn-CustomerAppIntegration" class="ref-link">Customer App Integration </a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Complaints Form</a>
+                    <a id="btn-ComplaintsForm" class="ref-link">Complaints Form</a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Revenue Generation</a>
+                    <a id="btn-RevenueGeneration" class="ref-link">Revenue Generation</a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-CatalogManagement">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/service_catalog_creation.jpg" class="img-fluid">
@@ -85,7 +85,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-CustomerAppIntegration">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/dynamic_pricing_and_offers.jpg" class="img-fluid">
@@ -105,7 +105,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-ComplaintsForm">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/discount_management.jpg" class="img-fluid">
@@ -125,7 +125,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-RevenueGeneration">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/dynamic_pricing_and_offers.jpg" class="img-fluid">

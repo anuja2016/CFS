@@ -7,7 +7,7 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_inventory_management_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
             <h1>Effortlessly Handle Your Business's Spare Parts Inventory</h1>
             <p>With FieldWeb's Item Inventory feature, managing spare parts becomes a breeze. Users can gain comprehensive insights into their inventory, tracking quantities and usage with precision. This feature offers a detailed history of each spare part, including its usage in specific jobs or services, the responsible technician, and the date of utilization.</p>
@@ -50,22 +50,22 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Available Quantity</a>
+                    <a id="btn-AvailableQuantity" class="ref-link">Available Quantity</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Assigned Item</a>
+                    <a id="btn-AssignedItem" class="ref-link">Assigned Item</a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Used Items</a>
+                    <a id="btn-UsedItems" class="ref-link">Used Items</a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Returned Item </a>
+                    <a id="btn-ReturnedItem" class="ref-link">Returned Item </a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-AvailableQuantity">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/available_quantity.jpg" class="img-fluid">
@@ -86,7 +86,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-AssignedItem">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/assigned-quantity.jpg" class="img-fluid">
@@ -107,7 +107,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-UsedItems">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/used_items_on_each_job.jpg" class="img-fluid">
@@ -128,7 +128,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-ReturnedItem">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/return_item.jpg" class="img-fluid">

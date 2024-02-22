@@ -67,7 +67,7 @@ include_once 'header.php';
                             <div class="prod-user margin-btm">
                                 <img src="assets/images/user-icon.svg">
                                 <span>1 User</span>
-                                <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+                                <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="1 User">
                             </div>
                         </div>
                         <div class="pricing-plan-foot">
@@ -230,7 +230,7 @@ include_once 'header.php';
                             <div class="prod-user margin-btm">
                                 <img src="assets/images/user-icon.svg">
                                 <span>1 User</span>
-                                <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+                                <img src="assets/images/question-mark.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="1 - 5 User">
                             </div>
                         </div>
                         <div class="pricing-plan-foot">

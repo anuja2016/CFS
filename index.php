@@ -199,9 +199,6 @@ include_once 'header.php';
   </div>
 </div>
 
-<select class="selectpicker countrypicker" data-flag="true" ></select>
-<!-- <select id="DDLCountry" class="selectpicker countrypicker" data-flag="true" ></select> -->
-
 <section class="feature-section margin-btm" data-aos="fade-up">
   <div class="main-Wrapper">
     <div class="wrapper-head text-center margin-btm">

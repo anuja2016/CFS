@@ -7,11 +7,10 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_quote_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
             <h1>Quotation software that secures higher project approvals</h1>
-            <p>FieldWeb empowers you to create client-focused quotes swiftly, accurately price services, and streamline quote follow-ups, ensuring no opportunity is missed.
- </p>
+            <p>FieldWeb empowers you to create client-focused quotes swiftly, accurately price services, and streamline quote follow-ups, ensuring no opportunity is missed.</p>
             <div class="sect-getservice">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">
@@ -51,7 +50,7 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
                     <a id="btn-createquote" class="ref-link">Create Quote</a>
                 </li>

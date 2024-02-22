@@ -553,88 +553,10 @@
     document.getElementById("page-backdrop").style.display = "none";
   }
 </script>
-<script>
-  // features details links
-  $('#btn-frontoffice').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-frontoffice').offset().top - headerheight
-    }, 'slow');
-  });
-  $('#btn-fieldoperation').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-fieldoperation').offset().top - headerheight
-    }, 'slow');
-  });
-  $('#btn-customerexperience').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-customerexperience').offset().top - headerheight
-    }, 'slow');
-  });
 
+<!----features page scripts--->
+<script type="text/javascript" src="../assets/js/features.js"></script>
 
-
-  // features details links
-  $('#btn-createquote').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-createquote').offset().top - headerheight
-    }, 'slow');
-  });
-  $('#btn-send-slatc').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-send-slatc').offset().top - headerheight
-    }, 'slow');
-  });
-  $('#btn-quoteapproval').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-quoteapproval').offset().top - headerheight
-    }, 'slow');
-  });
-  $('#btn-quotestatus').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-quotestatus').offset().top - headerheight
-    }, 'slow');
-  });
-  $('#btn-createjob').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-createjob').offset().top - headerheight
-    }, 'slow');
-  });
-
-
-  // customer app links
-  $('#btn-BrandCustomization').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-BrandCustomization').offset().top - headerheight
-    }, 'slow');
-  });
-  $('#btn-CustomerEngagement').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-CustomerEngagement').offset().top - headerheight
-    }, 'slow');
-  });
-  $('#btn-ServiceBooking').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-ServiceBooking').offset().top - headerheight
-    }, 'slow');
-  });
-  $('#btn-WebContent').click(function() {
-    var headerheight = parseInt($(".fixed-top").height() + 20);
-    $('html, body').animate({
-      scrollTop: $('#tb-WebContent').offset().top - headerheight
-    }, 'slow');
-  });
-</script>
 
 
 <!----Filter gallery--->
@@ -863,3 +785,6 @@
     });
   });
 </script>
+
+
+

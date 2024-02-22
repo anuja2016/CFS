@@ -7,10 +7,10 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_complete_job_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
             <h1>Complete assigned customer complaints with job management software</h1>
-            <p> With FieldWeb, you have the tools you need for a smooth and efficient job completion process, enhancing customer service and business performance. Monitor job statuses in real-time, retrieve critical job information while on-site, and ensure customer contentment.</p>
+            <p>With FieldWeb, you have the tools you need for a smooth and efficient job completion process, enhancing customer service and business performance. Monitor job statuses in real-time, retrieve critical job information while on-site, and ensure customer contentment.</p>
             <div class="sect-getservice">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">
@@ -51,28 +51,28 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Job Alerts</a>
+                    <a id="btn-JobAlerts" class="ref-link">Job Alerts</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Job Management</a>
+                    <a id="btn-JobManagement" class="ref-link">Job Management</a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Navigation </a>
+                    <a id="btn-Navigation" class="ref-link">Navigation </a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Job Tracking</a>
+                    <a id="btn-JobTracking" class="ref-link">Job Tracking</a>
                 </li>
                 <li>
-                    <a id="btn-createjob" class="ref-link">Expense</a>
+                    <a id="btn-Expense" class="ref-link">Expense</a>
                 </li>
                 <li>
-                    <a id="btn-createjob" class="ref-link">Work Allocation</a>
+                    <a id="btn-WorkAllocation" class="ref-link">Work Allocation</a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-JobAlerts">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/task_alerts.jpg" class="img-fluid">
@@ -93,7 +93,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-JobManagement">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/task_management.jpg" class="img-fluid">
@@ -114,7 +114,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-Navigation">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/efficient_navigation.jpg" class="img-fluid">
@@ -135,7 +135,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-JobTracking">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/task_tracking.jpg" class="img-fluid">
@@ -156,7 +156,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-createjob">
+        <div class="margin-btm" id="tb-Expense">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/expense_recording.jpg" class="img-fluid">
@@ -177,7 +177,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-         <div class="margin-btm" id="tb-quotestatus">
+         <div class="margin-btm" id="tb-WorkAllocation">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/work_allocation.jpg" class="img-fluid">

@@ -417,9 +417,9 @@ body h6 {
   position: absolute;
   top: 55%;
   transform: translate(0, -50%);
-  max-width: 40%;
+  max-width: 600px;
   z-index: 5;
-  text-align: right;
+  text-align: left;
   left: auto;
   right: auto;
   margin: 0 auto;
@@ -439,7 +439,7 @@ body h6 {
   font-size: 20px;
 }
 .banner-block .content .search-industry {
-  margin: 25px 0 0 auto;
+  margin: 25px auto 0 0;
 }
 .banner-block .content .search-industry input {
   border-right: 0;
@@ -468,7 +468,7 @@ body h6 {
   position: absolute;
   top: 55%;
   transform: translate(0, -50%);
-  max-width: 40%;
+  max-width: 600px;
   z-index: 5;
   text-align: left;
   left: auto;
@@ -1397,9 +1397,9 @@ body h6 {
   position: absolute;
   top: 55%;
   transform: translate(0, -50%);
-  max-width: 40%;
+  max-width: 600px;
   z-index: 5;
-  text-align: right;
+  text-align: left;
   right: auto;
   left: auto;
   margin: 0 auto;
@@ -1424,7 +1424,7 @@ body h6 {
 .banner-block-rht .content .sect-getservice {
   display: flex;
   gap: 20px;
-  margin: 20px 0 0 auto;
+  margin: 20px auto 0 0;
   max-width: 90%;
 }
 .banner-block-rht .content .sect-getservice .input-group .input-group-text {
@@ -1546,7 +1546,7 @@ body h6 {
   border-radius: 0;
   border: 1px solid #ddd;
   text-wrap: nowrap;
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 1.5rem;
   font-size: 1.2rem;
 }
 .custom-tabs .nav-pills .nav-link:hover {
@@ -2069,6 +2069,14 @@ body h6 {
 
 .mob-homebanner {
   display: none;
+}
+
+.search-industry .form-control {
+  border: none;
+}
+
+.btnsearch:hover img {
+  filter: grayscale(1);
 }
 
 @font-face {
@@ -3473,7 +3481,7 @@ a:hover {
 }
 .leader-desk-grid .leader-desc {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-align: justify;

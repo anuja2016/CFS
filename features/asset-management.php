@@ -7,7 +7,7 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_asset_management_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
             <h1>FieldWeb's Comprehensive Asset Management Solutions</h1>
             <p>FieldWeb's Asset Management feature offers an all-encompassing solution to efficiently oversee your business assets. With capabilities like product management, product tracking, barcode scanning, and breakdown history tracking, businesses can effortlessly manage their assets' lifecycles.</p>
@@ -50,22 +50,22 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Product Management</a>
+                    <a id="btn-ProducManagement" class="ref-link">Product Management</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Product Tracking </a>
+                    <a id="btn-ProductTracking" class="ref-link">Product Tracking </a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Barcode Scanning</a>
+                    <a id="btn-BarcodeScanning" class="ref-link">Barcode Scanning</a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Breakdown History </a>
+                    <a id="btn-BreakdownHistory" class="ref-link">Breakdown History </a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-ProducManagement">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/product_management.jpg" class="img-fluid">
@@ -85,7 +85,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-ProductTracking">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/product_tracking.jpg" class="img-fluid">
@@ -105,7 +105,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-BarcodeScanning">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/barcode_scanning.jpg" class="img-fluid">
@@ -125,7 +125,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-BreakdownHistory">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/breakdown_history.jpg" class="img-fluid">

@@ -7,10 +7,10 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_client_communication_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
-            <h1> Elevating Client Communication for Real-time Updates</h1>
-            <p> In today's rapidly evolving business landscape, effective client communication is essential for building lasting relationships and ensuring customer satisfaction. </p>
+            <h1>Elevating Client Communication for Real-time Updates</h1>
+            <p>In today's rapidly evolving business landscape, effective client communication is essential for building lasting relationships and ensuring customer satisfaction. </p>
             <div class="sect-getservice">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">
@@ -50,22 +50,22 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Real-time Updates</a>
+                    <a id="btn-RealtimeUpdates" class="ref-link">Real-time Updates</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Two-Way Communication </a>
+                    <a id="btn-TwoWayCommunication" class="ref-link">Two-Way Communication </a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Personalized Notifications</a>
+                    <a id="btn-PersonalizedNotifications" class="ref-link">Personalized Notifications</a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link"> Feedback Loops</a>
+                    <a id="btn-FeedbackLoops" class="ref-link">Feedback Loops</a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-RealtimeUpdates">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/real_time_updates.jpg" class="img-fluid">
@@ -85,7 +85,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-TwoWayCommunication">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/two_way_communication.jpg" class="img-fluid">
@@ -105,7 +105,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-PersonalizedNotifications">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/personalized_notifications.jpg" class="img-fluid">
@@ -125,7 +125,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-FeedbackLoops">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/feedback_loops.jpg" class="img-fluid">

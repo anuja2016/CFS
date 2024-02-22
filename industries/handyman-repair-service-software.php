@@ -391,7 +391,7 @@ include_once 'header.php';
                     </div>
                 </div>
                 <div class="tab-content" id="ScheduleJobTabContent">
-                    <div class="tab-pane active" id="ScheduleJob_tab1">
+                    <div class="tab-pane" id="ScheduleJob_tab1">
                         <div class="card">
                             <img src="../assets/images/dashboard/assign_job.png" class="img-fluid">
                             <div class="card-body text-center">
@@ -429,7 +429,7 @@ include_once 'header.php';
                     </div>
                 </div>
                 <div class="tab-content" id="CompleteJobTabContent">
-                    <div class="tab-pane active" id="CompleteJob_tab1">
+                    <div class="tab-pane" id="CompleteJob_tab1">
                         <div class="card">
                             <img src="../assets/images/dashboard/job_notification.png" class="img-fluid">
                             <div class="card-body text-center">
@@ -467,7 +467,7 @@ include_once 'header.php';
                     </div>
                 </div>
                 <div class="tab-content" id="InvoiceTabContent">
-                    <div class="tab-pane active" id="Invoice_tab1">
+                    <div class="tab-pane" id="Invoice_tab1">
                         <div class="card">
                             <img src="../assets/images/dashboard/generate_invoice.png" class="img-fluid">
                             <div class="card-body text-center">

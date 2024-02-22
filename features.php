@@ -4,8 +4,8 @@ include_once 'header.php';
 
 <section class="banner-block mt-116 margin-btm">
     <div class="block-img">
-        <img src="assets/images/banners/feature_banner_ design.jpg" class="img-fluid desk-homebanner" alt="features-banner">
-        <img src="assets/images/banners/feature_banner_ design_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
+        <img src="assets/images/banners/feature_banner_design.jpg" class="img-fluid desk-homebanner" alt="features-banner">
+        <img src="assets/images/banners/feature_banner_design_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
     </div>
     <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
@@ -160,7 +160,7 @@ include_once 'header.php';
     </div>
 </section> -->
 <section class="custom-tabs margin-btm">
-    <div class="container">
+    <div class="main-Wrapper">
         <div class="margin-btm features-tabs">
             <div class="row justify-content-center">
                 <div class="col-md-3 mb-3">
@@ -181,7 +181,7 @@ include_once 'header.php';
                     <p class="pt-4">OPTIMIZE YOUR OFFICE TEAM'S PERFORMANCE WITH TOOLS DESIGNED FOR SEAMLESS BOOKING, COMMUNICATION, AND COORDINATION.</p>
                 </div>
                 <div class="sub-tab">
-                    <ul class="nav nav-pills justify-content-between mb-3 d-flex gap-4 mt-5">
+                    <ul class="nav nav-pills justify-content-center mb-3 d-flex gap-4 mt-5">
                         <li class="nav-item">
                             <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tb-quotation">Quotation</a>
                         </li>
@@ -251,7 +251,7 @@ include_once 'header.php';
                                         </ul>
                                         <div class="features-slider">
                                             <div class="card">
-                                                <img src="assets/images/assets/images/features/create_quotation.jpg" class="card-img-top">
+                                                <img src="assets/images/features/create_quotation.jpg" class="card-img-top">
                                                 <div class="card-body text-center">
                                                     <p class="title-xls">Create Quote</p>
                                                     <p class="pt-2">Craft professional and visually appealing quotes that transparently outline service specifics, even before you depart the customer's location</p>
@@ -920,7 +920,7 @@ include_once 'header.php';
                     <p class="pt-4">Arm your field team with the tools they need to boost revenue and efficiency at every job they.</p>
                 </div>
                 <div class="sub-tab">
-                    <ul class="nav nav-pills justify-content-between mb-3 d-flex gap-4 mt-5" id="pills-tab" role="tablist">
+                    <ul class="nav nav-pills justify-content-center mb-3 d-flex gap-4 mt-5" id="pills-tab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#tb-mobileapp">Technician App</a>
                         </li>
@@ -1530,7 +1530,7 @@ include_once 'header.php';
                     <p class="pt-4">Offer customers a modern, five-star experience designed to help you capture more business with greater ease.</p>
                 </div>
                 <div class="sub-tab">
-                    <ul class="nav nav-pills justify-content-between mb-3 d-flex gap-4 mt-5">
+                    <ul class="nav nav-pills justify-content-center mb-3 d-flex gap-4 mt-5">
                         <li class="nav-item">
                             <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#tb-cmobileapp">CRM</a>
                         </li>

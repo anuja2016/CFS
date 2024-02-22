@@ -391,7 +391,7 @@ include_once 'header.php';
                     </div>
                 </div>
                 <div class="tab-content" id="ScheduleJobTabContent">
-                    <div class="tab-pane active" id="ScheduleJob_tab1">
+                    <div class="tab-pane" id="ScheduleJob_tab1">
                         <div class="card">
                             <img src="../assets/images/dashboard/assign_job.png" class="img-fluid">
                             <div class="card-body text-center">

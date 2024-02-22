@@ -7,9 +7,9 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_amc_management_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
-            <h1>  Effortless Annual Contract Management with FieldWeb</h1>
+            <h1>Effortless Annual Contract Management with FieldWeb</h1>
             <p>FieldWeb's Annual Contract Management feature empowers you to effortlessly handle all aspects of your clients' recurring service contracts.</p>
             <div class="sect-getservice">
                 <div class="input-group">
@@ -50,22 +50,22 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Contract Details</a>
+                    <a id="btn-ContractDetails" class="ref-link">Contract Details</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Service Scheduling </a>
+                    <a id="btn-ServiceScheduling" class="ref-link">Service Scheduling </a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Renewal Reminders</a>
+                    <a id="btn-RenewalReminders" class="ref-link">Renewal Reminders</a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Billing and Invoicing</a>
+                    <a id="btn-BillingInvoicing" class="ref-link">Billing and Invoicing</a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-ContractDetails">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/contract_details.jpg" class="img-fluid">
@@ -85,7 +85,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-ServiceScheduling">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/service_scheduling.jpg" class="img-fluid">
@@ -105,7 +105,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-RenewalReminders">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/renewal_reminder.jpg" class="img-fluid">
@@ -125,7 +125,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-BillingInvoicing">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/billing_and_invoicing.jpg" class="img-fluid">

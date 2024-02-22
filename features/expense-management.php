@@ -7,9 +7,9 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_expense_management_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
-            <h1> Seamless Expense Tracking and Management in FieldWeb</h1>
+            <h1>Seamless Expense Tracking and Management in FieldWeb</h1>
             <p>Owners can easily monitor and control petty cash distributed to their field teams, adding and deducting balances as needed. Technicians can record their expenses directly from the mobile app, simplifying the process of uploading bills and documenting expenditures in real-time while out in the field. With a clear view of expense histories and available balances for each technician, owners gain valuable insights into their operational costs, & ensuring financial transparency.</p>
             <div class="sect-getservice">
                 <div class="input-group">
@@ -50,22 +50,22 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Petty Cash Management</a>
+                    <a id="btn-PettyCashManagement" class="ref-link">Petty Cash Management</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Expense Tracking </a>
+                    <a id="btn-ExpenseTracking" class="ref-link">Expense Tracking </a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Expense History</a>
+                    <a id="btn-ExpenseHistory" class="ref-link">Expense History</a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Balance Management</a>
+                    <a id="btn-BalanceManagement" class="ref-link">Balance Management</a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-PettyCashManagement">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/expense_recording.jpg" class="img-fluid">
@@ -85,7 +85,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-ExpenseTracking">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/receipt_upload.jpg" class="img-fluid">
@@ -105,7 +105,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-ExpenseHistory">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/expense_categories.jpg" class="img-fluid">
@@ -125,7 +125,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-BalanceManagement">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/expense_approval_workflow.jpg" class="img-fluid">

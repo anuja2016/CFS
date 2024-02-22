@@ -7,10 +7,10 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_technician_tracking_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
             <h1>FieldWeb Technician Tracking: Real-Time Insights and GPS Monitoring</h1>
-            <p> Gain unprecedented control and visibility over your field operations with FieldWeb's Technician Tracking feature.</p>
+            <p>Gain unprecedented control and visibility over your field operations with FieldWeb's Technician Tracking feature.</p>
             <div class="sect-getservice">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">
@@ -50,22 +50,22 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Location Tracking</a>
+                    <a id="btn-LocationTracking" class="ref-link">Location Tracking</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">GPS Monitoring</a>
+                    <a id="btn-GPSMonitoring" class="ref-link">GPS Monitoring</a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Distance Traveled</a>
+                    <a id="btn-DistanceTraveled" class="ref-link">Distance Traveled</a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Task Status</a>
+                    <a id="btn-TaskStatus" class="ref-link">Task Status</a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-LocationTracking">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/real_time_job_updates.jpg" class="img-fluid">
@@ -85,7 +85,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-GPSMonitoring">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/route_optimization.jpg" class="img-fluid">
@@ -105,7 +105,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-DistanceTraveled">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/work_allocation.jpg" class="img-fluid">
@@ -125,7 +125,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-TaskStatus">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/tracking.png" class="img-fluid">

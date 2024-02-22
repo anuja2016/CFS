@@ -7,11 +7,10 @@ include_once 'header.php';
         <img src="../assets/images/banners/feature_banner_technician_app_mob.jpg" class="img-fluid mob-homebanner" alt="features-banner" />
         <!-- <div class="overlay"></div> -->
     </div>
-    <div class="main-Wrapper">
+    <div class="main-Wrapper d-flex justify-content-end">
         <div class="content">
             <h1>Complete Assigned Jobs seamlessly with an easy Technician App</h1>
-            <p> FieldWeb's Technician App simplifies job completion for field workers. With an intuitive interface, it allows technicians to access job details, checklists, and instructions on the go. They can also capture images, record audio, and fill out necessary forms directly from the app.
- </p>
+            <p>FieldWeb's Technician App simplifies job completion for field workers. With an intuitive interface, it allows technicians to access job details, checklists, and instructions on the go. They can also capture images, record audio, and fill out necessary forms directly from the app.</p>
             <div class="sect-getservice">
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1">
@@ -51,22 +50,22 @@ include_once 'header.php';
 <section class="custom-tabs sect-fd-tabs margin-btm" data-aos="fade-up">
     <div class="main-Wrapper">
         <div class="margin-btm">
-            <ul class="d-flex gap-4 justify-content-between">
+            <ul class="d-flex gap-4 justify-content-center">
                 <li>
-                    <a id="btn-createquote" class="ref-link">Real-Time Job Updates</a>
+                    <a id="btn-RealTimeJobUpdates" class="ref-link">Real-Time Job Updates</a>
                 </li>
                 <li>
-                    <a id="btn-send-slatc" class="ref-link">Navigation </a>
+                    <a id="btn-Navigation" class="ref-link">Navigation </a>
                 </li>
                 <li>
-                    <a id="btn-quoteapproval" class="ref-link">Job Checklists and Forms </a>
+                    <a id="btn-JobChecklistsandForms" class="ref-link">Job Checklists and Forms </a>
                 </li>
                 <li>
-                    <a id="btn-quotestatus" class="ref-link">Passbook Management</a>
+                    <a id="btn-PassbookManagement" class="ref-link">Passbook Management</a>
                 </li>
             </ul>
         </div>
-        <div class="margin-btm" id="tb-createquote">
+        <div class="margin-btm" id="tb-RealTimeJobUpdates">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/real_time_job_updates.jpg" class="img-fluid">
@@ -87,7 +86,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-send-slatc">
+        <div class="margin-btm" id="tb-Navigation">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/navigation_and_route-optimization.jpg" class="img-fluid">
@@ -108,7 +107,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quoteapproval">
+        <div class="margin-btm" id="tb-JobChecklistsandForms">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-md-6">
                     <img src="../assets/images/features/passbook-management.jpg" class="img-fluid">
@@ -129,7 +128,7 @@ include_once 'header.php';
                 </div>
             </div>
         </div>
-        <div class="margin-btm" id="tb-quotestatus">
+        <div class="margin-btm" id="tb-PassbookManagement">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="../assets/images/features/job_checklists_and_forms.jpg" class="img-fluid">
