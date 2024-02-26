@@ -16,6 +16,9 @@
     <link href="assets/css/bootstrap-select.css" rel="stylesheet">
     <link href="assets/css/bootstrap-select-country.min.css" rel="stylesheet">
     <link href="assets/css/select2.min.css" rel="stylesheet">
+    <!-----shortcut icon------->
+    <link rel="icon" href="assets/images/fw-favicon.svg" sizes="any" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/images/fw-favicon.png" type="image/png">
     <!--meta tags-->
     <meta name="title" content="Best Field Service Management | FSM Software - FieldWeb" />
     <meta property="og:title" content="Best Field Service Management | FSM Software - FieldWeb" />
@@ -327,4 +330,3 @@
             </div>
         </div>
     </div>
-

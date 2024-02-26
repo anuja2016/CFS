@@ -38,6 +38,7 @@
           <li><a href="press-media.php">Press & Media</a></li>
           <li><a href="customer-app.php">Customer App</a></li>
           <li><a href="blog.php">Blogs</a></li>
+          <li><a href="keyword.php">Keyword</a></li>
         </ul>
       </div>
       <div class="col-md-2 col-sm-4 col-6">
