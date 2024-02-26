@@ -562,6 +562,11 @@ body {
             color: #FFFFFF;
             margin-top: 20px;
             font-size: 20px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
             &.lblred{
                 color: #C22032;
             }
