@@ -328,6 +328,3 @@
         </div>
     </div>
 
-</body>
-
-</html>
